@@ -142,5 +142,4 @@ Linux                    13 hrs 33 mins      ███████████�
 
 
  <img align="center" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=footer">
-
 </div>
