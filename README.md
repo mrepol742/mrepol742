@@ -23,6 +23,7 @@ Ya guy's can reach me on:
 
 
 ![Most Active GitHub User Rank](https://enibdhv97zm33sz.m.pipedream.net)
+![](https://visitor-badge.glitch.me/badge?page_id=mrepol742)
 
 ![Mrepol742 GitHub Stat's](https://github-readme-stats.vercel.app/api?username=mrepol742&include_all_commits=true)
 
