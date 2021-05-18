@@ -21,8 +21,6 @@ Ya guy's can reach me on:
 - Twitter: https://twitter.com/mrepol742
 - Youtube: https://www.youtube.com/channel/UC84G4uf0Xs8ObDL52kj4HpA
 
-
-![Most Active GitHub User Rank](https://enibdhv97zm33sz.m.pipedream.net)
 ![](https://visitor-badge.glitch.me/badge?page_id=mrepol742)
 
 ![Mrepol742 GitHub Stat's](https://github-readme-stats.vercel.app/api?username=mrepol742&include_all_commits=true)
