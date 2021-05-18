@@ -11,7 +11,6 @@
 - 📝 IDE/Text Editor i used: Android Studio, Atom and Notepad.
 
 ![Jokes Card](https://readme-jokes.vercel.app/api)
-
 Ya guy's can reach me on:
 - My Website: https://mrepol742.github.io
 - Facebook: https://fb.me/mrepol742
