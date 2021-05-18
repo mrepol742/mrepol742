@@ -9,6 +9,7 @@
 - 😄 Pronouns: Who Cares?
 - ⚡ Fun fact: I like games and anime.
 - 📝 IDE/Text Editor i used: Android Studio, Atom and Notepad.
+
 ![Jokes Card](https://readme-jokes.vercel.app/api)
 
 Ya guy's can reach me on:
