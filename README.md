@@ -1,6 +1,7 @@
-### Mushi Mushi 👋
+## Mushi Mushi 👋
 
-## There are people in this world that go out of their way to make things difficult for themselves just to prove that those things can be done.. And I'm one of them.
+<p> There are people in this world that go out of their way to make things difficult for themselves just to prove that those things can be done.. And I'm one of them.</p>
+<p> The more difficult the bug is, the more fun it gets. </p>
 
 ![Most Active GitHub User Rank](https://enibdhv97zm33sz.m.pipedream.net) ![](https://visitor-badge.glitch.me/badge?page_id=mrepol742)
 
@@ -14,7 +15,7 @@
 
 ![Mrepol742 GitHub Stat's](https://github-readme-stats.vercel.app/api?username=mrepol742&include_all_commits=true) ![Mrepol742 Top Language's](https://github-readme-stats.vercel.app/api/top-langs/?username=mrepol742&layout=compact) 
 
-![Mrepol742 Wakatime Stat's](https://github-readme-stats.vercel.app/api/wakatime?username=mrepol742) ![Jokes Card](https://readme-jokes.vercel.app/api)
+![Mrepol742 Wakatime Stat's](https://github-readme-stats.vercel.app/api/wakatime?username=mrepol742)
 
 Ya guy's can reach me on:
 - My Website: https://mrepol742.github.io
