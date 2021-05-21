@@ -13,9 +13,9 @@
 - ⚡ Fun fact: I like games and anime.
 - 📝 IDE/Text Editor i used: Android Studio, Atom and Notepad.
 
-![Mrepol742 GitHub Stat's](https://github-readme-stats.vercel.app/api?username=mrepol742&include_all_commits=true) ![Mrepol742 Top Language's](https://github-readme-stats.vercel.app/api/top-langs/?username=mrepol742&layout=compact) 
+![Mrepol742 GitHub Stat's](https://github-readme-stats.vercel.app/api?username=mrepol742&include_all_commits=true&custom_title=Github%20Stats&count_private=true&show_icons=true) ![Mrepol742 Top Language's](https://github-readme-stats.vercel.app/api/top-langs/?username=mrepol742&layout=compact&custom_title=Language%20Stats) 
 
-![Mrepol742 Wakatime Stat's](https://github-readme-stats.vercel.app/api/wakatime?username=mrepol742)
+![Mrepol742 Wakatime Stat's](https://github-readme-stats.vercel.app/api/wakatime?username=mrepol742&layout=compact)
 
 Ya guy's can reach me on:
 - My Website: https://mrepol742.github.io
