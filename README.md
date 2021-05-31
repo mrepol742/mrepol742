@@ -6,7 +6,7 @@
 ![Most Active GitHub User Rank](https://enibdhv97zm33sz.m.pipedream.net) ![](https://visitor-badge.glitch.me/badge?page_id=mrepol742)
 
 - 🔭 I’m currently working on <a href="https://github.com/mrepol742/PROJECT-WEBVIUM">PROJECT-WEBVIUM</a> and it's Services.
-- 🌱 I’m currently learning ![Java 8](https://img.shields.io/badge/Java-8-blue.svg) ![XML](https://img.shields.io/badge/XML-blue.svg) ![HTML 5](https://img.shields.io/badge/HTML-5-blue.svg) ![CSS](https://img.shields.io/badge/CSS-blue.svg) ![JavaScript](https://img.shields.io/badge/JavaScript-blue.svg) ![PHP](https://img.shields.io/badge/PHP-blue.svg) ![SQLite](https://img.shields.io/badge/SQLite-blue.svg) ![Firebase](https://img.shields.io/badge/Firebase-blue.svg)
+- 🌱 I’m currently learning ![Java 8](https://img.shields.io/badge/Java-8-white.svg) ![XML](https://img.shields.io/badge/XML-blue.svg) ![HTML 5](https://img.shields.io/badge/HTML-5-orange.svg) ![CSS](https://img.shields.io/badge/CSS-blue.svg) ![JavaScript](https://img.shields.io/badge/JavaScript-green.svg) ![PHP](https://img.shields.io/badge/PHP-blue.svg) ![SQLite](https://img.shields.io/badge/SQLite-gray.svg) ![Firebase](https://img.shields.io/badge/Firebase-yellow.svg) ![Batch](https://img.shields.io/badge/Batch-black.svg)
 - 💬 Ask me about what i like.
 - 📫 How to reach me: Open your Facebook and search @mrepol742 or mail me on mrepol742@gmail.com
 - 😄 Pronouns: Who Cares?
