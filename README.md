@@ -1,5 +1,6 @@
 ## Moshi mos 👋
 
+<p> Experienced Project Lead Developer with a demonstrated history of working in the computer software industry. Skilled in Firebase, Batch Processing, Java, Android Development, and HTML. Strong information technology professional with a Computer System Servicing focused in Native Android Developer on Java. </p>
 <p> There are people in this world that go out of their way to make things difficult for themselves just to prove that those things can be done.. And I'm one of them.</p>
 <p> The more difficult the bug is, the more fun it gets. </p>
 
