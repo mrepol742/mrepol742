@@ -1,4 +1,4 @@
-## Mushi Mushi 👋
+## Moshi mos 👋
 
 <p> There are people in this world that go out of their way to make things difficult for themselves just to prove that those things can be done.. And I'm one of them.</p>
 <p> The more difficult the bug is, the more fun it gets. </p>
