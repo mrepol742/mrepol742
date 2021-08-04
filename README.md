@@ -15,4 +15,3 @@
 
 <img src="https://github-readme-stats.vercel.app/api?username=mrepol742&include_all_commits=true&custom_title=Mrepol742's%20Github&count_private=true&show_icons=true"  alt="Github">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrepol742&layout=compact&custom_title=Mrepol742's%20Language's" alt="Mrepol742's Languages">
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=mrepol742&layout=compact" alt="Mrepol742's Wakatime">
