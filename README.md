@@ -10,6 +10,6 @@
 * Laptop/PC Repairer
 * App Troubleshooter
 
-## 📓My Portfolio
+## 🌐My Portfolio
 * https://mrepol742.github.io
 * https://mrepol742.netlify.app
