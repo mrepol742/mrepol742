@@ -11,5 +11,5 @@
 * App Troubleshooter
 
 ## 🌐My Portfolio
-* https://mrepol742.github.io
-* https://mrepol742.netlify.app
+* https://mrepol4869.github.io
+* https://mrepol4869.netlify.app
