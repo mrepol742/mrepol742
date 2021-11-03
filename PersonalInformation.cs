@@ -1,5 +1,5 @@
 using System;
-namespace exercise2 {
+namespace PersonalInformation {
     class Program {
         static void Main(string[] args) {
             String name;
