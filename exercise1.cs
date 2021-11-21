@@ -7,7 +7,7 @@ namespace exercise1 {
         char Gender = 'M';
         int Age = 19;
         float Weight = 40;
-        long Contact = 9283559507;
+        long Contact = 44634634;
         String Course = "IT";
 
         Console.WriteLine("PERSONAL INFORMATION");
