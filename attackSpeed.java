@@ -1,7 +1,7 @@
 import java.util.Scanner;
-
+import java.lang.Math;
 class attackSpeed {
-    public static void main(String[] args) {;
+    public static void main(String[] args) {
       System.out.println("Enter the base attack speed: ");
       Scanner scan = new Scanner(System.in);
       double base = scan.nextDouble();
