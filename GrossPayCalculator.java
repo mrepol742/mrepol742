@@ -3,7 +3,6 @@ import java.util.Scanner;
 class GrossPayCalculator {
 
     public static void main(String[] args) {
-        if (2 < 4) 
         System.out.println("Enter employee name:");
         Scanner scanner = new Scanner(System.in);
         String employeeName = scanner.nextLine();
