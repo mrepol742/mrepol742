@@ -7,3 +7,4 @@
 
 ![mrepol742's Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=mrepol742)
 
+![mrepol742's Github stats](https://github-readme-streak-stats.herokuapp.com/?user=mrepol742)
