@@ -26,7 +26,7 @@
 </p>
 
 <p>
-<h2>More stats</h2>
+<h2>📊 More stats</h2>
 <a href="https://mrepol742.github.io">
 <img src="https://github-readme-stats.vercel.app/api?username=mrepol742&show_icons=true&include_all_commits=true&&count_private=true">
 </a>
@@ -40,3 +40,14 @@
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=mrepol742">
 </a>
 </p>
+
+
+<p>
+<h2>🎵 Music </h2>
+<a href="https://mrepol742.github.io">
+<img src="https://spotify-recently-played-readme.vercel.app/api?user=7xx9e7hwq1qyown0m4ut78pcz">
+</a>
+</p>
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
