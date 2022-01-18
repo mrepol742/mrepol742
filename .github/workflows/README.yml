@@ -5,11 +5,6 @@ on:
     # Runs at 12am IST
     - cron: '30 18 * * *'
   workflow_dispatch:
-  
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
 jobs:
   update-readme:
@@ -28,3 +23,4 @@ jobs:
           SHOW_SHORT_INFO: "False"
           SHOW_TIMEZONE: "False"
           SHOW_LOC_CHART: "False"
+          SHOW_PROJECTS: "False"
