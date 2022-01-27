@@ -137,6 +137,15 @@ Classic ASP              2 repos             █░░░░░░░░░░�
 🎵 **Music**
   
 <a href="https://mrepol742.github.io">
-<img alt="Spotify" src="https://spotify-recently-played-readme.vercel.app/api?user=7xx9e7hwq1qyown0m4ut78pcz&count=10&unique=true)">
+<img alt="Spotify" src="https://spotify-recently-played-readme.vercel.app/api?user=7xx9e7hwq1qyown0m4ut78pcz&count=10&unique=true">
+</a>
+</p>
+
+<p>
+
+📜 **Contributions**
+  
+<a href="https://mrepol742.github.io">
+<img alt="Contributions" src="https://activity-graph.herokuapp.com/graph?username=mrepol742&bg_color=fffff0&color=708090&line=24292e&point=24292e&area=true&hide_border=true">
 </a>
 </p>
