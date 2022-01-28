@@ -2,14 +2,16 @@
 <a href="https://mrepol742.github.io">
   <img alt="Detective Conan" src="https://tenor.com/view/detective-detective-conan-anime-eyeglasses-gif-16507322.gif" /> 
   </a> 
-  <h2 align="center">Shinjitsu wa Itsumo Hitotsu!</h2>
+  <h3 align="center">Shinjitsu wa Itsumo Hitotsu!</h3>
 </p>
 <br>
 
  
-![Most Active Github User in Philippines Rank](https://enibdhv97zm33sz.m.pipedream.net)
+[![Most Active Github User in Philippines Rank](https://enibdhv97zm33sz.m.pipedream.net)](https://mrepol742.github.io)
 
-![Visitor](https://visitor-badge.glitch.me/badge?page_id=mrepol742)
+[![wakatime](https://wakatime.com/badge/user/8ad4afa2-1a56-40d1-a949-4663473915b6.svg)](https://mrepol742.github.io)
+
+[![Visitor](https://visitor-badge.glitch.me/badge?page_id=mrepol742)](https:/mrepol742.github.io)
 <!--START_SECTION:waka-->
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-169%20Thousand%20lines%20of%20code-blue)
 
@@ -116,16 +118,18 @@ Classic ASP              2 repos             █░░░░░░░░░░�
 </p>
 </details>
 
-
-
 <p>
 
-🎵 **Music**
+  🎵 **Music**
   
+  <details>
+  <summary>Spotify</summary>
+  <br>
 <a href="https://mrepol742.github.io">
 <img alt="Spotify" src="https://spotify-recently-played-readme.vercel.app/api?user=7xx9e7hwq1qyown0m4ut78pcz&count=10&unique=true">
 </a>
 </p>
+</details>
 
 <p>
 
