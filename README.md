@@ -136,6 +136,6 @@ Classic ASP              2 repos             █░░░░░░░░░░�
 📜 **Contributions**
   
 <a href="https://mrepol742.github.io">
-<img alt="Contributions" src="https://mrepol742-activity-graph.herokuapp.com/graph?username=mrepol742&bg_color=fffff0&color=708090&line=24292e&point=24292e&area=true&hide_border=true">
+<img alt="Contributions" src="https://mrepol742-activity-graph.herokuapp.com/graph?username=mrepol742&theme=github&hide_border=true">
 </a>
 </p>
