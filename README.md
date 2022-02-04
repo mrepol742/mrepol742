@@ -113,7 +113,7 @@ Classic ASP              2 repos             █░░░░░░░░░░�
   <summary>Streak Stats</summary>
   <br>
 <a href="https://mrepol742.github.io">
-<img alt="Streak Stats" src="https://github-readme-streak-stats.herokuapp.com/?user=mrepol742&theme=gruvbox">
+<img alt="Streak Stats" src="https://mrepol742-streak-stats.herokuapp.com/?user=mrepol742&theme=gruvbox">
 </a>
 </p>
 </details>
