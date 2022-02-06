@@ -92,6 +92,14 @@ Classic ASP              2 repos             █░░░░░░░░░░�
   <a href="https://mrepol742.github.io">
   <img alt="Github Stats" src="https://github-readme-stats.vercel.app/api?username=mrepol742&show_icons=true&include_all_commits=true&&count_private=true&theme=gruvbox">
 </a>
+  <br>
+    <a href="https://mrepol742.github.io">
+  <img alt="Github Stats" src="https://github.com/mrepol742/github-stats/blob/master/generated/overview.svg">
+</a>
+    <br>
+    <a href="https://mrepol742.github.io">
+  <img alt="Github Stats" src="https://github.com/mrepol742/github-stats/blob/master/generated/languages.svg">
+</a>
 </details> 
 <details>
   <summary>Most Used Languages</summary>
