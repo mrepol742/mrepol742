@@ -98,14 +98,23 @@ Classic ASP              2 repos             █░░░░░░░░░░�
   <a href="https://mrepol742.github.io">
   <img alt="Github Stats" src="https://github-readme-stats.vercel.app/api?username=mrepol742&show_icons=true&include_all_commits=true&&count_private=true&theme=gruvbox">
 </a>
+  
+  [comment]: <> (This is a automated generated Data from github action workflow)
+  [comment]: <> (Updated Daily at 0:05 AM)
+  [comment]: <> (START OF GENERATED DATA)
+  
   <br>
     <a href="https://mrepol742.github.io">
-  <img alt="Github Stats" src="https://github.com/mrepol742/github-stats/blob/master/generated/overview.svg">
+  <img alt="Github Stats" src="https://mrepol742.github.io/github-stats/generated/overview.svg">
 </a>
     <br>
     <a href="https://mrepol742.github.io">
-  <img alt="Github Stats" src="https://github.com/mrepol742/github-stats/blob/master/generated/languages.svg">
+  <img alt="Github Stats" src="https://mrepol742.github.io/github-stats/generated/languages.svg">
 </a>
+  
+   [comment]: <> (START OF GENERATED DATA)
+  
+  
 </details> 
 <details>
   <summary>Most Used Languages</summary>
