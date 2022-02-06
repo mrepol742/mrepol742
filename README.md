@@ -10,6 +10,11 @@
 [![Most Active Github User in Philippines Rank](https://enibdhv97zm33sz.m.pipedream.net)](https://mrepol742.github.io)
 
 [![Visitor](https://visitor-badge.glitch.me/badge?page_id=mrepol742)](https:/mrepol742.github.io)
+
+[comment]: <> (This is a automated generated Data from github action workflow)
+[comment]: <> (Updated Daily at 6:13 PM)
+[comment]: <> (START OF GENERATED DATA)
+
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-321%20hrs%2033%20mins-blue)
 
@@ -72,6 +77,7 @@ Classic ASP              2 repos             █░░░░░░░░░░�
 
 <!--END_SECTION:waka-->
 
+[comment]: <> (END OF GENERATED DATA)
 
 <p>
 
