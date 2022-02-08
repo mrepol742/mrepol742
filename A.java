@@ -18,9 +18,7 @@
            System.out.println();
            System.out.println();
            System.out.println();
-    
            System.out.println();
-    
            System.out.println("    helikupter|             ");
            System.out.println("             ∆         ");
            System.out.println(" L      ------------            🌟       ");
