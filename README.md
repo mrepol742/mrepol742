@@ -96,7 +96,7 @@ Classic ASP              2 repos             █░░░░░░░░░░�
   <summary>Github Stats</summary>
   <br>
   <a href="https://mrepol742.github.io">
-  <img alt="Github Stats" src="https://github-readme-stats.vercel.app/api?username=mrepol742&show_icons=true&include_all_commits=true&&count_private=true&theme=gruvbox">
+  <img alt="Github Stats" src="https://github-readme-stats.vercel.app/api?username=mrepol742&show_icons=true&count_private=true&theme=gruvbox">
 </a>
   
   [comment]: <> (This is a automated generated Data from github action workflow)
