@@ -12,7 +12,6 @@
 [![Visitor](https://visitor-badge.glitch.me/badge?page_id=mrepol742)](https:/mrepol742.github.io)
 
 [comment]: <> (This is a automated generated Data from github action workflow)
-[comment]: <> (Updated Daily at 6:13 PM)
 [comment]: <> (START OF GENERATED DATA)
 
 <!--START_SECTION:waka-->
@@ -101,7 +100,6 @@ Classic ASP              2 repos             █░░░░░░░░░░�
 </a>
   
   [comment]: <> (This is a automated generated Data from github action workflow)
-  [comment]: <> (Updated Daily at 0:05 AM)
   [comment]: <> (START OF GENERATED DATA)
   
   <br>
@@ -137,7 +135,7 @@ Classic ASP              2 repos             █░░░░░░░░░░�
   <summary>Streak Stats</summary>
   <br>
 <a href="https://mrepol742.github.io">
-<img alt="Streak Stats" src="https://mrepol742-streak-stats.herokuapp.com/?user=mrepol742&theme=gruvbox">
+<img alt="'Streak Stats' Please refresh the page if the stats didnt show up" src="https://mrepol742-streak-stats.herokuapp.com/?user=mrepol742&theme=gruvbox">
 </a>
 </p>
 </details>
@@ -160,6 +158,6 @@ Classic ASP              2 repos             █░░░░░░░░░░�
 📜 **Contributions**
   
 <a href="https://mrepol742.github.io">
-<img alt="Contributions" src="https://mrepol742-activity-graph.herokuapp.com/graph?username=mrepol742&theme=github&hide_border=true">
+<img alt="'Contributions' Please refresh the page if the graph didnt show up" src="https://mrepol742-activity-graph.herokuapp.com/graph?username=mrepol742&theme=github&hide_border=true">
 </a>
 </p>
