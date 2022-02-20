@@ -1,6 +1,11 @@
 name: Waka Readme
 
 on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
   schedule:
     - cron: '30 18 * * *'
   workflow_dispatch:
@@ -17,9 +22,10 @@ jobs:
           COMMIT_MESSAGE: "Initial Commit"
           SHOW_SHORT_INFO: "False"
           COMMIT_BY_ME: "True"
-          SHOW_LINES_OF_CODE: "True"
+          SHOW_LINES_OF_CODE: "False"
           SHOW_PROFILE_VIEWS: "False"
           SHOW_UPDATED_DATE: "False"
           SHOW_TIMEZONE: "False"
           SHOW_LOC_CHART: "False"
           SHOW_PROJECTS: "False"
+          SHOW_LANGUAGE_PER_REPO: "False"
