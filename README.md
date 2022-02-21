@@ -82,24 +82,18 @@ Linux                    29 hrs 35 mins      ███████████�
   <br>
   <a href="https://mrepol742.github.io">
   <img alt="Github Stats" src="https://github-readme-stats.vercel.app/api?username=mrepol742&show_icons=true&count_private=true&theme=gruvbox">
-</a>
-  
-  [comment]: <> (This is a automated generated Data from github action workflow)
-  [comment]: <> (START OF GENERATED DATA)
-  
-  <br>
-    <a href="https://mrepol742.github.io">
-  <img alt="Github Stats" src="https://mrepol742.github.io/github-stats/generated/overview.svg">
-</a>
-    <br>
-    <a href="https://mrepol742.github.io">
-  <img alt="Github Stats" src="https://mrepol742.github.io/github-stats/generated/languages.svg">
-</a>
-  
-   [comment]: <> (START OF GENERATED DATA)
-  
+</a>  
   
 </details> 
+  
+  <details>
+  <summary>Github Stats with Private Contributions</summary>
+  <br>
+ <a href="https://mrepol742.github.io">
+<img alt="Github Stats with Private Contributions" src="https://mrepol742.github.io/github-stats/generated/overview.svg">
+</a>
+</details>
+  
 <details>
   <summary>Most Used Languages</summary>
   <br>
@@ -108,11 +102,11 @@ Linux                    29 hrs 35 mins      ███████████�
 </a>
 </details>
 
-<details>
-  <summary>Wakatime Stats</summary>
+ <details>
+  <summary>Most Used Languages by File Size</summary>
   <br>
-<a href="https://mrepol742.github.io">
-<img alt="Wakatime Stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=mrepol742&layout=compact">
+ <a href="https://mrepol742.github.io">
+<img alt="Most Used Languages by File Size" src="https://mrepol742.github.io/github-stats/generated/languages.svg">
 </a>
 </details>
 
@@ -124,12 +118,7 @@ Linux                    29 hrs 35 mins      ███████████�
 </a>
 </p>
 </details>
-
-<p>
-
-  🎵 **Music**
-  
-  <details>
+<details>
   <summary>Spotify</summary>
   <br>
 <a href="https://mrepol742.github.io">
@@ -138,7 +127,6 @@ Linux                    29 hrs 35 mins      ███████████�
 </p>
 </details>
 
-<p>
 
 📜 **Contributions**
   
