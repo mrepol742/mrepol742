@@ -1,7 +1,7 @@
 {
   "bin": "./cli.js",
   "name": "mrepol742",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Software Engineer",
   "main": "index.js",
   "scripts": {
