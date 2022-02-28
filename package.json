@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/mrepol742/mrepol742/issues"
   },
-  "homepage": "https://github.com/mrepol742/mrepol742#readme"
+  "homepage": "https://github.com/mrepol742/mrepol742#readme",
+  "dependencies": {
+    "prettyjson": "^1.2.5"
+  }
 }
