@@ -1,7 +1,7 @@
 {
   "bin": "./cli.js",
   "name": "mrepol742",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "<p align=\"center\"> <a href=\"https://mrepol742.github.io\">   <img alt=\"Detective Conan\" src=\"https://mrepol742-gif-randomizer.vercel.app/api\" />    </a>    <h3 align=\"center\">Shinjitsu wa Itsumo Hitotsu!</h3> </p> <br>",
   "main": "index.js",
   "scripts": {
