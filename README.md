@@ -15,27 +15,27 @@
 [comment]: <> (START OF GENERATED DATA)
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-315%20Thousand%20lines%20of%20code-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-408%20hrs%2010%20mins-blue)
 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning    180 commits    █████░░░░░░░░░░░░░░░░░░░░   19.65% 
-🌆 Daytime    273 commits    ███████░░░░░░░░░░░░░░░░░░   29.8% 
-🌃 Evening    262 commits    ███████░░░░░░░░░░░░░░░░░░   28.6% 
-🌙 Night      201 commits    █████░░░░░░░░░░░░░░░░░░░░   21.94%
+🌞 Morning    186 commits    ████░░░░░░░░░░░░░░░░░░░░░   19.27% 
+🌆 Daytime    246 commits    ██████░░░░░░░░░░░░░░░░░░░   25.49% 
+🌃 Evening    238 commits    ██████░░░░░░░░░░░░░░░░░░░   24.66% 
+🌙 Night      295 commits    ███████░░░░░░░░░░░░░░░░░░   30.57%
 
 ```
-📅 **I'm Most Productive on Friday** 
+📅 **I'm Most Productive on Sunday** 
 
 ```text
-Monday       166 commits    ████░░░░░░░░░░░░░░░░░░░░░   18.12% 
-Tuesday      96 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.48% 
-Wednesday    113 commits    ███░░░░░░░░░░░░░░░░░░░░░░   12.34% 
-Thursday     114 commits    ███░░░░░░░░░░░░░░░░░░░░░░   12.45% 
-Friday       188 commits    █████░░░░░░░░░░░░░░░░░░░░   20.52% 
-Saturday     118 commits    ███░░░░░░░░░░░░░░░░░░░░░░   12.88% 
-Sunday       121 commits    ███░░░░░░░░░░░░░░░░░░░░░░   13.21%
+Monday       162 commits    ████░░░░░░░░░░░░░░░░░░░░░   16.79% 
+Tuesday      87 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   9.02% 
+Wednesday    110 commits    ██░░░░░░░░░░░░░░░░░░░░░░░   11.4% 
+Thursday     99 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.26% 
+Friday       178 commits    ████░░░░░░░░░░░░░░░░░░░░░   18.45% 
+Saturday     101 commits    ██░░░░░░░░░░░░░░░░░░░░░░░   10.47% 
+Sunday       228 commits    ██████░░░░░░░░░░░░░░░░░░░   23.63%
 
 ```
 
@@ -44,32 +44,20 @@ Sunday       121 commits    ███░░░░░░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Java                     15 hrs 22 mins      █████████████░░░░░░░░░░░░   51.89% 
-XML                      4 hrs 2 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.64% 
-HTML                     3 hrs 8 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   10.6% 
-YAML                     3 hrs 5 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   10.45% 
-JavaScript               1 hr 22 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   4.66%
+Java                     9 hrs 52 mins       ███████░░░░░░░░░░░░░░░░░░   29.61% 
+HTML                     6 hrs 40 mins       █████░░░░░░░░░░░░░░░░░░░░   19.99% 
+JavaScript               4 hrs 12 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.64% 
+CSS                      3 hrs 45 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   11.25% 
+XML                      3 hrs 15 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   9.76%
 
 🔥 Editors: 
-Android Studio           16 hrs 47 mins      ██████████████░░░░░░░░░░░   56.66% 
-VS Code                  12 hrs 50 mins      ██████████░░░░░░░░░░░░░░░   43.34%
+VS Code                  19 hrs 31 mins      ██████████████░░░░░░░░░░░   58.56% 
+Android Studio           13 hrs 49 mins      ██████████░░░░░░░░░░░░░░░   41.44%
 
 💻 Operating System: 
-Linux                    29 hrs 38 mins      █████████████████████████   100.0%
+Linux                    33 hrs 20 mins      █████████████████████████   100.0%
 
 ```
-
-**I Mostly Code in Java** 
-
-```text
-Java                     20 repos            █████████░░░░░░░░░░░░░░░░   39.22% 
-HTML                     11 repos            █████░░░░░░░░░░░░░░░░░░░░   21.57% 
-JavaScript               8 repos             ████░░░░░░░░░░░░░░░░░░░░░   15.69% 
-CSS                      4 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   7.84% 
-Classic ASP              2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   3.92%
-
-```
-
 
 
 <!--END_SECTION:waka-->
@@ -94,24 +82,18 @@ Classic ASP              2 repos             █░░░░░░░░░░�
   <br>
   <a href="https://mrepol742.github.io">
   <img alt="Github Stats" src="https://github-readme-stats.vercel.app/api?username=mrepol742&show_icons=true&count_private=true&theme=gruvbox">
-</a>
-  
-  [comment]: <> (This is a automated generated Data from github action workflow)
-  [comment]: <> (START OF GENERATED DATA)
-  
-  <br>
-    <a href="https://mrepol742.github.io">
-  <img alt="Github Stats" src="https://mrepol742.github.io/github-stats/generated/overview.svg">
-</a>
-    <br>
-    <a href="https://mrepol742.github.io">
-  <img alt="Github Stats" src="https://mrepol742.github.io/github-stats/generated/languages.svg">
-</a>
-  
-   [comment]: <> (START OF GENERATED DATA)
-  
+</a>  
   
 </details> 
+  
+  <details>
+  <summary>Github Stats with Private Contributions</summary>
+  <br>
+ <a href="https://mrepol742.github.io">
+<img alt="Github Stats with Private Contributions" src="https://mrepol742.github.io/github-stats/generated/overview.svg">
+</a>
+</details>
+  
 <details>
   <summary>Most Used Languages</summary>
   <br>
@@ -120,11 +102,11 @@ Classic ASP              2 repos             █░░░░░░░░░░�
 </a>
 </details>
 
-<details>
-  <summary>Wakatime Stats</summary>
+ <details>
+  <summary>Most Used Languages by File Size</summary>
   <br>
-<a href="https://mrepol742.github.io">
-<img alt="Wakatime Stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=mrepol742&layout=compact">
+ <a href="https://mrepol742.github.io">
+<img alt="Most Used Languages by File Size" src="https://mrepol742.github.io/github-stats/generated/languages.svg">
 </a>
 </details>
 
@@ -136,12 +118,7 @@ Classic ASP              2 repos             █░░░░░░░░░░�
 </a>
 </p>
 </details>
-
-<p>
-
-  🎵 **Music**
-  
-  <details>
+<details>
   <summary>Spotify</summary>
   <br>
 <a href="https://mrepol742.github.io">
@@ -150,7 +127,6 @@ Classic ASP              2 repos             █░░░░░░░░░░�
 </p>
 </details>
 
-<p>
 
 📜 **Contributions**
   
