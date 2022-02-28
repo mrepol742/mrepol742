@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
-const pkg = require('..')
+const pkg = require('.')
 console.log(pkg())
