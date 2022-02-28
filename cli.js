@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const minimist = require('minimist')
 const pkg = require('.')
 
