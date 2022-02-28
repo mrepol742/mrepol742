@@ -3,7 +3,7 @@
     "mrepol742": "cli.js"
   },
   "name": "mrepol742",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Software Engineer",
   "main": "index.js",
   "scripts": {
