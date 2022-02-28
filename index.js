@@ -1,5 +1,3 @@
-# ./index.js
-
 const { render } = require('prettyjson')
 const data = require('./lib/data')
 
