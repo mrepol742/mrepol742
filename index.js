@@ -1,5 +1,5 @@
 const { render } = require('prettyjson')
-const data = require('./lib/data')
+const data = require('/lib/data')
 
 const renderOpts = {
   dashColor: 'cyan',
