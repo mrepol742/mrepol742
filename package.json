@@ -1,5 +1,7 @@
 {
-  "bin": "./cli.js",
+  "bin": {
+    "mrepol742": "cli.js"
+  },
   "name": "mrepol742",
   "version": "1.0.7",
   "description": "Software Engineer",
@@ -20,5 +22,9 @@
   "homepage": "https://github.com/mrepol742/mrepol742#readme",
   "dependencies": {
     "prettyjson": "^1.2.5"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
 }
