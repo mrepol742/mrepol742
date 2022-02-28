@@ -1,0 +1,21 @@
+{
+  "bin": "./cli.js",
+  "name": "mrepol742",
+  "version": "1.0.1",
+  "description": "<p align=\"center\"> <a href=\"https://mrepol742.github.io\">   <img alt=\"Detective Conan\" src=\"https://mrepol742-gif-randomizer.vercel.app/api\" />    </a>    <h3 align=\"center\">Shinjitsu wa Itsumo Hitotsu!</h3> </p> <br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrepol742/mrepol742.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrepol742/mrepol742/issues"
+  },
+  "homepage": "https://github.com/mrepol742/mrepol742#readme"
+}
