@@ -1,5 +1,5 @@
-const minimist = require('minimist')
-const pkg = require('.')
+import minimist from 'minimist'
+import pkg from '.'
 
 const options = {
   alias: { json: 'j' }
