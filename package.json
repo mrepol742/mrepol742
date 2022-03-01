@@ -1,6 +1,6 @@
 {
   "bin": {
-    "mrepol742": "./me.js"
+    "mrepol742": "me.js"
   },
   "name": "mrepol742",
   "version": "1.0.16",
@@ -27,5 +27,18 @@
   "bugs": {
     "url": "https://github.com/mrepol742/mrepol742/issues"
   },
-  "homepage": "https://github.com/mrepol742/mrepol742#readme"
+  "homepage": "https://github.com/mrepol742/mrepol742#readme",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^5.0.0",
+    "clear": "^0.1.0",
+    "cli-spinners": "^2.6.1",
+    "fs": "0.0.1-security",
+    "inquirer": "^8.2.0",
+    "open": "^8.4.0",
+    "ora": "^6.1.0",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {}
 }
