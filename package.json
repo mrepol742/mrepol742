@@ -1,6 +1,6 @@
 {
   "bin": {
-    "mrepol742": "me.js"
+    "mrepol742": "./me.js"
   },
   "name": "mrepol742",
   "version": "1.0.17",
