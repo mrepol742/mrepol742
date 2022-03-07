@@ -137,3 +137,14 @@ Linux                    15 hrs 33 mins      ███████████�
 <img alt="'Contributions' Please refresh the page if the graph didnt show up" src="https://mrepol742-activity-graph.herokuapp.com/graph?username=mrepol742&theme=github&hide_border=true">
 </a>
 </p>
+
+##NEWS
+**Webvium v2.9 Released**
+>Fixed Out of Memory and Renderer Crashing in android api 26 above.
+>Performance and Stability improvements
+>Major Changes in Settings
+>and a lot more
+
+**Webvium VPN**
+>Webvium VPN may failed to work on android api 29 and above.
+
