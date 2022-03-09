@@ -148,3 +148,7 @@ Linux                    12 hrs 42 mins      ███████████�
 **Webvium VPN**
 >Webvium VPN may failed to work on android api 29 and above.
 
+<br>
+<br>
+<a href="https://mrepol742.github.io/privacypolicy">This profile uses cookies or similar technologies. By continuing, you agree to our Privacy Policy.</a>
+
