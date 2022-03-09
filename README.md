@@ -138,17 +138,18 @@ Linux                    12 hrs 42 mins      ███████████�
 </a>
 </p>
 
-##NEWS
-**Webvium v2.9 Released**
->Fixed Out of Memory and Renderer Crashing in android api 26 above.
->Performance and Stability improvements
->Major Changes in Settings
->and a lot more
+## NEWS
+**Webvium Dev v2.9 Released**
+>Fixed Out of Memory and Renderer Crashing in android api 26 above. <br> Performance and Stability improvements <br> Major Changes in Settings <br> and a lot more
 
 **Webvium VPN**
 >Webvium VPN may failed to work on android api 29 and above.
 
+**Webvium v2.8**
+>A crashed was been found when setting new background image <br> Renderer crashed detected on android api 26 and above
+
 <br>
 <br>
-<a href="https://mrepol742.github.io/privacypolicy">This profile uses cookies or similar technologies. By continuing, you agree to our Privacy Policy.</a>
+
+This profile uses cookies or similar technologies. By continuing, you agree to our <a href="https://mrepol742.github.io/privacypolicy">Privacy Policy</a>.
 
