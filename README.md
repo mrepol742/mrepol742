@@ -12,33 +12,33 @@ npx mrepol742
  
 [![Most Active Github User in Philippines Rank](https://enibdhv97zm33sz.m.pipedream.net)](https://mrepol742.github.io)
 
-[![Visitor](https://visitor-badge.glitch.me/badge?page_id=mrepol742)](https:/mrepol742.github.io)
+[![Visitor](https://visitor-badge.glitch.me/badge?page_id=mrepol742)](https:/mrepol742.github.io) [![Google Analytics](https://ga-beacon.appspot.com/UA-211882290-2/profile-readme)](https://mrepol742.github.io)
 
 [comment]: <> (This is a automated generated Data from github action workflow)
 [comment]: <> (START OF GENERATED DATA)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-417%20hrs%206%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-431%20hrs%2035%20mins-blue)
 
-**I'm an Early 🐤** 
+**I'm a Night 🦉** 
 
 ```text
-🌞 Morning    289 commits    ███████░░░░░░░░░░░░░░░░░░   29.73% 
-🌆 Daytime    246 commits    ██████░░░░░░░░░░░░░░░░░░░   25.31% 
-🌃 Evening    240 commits    ██████░░░░░░░░░░░░░░░░░░░   24.69% 
-🌙 Night      197 commits    █████░░░░░░░░░░░░░░░░░░░░   20.27%
+🌞 Morning    191 commits    ████░░░░░░░░░░░░░░░░░░░░░   19.08% 
+🌆 Daytime    260 commits    ██████░░░░░░░░░░░░░░░░░░░   25.97% 
+🌃 Evening    350 commits    ████████░░░░░░░░░░░░░░░░░   34.97% 
+🌙 Night      200 commits    █████░░░░░░░░░░░░░░░░░░░░   19.98%
 
 ```
-📅 **I'm Most Productive on Tuesday** 
+📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday       165 commits    ████░░░░░░░░░░░░░░░░░░░░░   16.98% 
-Tuesday      189 commits    ████░░░░░░░░░░░░░░░░░░░░░   19.44% 
-Wednesday    110 commits    ██░░░░░░░░░░░░░░░░░░░░░░░   11.32% 
-Thursday     99 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.19% 
-Friday       177 commits    ████░░░░░░░░░░░░░░░░░░░░░   18.21% 
-Saturday     100 commits    ██░░░░░░░░░░░░░░░░░░░░░░░   10.29% 
-Sunday       132 commits    ███░░░░░░░░░░░░░░░░░░░░░░   13.58%
+Monday       164 commits    ████░░░░░░░░░░░░░░░░░░░░░   16.38% 
+Tuesday      99 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   9.89% 
+Wednesday    222 commits    █████░░░░░░░░░░░░░░░░░░░░   22.18% 
+Thursday     101 commits    ██░░░░░░░░░░░░░░░░░░░░░░░   10.09% 
+Friday       180 commits    ████░░░░░░░░░░░░░░░░░░░░░   17.98% 
+Saturday     104 commits    ██░░░░░░░░░░░░░░░░░░░░░░░   10.39% 
+Sunday       131 commits    ███░░░░░░░░░░░░░░░░░░░░░░   13.09%
 
 ```
 
@@ -47,18 +47,18 @@ Sunday       132 commits    ███░░░░░░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Java                     9 hrs 6 mins        ███████░░░░░░░░░░░░░░░░░░   28.96% 
-HTML                     6 hrs 43 mins       █████░░░░░░░░░░░░░░░░░░░░   21.36% 
-XML                      4 hrs 11 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.3% 
-JavaScript               3 hrs 56 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.5% 
-CSS                      2 hrs 30 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   7.95%
+HTML                     4 hrs 21 mins       ████████░░░░░░░░░░░░░░░░░   34.32% 
+Java                     3 hrs 31 mins       ███████░░░░░░░░░░░░░░░░░░   27.67% 
+XML                      1 hr 59 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.65% 
+CSS                      51 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   6.76% 
+C++                      41 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   5.4%
 
 🔥 Editors: 
-VS Code                  17 hrs 35 mins      ██████████████░░░░░░░░░░░   55.91% 
-Android Studio           13 hrs 52 mins      ███████████░░░░░░░░░░░░░░   44.09%
+VS Code                  7 hrs 16 mins       ██████████████░░░░░░░░░░░   57.28% 
+Android Studio           5 hrs 25 mins       ██████████░░░░░░░░░░░░░░░   42.72%
 
 💻 Operating System: 
-Linux                    31 hrs 28 mins      █████████████████████████   100.0%
+Linux                    12 hrs 42 mins      █████████████████████████   100.0%
 
 ```
 
@@ -137,3 +137,19 @@ Linux                    31 hrs 28 mins      ███████████�
 <img alt="'Contributions' Please refresh the page if the graph didnt show up" src="https://mrepol742-activity-graph.herokuapp.com/graph?username=mrepol742&theme=github&hide_border=true">
 </a>
 </p>
+
+## NEWS
+**Webvium Dev v2.9 Released**
+>Fixed Out of Memory and Renderer Crashing in android api 26 above. <br> Performance and Stability improvements <br> Major Changes in Settings <br> and a lot more
+
+**Webvium VPN**
+>Webvium VPN may failed to work on android api 29 and above.
+
+**Webvium v2.8**
+>A crashed was been found when setting new background image <br> Renderer crashed detected on android api 26 and above
+
+<br>
+<br>
+
+This profile uses cookies or similar technologies. By continuing, you agree to our <a href="https://mrepol742.github.io/privacypolicy">Privacy Policy</a>.
+
