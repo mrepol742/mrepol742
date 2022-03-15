@@ -140,7 +140,7 @@ Linux                    10 hrs 29 mins      ███████████�
 
 ## NEWS
 **Webvium Dev v2.9 Released**
->Fixed Out of Memory and Renderer Crashing in android api 26 above. <br> Performance and Stability improvements <br> Major Changes in Settings <br> and a lot more
+> Search Providers changes in whole and Added Webvium Search Alternatives Links.
 
 **Webvium VPN**
 >Webvium VPN may failed to work on android api 29 and above.
