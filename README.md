@@ -9,7 +9,8 @@
 ~~~
 npx mrepol742
 ~~~
- 
+[![Waka Readme](https://github.com/mrepol742/mrepol742/actions/workflows/README.yml/badge.svg)](https://github.com/mrepol742/mrepol742/actions/workflows/README.yml)
+
 [![Most Active Github User in Philippines Rank](https://enibdhv97zm33sz.m.pipedream.net)](https://mrepol742.github.io)
 
 [![Visitor](https://visitor-badge.glitch.me/badge?page_id=mrepol742)](https:/mrepol742.github.io) [![Google Analytics](https://ga-beacon.appspot.com/UA-211882290-2/profile-readme)](https://mrepol742.github.io)
@@ -149,8 +150,4 @@ Windows                  46 mins             █░░░░░░░░░░�
 **Webvium v2.8**
 >A crashed was been found when setting new background image <br> Renderer crashed detected on android api 26 and above
 
-<br>
-<br>
-
-This profile uses cookies or similar technologies. By continuing, you agree to our <a href="https://mrepol742.github.io/privacypolicy">Privacy Policy</a>.
-
+***this profile uses Google Analytics view https://mrepol742.github.io/privacypolicy for more info.***
