@@ -9,7 +9,8 @@
 ~~~
 npx mrepol742
 ~~~
- 
+[![Waka Readme](https://github.com/mrepol742/mrepol742/actions/workflows/README.yml/badge.svg)](https://github.com/mrepol742/mrepol742/actions/workflows/README.yml)
+
 [![Most Active Github User in Philippines Rank](https://enibdhv97zm33sz.m.pipedream.net)](https://mrepol742.github.io)
 
 [![Visitor](https://visitor-badge.glitch.me/badge?page_id=mrepol742)](https:/mrepol742.github.io) [![Google Analytics](https://ga-beacon.appspot.com/UA-211882290-2/profile-readme)](https://mrepol742.github.io)
@@ -18,27 +19,27 @@ npx mrepol742
 [comment]: <> (START OF GENERATED DATA)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-431%20hrs%2035%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-453%20hrs%2032%20mins-blue)
 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning    191 commits    ████░░░░░░░░░░░░░░░░░░░░░   19.08% 
-🌆 Daytime    260 commits    ██████░░░░░░░░░░░░░░░░░░░   25.97% 
-🌃 Evening    350 commits    ████████░░░░░░░░░░░░░░░░░   34.97% 
-🌙 Night      200 commits    █████░░░░░░░░░░░░░░░░░░░░   19.98%
+🌞 Morning    187 commits    █████░░░░░░░░░░░░░░░░░░░░   20.17% 
+🌆 Daytime    247 commits    ██████░░░░░░░░░░░░░░░░░░░   26.65% 
+🌃 Evening    315 commits    ████████░░░░░░░░░░░░░░░░░   33.98% 
+🌙 Night      178 commits    ████░░░░░░░░░░░░░░░░░░░░░   19.2%
 
 ```
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday       164 commits    ████░░░░░░░░░░░░░░░░░░░░░   16.38% 
-Tuesday      99 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   9.89% 
-Wednesday    222 commits    █████░░░░░░░░░░░░░░░░░░░░   22.18% 
-Thursday     101 commits    ██░░░░░░░░░░░░░░░░░░░░░░░   10.09% 
-Friday       180 commits    ████░░░░░░░░░░░░░░░░░░░░░   17.98% 
-Saturday     104 commits    ██░░░░░░░░░░░░░░░░░░░░░░░   10.39% 
-Sunday       131 commits    ███░░░░░░░░░░░░░░░░░░░░░░   13.09%
+Monday       159 commits    ████░░░░░░░░░░░░░░░░░░░░░   17.15% 
+Tuesday      97 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.46% 
+Wednesday    207 commits    █████░░░░░░░░░░░░░░░░░░░░   22.33% 
+Thursday     99 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.68% 
+Friday       153 commits    ████░░░░░░░░░░░░░░░░░░░░░   16.5% 
+Saturday     78 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   8.41% 
+Sunday       134 commits    ███░░░░░░░░░░░░░░░░░░░░░░   14.46%
 
 ```
 
@@ -47,18 +48,19 @@ Sunday       131 commits    ███░░░░░░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-HTML                     4 hrs 21 mins       ████████░░░░░░░░░░░░░░░░░   34.32% 
-Java                     3 hrs 31 mins       ███████░░░░░░░░░░░░░░░░░░   27.67% 
-XML                      1 hr 59 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.65% 
-CSS                      51 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   6.76% 
-C++                      41 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   5.4%
+Java                     5 hrs 39 mins       █████████░░░░░░░░░░░░░░░░   36.11% 
+HTML                     3 hrs 58 mins       ██████░░░░░░░░░░░░░░░░░░░   25.37% 
+XML                      1 hr 52 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.91% 
+C++                      1 hr 49 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.66% 
+PHP                      37 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   3.97%
 
 🔥 Editors: 
-VS Code                  7 hrs 16 mins       ██████████████░░░░░░░░░░░   57.28% 
-Android Studio           5 hrs 25 mins       ██████████░░░░░░░░░░░░░░░   42.72%
+VS Code                  11 hrs 39 mins      ██████████████████░░░░░░░   74.29% 
+Android Studio           4 hrs 1 min         ██████░░░░░░░░░░░░░░░░░░░   25.71%
 
 💻 Operating System: 
-Linux                    12 hrs 42 mins      █████████████████████████   100.0%
+Linux                    14 hrs 54 mins      ███████████████████████░░   95.03% 
+Windows                  46 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   4.97%
 
 ```
 
@@ -140,7 +142,7 @@ Linux                    12 hrs 42 mins      ███████████�
 
 ## NEWS
 **Webvium Dev v2.9 Released**
->Fixed Out of Memory and Renderer Crashing in android api 26 above. <br> Performance and Stability improvements <br> Major Changes in Settings <br> and a lot more
+> Search Providers changes in whole and Added Webvium Search Alternatives Links.
 
 **Webvium VPN**
 >Webvium VPN may failed to work on android api 29 and above.
@@ -148,8 +150,4 @@ Linux                    12 hrs 42 mins      ███████████�
 **Webvium v2.8**
 >A crashed was been found when setting new background image <br> Renderer crashed detected on android api 26 and above
 
-<br>
-<br>
-
-This profile uses cookies or similar technologies. By continuing, you agree to our <a href="https://mrepol742.github.io/privacypolicy">Privacy Policy</a>.
-
+***this profile uses Google Analytics view https://mrepol742.github.io/privacypolicy for more info.***
