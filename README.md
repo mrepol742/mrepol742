@@ -3,6 +3,7 @@
   <img alt="Detective Conan" src="https://mrepol742-gif-randomizer.vercel.app/api" /> 
   </a> 
   <h3 align="center">Shinjitsu wa Itsumo Hitotsu!</h3>
+  <h4 align="center">Melvin Jones Repol</h4>
 </p>
 <br>
 
