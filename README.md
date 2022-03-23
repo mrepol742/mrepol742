@@ -148,5 +148,3 @@ Windows                  1 hr 2 mins         █░░░░░░░░░░�
 
 **Webvium v2.8**
 >A crashed was been found when setting new background image <br> Renderer crashed detected on android api 26 and above
-
-***this profile uses Google Analytics view https://mrepol742.github.io/privacypolicy for more info.***
