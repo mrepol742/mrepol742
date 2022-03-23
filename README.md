@@ -139,6 +139,7 @@ Windows                  1 hr 2 mins         █░░░░░░░░░░�
 </a>
 </p>
 
+
 ## NEWS
 **Webvium Dev v2.9 Released**
 > Fixed data: and javascript: issues over DNT and non DNT
