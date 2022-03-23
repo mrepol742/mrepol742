@@ -140,7 +140,7 @@ Windows                  1 hr 2 mins         █░░░░░░░░░░�
 
 ## NEWS
 **Webvium Dev v2.9 Released**
-> Search Providers changes in whole and Added Webvium Search Alternatives Links.
+> Fixed data: and javascript: issues over DNT and non DNT
 
 **Webvium VPN**
 >Webvium VPN may failed to work on android api 29 and above.
