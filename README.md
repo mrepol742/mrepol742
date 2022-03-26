@@ -143,7 +143,7 @@ Windows                  50 mins             █░░░░░░░░░░�
 
 ## NEWS
 **Webvium Dev v2.9 Released**
-> Fixed data: and javascript: issues over DNT and non DNT
+> Improved Force Dark Mode JS
 
 **Webvium VPN**
 >Webvium VPN may failed to work on android api 29 and above.
