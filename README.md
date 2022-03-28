@@ -143,7 +143,7 @@ Windows                  15 mins             ░░░░░░░░░░░�
 
 ## NEWS
 **Webvium Dev v2.9 Released**
-> Improved Force Dark Mode JS
+> New Tab v2.2
 
 **Webvium VPN**
 >Webvium VPN may failed to work on android api 29 and above.
