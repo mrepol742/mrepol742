@@ -83,7 +83,7 @@ Linux                    3 hrs 16 mins       ███████████�
   <summary>Github Stats</summary>
   <br>
   <a href="https://mrepol742.github.io">
-  <img alt="Github Stats" src="https://github-readme-stats.vercel.app/api?username=mrepol742&show_icons=true&count_private=true&theme=gruvbox">
+  <img alt="Github Stats" src="https://github-readme-stats.vercel.app/api?username=mrepol742&show_icons=true&count_private=true&theme=gruvbox&include_all_commits=true">
 </a>  
   
 </details> 
