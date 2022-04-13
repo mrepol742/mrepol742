@@ -141,11 +141,20 @@ Linux                    3 hrs 26 mins       ███████████�
 
 
 ## NEWS
+**Webvium Search & Webvium Search Dev**
+> Fixed 2 Vulnirabilities
+> New UI
+> Introducing Widgets
+> https://mrepol742.github.io/search/
+
 **Webvium Dev v2.9 Released**
 > New Tab v2.2
+> https://webvium.github.io/dev/
 
 **Webvium VPN**
->Webvium VPN may failed to work on android api 29 and above.
+> Webvium VPN may failed to work on android api 29 and above.
+> https://webvium.github.io/vpn/
 
 **Webvium v2.8**
->A crashed was been found when setting new background image <br> Renderer crashed detected on android api 26 and above
+> A crashed was been found when setting new background image <br> Renderer crashed detected on android api 26 and above
+> https://webvium.github.io/
