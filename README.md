@@ -148,6 +148,7 @@ Linux                    6 hrs 1 min         ███████████�
 
 **Webvium Dev v2.9 Released**
 > New Tab v2.2
+> Now can be instale exertinally
 > https://webvium.github.io/dev/
 
 **Webvium VPN**
