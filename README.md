@@ -3,18 +3,17 @@
   <img alt="Detective Conan" src="https://mrepol742-gif-randomizer.vercel.app/api/" /> 
   </a> 
   <h3 align="center">Shinjitsu wa Itsumo Hitotsu!</h3>
-  <h4 align="center">Melvin Jones Repol</h4>
+  <h1 align="center">Melvin Jones Repol</h1>
+  <a href="https://mrepol742.github.io">
+   <img alt="Detective Conan" src="https://github.com/mrepol742/mrepol742/actions/workflows/README.yml/badge.svg" /> 
+    <img alt="Detective Conan" src="https://enibdhv97zm33sz.m.pipedream.net" /> 
+     <img alt="Detective Conan" src="https://visitor-badge.glitch.me/badge?page_id=mrepol742" /> 
+  </a>
 </p>
-<br>
 
 ~~~
 npx mrepol742
 ~~~
-[![Waka Readme](https://github.com/mrepol742/mrepol742/actions/workflows/README.yml/badge.svg)](https://github.com/mrepol742/mrepol742/actions/workflows/README.yml)
-
-[![Most Active Github User in Philippines Rank](https://enibdhv97zm33sz.m.pipedream.net)](https://mrepol742.github.io)
-
-[![Visitor](https://visitor-badge.glitch.me/badge?page_id=mrepol742)](https:/mrepol742.github.io)
 
 [comment]: <> (This is a automated generated Data from github action workflow)
 [comment]: <> (START OF GENERATED DATA)
