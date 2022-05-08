@@ -14,7 +14,7 @@ npx mrepol742
 
 [![Most Active Github User in Philippines Rank](https://enibdhv97zm33sz.m.pipedream.net)](https://mrepol742.github.io)
 
-[![Visitor](https://visitor-badge.glitch.me/badge?page_id=mrepol742)](https:/mrepol742.github.io) [![Google Analytics](https://ga-beacon.appspot.com/UA-211882290-2/profile-readme)](https://mrepol742.github.io)
+[![Visitor](https://visitor-badge.glitch.me/badge?page_id=mrepol742)](https:/mrepol742.github.io)
 
 [comment]: <> (This is a automated generated Data from github action workflow)
 [comment]: <> (START OF GENERATED DATA)
