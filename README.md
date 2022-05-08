@@ -67,6 +67,8 @@ Linux                    6 hrs 1 min         ███████████�
 [comment]: <> (END OF GENERATED DATA)
 
 <p>
+  
+  <hr>
 
 🏆 **Github Trophy**
   
@@ -76,6 +78,8 @@ Linux                    6 hrs 1 min         ███████████�
 </p>
 
 <p>
+  
+   <hr>
 
 📊 **More Stats**
   
@@ -129,6 +133,7 @@ Linux                    6 hrs 1 min         ███████████�
 </p>
 </details>
 
+ <hr>
 
 📜 **Contributions**
   
@@ -143,18 +148,18 @@ Linux                    6 hrs 1 min         ███████████�
 - Fixed 2 Vulnirabilities
 - New UI
 - Introducing Widgets
-> https://mrepol742.github.io/search/
+- https://mrepol742.github.io/search/
 
 **Webvium Dev v2.9 Released**
 - New Tab v2.2
 - Now can be instale externally
-> https://webvium.github.io/dev/
+- https://webvium.github.io/dev/
 
 **Webvium VPN**
 - Webvium VPN may failed to work on android api 29 and above.
-> https://webvium.github.io/vpn/
+- https://webvium.github.io/vpn/
 
 **Webvium v2.8**
 - A crashed was been found when setting new background image
 - Renderer crashed detected on android api 26 and above
-> https://webvium.github.io/
+- https://webvium.github.io/
