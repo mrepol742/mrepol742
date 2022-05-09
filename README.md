@@ -5,9 +5,10 @@
   <h3 align="center">Shinjitsu wa Itsumo Hitotsu!</h3>
   <h1 align="center">Melvin Jones Repol</h1>
   <a href="https://mrepol742.github.io">
-   <img alt="Detective Conan" src="https://github.com/mrepol742/mrepol742/actions/workflows/README.yml/badge.svg" /> 
-    <img alt="Detective Conan" src="https://enibdhv97zm33sz.m.pipedream.net" /> 
-     <img alt="Detective Conan" src="https://visitor-badge.glitch.me/badge?page_id=mrepol742" /> 
+   <img alt="Wakatime" src="https://github.com/mrepol742/mrepol742/actions/workflows/README.yml/badge.svg" /> 
+  <img alt="npm published" src="https://github.com/mrepol742/mrepol742/actions/workflows/npmjs.yml/badge.svg"/>
+    <img alt="Most Active Github User in the Philippines" src="https://enibdhv97zm33sz.m.pipedream.net" /> 
+     <img alt="Visitor Count" src="https://visitor-badge.glitch.me/badge?page_id=mrepol742" /> 
   </a>
 </p>
 
