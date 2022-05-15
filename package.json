@@ -14,9 +14,6 @@
     "type": "git",
     "url": "git+https://github.com/mrepol742/mrepol742.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "keywords": [
     "melvin jones repol",
     "mrepol742",
