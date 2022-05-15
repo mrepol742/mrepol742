@@ -3,7 +3,7 @@
     "mrepol742": "me.js"
   },
   "name": "mrepol742",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "description": "Software Engineer",
   "main": "me.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "url": "git+https://github.com/mrepol742/mrepol742.git"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "melvin jones repol",
