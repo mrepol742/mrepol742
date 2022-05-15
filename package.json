@@ -7,8 +7,7 @@
   "description": "Software Engineer",
   "main": "me.js",
   "scripts": {
-    "test": "node me.js",
-    "pub": "npm publish --access public"
+    "publish": "npm version patch && npm publish --access public"
   },
   "repository": {
     "type": "git",
