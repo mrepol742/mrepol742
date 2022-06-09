@@ -15,12 +15,12 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           COMMIT_MESSAGE: "Initial Commit"
-          SHOW_SHORT_INFO: "False"
+          SHOW_SHORT_INFO: "True"
           COMMIT_BY_ME: "True"
-          SHOW_LINES_OF_CODE: "False"
+          SHOW_LINES_OF_CODE: "True"
           SHOW_PROFILE_VIEWS: "False"
           SHOW_UPDATED_DATE: "False"
           SHOW_TIMEZONE: "False"
           SHOW_LOC_CHART: "False"
           SHOW_PROJECTS: "False"
-          SHOW_LANGUAGE_PER_REPO: "False"
+          SHOW_LANGUAGE_PER_REPO: "True"
