@@ -1,0 +1,24 @@
+name: 3d Stats Github Contri Visual
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+    steps:
+      - uses: actions/checkout@v2
+      - uses: yoshi389111/github-profile-3d-contrib@0.6.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          USERNAME: mrepol742
+      - name: Commit & Push
+        run: |
+          git config user.name mrepol742
+          git config user.email mrepol742@gmail.com
+          git add -A .
+          git commit -m "Initial Commit"
+          git push
