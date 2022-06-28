@@ -169,8 +169,8 @@ PHP                      3 repos             █░░░░░░░░░░�
 📜 **Contributions**
   
 <a href="https://mrepol742.github.io">
-<img alt="'Contributions' Please refresh the page if the graph didnt show up" src="https://mrepol742-activity-graph.herokuapp.com/graph?username=mrepol742&theme=github&hide_border=true">
-  <img alt="'Contributions' Please refresh the page if the graph didnt show up" src="https://github.com/mrepol742/mrepol742/blob/master/profile-3d-contrib/profile-south-season-animate.svg"/>
+<img alt="'Contributions' Please refresh the page if the graph didnt show up" src="https://mrepol742-activity-graph.herokuapp.com/graph?username=mrepol742&theme=github&hide_border=true" width="500">
+  <img alt="'Contributions' Please refresh the page if the graph didnt show up" src="https://github.com/mrepol742/mrepol742/blob/master/profile-3d-contrib/profile-south-season-animate.svg" width="500"/>
 </a>
 </p>
 
