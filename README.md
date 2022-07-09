@@ -97,79 +97,14 @@ PHP                      3 repos             █░░░░░░░░░░�
 
 [comment]: <> (END OF GENERATED DATA)
 
-<p>
-  
-  <hr>
 
-🏆 **Github Trophy**
-  
-<a href="https://mrepol742.github.io">
-<img alt="Github Trophy" src="https://github-profile-trophy.vercel.app/?username=mrepol742&theme=gruvbox">
-</a>
-</p>
+|   |   |
+|---|---|
+| [![Github Trophy](https://github-profile-trophy.vercel.app/?username=mrepol742)](https://mrepol742.github.io?utm_source=github%20trophy) | [![Github Stats](https://github-readme-stats.vercel.app/api?username=mrepol742&show_icons=true&count_private=true&include_all_commits=true)](https://mrepol742.github.io?utm_source=github%20stats) |
+| [![Github Stats with Private Contributions](https://mrepol742.github.io/github-stats/generated/overview.svg)](https://mrepol742.github.io?utm_source=github%20stats%20with%20private%20contributions) | [![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mrepol742&layout=compact&include_all_commits=true&&count_private=true&langs_count=20)](https://mrepol742.github.io?utm_source=top%20languages) |
+| [![Top languages by file size](https://mrepol742.github.io/github-stats/generated/languages.svg)](https://mrepol742.github.io?utm_source=top%20languages%20by%20file%20size) | [![Streak Stats](https://mrepol742-streak-stats.herokuapp.com/?user=mrepol742)](https://mrepol742.github.io?utm_source=streak%20stats) |
+| [![Contributions Graph](https://mrepol742-activity-graph.herokuapp.com/graph?username=mrepol742&theme=github&hide_border=true)](https://mrepol742.github.io?utm_source=contributions%20graph) | [![Contribution Graph 3d](https://github.com/mrepol742/mrepol742/blob/master/profile-3d-contrib/profile-south-season-animate.svg)](https://mrepol742.github.io?utm_source=contributions%20graph%203d) |
+| [![Spotify](https://spotify-recently-played-readme.vercel.app/api?user=7xx9e7hwq1qyown0m4ut78pcz&count=10&unique=true)](https://mrepol742.github.io?utm_source=spotify) | |
 
-<p>
-  
-   <hr>
 
-📊 **More Stats**
-  
-<details>
-  <summary>Github Stats</summary>
-  <br>
-  <a href="https://mrepol742.github.io">
-  <img alt="Github Stats" src="https://github-readme-stats.vercel.app/api?username=mrepol742&show_icons=true&count_private=true&theme=gruvbox&include_all_commits=true">
-</a>  
-  
-</details> 
-  
-  <details>
-  <summary>Github Stats with Private Contributions</summary>
-  <br>
- <a href="https://mrepol742.github.io">
-<img alt="Github Stats with Private Contributions" src="https://mrepol742.github.io/github-stats/generated/overview.svg">
-</a>
-</details>
-  
-<details>
-  <summary>Most Used Languages</summary>
-  <br>
- <a href="https://mrepol742.github.io">
-<img alt="Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrepol742&layout=compact&include_all_commits=true&&count_private=true&langs_count=20&theme=gruvbox">
-</a>
-</details>
-
- <details>
-  <summary>Most Used Languages by File Size</summary>
-  <br>
- <a href="https://mrepol742.github.io">
-<img alt="Most Used Languages by File Size" src="https://mrepol742.github.io/github-stats/generated/languages.svg">
-</a>
-</details>
-
-<details>
-  <summary>Streak Stats</summary>
-  <br>
-<a href="https://mrepol742.github.io">
-<img alt="'Streak Stats' Please refresh the page if the stats didnt show up" src="https://mrepol742-streak-stats.herokuapp.com/?user=mrepol742&theme=gruvbox">
-</a>
-</p>
-</details>
-<details>
-  <summary>Spotify</summary>
-  <br>
-<a href="https://mrepol742.github.io">
-<img alt="Spotify" src="https://spotify-recently-played-readme.vercel.app/api?user=7xx9e7hwq1qyown0m4ut78pcz&count=10&unique=true">
-</a>
-</p>
-</details>
-
- <hr>
-
-📜 **Contributions**
-  
-<a href="https://mrepol742.github.io">
-<img alt="'Contributions' Please refresh the page if the graph didnt show up" src="https://mrepol742-activity-graph.herokuapp.com/graph?username=mrepol742&theme=github&hide_border=true" width="500">
-  <img alt="'Contributions' Please refresh the page if the graph didnt show up" src="https://github.com/mrepol742/mrepol742/blob/master/profile-3d-contrib/profile-south-season-animate.svg" width="500"/>
-</a>
-</p>
+ 
