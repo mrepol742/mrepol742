@@ -1,22 +1,10 @@
 <p align="center">
 
 <a href="https://mrepol742.github.io">
-  <img alt="Detective Conan" src="https://mrepol742-gif-randomizer.vercel.app/api" /> 
+  <img alt="Detective Conan" src="https://mrepol742-gif-randomizer.vercel.app/api/" /> 
   </a> 
-  <h3 align="center">Shinjitsu wa Itsumo Hitotsu!</h3>
-  <h1 align="center">Melvin Jones Repol</h1>
-  <a href="https://mrepol742.github.io">
-   <img alt="Wakatime" src="https://github.com/mrepol742/mrepol742/actions/workflows/README.yml/badge.svg" /> 
-  <img alt="npm published" src="https://github.com/mrepol742/mrepol742/actions/workflows/npmjs.yml/badge.svg"/>
-    <img alt="Most Active Github User in the Philippines" src="https://enibdhv97zm33sz.m.pipedream.net" /> 
-     <img alt="Visitor Count" src="https://visitor-badge.glitch.me/badge?page_id=mrepol742" /> 
-  </a>
+<h1 align="center"><a href="https://mrepol742.github.io/">Melvin Jones Repol</a></h1>
 </p>
-
-~~~ 
-npx mrepol742
-~~~
-https://mrepol742.me
 
 [comment]: <> (This is a automated generated Data from github action workflow)
 [comment]: <> (START OF GENERATED DATA)
@@ -92,14 +80,4 @@ PHP                      3 repos             █░░░░░░░░░░�
 
 [comment]: <> (END OF GENERATED DATA)
 
-
-|   |   |
-|---|---|
-| [![Github Trophy](https://github-profile-trophy.vercel.app/?username=mrepol742)](https://mrepol742.github.io?utm_source=github%20trophy) | [![Github Stats](https://github-readme-stats.vercel.app/api?username=mrepol742&show_icons=true&count_private=true&include_all_commits=true)](https://mrepol742.github.io?utm_source=github%20stats) |
-| [![Github Stats with Private Contributions](https://mrepol742.github.io/github-stats/generated/overview.svg)](https://mrepol742.github.io?utm_source=github%20stats%20with%20private%20contributions) | [![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mrepol742&layout=compact&include_all_commits=true&&count_private=true&langs_count=20)](https://mrepol742.github.io?utm_source=top%20languages) |
-| [![Top languages by file size](https://mrepol742.github.io/github-stats/generated/languages.svg)](https://mrepol742.github.io?utm_source=top%20languages%20by%20file%20size) | [![Streak Stats](https://mrepol742-streak-stats.herokuapp.com/?user=mrepol742)](https://mrepol742.github.io?utm_source=streak%20stats) |
-| [![Contributions Graph](https://mrepol742-activity-graph.herokuapp.com/graph?username=mrepol742&theme=github&hide_border=true)](https://mrepol742.github.io?utm_source=contributions%20graph) | [![Contribution Graph 3d](https://github.com/mrepol742/mrepol742/blob/master/profile-3d-contrib/profile-south-season-animate.svg)](https://mrepol742.github.io?utm_source=contributions%20graph%203d) |
-| [![Spotify](https://spotify-recently-played-readme.vercel.app/api?user=7xx9e7hwq1qyown0m4ut78pcz&count=10&unique=true)](https://mrepol742.github.io?utm_source=spotify) | |
-
-
- 
+<p align="center"> https://mrepol742.github.io | https://mrepol742.me </p>
