@@ -6,9 +6,6 @@
 <h1 align="center"><a href="https://mrepol742.github.io/">Melvin Jones Repol</a></h1>
 </p>
 
-[comment]: <> (This is a automated generated Data from github action workflow)
-[comment]: <> (START OF GENERATED DATA)
-
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-755%20hrs%2052%20mins-blue)
 
@@ -70,7 +67,3 @@ PHP                      3 repos             █░░░░░░░░░░�
 
 
 <!--END_SECTION:waka-->
-
-[comment]: <> (END OF GENERATED DATA)
-
-<p align="center"> https://mrepol742.github.io | https://mrepol742.me </p>
