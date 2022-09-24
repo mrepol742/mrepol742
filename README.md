@@ -1,7 +1,7 @@
 <p align="center">
 
 <a href="https://mrepol742.github.io">
-  <img alt="Detective Conan" src="https://mrepol742-gif-randomizer.vercel.app/api/" /> 
+  <img alt="Detective Conan" src="https://mrepol742-gif-randomizer.vercel.app/api/#2" /> 
   </a> 
 <h1 align="center"><a href="https://mrepol742.github.io/">Melvin Jones Repol</a></h1>
 </p>
@@ -67,3 +67,32 @@ PHP                      3 repos             █░░░░░░░░░░�
 
 
 <!--END_SECTION:waka-->
+
+## 🚧 Notable Projects
+
+## 👥 Friends
+
+## :zap: Follow me on
+<a href="https://mrepol742.github.io/">
+  <img src="https://github.com/mrepol742/mrepol742/blob/master/images/web.svg" width="30">
+</a>
+<a href="https://facebook.com/melvinjonesrepol">
+  <img src="https://github.com/mrepol742/mrepol742/blob/master/images/facebook.svg" width="30">
+</a>
+<a href="https://instagram.com/melvinjonesrepol">
+  <img src="https://github.com/mrepol742/mrepol742/blob/master/images/instagram.svg" width="30">
+</a>
+<a href="https://pinterest.com/mrepol742">
+  <img src="https://github.com/mrepol742/mrepol742/blob/master/images/pinterest.svg" width="30">
+</a>
+<a href="https://twitter.com/mrepol742`">
+  <img src="https://github.com/mrepol742/mrepol742/blob/master/images/twitter.svg" width="30">
+</a>
+<a href="https://linkedin.com/in/mrepol742">
+  <img src="https://github.com/mrepol742/mrepol742/blob/master/images/linkedin.svg" width="30">
+</a>
+<a href="https://www.youtube.com/channel/UCDYRUXJ8Qldrvb00q9t2KDA">
+  <img src="https://github.com/mrepol742/mrepol742/blob/master/images/youtube.svg" width="30">
+</a>
+
+
