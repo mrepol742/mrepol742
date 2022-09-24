@@ -68,9 +68,68 @@ PHP                      3 repos             █░░░░░░░░░░�
 
 <!--END_SECTION:waka-->
 
-## 🚧 Notable Projects
+## 🚧 The Webvium Project
+<ul>
+<li>Webvium
+      <ul>
+      <li>https://webvium.github.io</li>
+    </ul>
+  </li>
+  <li>Webvium VPN
+      <ul>
+      <li>https://webvium.github.io/vpn</li>
+    </ul>
+  </li>
+  <li>Webvium Search
+      <ul>
+      <li>https://mrepol742.github.io/search/</li>
+    </ul>
+  </li>
+  </ul>
 
 ## 👥 Friends
+<ul>
+  <li>Samiun Nafis - Frontend W.D
+      <ul>
+      <li>https://samiunnafis.github.io</li>
+      <li>https://github.com/samiunnafis</li>
+    </ul>
+  </li>
+  <li>John Oye - Native A.D
+      <ul>
+      <li>https://johnoye742.github.io</li>
+      <li>https://github.com/johnoye742</li>
+    </ul>
+  </li>
+  <li>Amos Ayomide - Programmer
+    <ul>
+      <li>https://amosayomide05.github.io</li>
+      <li>https://github.com/amosayomide05</li>
+    </ul>
+  </li>
+  <li>Kingsley Ofonime - Frontend W.D
+      <ul>
+      <li>https://devkay07.github.io</li>
+      <li>https://github.com/devkay07</li>
+    </ul>
+  </li>
+    <li>Jay Pat Cano - Developer
+      <ul>
+      <li>https://0x3ef8.github.io</li>
+      <li>https://github.com/0x3ef8</li>
+    </ul>
+  </li>
+    <li>Maylan Jhay Masibay - Aspiring S.E
+  </li>
+    <li>Kelly Daniel - Fullstack W.D
+  </li>
+    <li>Techh Jork - Software Engineer
+      <ul>
+      <li>https://techhjork.github.io</li>
+      <li>https://github.com/techhjork</li>
+    </ul>
+  </li>
+</ul>
 
 ## :zap: Follow me on
 <a href="https://mrepol742.github.io/">
