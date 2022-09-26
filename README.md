@@ -68,14 +68,17 @@ PHP                      3 repos             █░░░░░░░░░░�
 
 <!--END_SECTION:waka-->
 
-## 🚧 The Webvium Project
+## 🚧 Notable Projects
 <ul>
-<li>Webvium
+<li>Webvium <img src="https://wakatime.com/badge/user/8ad4afa2-1a56-40d1-a949-4663473915b6/project/f7aa3bd8-bf4b-46f4-a0bb-57fa0cfb6287.svg"
+                    alt="wakatime"></h5>
       <ul>
       <li>https://webvium.github.io</li>
     </ul>
   </li>
-  <li>Webvium VPN
+  <li>Webvium VPN <img loading="lazy"
+                    src="https://wakatime.com/badge/user/8ad4afa2-1a56-40d1-a949-4663473915b6/project/6f406616-d468-4419-9d8f-67ed88f99e2e.svg"
+                    alt="wakatime">
       <ul>
       <li>https://webvium.github.io/vpn</li>
     </ul>
@@ -83,6 +86,13 @@ PHP                      3 repos             █░░░░░░░░░░�
   <li>Webvium Search
       <ul>
       <li>https://mrepol742.github.io/search/</li>
+    </ul>
+  </li>
+    <li>My Portfolio <img loading="lazy"
+                    src="https://wakatime.com/badge/user/8ad4afa2-1a56-40d1-a949-4663473915b6/project/9458f437-f00b-4273-9cef-212b398ff055.svg"
+                    alt="wakatime">
+      <ul>
+      <li>https://mrepol742.github.io/</li>
     </ul>
   </li>
   </ul>
@@ -153,5 +163,7 @@ PHP                      3 repos             █░░░░░░░░░░�
 <a href="https://www.youtube.com/channel/UCDYRUXJ8Qldrvb00q9t2KDA">
   <img src="https://github.com/mrepol742/mrepol742/blob/master/images/youtube.svg" width="30">
 </a>
+
+https://mrepol742.github.io/link-tree/
 
 
