@@ -68,7 +68,7 @@ PHP                      3 repos             █░░░░░░░░░░�
 
 <!--END_SECTION:waka-->
 
-## 🚧 Notable Projects
+### 🚧 Notable Projects
 <ul>
 <li>Webvium <img src="https://wakatime.com/badge/user/8ad4afa2-1a56-40d1-a949-4663473915b6/project/f7aa3bd8-bf4b-46f4-a0bb-57fa0cfb6287.svg"
                     alt="wakatime"></h5>
@@ -97,7 +97,7 @@ PHP                      3 repos             █░░░░░░░░░░�
   </li>
   </ul>
 
-## 👥 Friends
+### 👥 My Friends
 <ul>
   <li>Samiun Nafis - Frontend W.D
       <ul>
@@ -141,7 +141,7 @@ PHP                      3 repos             █░░░░░░░░░░�
   </li>
 </ul>
 
-## :zap: Follow me on
+### :zap: Follow me
 <a href="https://mrepol742.github.io/">
   <img src="https://github.com/mrepol742/mrepol742/blob/master/images/web.svg" width="30">
 </a>
@@ -165,5 +165,7 @@ PHP                      3 repos             █░░░░░░░░░░�
 </a>
 
 https://mrepol742.github.io/link-tree/
+
+### Support me
 
 
