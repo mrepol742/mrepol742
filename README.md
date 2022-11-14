@@ -1,10 +1,9 @@
-<p align="center">
 
 <a href="https://mrepol742.github.io">
   <img alt="Detective Conan" src="https://mrepol742-gif-randomizer.vercel.app/api/#2" /> 
   </a> 
-<h1 align="center"><a href="https://mrepol742.github.io/">Melvin Jones Repol</a></h1>
-</p>
+<h1>I'm <a href="https://mrepol742.github.io/">Melvin Jones Repol</a> S.E</h1>
+
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-834%20hrs-blue)
@@ -95,6 +94,20 @@ PHP                      4 repos             █░░░░░░░░░░�
       <li>https://mrepol742.github.io/</li>
     </ul>
   </li>
+
+   <li>Terminal <img src="https://wakatime.com/badge/user/8ad4afa2-1a56-40d1-a949-4663473915b6/project/a428bb67-a8c9-4373-9398-e7c1a16fbe2c.svg" alt="wakatime">
+     <ul>
+         <li>https://mrepol742.me/</li>
+     </ul>
+  </li>
+  
+
+   <li>Login System <img src="https://wakatime.com/badge/user/8ad4afa2-1a56-40d1-a949-4663473915b6/project/13ea9a71-2bc6-443e-b793-4d20a1930544.svg" alt="wakatime">
+ 
+  </li>
+    
+   <li>Project Orion <img src="https://wakatime.com/badge/user/8ad4afa2-1a56-40d1-a949-4663473915b6/project/82d84c4e-d541-4f9d-b30e-861e7a21efdb.svg" alt="wakatime">
+  </li>
   </ul>
 
 ### 👥 My Friends
@@ -103,12 +116,6 @@ PHP                      4 repos             █░░░░░░░░░░�
       <ul>
       <li>https://samiunnafis.github.io</li>
       <li>https://github.com/samiunnafis</li>
-    </ul>
-  </li>
-  <li>John Oye - Native A.D
-      <ul>
-      <li>https://johnoye742.github.io</li>
-      <li>https://github.com/johnoye742</li>
     </ul>
   </li>
   <li>Amos Ayomide - Programmer
@@ -130,8 +137,6 @@ PHP                      4 repos             █░░░░░░░░░░�
     </ul>
   </li>
     <li>Maylan Jhay Masibay - Aspiring S.E
-  </li>
-    <li>Kelly Daniel - Fullstack W.D
   </li>
     <li>Techh Jork - Software Engineer
       <ul>
@@ -168,4 +173,18 @@ https://mrepol742.github.io/link-tree/
 
 ### Support me
 
+ <ul>
+            <li>
+              <a  href="https://www.buymeacoffee.com/mrepol742">Buy Me a Coffee</a>
+            </li>
+            <li>
+              <a href="https://www.patreon.com/melvinjonesrepol">Patreon</a>
+            </li>
+            <li >
+              <a href="https://paypal.me/mrepol742">PayPal</a>
+            </li>
+            <li>
+              <a href="https://ko-fi.com/mrepol742">Ko-fi</a>
+            </li>
+          </ul>
 
