@@ -1,8 +1,9 @@
-
 <a href="https://mrepol742.github.io">
   <img alt="Detective Conan" src="https://mrepol742-gif-randomizer.vercel.app/api/#2" /> 
   </a> 
   
+  
+  **Follow me on** <br>
   <a href="https://mrepol742.github.io/">
   <img src="https://github.com/mrepol742/mrepol742/blob/master/images/web.svg" width="30">
 </a>
@@ -25,7 +26,7 @@
   <img src="https://github.com/mrepol742/mrepol742/blob/master/images/youtube.svg" width="30">
 </a>
 
- <ul>
+**Support me on**<ul>
             <li>
               <a  href="https://www.buymeacoffee.com/mrepol742">Buy Me a Coffee</a>
             </li>
