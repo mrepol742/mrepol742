@@ -1,45 +1,11 @@
+<p align="center">
 <a href="https://mrepol742.github.io">
-  <img alt="Detective Conan" src="https://mrepol742-gif-randomizer.vercel.app/api/#2" /> 
+  <img alt="Detective Conan" src="https://mrepol742-gif-randomizer.vercel.app/api" /> 
   </a> 
-  
-  
-  **Follow me on** <br>
-  <a href="https://mrepol742.github.io/">
-  <img src="https://github.com/mrepol742/mrepol742/blob/master/images/web.svg" width="30">
-</a>
-<a href="https://facebook.com/melvinjonesrepol">
-  <img src="https://github.com/mrepol742/mrepol742/blob/master/images/facebook.svg" width="30">
-</a>
-<a href="https://instagram.com/melvinjonesrepol">
-  <img src="https://github.com/mrepol742/mrepol742/blob/master/images/instagram.svg" width="30">
-</a>
-<a href="https://pinterest.com/mrepol742">
-  <img src="https://github.com/mrepol742/mrepol742/blob/master/images/pinterest.svg" width="30">
-</a>
-<a href="https://twitter.com/mrepol742`">
-  <img src="https://github.com/mrepol742/mrepol742/blob/master/images/twitter.svg" width="30">
-</a>
-<a href="https://linkedin.com/in/mrepol742">
-  <img src="https://github.com/mrepol742/mrepol742/blob/master/images/linkedin.svg" width="30">
-</a>
-<a href="https://www.youtube.com/@mrepol742">
-  <img src="https://github.com/mrepol742/mrepol742/blob/master/images/youtube.svg" width="30">
-</a>
+  <h1 align="center">Melvin Jones 'Mj' Repol</h1>
+</p>
+<br>
 
-**Support me on**<ul>
-            <li>
-              <a  href="https://www.buymeacoffee.com/mrepol742">Buy Me a Coffee</a>
-            </li>
-            <li>
-              <a href="https://www.patreon.com/melvinjonesrepol">Patreon</a>
-            </li>
-            <li >
-              <a href="https://paypal.me/mrepol742">PayPal</a>
-            </li>
-            <li>
-              <a href="https://ko-fi.com/mrepol742">Ko-fi</a>
-            </li>
-          </ul>
 
 <!--START_SECTION:waka-->
 📊 **This Week I Spent My Time On** 
@@ -64,3 +30,57 @@ Linux                    10 hrs 2 mins       ███████████�
 
 <!--END_SECTION:waka-->
 
+<p>
+
+🏆 **Github Trophy**
+  
+<a href="https://mrepol742.github.io">
+<img alt="Github Trophy" src="https://github-profile-trophy.vercel.app/?username=mrepol742&theme=gruvbox">
+</a>
+</p>
+
+
+📊 **More Stats**
+  
+<details>
+  <summary>Github Stats</summary>
+  <br>
+  <a href="https://mrepol742.github.io">
+  <img alt="Github Stats" src="https://github-readme-stats.vercel.app/api?username=mrepol742&show_icons=true&count_private=true&theme=gruvbox">
+</a>  
+  
+</details> 
+  
+  <details>
+  <summary>Github Stats with Private Contributions</summary>
+  <br>
+ <a href="https://mrepol742.github.io">
+<img alt="Github Stats with Private Contributions" src="https://mrepol742.github.io/github-stats/generated/overview.svg">
+</a>
+</details>
+  
+<details>
+  <summary>Most Used Languages</summary>
+  <br>
+ <a href="https://mrepol742.github.io">
+<img alt="Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrepol742&layout=compact&include_all_commits=true&&count_private=true&langs_count=20&theme=gruvbox">
+</a>
+</details>
+
+ <details>
+  <summary>Most Used Languages by File Size</summary>
+  <br>
+ <a href="https://mrepol742.github.io">
+<img alt="Most Used Languages by File Size" src="https://mrepol742.github.io/github-stats/generated/languages.svg">
+</a>
+</details>
+
+<details>
+  <summary>Spotify</summary>
+  <br>
+<a href="https://mrepol742.github.io">
+<img alt="Spotify" src="https://spotify-recently-played-readme.vercel.app/api?user=7xx9e7hwq1qyown0m4ut78pcz&count=10&unique=true">
+</a>
+</p>
+</details>
+</p>
