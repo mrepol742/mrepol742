@@ -2,7 +2,7 @@
 <a href="https://mrepol742.github.io">
   <img alt="Detective Conan" src="https://mrepol742-gif-randomizer.vercel.app/api" width="400"/> 
   </a> 
-  <h1 align="center">Melvin Jones 'Mj' Repol</h1>
+  <h1 align="center">Null isnt undefined nor empty</h1>
 </p>
 <br>
 
