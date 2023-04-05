@@ -1,10 +1,8 @@
 <p align="center">
 <a href="https://mrepol742.github.io">
-  <img alt="Detective Conan" src="https://mrepol742-gif-randomizer.vercel.app/api" width="400"/> 
+  <img alt="Detective Conan" src="https://giffiles.alphacoders.com/991/99157.gif" width="900" height="450"/> 
   </a> 
-  <h1 align="center">Null isnt undefined nor empty</h1>
 </p>
-<br>
 
 [![wakatime](https://wakatime.com/badge/user/8ad4afa2-1a56-40d1-a949-4663473915b6.svg)](https://mrepol742.github.io)
 
