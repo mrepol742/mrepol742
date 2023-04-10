@@ -65,7 +65,7 @@ const questions = [
 const data = {
     name: chalk.bold.blue("             Melvin Jones 'Mj' Repol"),
     handle: chalk.white("@mrepol742"),
-    work: `${chalk.white("Software Engineer at")} ${chalk.hex("#4285f4").bold("Webvium")}`,
+    work: `${chalk.white("Software Engineer")}`,
     twitter: chalk.gray("https://twitter.com/") + chalk.cyan("mrepol742"),
     github: chalk.gray("https://github.com/") + chalk.cyan("mrepol742"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.cyan("mrepol742"),
