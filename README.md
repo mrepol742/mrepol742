@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://mrepol742.github.io">
-  <img alt="Detective Conan" src="https://giffiles.alphacoders.com/991/99157.gif" width="900" height="450"/> 
+  <img alt="Detective Conan" src="https://giffiles.alphacoders.com/991/99157.gif" width="900" height="250"/> 
   </a> 
 </p>
 
