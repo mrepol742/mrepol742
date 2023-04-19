@@ -121,7 +121,7 @@ Shell                    2 repos             ░░░░░░░░░░░�
 🏆 **Github Trophy**
   
 <a href="https://mrepol742.github.io">
-<img alt="Github Trophy" src="https://github-profile-trophy.vercel.app/?username=mrepol742&theme=gruvbox">
+<img alt="Github Trophy" src="https://github-profile-trophy.vercel.app/?username=mrepol742&theme=gruvbox&no-frame=true">
 </a>
 </p>
 
