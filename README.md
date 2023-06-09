@@ -1,8 +1,6 @@
-<p align="center">
 <a href="https://mrepol742.github.io">
-  <img alt="Detective Conan" src="https://giffiles.alphacoders.com/991/99157.gif" width="900" height="250"/> 
-  </a> 
-</p>
+  <img src="https://gifdb.com/images/high/lamborghini-aventador-neon-yellow-racing-dd8dv43e4djl7nvy.gif"> 
+</a> 
 
 [![wakatime](https://wakatime.com/badge/user/8ad4afa2-1a56-40d1-a949-4663473915b6.svg)](https://mrepol742.github.io)
 
@@ -151,16 +149,15 @@ Shell                    3 repos             █░░░░░░░░░░�
 [![Project Orion Chat](https://img.shields.io/badge/Project%20Orion%20Chat-4285f4?style=for-the-badge&logoColor=white)](https://mrepol742.github.io/project-orion/chat/)
 ![Google Assistant](https://img.shields.io/badge/google%20assistant-4285F4?style=for-the-badge&logo=google%20assistant&logoColor=white)
 ![Dependabot](https://img.shields.io/badge/dependabot-025E8C?style=for-the-badge&logo=dependabot&logoColor=white)
-<p>
-
-🏆 **Github Trophy**
-  
-<a href="https://mrepol742.github.io">
-<img alt="Github Trophy" src="https://github-profile-trophy.vercel.app/?username=mrepol742&theme=gruvbox&no-frame=true">
-</a>
-</p>
 
 <details>
+  <summary>Github Trophy</summary>
+  <br>
+  <a href="https://mrepol742.github.io">
+  <img alt="Github Trophy" src="https://github-profile-trophy.vercel.app/?username=mrepol742&theme=gruvbox&no-frame=true">
+</a>  
+  
+</details> <details>
   <summary>Github Stats</summary>
   <br>
   <a href="https://mrepol742.github.io">
@@ -181,7 +178,7 @@ Shell                    3 repos             █░░░░░░░░░░�
   <summary>Most Used Languages</summary>
   <br>
  <a href="https://mrepol742.github.io">
-<img alt="Most Used Languages" src="[https://github-readme-stats.vercel.app/api/top-langs/?username=mrepol742&layout=compact&include_all_commits=true&&count_private=true&langs_count=20&theme=gruvbox](https://github-readme-stats-mrepol742.vercel.app/api/top-langs?username=mrepol742&include_all_commits=true&count_private=true&theme=gruvbox&hide_title=true&langs_count=10&layout=donut)">
+<img alt="Most Used Languages" src="https://github-readme-stats-mrepol742.vercel.app/api/top-langs?username=mrepol742&include_all_commits=true&count_private=true&theme=gruvbox&hide_title=true&langs_count=10&layout=donut">
 </a>
 </details>
 
@@ -192,6 +189,13 @@ Shell                    3 repos             █░░░░░░░░░░�
 <img alt="Most Used Languages by File Size" src="https://mrepol742.github.io/github-stats/generated/languages.svg">
 </a>
 </details>
+<details>
+  <summary>Most Used Languages in Last 7 Days (Wakatime)</summary>
+  <br>
+ <a href="https://mrepol742.github.io">
+<img alt="Most Used Languages in Last 7 Days (Wakatime)" src="https://github-readme-stats-mrepol742.vercel.app/api/wakatime?username=mrepol742&hide_title=true&layout=compact">
+</a>
+</details>
 
 <details>
   <summary>Spotify</summary>
@@ -199,6 +203,4 @@ Shell                    3 repos             █░░░░░░░░░░�
 <a href="https://mrepol742.github.io">
 <img alt="Spotify" src="https://spotify-recently-played-readme.vercel.app/api?user=7xx9e7hwq1qyown0m4ut78pcz&count=10&unique=true">
 </a>
-</p>
 </details>
-</p>
