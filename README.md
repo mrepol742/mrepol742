@@ -164,7 +164,7 @@ Shell                    3 repos             █░░░░░░░░░░�
   <summary>Github Stats</summary>
   <br>
   <a href="https://mrepol742.github.io">
-  <img alt="Github Stats" src="https://github-readme-stats.vercel.app/api?username=mrepol742&show_icons=true&count_private=true&theme=gruvbox">
+  <img alt="Github Stats" src="https://github-readme-stats-mrepol742.vercel.app/api?username=mrepol742&show_icons=true&count_private=true&theme=gruvbox&include_all_commits=true&rank_icon=github&hide_title=true">
 </a>  
   
 </details> 
@@ -181,7 +181,7 @@ Shell                    3 repos             █░░░░░░░░░░�
   <summary>Most Used Languages</summary>
   <br>
  <a href="https://mrepol742.github.io">
-<img alt="Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrepol742&layout=compact&include_all_commits=true&&count_private=true&langs_count=20&theme=gruvbox">
+<img alt="Most Used Languages" src="[https://github-readme-stats.vercel.app/api/top-langs/?username=mrepol742&layout=compact&include_all_commits=true&&count_private=true&langs_count=20&theme=gruvbox](https://github-readme-stats-mrepol742.vercel.app/api/top-langs?username=mrepol742&include_all_commits=true&count_private=true&theme=gruvbox&hide_title=true&langs_count=10&layout=donut)">
 </a>
 </details>
 
