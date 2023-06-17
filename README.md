@@ -4,7 +4,7 @@
 
 [![wakatime](https://wakatime.com/badge/user/8ad4afa2-1a56-40d1-a949-4663473915b6.svg)](https://mrepol742.github.io)
 
-<!--START_SECTION:waka-->
+<!--START_SECTION:mrepol742-->
 **I'm a Night 🦉** 
 
 ```text
@@ -59,7 +59,7 @@ Shell                    3 repos             █░░░░░░░░░░�
 
 
 
-<!--END_SECTION:waka-->
+<!--END_SECTION:mrepol742-->
 
 💻 **Workspace**
 

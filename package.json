@@ -39,6 +39,5 @@
     "open": "^7.4.2",
     "ora": "^5.4.1",
     "request": "^2.88.2"
-  },
-  "devDependencies": {}
+  }
 }
