@@ -1,6 +1,6 @@
 {
   "name": "mrepol742",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "description": "Software Engineer",
   "main": "me.js",
   "scripts": {
@@ -23,12 +23,12 @@
     "name": "Melvin Jones Repol",
     "email": "mrepol742@gmail.com",
     "url": "https://mrepol742.github.io"
-},
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mrepol742/mrepol742/issues",
     "email": "mrepol742@gmail.com"
-},
+  },
   "homepage": "https://github.com/mrepol742/mrepol742",
   "dependencies": {
     "boxen": "^4.2.0",
