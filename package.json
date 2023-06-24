@@ -1,35 +1,35 @@
 {
-  "bin": {
-    "mrepol742": "me.js"
-  },
   "name": "mrepol742",
   "version": "4.0.1",
   "description": "Software Engineer",
   "main": "me.js",
   "scripts": {
-    "publish": "npm version patch && npm publish --access public"
+    "start": "node me.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mrepol742/mrepol742.git"
   },
   "keywords": [
-    "programmer",
     "mrepol742",
+    "melvin jone repol",
     "software engineer",
-    "webvium",
-    "the project webvium",
     "web development",
-    "SEO",
     "portfolio",
-    "projects"
+    "profile",
+    "readme"
   ],
-  "author": "Melvin Jones Repol",
+  "author": {
+    "name": "Melvin Jones Repol",
+    "email": "mrepol742@gmail.com",
+    "url": "https://mrepol742.github.io"
+},
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mrepol742/mrepol742/issues"
-  },
-  "homepage": "https://github.com/mrepol742/mrepol742#readme",
+    "url": "https://github.com/mrepol742/mrepol742/issues",
+    "email": "mrepol742@gmail.com"
+},
+  "homepage": "https://github.com/mrepol742/mrepol742",
   "dependencies": {
     "boxen": "^4.2.0",
     "chalk": "^4.1.2",
