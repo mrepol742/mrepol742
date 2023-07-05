@@ -1,5 +1,5 @@
 <a href="https://mrepol742.github.io">
-  <img src="https://gifdb.com/images/high/lamborghini-aventador-neon-yellow-racing-dd8dv43e4djl7nvy.gif"> 
+  <img src="dino.gif"> 
 </a> 
 
 [![wakatime](https://wakatime.com/badge/user/8ad4afa2-1a56-40d1-a949-4663473915b6.svg)](https://mrepol742.github.io)
@@ -218,3 +218,4 @@ C++                      3 repos             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 <img alt="Spotify" src="https://spotify-recently-played-readme.vercel.app/api?user=7xx9e7hwq1qyown0m4ut78pcz&count=10&unique=true">
 </a>
 </details>
+
