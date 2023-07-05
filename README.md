@@ -1,5 +1,5 @@
 <a href="https://mrepol742.github.io">
-  <img src="dino.gif"> 
+  <img src="https://github.com/mrepol742/mrepol742/blob/master/dino.gif?raw=true"> 
 </a> 
 
 [![wakatime](https://wakatime.com/badge/user/8ad4afa2-1a56-40d1-a949-4663473915b6.svg)](https://mrepol742.github.io)
