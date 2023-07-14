@@ -60,6 +60,7 @@ C++                      3 repos             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 💻 **Workspace**
 
+![Arch](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)
 ![Linux Mint Cinnamon 21](https://img.shields.io/badge/Linux%20Mint%20Cinnamon%2021-87CF3E?style=for-the-badge&logo=Linux%20Mint%20Cinnamon&logoColor=white)
 ![Android 13](https://img.shields.io/badge/Android%2013-3DDC84?style=for-the-badge&logo=android%2013&logoColor=white)
 ![Windows 11](https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white)
