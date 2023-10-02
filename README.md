@@ -2,8 +2,6 @@
   <img src="https://github.com/mrepol742/mrepol742/blob/master/dino.gif?raw=true"> 
 </a> 
 
-[![wakatime](https://wakatime.com/badge/user/8ad4afa2-1a56-40d1-a949-4663473915b6.svg)](https://mrepol742.github.io)
-
 <!--START_SECTION:mrepol742-->
 **I'm a Night 🦉** 
 
@@ -167,60 +165,20 @@ C++                      3 repos             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 
+More Stats
 
+![Github Trophy](https://github-profile-trophy.vercel.app/?username=mrepol742&theme=gruvbox&no-frame=true "Github Trophy")
 
-<details>
-  <summary>Github Trophy</summary>
-  <br>
-  <a href="https://mrepol742.github.io">
-  <img alt="Github Trophy" src="https://github-profile-trophy.vercel.app/?username=mrepol742&theme=gruvbox&no-frame=true">
-</a>  
+![Github Stats](https://github-readme-stats-mrepol742.vercel.app/api?username=mrepol742&show_icons=true&count_private=true&theme=gruvbox&include_all_commits=true&rank_icon=github&hide_title=true "Github Stats")
+
+![Github Stats with Private Contributions](https://mrepol742.github.io/github-stats/generated/overview.svg "Github Stats with Private Contributions")
   
-</details> <details>
-  <summary>Github Stats</summary>
-  <br>
-  <a href="https://mrepol742.github.io">
-  <img alt="Github Stats" src="https://github-readme-stats-mrepol742.vercel.app/api?username=mrepol742&show_icons=true&count_private=true&theme=gruvbox&include_all_commits=true&rank_icon=github&hide_title=true">
-</a>  
+![Most Used Languages](https://github-readme-stats-mrepol742.vercel.app/api/top-langs?username=mrepol742&include_all_commits=true&count_private=true&theme=gruvbox&hide_title=true&langs_count=10&layout=donut "Most Used Languages")
   
-</details> 
-  
-  <details>
-  <summary>Github Stats with Private Contributions</summary>
-  <br>
- <a href="https://mrepol742.github.io">
-<img alt="Github Stats with Private Contributions" src="https://mrepol742.github.io/github-stats/generated/overview.svg">
-</a>
-</details>
-  
-<details>
-  <summary>Most Used Languages</summary>
-  <br>
- <a href="https://mrepol742.github.io">
-<img alt="Most Used Languages" src="https://github-readme-stats-mrepol742.vercel.app/api/top-langs?username=mrepol742&include_all_commits=true&count_private=true&theme=gruvbox&hide_title=true&langs_count=10&layout=donut">
-</a>
-</details>
+![Most Used Languages by File Size](https://mrepol742.github.io/github-stats/generated/languages.svg "Most Used Languages by File Size")
 
- <details>
-  <summary>Most Used Languages by File Size</summary>
-  <br>
- <a href="https://mrepol742.github.io">
-<img alt="Most Used Languages by File Size" src="https://mrepol742.github.io/github-stats/generated/languages.svg">
-</a>
-</details>
-<details>
-  <summary>Most Used Languages in Last 7 Days (Wakatime)</summary>
-  <br>
- <a href="https://mrepol742.github.io">
-<img alt="Most Used Languages in Last 7 Days (Wakatime)" src="https://github-readme-stats-mrepol742.vercel.app/api/wakatime?username=mrepol742&hide_title=true&layout=compact">
-</a>
-</details>
+![Most Used Languages in Last 7 Days (Wakatime)](https://github-readme-stats-mrepol742.vercel.app/api/wakatime?username=mrepol742&hide_title=true&layout=compact "Most Used Languages in Last 7 Days (Wakatime)")
 
-<details>
-  <summary>Spotify</summary>
-  <br>
-<a href="https://mrepol742.github.io">
-<img alt="Spotify" src="https://spotify-recently-played-readme.vercel.app/api?user=7xx9e7hwq1qyown0m4ut78pcz&count=10&unique=true">
-</a>
-</details>
+![Spotify](https://spotify-recently-played-readme.vercel.app/api?user=7xx9e7hwq1qyown0m4ut78pcz&count=10&unique=true "Spotify")
 
+![](https://media.tenor.com/D5hAWpPNYIIAAAAC/but-its-so-nice-of-you-to-come-check-on-me-nice-of-you.gif)
