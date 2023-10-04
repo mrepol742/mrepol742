@@ -165,20 +165,33 @@ C++                      3 repos             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 
+---
+
 More Stats
 
-![Github Trophy](https://github-profile-trophy.vercel.app/?username=mrepol742&theme=gruvbox&no-frame=true "Github Trophy")
+<a href="https://mrepol742.github.io?ref=github.com">
 
-![Github Stats](https://github-readme-stats-mrepol742.vercel.app/api?username=mrepol742&show_icons=true&count_private=true&theme=gruvbox&include_all_commits=true&rank_icon=github&hide_title=true "Github Stats")
+<img width=800 src="https://github-profile-trophy.vercel.app/?username=mrepol742&theme=gruvbox&no-frame=true"/>
 
-![Github Stats with Private Contributions](https://mrepol742.github.io/github-stats/generated/overview.svg "Github Stats with Private Contributions")
-  
-![Most Used Languages](https://github-readme-stats-mrepol742.vercel.app/api/top-langs?username=mrepol742&include_all_commits=true&count_private=true&theme=gruvbox&hide_title=true&langs_count=10&layout=donut "Most Used Languages")
-  
-![Most Used Languages by File Size](https://mrepol742.github.io/github-stats/generated/languages.svg "Most Used Languages by File Size")
+<div>
+  <img height="170" align="left" src="https://github-readme-stats-mrepol742.vercel.app/api?username=mrepol742&show_icons=true&count_private=true&theme=gruvbox&include_all_commits=true&rank_icon=github&hide_title=true" />
+  <img src="https://mrepol742.github.io/github-stats/generated/overview.svg" />
+</div>
 
-![Most Used Languages in Last 7 Days (Wakatime)](https://github-readme-stats-mrepol742.vercel.app/api/wakatime?username=mrepol742&hide_title=true&layout=compact "Most Used Languages in Last 7 Days (Wakatime)")
+<div>
+  <img width="300" align="left" src="https://github-readme-stats-mrepol742.vercel.app/api/top-langs?username=mrepol742&include_all_commits=true&count_private=true&theme=gruvbox&hide_title=true&langs_count=10&layout=donut" />
+  <img src="https://mrepol742.github.io/github-stats/generated/languages.svg" />
+</div>
 
-![Spotify](https://spotify-recently-played-readme.vercel.app/api?user=7xx9e7hwq1qyown0m4ut78pcz&count=10&unique=true "Spotify")
+<div>
+  <img width="300" align="left" src="https://github-readme-stats-mrepol742.vercel.app/api/wakatime?username=mrepol742&hide_title=true&layout=compact" />
+  <img src="https://spotify-recently-played-readme.vercel.app/api?user=7xx9e7hwq1qyown0m4ut78pcz&count=10&unique=true" />
+</div>
+
+
+</a>
+
+
+---
 
 ![](https://media.tenor.com/D5hAWpPNYIIAAAAC/but-its-so-nice-of-you-to-come-check-on-me-nice-of-you.gif)
