@@ -1,7 +1,7 @@
 
 
 <a href="https://mrepol742.github.io">
-  <img align="right" src="https://i.gifer.com/5t38.gif" width="430"> 
+  <img align="right" src="https://media.tenor.com/7SjhmDr2KbYAAAAC/lucifer-lucifer-morningstar.gif" width="430"> 
 </a> 
 
 ### Ah, you're here. Heheh, 
