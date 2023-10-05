@@ -80,13 +80,15 @@ C++                      3 repos             █░░░░░░░░░░�
 <!--END_SECTION:mrepol742-->
 
 👩🏻‍💻 **Projects**
-- Webvium
-- Webvium VPN
-- Project Orion
-- My Website
-- Online Catering System
-- Room Rental System
-- IntNext Real Estate
+```text
+Webvium                    https://mrepol742.github.io/webvium
+Webvium VPN                https://mrepol742.github.io/webviumvpn
+Project Orion              https://mrepol742.github.io/project-orion
+My Website                 https://mrepol742.github.io
+Online Catering System     https://github.com/mrepol742/Online-Catering-System
+Room Rental System         https://github.com/mrepol742/Room-Rental-System
+IntNext Real Estate        https://intnext-realestate.github.io
+```
 
 💻 **Workspace**
 
@@ -112,8 +114,8 @@ C++                      3 repos             █░░░░░░░░░░�
 [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/mrepol742)
 [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/melvinjonesrepol)
 [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/mrepol742)
-![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA)
-![Google Pay](https://img.shields.io/badge/GooglePay-%233780F1.svg?style=for-the-badge&logo=Google-Pay&logoColor=white)
+[![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/mrepol742/)
+
 
 🕒 **Version Control**
 
