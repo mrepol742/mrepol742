@@ -1,6 +1,16 @@
+
+
 <a href="https://mrepol742.github.io">
-  <img src="https://github.com/mrepol742/mrepol742/blob/master/dino.gif?raw=true"> 
+  <img align="right" src="https://i.gifer.com/5t38.gif" width="430"> 
 </a> 
+
+### Ah, you're here. Heheh, 
+I always feel a little antsy until you show up. I was hoping you'd drop in.
+
+
+--- 
+
+<br>
 
 <!--START_SECTION:mrepol742-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-1%2C839%20hrs%2052%20mins-blue)
@@ -68,6 +78,15 @@ C++                      3 repos             █░░░░░░░░░░�
 
 
 <!--END_SECTION:mrepol742-->
+
+👩🏻‍💻 **Projects**
+- Webvium
+- Webvium VPN
+- Project Orion
+- My Website
+- Online Catering System
+- Room Rental System
+- IntNext Real Estate
 
 💻 **Workspace**
 
@@ -176,33 +195,11 @@ C++                      3 repos             █░░░░░░░░░░�
 ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 
----
+🎵 Spotify
 
-More Stats
+<img src="https://spotify-recently-played-readme.vercel.app/api?user=7xx9e7hwq1qyown0m4ut78pcz&count=10&unique=true" />
 
-<a href="https://mrepol742.github.io?ref=github.com">
-
-<img width=800 src="https://github-profile-trophy.vercel.app/?username=mrepol742&theme=gruvbox&no-frame=true"/>
-
-<div>
-  <img height="170" align="left" src="https://github-readme-stats-mrepol742.vercel.app/api?username=mrepol742&show_icons=true&count_private=true&theme=gruvbox&include_all_commits=true&rank_icon=github&hide_title=true" />
-  <img src="https://mrepol742.github.io/github-stats/generated/overview.svg" />
+<br><br>
+<div align="center">
+<img align="center" src="mrepol742.gif">
 </div>
-
-<div>
-  <img width="300" align="left" src="https://github-readme-stats-mrepol742.vercel.app/api/top-langs?username=mrepol742&include_all_commits=true&count_private=true&theme=gruvbox&hide_title=true&langs_count=10&layout=donut" />
-  <img src="https://mrepol742.github.io/github-stats/generated/languages.svg" />
-</div>
-
-<div>
-  <img width="300" align="left" src="https://github-readme-stats-mrepol742.vercel.app/api/wakatime?username=mrepol742&hide_title=true&layout=compact" />
-  <img src="https://spotify-recently-played-readme.vercel.app/api?user=7xx9e7hwq1qyown0m4ut78pcz&count=10&unique=true" />
-</div>
-
-
-</a>
-
-
----
-
-![](https://media.tenor.com/D5hAWpPNYIIAAAAC/but-its-so-nice-of-you-to-come-check-on-me-nice-of-you.gif)
