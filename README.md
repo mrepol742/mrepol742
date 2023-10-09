@@ -15,8 +15,6 @@ I always feel a little antsy until you show up. I was hoping you'd drop in.
 <!--START_SECTION:mrepol742-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-1%2C861%20hrs%2013%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-20-blue)
-
 **I'm a Night 🦉** 
 
 ```text
@@ -77,17 +75,6 @@ C++                      3 repos             █░░░░░░░░░░�
 
 
 <!--END_SECTION:mrepol742-->
-
-👩🏻‍💻 **Projects**
-```text
-Webvium                    https://mrepol742.github.io/webvium
-Webvium VPN                https://mrepol742.github.io/webviumvpn
-Project Orion              https://mrepol742.github.io/project-orion
-My Website                 https://mrepol742.github.io
-Online Catering System     https://github.com/mrepol742/Online-Catering-System
-Room Rental System         https://github.com/mrepol742/Room-Rental-System
-IntNext Real Estate        https://intnext-realestate.github.io
-```
 
 💻 **Workspace**
 
