@@ -7,13 +7,13 @@
 ### Ah, you're here. Heheh, 
 I always feel a little antsy until you show up. I was hoping you'd drop in.
 
+[![wakatime](https://wakatime.com/badge/user/8ad4afa2-1a56-40d1-a949-4663473915b6.svg)](https://wakatime.com/@8ad4afa2-1a56-40d1-a949-4663473915b6)
 
 --- 
 
 <br>
 
 <!--START_SECTION:mrepol742-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C888%20hrs%2039%20mins-blue)
 
 **I'm a Night 🦉** 
 
@@ -78,7 +78,18 @@ SCSS                     1 repo              ░░░░░░░░░░░�
 
 <!--END_SECTION:mrepol742-->
 
-💻 **Workspace**
+🖥️ **Workspace**
+```text
+Lenovo G450, Pentium Dual-Core T4500 @ 2.30GHz, 7GB DDR3,
+    Mesa Mobile Intel GM45 Express Chipset, 300GB 5400 RPM HITACHI, Arch Linux KDE Plasma
+
+Acer Travelmate B118, Celeron Dual-Core N4000 @ 1.10GHZ, 4GB DDR4,
+    Intel UHD Graphics 600, 500GB 5400 RPM TOSHIBA, Windows 11 & Linux Mint Cinnamon
+
+Samsung Galaxy M12, Exynos 850 Octa-Core @ 2.0GHZ, 64GB 4GB RAM, Mali-G52, Android 13
+```
+
+💻 **Operating System**
 
 ![Arch](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)
 ![Linux Mint Cinnamon 21](https://img.shields.io/badge/Linux%20Mint%20Cinnamon%2021-87CF3E?style=for-the-badge&logo=Linux%20Mint%20Cinnamon&logoColor=white)
