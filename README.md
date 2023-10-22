@@ -7,8 +7,6 @@
 ### Ah, you're here. Heheh, 
 I always feel a little antsy until you show up. I was hoping you'd drop in.
 
-[![wakatime](https://wakatime.com/badge/user/8ad4afa2-1a56-40d1-a949-4663473915b6.svg)](https://wakatime.com/@8ad4afa2-1a56-40d1-a949-4663473915b6)
-
 --- 
 
 <br>
@@ -40,7 +38,7 @@ Linux                    18 hrs 38 mins      ███████████�
 
 💻 **Operating System**
 
-![Arch](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)
+![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)
 ![Linux Mint Cinnamon 21](https://img.shields.io/badge/Linux%20Mint%20Cinnamon%2021-87CF3E?style=for-the-badge&logo=Linux%20Mint%20Cinnamon&logoColor=white)
 ![Android 13](https://img.shields.io/badge/Android%2013-3DDC84?style=for-the-badge&logo=android%2013&logoColor=white)
 ![Windows 11](https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white)
