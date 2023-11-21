@@ -34,13 +34,13 @@ Linux                    32 hrs 52 mins      ███████████�
 
 <!--END_SECTION:mrepol742-->
 
-💻 **Operating System**
+💻 **Workspace**
 
-![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)
-![Linux Mint Cinnamon 21](https://img.shields.io/badge/Linux%20Mint%20Cinnamon%2021-87CF3E?style=for-the-badge&logo=Linux%20Mint%20Cinnamon&logoColor=white)
-![Android 13](https://img.shields.io/badge/Android%2013-3DDC84?style=for-the-badge&logo=android%2013&logoColor=white)
-![Windows 11](https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white)
-![Windows 10](https://img.shields.io/badge/Windows%2010-0078D6?style=for-the-badge&logo=windows%2010&logoColor=white)
+![Arch Linux 6.6.1-arch1-1](https://img.shields.io/badge/Arch%20Linux%206.6.1--arch1--1-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)
+![Intel-Core 2 Duo T9600 @ 2.80GHZ](https://img.shields.io/badge/Intel-Core_2_Duo_T9600_@_2.80GHZ-0071C5?style=for-the-badge&logo=intel&logoColor=white)
+![Mesa Mobile Intel GM45 Express Chipset](https://img.shields.io/badge/Mesa_Mobile_Intel_GM45_Express_Chipset-0071C5?style=for-the-badge&logo=intel&logoColor=white)
+![Crucial 4GB DDR3 1333 * 2](https://img.shields.io/badge/Crucial_4GB_DDR3_1333_*_2-0071C5?style=for-the-badge&logo=crucial&logoColor=white)
+![Hitachi HDD 300GB 1500RPM](https://img.shields.io/badge/Hitachi_HDD_300GB_1500RPM-0071C5?style=for-the-badge&logo=hitachi&logoColor=white)
 
 💬 **Follow**
 
