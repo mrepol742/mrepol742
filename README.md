@@ -7,9 +7,7 @@
 ### Ah, you're here. Heheh, 
 I always feel a little antsy until you show up. I was hoping you'd drop in.
 
---- 
-
-<br>
+<br><br>
 
 <!--START_SECTION:mrepol742-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-2%2C097%20hrs%2031%20mins-blue)
@@ -36,17 +34,6 @@ Linux                    38 hrs 40 mins      ███████████�
 
 
 <!--END_SECTION:mrepol742-->
-
-💻 **Workspace**
-
-![Arch Linux 6.6.1-arch1-1](https://img.shields.io/badge/Arch%20Linux%206.6.1--arch1--1-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)
-![Intel-Core 2 Duo T9600 @ 2.80GHZ](https://img.shields.io/badge/Intel-Core_2_Duo_T9600_@_2.80GHZ-0071C5?style=for-the-badge&logo=intel&logoColor=white)
-![Mesa Mobile Intel GM45 Express Chipset](https://img.shields.io/badge/Mesa_Mobile_Intel_GM45_Express_Chipset-0071C5?style=for-the-badge&logo=intel&logoColor=white)
-![Crucial 4GB DDR3 1333 * 2](https://img.shields.io/badge/Crucial_4GB_DDR3_1333_*_2-0071C5?style=for-the-badge&logo=crucial&logoColor=white)
-![Hitachi HDD 300GB 1500RPM](https://img.shields.io/badge/Hitachi_HDD_300GB_1500RPM-0071C5?style=for-the-badge&logo=hitachi&logoColor=white)
-
-💬 **Follow**
-
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://facebook.com/melvinjonesrepol)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mrepol742@gmail.com)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/melvinjonesrepol)
