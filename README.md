@@ -10,29 +10,29 @@ I always feel a little antsy until you show up. I was hoping you'd drop in.
 <br><br>
 
 <!--START_SECTION:mrepol742-->
-![Code Time](http://img.shields.io/badge/Code%20Time-2%2C099%20hrs%2020%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-2%2C100%20hrs%2051%20mins-blue)
 
 📊 **This Week I Spent My Time On** 
 
 ```text
 💬 Programming Languages: 
-Java                     15 hrs 29 mins      ██████████░░░░░░░░░░░░░░░   39.40 % 
-PHP                      7 hrs 44 mins       █████░░░░░░░░░░░░░░░░░░░░   19.68 % 
-JavaScript               3 hrs 55 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.97 % 
-XML                      3 hrs 35 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.15 % 
-YAML                     2 hrs 59 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.62 % 
+Java                     16 hrs 59 mins      █████████████░░░░░░░░░░░░   51.64 % 
+PHP                      4 hrs 11 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.73 % 
+JavaScript               3 hrs 49 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.64 % 
+XML                      3 hrs 35 mins       ███░░░░░░░░░░░░░░░░░░░░░░   10.89 % 
+YAML                     1 hr 25 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.31 % 
 
 🔥 Editors: 
-VS Code                  19 hrs 44 mins      █████████████░░░░░░░░░░░░   50.25 % 
-Studio                   17 hrs 8 mins       ███████████░░░░░░░░░░░░░░   43.61 % 
-NetBeans                 1 hr 54 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.87 % 
-Neovim                   30 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.28 % 
+Studio                   17 hrs 8 mins       █████████████░░░░░░░░░░░░   52.08 % 
+VS Code                  12 hrs 29 mins      █████████░░░░░░░░░░░░░░░░   37.94 % 
+NetBeans                 2 hrs 53 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.79 % 
+Neovim                   23 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.20 % 
 
 💻 Operating System: 
-Linux                    39 hrs 18 mins      █████████████████████████   100.00 % 
+Linux                    32 hrs 54 mins      █████████████████████████   100.00 % 
 ```
-[![Github Profile Trophy](https://github-profile-trophy.vercel.app/?username=mrepol742&theme=onedark)](https://github-profile-trophy.vercel.app/?username=mrepol742&theme=onedark)
- 
+
+
 <!--END_SECTION:mrepol742-->
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://facebook.com/melvinjonesrepol)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mrepol742@gmail.com)
