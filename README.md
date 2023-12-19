@@ -31,8 +31,8 @@ Neovim                   30 mins             ░░░░░░░░░░░�
 💻 Operating System: 
 Linux                    39 hrs 18 mins      █████████████████████████   100.00 % 
 ```
-
-
+[![Github Profile Trophy](https://github-profile-trophy.vercel.app/?username=mrepol742&theme=onedark)](https://github-profile-trophy.vercel.app/?username=mrepol742&theme=onedark)
+ 
 <!--END_SECTION:mrepol742-->
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://facebook.com/melvinjonesrepol)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mrepol742@gmail.com)
