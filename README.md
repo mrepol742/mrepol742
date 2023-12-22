@@ -1,13 +1,10 @@
 
-
-<a href="https://mrepol742.github.io">
-  <img align="right" src="https://media.tenor.com/7SjhmDr2KbYAAAAC/lucifer-lucifer-morningstar.gif" width="430"> 
-</a> 
+<div align="center">
+    <img align="center" src="dino.gif">
+</div>
 
 ### Ah, you're here. Heheh, 
 I always feel a little antsy until you show up. I was hoping you'd drop in.
-
-<br><br>
 
 <!--START_SECTION:mrepol742-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-2%2C107%20hrs%205%20mins-blue)
@@ -33,21 +30,10 @@ Linux                    31 hrs 52 mins      ███████████�
 
 
 <!--END_SECTION:mrepol742-->
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://facebook.com/melvinjonesrepol)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mrepol742@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/melvinjonesrepol)
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mrepol742)
-[![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?style=for-the-badge&logo=Pinterest&logoColor=white)](https://pinterest.com/mrepol742)
-[![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?style=for-the-badge&logo=TikTok&logoColor=white)](https://tiktok.com/@mrepol742)
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtube.com/@mrepol742)
 
-💰 **Support**
-
-[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/mrepol742)
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/mrepol742)
-[![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/melvinjonesrepol)
-[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/mrepol742)
-[![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/mrepol742/)
+<br>
+<div align="center">
+   <h1 align="center">Ｔｅｃｈ Ｓｔａｃｋ</h1>
 
 
 🕒 **Version Control**
@@ -130,14 +116,31 @@ Linux                    31 hrs 52 mins      ███████████�
 ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 
-🎵 Spotify
 
-<img src="https://spotify-recently-played-readme.vercel.app/api?user=7xx9e7hwq1qyown0m4ut78pcz&count=10&unique=true" />
+<br>
+   <h1 align="center">Ｌｉｓｔｅｎ ｗｉｔｈ ｍｅ</h1>
+   <img align="center" src="https://spotify-recently-played-readme.vercel.app/api?user=7xx9e7hwq1qyown0m4ut78pcz&count=10" />
 
-<br><br>
-<div align="center">
-<img align="center" src="mrepol742.gif">
+<br>
+<h1 align="center">Ｆｏｌｌｏｗ ｍｅ</h1>
+
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://facebook.com/melvinjonesrepol)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mrepol742@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/melvinjonesrepol)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mrepol742)
+[![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?style=for-the-badge&logo=Pinterest&logoColor=white)](https://pinterest.com/mrepol742)
+[![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?style=for-the-badge&logo=TikTok&logoColor=white)](https://tiktok.com/@mrepol742)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtube.com/@mrepol742)
+
+<h1 align="center">Ｓｕｐｐｏｒｔ ｍｙ ｗｏｒｋ</h1>
+
+
+[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/mrepol742)
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/mrepol742)
+[![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/melvinjonesrepol)
+[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/mrepol742)
+[![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/mrepol742/)
+
+
+ <img align="center" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=footer">
 </div>
-
-<!-- profile view counter-->
-![](https://hit.yhype.me/github/profile?user_id=62317165)
