@@ -7,7 +7,7 @@
 I always feel a little antsy until you show up. I was hoping you'd drop in.
 
 <!--START_SECTION:mrepol742-->
-![Code Time](http://img.shields.io/badge/Code%20Time-2%2C181%20hrs%2014%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-2%2C180%20hrs%2054%20mins-blue)
 
 📊 **This Week I Spent My Time On** 
 
