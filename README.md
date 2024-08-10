@@ -37,3 +37,6 @@ Portfolio
 [![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)](https://mrepol742.netlify.app/)
 [![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://mrepol742.github.io/)
 [![Glitch](https://img.shields.io/badge/glitch-%233333FF.svg?style=for-the-badge&logo=glitch&logoColor=white)](https://mrepol742.glitch.me/)
+
+ <img align="center" src="https://media.tenor.com/FPraoiMenNkAAAAM/arch-linux.gif">
+ :(
