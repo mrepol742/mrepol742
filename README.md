@@ -69,3 +69,7 @@ Blade                    1 repo              ░░░░░░░░░░░�
 
  <img align="center" src="https://media.tenor.com/FPraoiMenNkAAAAM/arch-linux.gif">
  :(
+
+
+
+> **_NOTE:_** [Getgrass airdrop](https://app.getgrass.io/register/?referralCode=kUHcrABPjKr-_hS) 
