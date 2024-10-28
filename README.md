@@ -64,11 +64,7 @@ Blade                    1 repo              ░░░░░░░░░░░�
 
 <!--END_SECTION:mrepol742-->
 
-[Search for Melvin on Google](https://www.google.com/search?q=Melvin+Jones+Repol)
-
- <img align="center" src="https://media.tenor.com/FPraoiMenNkAAAAM/arch-linux.gif">
- :(
-
-
-
-> **_NOTE:_** [Getgrass airdrop](https://app.getgrass.io/register/?referralCode=kUHcrABPjKr-_hS) 
+## Airdrop
+<img src="https://app.getgrass.io/_next/image?url=%2Fimages%2Flogos%2Fgrass-logo-dark.png&w=1920&q=75"><br>
+A decentralized peer-to-peer network that allows individuals<br> to earn passive income by monetizing their unused internet bandwidth.<br>
+[https://app.getgrass.io/register](https://app.getgrass.io/register/?referralCode=kUHcrABPjKr-_hS) 
