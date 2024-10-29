@@ -68,3 +68,7 @@ Blade                    1 repo              ░░░░░░░░░░░�
 <img src="https://app.getgrass.io/_next/image?url=%2Fimages%2Flogos%2Fgrass-logo-dark.png&w=1920&q=75"><br>
 A decentralized peer-to-peer network that allows individuals<br> to earn passive income by monetizing their unused internet bandwidth.<br>
 [https://app.getgrass.io/register](https://app.getgrass.io/register/?referralCode=kUHcrABPjKr-_hS) 
+
+<img src="https://pbs.twimg.com/profile_images/1811363474284417025/3yGX3CjY_400x400.jpg" width="100"><br>
+Decentralized Autonomous Wireless Networks — is a protocol for providing decentralized broadband.<br>
+Code: 407ori2t
