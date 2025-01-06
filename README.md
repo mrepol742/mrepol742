@@ -1,9 +1,6 @@
+![](https://media.tenor.com/FUEC3dPyVhEAAAAM/welcome-back-minions.gif)
 
-<div align="center">
-    <img align="center" src="dino.gif">
-</div>
-
-### Ah, you're here. Heheh, 
+Ah, you're here. Heheh, 
 I always feel a little antsy until you show up. I was hoping you'd drop in.
 
 [![wakatime](https://wakatime.com/badge/user/8ad4afa2-1a56-40d1-a949-4663473915b6.svg)](https://wakatime.com/@mrepol742)
