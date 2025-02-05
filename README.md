@@ -1,5 +1,6 @@
 ![](https://media.tenor.com/FUEC3dPyVhEAAAAM/welcome-back-minions.gif)
 
+# 👋 Hey there, I'm mrepol742!
 Ah, you're here. Heheh, 
 I always feel a little antsy until you show up. I was hoping you'd drop in.
 
@@ -61,3 +62,7 @@ Blade                    1 repo              ░░░░░░░░░░░�
 
 
 <!--END_SECTION:mrepol742-->
+
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=mrepol742&theme=dracula)
+
+🔥 **Thanks for stopping by! Happy Coding!** 🚀
