@@ -1,4 +1,4 @@
-![](https://i.pinimg.com/originals/f8/b4/d0/f8b4d0ddedae91a68a6cfa788148436b.gif)
+![](https://usersnap.com/blog/wp-content/uploads/2015/12/funny-cat-year2015-web-dev.gif)
 
 # 👋 Hey there, I'm Melvin Jones!
 I always feel a little antsy until you show up. I was hoping you'd drop in.
