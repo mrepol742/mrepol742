@@ -1,7 +1,7 @@
-![](https://usersnap.com/blog/wp-content/uploads/2015/12/funny-cat-year2015-web-dev.gif)
+![](https://github.com/0x3EF8/0x3EF8/raw/main/images/header_.png)
 
-# 👋 Hey there, I'm Melvin Jones!
-I always feel a little antsy until you show up. I was hoping you'd drop in.
+## Hello, World
+I’m constantly inspired by the fast-paced world of technology and love diving into new tools and frameworks that push the boundaries of what’s possible. Whether I’m learning something new or building creative solutions, I’m passionate about bringing fresh ideas to life and sharing what I discover with others. Let’s build something amazing together! 🚀
 
 <!--START_SECTION:mrepol742-->
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-22.8%20million%20lines%20of%20code-blue)
@@ -60,6 +60,3 @@ Python                   4 repos             █░░░░░░░░░░�
 
 <!--END_SECTION:mrepol742-->
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=mrepol742&theme=dracula)
-
-🔥 **Thanks for stopping by! Happy Coding!** 🚀
