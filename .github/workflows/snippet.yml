@@ -1,0 +1,54 @@
+name: Snippet
+
+on:
+  #schedule:
+  #  - cron: '0 0 * * *'
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Waka Readme"]
+    types:
+      - completed
+
+permissions:
+  models: read
+
+jobs:
+  content-generation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+      - name: Generate Snippets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          # curl -H "Authorization: Bearer $GITHUB_TOKEN" \
+          #     https://models.github.ai/catalog/models
+          RESPONSE=$(curl "https://models.github.ai/inference/chat/completions" \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -d "{\"messages\": [{\"role\": \"user\", \"content\": \"generated-code: Suggest a fun, one-liner code snippet in JavaScript that demonstrates an interesting or quirky programming trick, suitable for displaying in a GitHub README as a conversation starter among developers. Include a brief comment above the code explaining what it does. coding-challenges: Create a bite-sized daily coding challenge for intermediate JavaScript programmers for a GitHub README. The challenge should be concise and self-contained, with a short, clear description. Example format: \\\"Write a function that removes duplicate values from an array without using Set or filter.\\\" must output in JSON format using this structure { generatedCode: ' ', codingChallenges: ' ' }\"}], \"model\": \"openai/gpt-4.1\"}"
+          )
+          MESSAGE=$(node -pe 'JSON.parse(process.argv[1]).choices[0].message.content' "$RESPONSE")
+          echo $MESSAGE;
+          generatedCode=$(node -pe 'JSON.parse(process.argv[1]).generatedCode' "$MESSAGE")
+          echo $generatedCode;
+          codingChallenges=$(node -pe 'JSON.parse(process.argv[1]).codingChallenges' "$MESSAGE")
+
+          echo -e "### Code Snippet\n\`\`\`js\n$generatedCode\n\`\`\`" >> README.md
+          echo -e "### Challenge\n$codingChallenges" >> README.md
+          
+      - name: Set up Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and push
+        run: |
+          git add .
+          git commit -m "Update snippets"
+          git push origin master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
