@@ -66,3 +66,10 @@ console.log.apply(console, [...'Hello, world!'].reverse().join(''))
 ```
 ### Challenge
 Write a function that takes a string and returns true if the string is a palindrome (reads the same forwards and backwards), ignoring case and spaces. Do not use built-in reverse methods.
+### Code Snippet
+```js
+// Swaps two variables without a temp variable using array destructuring
+[a, b] = [b, a];
+```
+### Challenge
+Write a function that takes a string and returns true if the string is a palindrome (the same forwards and backwards), ignoring case and non-alphanumeric characters.
