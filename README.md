@@ -59,3 +59,10 @@ Python                   4 repos             █░░░░░░░░░░�
 
 <!--END_SECTION:mrepol742-->
 
+### Code Snippet
+```js
+// Reverses your console log message... by reversing its arguments!
+console.log.apply(console, [...'Hello, world!'].reverse().join(''))
+```
+### Challenge
+Write a function that takes a string and returns true if the string is a palindrome (reads the same forwards and backwards), ignoring case and spaces. Do not use built-in reverse methods.
