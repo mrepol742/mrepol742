@@ -73,3 +73,10 @@ Write a function that takes a string and returns true if the string is a palindr
 ```
 ### Challenge
 Write a function that takes a string and returns true if the string is a palindrome (the same forwards and backwards), ignoring case and non-alphanumeric characters.
+### Code Snippet
+```js
+// Swap two variables without a temporary variable, using array destructuring!
+[a, b] = [b, a];
+```
+### Challenge
+Write a function that, given a string, returns true if it is a palindrome (reads the same forwards and backwards), ignoring case and non-alphanumeric characters.
