@@ -87,3 +87,10 @@ Write a function that, given a string, returns true if it is a palindrome (reads
 ```
 ### Challenge
 Write a function that flattens a nested array (of any depth) into a single-level array using recursion, without using Array.prototype.flat.
+### Code Snippet
+```js
+// Turns any string into a 'spongebob meme' style (random casing) in one line:
+const sPoNgEbOb = s => [...s].map(c => Math.random()<0.5?c.toLowerCase():c.toUpperCase()).join('');
+```
+### Challenge
+Write a function that takes a sentence and returns a new sentence with the order of words reversed, but keeps the characters in each word in the same order. For example: 'hello world from JS' -> 'JS from world hello'.
