@@ -94,3 +94,10 @@ const sPoNgEbOb = s => [...s].map(c => Math.random()<0.5?c.toLowerCase():c.toUpp
 ```
 ### Challenge
 Write a function that takes a sentence and returns a new sentence with the order of words reversed, but keeps the characters in each word in the same order. For example: 'hello world from JS' -> 'JS from world hello'.
+### Code Snippet
+```js
+// Prints 'racecar' if a string is a palindrome, or its reverse otherwise, in one line! 🤪
+const fun = s => console.log(s === [...s].reverse().join('') ? s : [...s].reverse().join(''));
+```
+### Challenge
+Write a function that flattens an array of arbitrarily nested arrays into a single-level array without using recursion or Array.flat().
