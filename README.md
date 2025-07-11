@@ -59,4 +59,11 @@ Blade                    2 repos             ░░░░░░░░░░░�
 <!--END_SECTION:header-->
 
 <!--START_SECTION:footer-->
+### Code Snippet
+```js
+// Prints a string, but hides it cleverly in the arguments object!
+console.log([...'Hello, GitHub!'].map((_,i,arr)=>arguments.callee.caller?0:arr[i]).join(''));
+```
+### Challenge
+Write a function that takes a string and returns the same string with every pair of adjacent characters swapped. (e.g., 'hello' -> 'ehllo')
 <!--END_SECTION:footer-->
