@@ -61,9 +61,10 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Prints a string, but hides it cleverly in the arguments object!
-console.log([...'Hello, GitHub!'].map((_,i,arr)=>arguments.callee.caller?0:arr[i]).join(''));
+// Ever seen a recursive arrow function with itself as default parameter?
+const mindBlown = (f = mindBlown) => f === mindBlown ? '🤯' : f();
+console.log(mindBlown()); // Output: 🤯
 ```
 ### Challenge
-Write a function that takes a string and returns the same string with every pair of adjacent characters swapped. (e.g., 'hello' -> 'ehllo')
+Write a function that takes a nested array of numbers of arbitrary depth and returns the sum of all numbers (without using flat or flatMap).
 <!--END_SECTION:footer-->
