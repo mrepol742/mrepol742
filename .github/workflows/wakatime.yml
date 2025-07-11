@@ -18,7 +18,7 @@ jobs:
           COMMIT_MESSAGE: "Initial Commit"
           COMMIT_EMAIL: "mrepol742@gmail.com"
           COMMIT_USERNAME: "mrepol742"
-          SECTION_NAME: "mrepol742"
+          SECTION_NAME: "header"
           SHOW_SHORT_INFO: "False"
           SHOW_UPDATED_DATE: "False"
           SHOW_LOC_CHART: "False"
