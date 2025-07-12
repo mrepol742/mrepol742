@@ -61,9 +61,9 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎲 Generates a random color in hex format every second and sets it as the page background!
-setInterval(() => document.body.style.background = `#${Math.random().toString(16).slice(-6)}`, 1000);
+// Prints numbers from 1 to 100, replacing multiples of 3 with 'Fizz', 5 with 'Buzz', and both with 'FizzBuzz'—all in one line!
+console.log(Array.from({length:100},(_,i)=>++i%15?i%3?i%5?i:'Buzz':'Fizz':'FizzBuzz').join(', '));
 ```
 ### Challenge
-Write a function that takes a string and returns true if it contains balanced parentheses, brackets, and braces (e.g., '([{}])'), and false otherwise.
+Write a function that flattens a nested array (one level deep), e.g., [1, [2, 3], 4] becomes [1, 2, 3, 4], without using Array.prototype.flat.
 <!--END_SECTION:footer-->
