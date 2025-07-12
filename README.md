@@ -61,10 +61,9 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Ever seen a recursive arrow function with itself as default parameter?
-const mindBlown = (f = mindBlown) => f === mindBlown ? '🤯' : f();
-console.log(mindBlown()); // Output: 🤯
+// 🎲 Generates a random color in hex format every second and sets it as the page background!
+setInterval(() => document.body.style.background = `#${Math.random().toString(16).slice(-6)}`, 1000);
 ```
 ### Challenge
-Write a function that takes a nested array of numbers of arbitrary depth and returns the sum of all numbers (without using flat or flatMap).
+Write a function that takes a string and returns true if it contains balanced parentheses, brackets, and braces (e.g., '([{}])'), and false otherwise.
 <!--END_SECTION:footer-->
