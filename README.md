@@ -61,10 +61,10 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Swaps two variables without a temp using array destructuring magic!
+// Swaps two variables without a temporary variable using array destructuring!
 [a, b] = [b, a];
 ```
 ### Challenge
-Write a function that takes a string and returns the same string with every second character capitalized. Example: 'javascript' -> 'jAvAsCrIpT'.
+Write a function that takes an integer n, and returns the nth Fibonacci number using recursion, but memoize (cache) previously computed results to optimize performance.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
