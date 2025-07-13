@@ -61,10 +61,10 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Swaps two variables without a temporary variable using array destructuring!
+// Swaps two variables without a temp variable using array destructuring
 [a, b] = [b, a];
 ```
 ### Challenge
-Write a function that takes an integer n, and returns the nth Fibonacci number using recursion, but memoize (cache) previously computed results to optimize performance.
+Write a function that outputs the nth Fibonacci number, but do not use loops or global variables.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
