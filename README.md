@@ -61,10 +61,10 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Prints numbers from 1 to 100, replacing multiples of 3 with 'Fizz', 5 with 'Buzz', and both with 'FizzBuzz'—all in one line!
-console.log(Array.from({length:100},(_,i)=>++i%15?i%3?i%5?i:'Buzz':'Fizz':'FizzBuzz').join(', '));
+// Swaps two variables without a temp using array destructuring magic!
+[a, b] = [b, a];
 ```
 ### Challenge
-Write a function that flattens a nested array (one level deep), e.g., [1, [2, 3], 4] becomes [1, 2, 3, 4], without using Array.prototype.flat.
+Write a function that takes a string and returns the same string with every second character capitalized. Example: 'javascript' -> 'jAvAsCrIpT'.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
