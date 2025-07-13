@@ -67,3 +67,4 @@ console.log(Array.from({length:100},(_,i)=>++i%15?i%3?i%5?i:'Buzz':'Fizz':'FizzB
 ### Challenge
 Write a function that flattens a nested array (one level deep), e.g., [1, [2, 3], 4] becomes [1, 2, 3, 4], without using Array.prototype.flat.
 <!--END_SECTION:footer-->
+> Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
