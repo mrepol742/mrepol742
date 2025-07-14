@@ -61,10 +61,10 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Swaps two variables without a temp variable using array destructuring
+// Swaps two variables without a temporary variable using array destructuring!
 [a, b] = [b, a];
 ```
 ### Challenge
-Write a function that outputs the nth Fibonacci number, but do not use loops or global variables.
+Write a function that returns true if a given string is a palindrome (reads the same forward and backward), ignoring case and non-alphanumeric characters.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
