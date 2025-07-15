@@ -61,13 +61,14 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Swap two variables without a temporary variable using destructuring (JavaScript)
-let a = 1, b = 2;
-// Before: a = 1, b = 2
-[a, b] = [b, a];
-// After:  a = 2, b = 1
+// 🎲 Did you know? You can swap two variables in Python without a temp variable!
+# This uses tuple unpacking, a fun Python trick:
+x = 42
+y = 99
+x, y = y, x
+print(f"x: {x}, y: {y}")  # Output: x: 99, y: 42
 ```
 ### Challenge
-Write a function that finds the first non-repeating character in a string (case sensitive). If all characters repeat, return null.
+Python Challenge: Write a function that finds the most frequent word in a given text file, ignoring case and punctuation. (Hint: You'll need to research how to read files, normalize text, and count word occurrences.)
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
