@@ -61,14 +61,16 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎲 Did you know? You can swap two variables in Python without a temp variable!
-# This uses tuple unpacking, a fun Python trick:
-x = 42
-y = 99
-x, y = y, x
-print(f"x: {x}, y: {y}")  # Output: x: 99, y: 42
+// Quirky trick: Swap two variables without a temporary variable using bitwise XOR (works for numbers)
+let a = 42, b = 73;
+// Before: a=42, b=73
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+// After: a=73, b=42
+console.log(a, b); // Outputs: 73 42
 ```
 ### Challenge
-Python Challenge: Write a function that finds the most frequent word in a given text file, ignoring case and punctuation. (Hint: You'll need to research how to read files, normalize text, and count word occurrences.)
+Python Challenge: Can you write a function that, given a string, finds the most frequently occurring word (case-insensitive), ignoring punctuation? If multiple words have the same maximum count, return any one of them.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
