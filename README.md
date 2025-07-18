@@ -61,13 +61,16 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🦄 'Type coercion magic': Swap two variables without a temp variable in JavaScript
-let a = 42, b = 99;
-// The quirky way: array destructuring!
-[a, b] = [b, a];
-console.log(a, b); // 99 42
+// Swap two variables without a temporary variable using bitwise XOR (quirky, works for integers)
+let a = 42;
+let b = 99;
+// Before: a = 42, b = 99
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+// After: a = 99, b = 42
 ```
 ### Challenge
-Python Challenge: Write a function that takes a list of integers and returns the longest consecutive increasing subsequence. For example, [2, 5, 3, 4, 1, 6] -> [3, 4].
+Python Challenge: Implement a function that determines whether a given string can be rearranged to form a palindrome (ignoring spaces, case-insensitive).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
