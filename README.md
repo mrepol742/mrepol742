@@ -61,16 +61,12 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Swap two variables without a temporary variable using bitwise XOR (quirky, works for integers)
-let a = 42;
-let b = 99;
-// Before: a = 42, b = 99
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-// After: a = 99, b = 42
+// Quirky Trick: Instantly swap two variables without a temp variable using destructuring (JavaScript)
+let a = 1, b = 2;
+[a, b] = [b, a];
+console.log(a, b); // Output: 2 1
 ```
 ### Challenge
-Python Challenge: Implement a function that determines whether a given string can be rearranged to form a palindrome (ignoring spaces, case-insensitive).
+Python Challenge: Find all anagrams of a given word from a list of words (e.g., from ['eat', 'tea', 'tan', 'ate', 'nat', 'bat'], 'ate' has ['eat', 'tea', 'ate'])—but do NOT use the sorted() function or Counter from collections.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
