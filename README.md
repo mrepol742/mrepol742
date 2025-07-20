@@ -61,12 +61,15 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Instantly swap two variables without a temp variable using destructuring (JavaScript)
-let a = 1, b = 2;
-[a, b] = [b, a];
-console.log(a, b); // Output: 2 1
+// Quirky trick: Flip all the bits of an integer in Python (for arbitrary-length integers)
+# This uses bit_length to only flip existing bits, not infinite ones! Useful for quick bitwise puzzles.
+def flip_bits(n):
+    return n ^ ((1 << n.bit_length()) - 1)
+
+# Example: flip_bits(10) == 5, because 10 is 1010 (bin), flipping bits -> 0101 (bin) = 5
+print(flip_bits(10)) 
 ```
 ### Challenge
-Python Challenge: Find all anagrams of a given word from a list of words (e.g., from ['eat', 'tea', 'tan', 'ate', 'nat', 'bat'], 'ate' has ['eat', 'tea', 'ate'])—but do NOT use the sorted() function or Counter from collections.
+Python Challenge: Given a long piece of English text, write a function that identifies and returns the top 3 most frequent words, ignoring case and punctuation. (Do not use built-in collections.Counter or similar modules.)
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
