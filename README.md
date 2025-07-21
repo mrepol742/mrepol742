@@ -61,15 +61,12 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Flip all the bits of an integer in Python (for arbitrary-length integers)
-# This uses bit_length to only flip existing bits, not infinite ones! Useful for quick bitwise puzzles.
-def flip_bits(n):
-    return n ^ ((1 << n.bit_length()) - 1)
-
-# Example: flip_bits(10) == 5, because 10 is 1010 (bin), flipping bits -> 0101 (bin) = 5
-print(flip_bits(10)) 
+// 🪄 Ever wanted to swap two variables without a temp variable? This quirky JS trick does just that!
+let a = 5, b = 10;
+[a, b] = [b, a];
+console.log(`a: ${a}, b: ${b}`); // a: 10, b: 5
 ```
 ### Challenge
-Python Challenge: Given a long piece of English text, write a function that identifies and returns the top 3 most frequent words, ignoring case and punctuation. (Do not use built-in collections.Counter or similar modules.)
+Python challenge: Write a function that determines whether a given string is a pangram (contains every letter of the English alphabet at least once). Avoid using set() or the string module.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
