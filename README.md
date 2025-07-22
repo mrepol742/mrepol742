@@ -61,12 +61,19 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🪄 Ever wanted to swap two variables without a temp variable? This quirky JS trick does just that!
-let a = 5, b = 10;
-[a, b] = [b, a];
-console.log(`a: ${a}, b: ${b}`); // a: 10, b: 5
+// Quirky Trick: Swap two variables without a temp variable using XOR (Works for numbers)
+let a = 42;
+let b = 99;
+
+// Swap using XOR
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+
+console.log(a); // 99
+console.log(b); // 42
 ```
 ### Challenge
-Python challenge: Write a function that determines whether a given string is a pangram (contains every letter of the English alphabet at least once). Avoid using set() or the string module.
+Python: Given a list of words, write a function that returns the longest word that can be constructed by concatenating other words from the same list. For example, for ['cat','banana','dog','nana','walk','walker','dogwalker'], the answer is 'dogwalker'.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
