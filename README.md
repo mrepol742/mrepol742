@@ -61,19 +61,15 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Swap two variables without a temp variable using XOR (Works for numbers)
-let a = 42;
-let b = 99;
-
-// Swap using XOR
+// 🎲 Swap two variables without a temporary variable using XOR (works for integers!)
+let a = 5, b = 9;
+console.log(`Before: a = ${a}, b = ${b}`);
 a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-
-console.log(a); // 99
-console.log(b); // 42
+b = a ^ b; // Now b = 5
+a = a ^ b; // Now a = 9
+console.log(`After: a = ${a}, b = ${b}`);
 ```
 ### Challenge
-Python: Given a list of words, write a function that returns the longest word that can be constructed by concatenating other words from the same list. For example, for ['cat','banana','dog','nana','walk','walker','dogwalker'], the answer is 'dogwalker'.
+Python: Write a function that takes a string and returns the most frequently occurring character(s). If there's a tie, return all in alphabetical order. Avoid using Python's collections.Counter or similar libraries.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
