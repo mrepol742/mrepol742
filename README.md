@@ -61,15 +61,14 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎲 Swap two variables without a temporary variable using XOR (works for integers!)
-let a = 5, b = 9;
-console.log(`Before: a = ${a}, b = ${b}`);
+// 🧙‍♂️ Trick: Swapping two variables without a temp variable using bitwise XOR (works for numbers)
+let a = 42, b = 7;
 a = a ^ b;
-b = a ^ b; // Now b = 5
-a = a ^ b; // Now a = 9
-console.log(`After: a = ${a}, b = ${b}`);
+b = a ^ b;
+a = a ^ b;
+console.log(a, b); // Output: 7 42
 ```
 ### Challenge
-Python: Write a function that takes a string and returns the most frequently occurring character(s). If there's a tie, return all in alphabetical order. Avoid using Python's collections.Counter or similar libraries.
+Python Challenge: Write a function to find the longest word in a text file, but you cannot use any built-in functions that directly split or tokenize text (e.g., split(), re.findall()).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
