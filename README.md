@@ -61,14 +61,13 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🧙‍♂️ Trick: Swapping two variables without a temp variable using bitwise XOR (works for numbers)
-let a = 42, b = 7;
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-console.log(a, b); // Output: 7 42
+// Quine: A program that prints its own source code (in Python)
+# This is a fun and quirky demonstration of self-replicating code!
+s = 's = {!r}
+print(s.format(s))'
+print(s.format(s))
 ```
 ### Challenge
-Python Challenge: Write a function to find the longest word in a text file, but you cannot use any built-in functions that directly split or tokenize text (e.g., split(), re.findall()).
+Python Challenge: Research and implement a function that takes a string representing a simple mathematical expression (like '2+3*4') and evaluates it WITHOUT using the built-in eval() function. Think carefully about operator precedence and possible edge cases.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
