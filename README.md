@@ -61,13 +61,18 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quine: A program that prints its own source code (in Python)
-# This is a fun and quirky demonstration of self-replicating code!
-s = 's = {!r}
-print(s.format(s))'
-print(s.format(s))
+// 🎲 Quirky Trick: Swap two variables without a third variable using XOR (works for numbers!)
+let a = 42, b = 17;
+
+// Swap 'a' and 'b' using bitwise XOR
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+
+console.log(a, b); // Outputs: 17 42
+// Note: Both 'a' and 'b' must be integers. Fun interview classic! 
 ```
 ### Challenge
-Python Challenge: Research and implement a function that takes a string representing a simple mathematical expression (like '2+3*4') and evaluates it WITHOUT using the built-in eval() function. Think carefully about operator precedence and possible edge cases.
+Python Challenge: Given a Wikipedia article URL, write a function that extracts and returns all unique email addresses mentioned on the page. Do not use any 3rd-party scraping libraries—only standard libraries.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
