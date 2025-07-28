@@ -61,18 +61,13 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎲 Quirky Trick: Swap two variables without a third variable using XOR (works for numbers!)
-let a = 42, b = 17;
-
-// Swap 'a' and 'b' using bitwise XOR
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-
-console.log(a, b); // Outputs: 17 42
-// Note: Both 'a' and 'b' must be integers. Fun interview classic! 
+// Swap two variable values without using a temporary variable, via destructuring (works in JavaScript/TypeScript)
+let a = 5, b = 9;
+// Neat swap trick:
+[a, b] = [b, a];
+console.log(a, b); // Output: 9 5
 ```
 ### Challenge
-Python Challenge: Given a Wikipedia article URL, write a function that extracts and returns all unique email addresses mentioned on the page. Do not use any 3rd-party scraping libraries—only standard libraries.
+Python Challenge: Write a function that determines whether a given string is a valid palindrome by ignoring spaces, punctuation, and capitalization. You are not allowed to use any string/library methods that remove characters (like .replace() or regex substitution).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
