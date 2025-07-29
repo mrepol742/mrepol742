@@ -61,13 +61,14 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Swap two variable values without using a temporary variable, via destructuring (works in JavaScript/TypeScript)
-let a = 5, b = 9;
-// Neat swap trick:
-[a, b] = [b, a];
-console.log(a, b); // Output: 9 5
+// 🎲 Coin Flip using Bitwise Trick (JavaScript)
+// Flips a virtual coin and returns 'Heads' or 'Tails' using a quirky bitwise operation.
+function flipCoin() {
+  return ['Heads', 'Tails'][(Math.random() * 2) | 0];
+}
+console.log(flipCoin());
 ```
 ### Challenge
-Python Challenge: Write a function that determines whether a given string is a valid palindrome by ignoring spaces, punctuation, and capitalization. You are not allowed to use any string/library methods that remove characters (like .replace() or regex substitution).
+Python: Given a string, write a function to find the first non-repeating character (case-sensitive) without using collections.Counter or any built-in count methods. Return the character, or None if every character repeats.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
