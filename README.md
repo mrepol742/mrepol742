@@ -61,14 +61,16 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎲 Coin Flip using Bitwise Trick (JavaScript)
-// Flips a virtual coin and returns 'Heads' or 'Tails' using a quirky bitwise operation.
-function flipCoin() {
-  return ['Heads', 'Tails'][(Math.random() * 2) | 0];
-}
-console.log(flipCoin());
+// 🦄 Quirky Trick: Swap two variables WITHOUT a temporary variable, using XOR (JavaScript)
+let a = 42, b = 99;
+// Swapping magic starts here!
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+// a and b have now swapped values!
+console.log(a, b); // 99 42
 ```
 ### Challenge
-Python: Given a string, write a function to find the first non-repeating character (case-sensitive) without using collections.Counter or any built-in count methods. Return the character, or None if every character repeats.
+Python Challenge: Given a paragraph of text, write a function that counts the number of unique words that are palindromes (same forwards and backwards). Ignore punctuation and letter casing. Example: 'Level, Madam, kayak.' should return 3.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
