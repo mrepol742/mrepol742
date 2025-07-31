@@ -61,16 +61,12 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🦄 Quirky Trick: Swap two variables WITHOUT a temporary variable, using XOR (JavaScript)
-let a = 42, b = 99;
-// Swapping magic starts here!
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-// a and b have now swapped values!
-console.log(a, b); // 99 42
+// Quirky JavaScript: Swap two variables without a temp or destructuring
+let a = 5, b = 10;
+b = [a, a = b][0]; // b becomes 5, a becomes 10 in one line!
+console.log(a, b); // Output: 10 5
 ```
 ### Challenge
-Python Challenge: Given a paragraph of text, write a function that counts the number of unique words that are palindromes (same forwards and backwards). Ignore punctuation and letter casing. Example: 'Level, Madam, kayak.' should return 3.
+In Python, write a function that takes a string and returns a new string where every word is reversed, but the word order remains the same. (No using split/reverse/join built-ins.)
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
