@@ -61,12 +61,23 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky JavaScript: Swap two variables without a temp or destructuring
-let a = 5, b = 10;
-b = [a, a = b][0]; // b becomes 5, a becomes 10 in one line!
-console.log(a, b); // Output: 10 5
+// 🎲 Coin Toss with Recursion!
+// This quirky JavaScript function simulates tossing a coin until it lands on 'Heads'.
+// It prints each toss and uses recursion instead of a loop.
+
+function tossCoin(times = 1) {
+  const result = Math.random() < 0.5 ? 'Heads' : 'Tails';
+  console.log(`Toss ${times}: ${result}`);
+  if (result === 'Tails') {
+    tossCoin(times + 1);
+  } else {
+    console.log(`Finished in ${times} toss${times === 1 ? '' : 'es'}!`);
+  }
+}
+
+tossCoin();
 ```
 ### Challenge
-In Python, write a function that takes a string and returns a new string where every word is reversed, but the word order remains the same. (No using split/reverse/join built-ins.)
+Python: Given an English text string, write a function that finds and returns the first word that repeats (case-insensitive). If no word repeats, return None. Ignore punctuation.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
