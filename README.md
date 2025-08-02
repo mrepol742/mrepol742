@@ -61,23 +61,14 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎲 Coin Toss with Recursion!
-// This quirky JavaScript function simulates tossing a coin until it lands on 'Heads'.
-// It prints each toss and uses recursion instead of a loop.
+// 🎲 One-liner function to shuffle an array (Fisher-Yates algorithm) in JavaScript
+// This cleverly sorts using a random comparator, but beware: it's not perfectly unbiased!
+const shuffle = arr => arr.sort(() => Math.random() - 0.5);
 
-function tossCoin(times = 1) {
-  const result = Math.random() < 0.5 ? 'Heads' : 'Tails';
-  console.log(`Toss ${times}: ${result}`);
-  if (result === 'Tails') {
-    tossCoin(times + 1);
-  } else {
-    console.log(`Finished in ${times} toss${times === 1 ? '' : 'es'}!`);
-  }
-}
-
-tossCoin();
+// Example:
+console.log(shuffle([1,2,3,4,5])); // Output: [3,1,5,2,4] (random order)
 ```
 ### Challenge
-Python: Given an English text string, write a function that finds and returns the first word that repeats (case-insensitive). If no word repeats, return None. Ignore punctuation.
+Python Daily Challenge: Write a function that takes a string of text and returns the most frequent word, ignoring case and punctuation. (Tip: research collections.Counter for clues, but try to write your own logic!)
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
