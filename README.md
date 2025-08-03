@@ -61,14 +61,13 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎲 One-liner function to shuffle an array (Fisher-Yates algorithm) in JavaScript
-// This cleverly sorts using a random comparator, but beware: it's not perfectly unbiased!
-const shuffle = arr => arr.sort(() => Math.random() - 0.5);
-
-// Example:
-console.log(shuffle([1,2,3,4,5])); // Output: [3,1,5,2,4] (random order)
+// Quirky Trick: Generate all combinations of rock-paper-scissors with a one-liner (JavaScript)
+// This uses flatMap and map to cleverly create every possible pairing between players.
+const moves = ['rock', 'paper', 'scissors'];
+const combinations = moves.flatMap(a => moves.map(b => [a, b]));
+console.log(combinations);
 ```
 ### Challenge
-Python Daily Challenge: Write a function that takes a string of text and returns the most frequent word, ignoring case and punctuation. (Tip: research collections.Counter for clues, but try to write your own logic!)
+In Python, write a function that determines if a given string can be rearranged to form a palindrome. You may use standard library functions, but do not use external libraries like 'collections' or 'itertools'.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
