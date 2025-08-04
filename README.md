@@ -61,13 +61,23 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Generate all combinations of rock-paper-scissors with a one-liner (JavaScript)
-// This uses flatMap and map to cleverly create every possible pairing between players.
-const moves = ['rock', 'paper', 'scissors'];
-const combinations = moves.flatMap(a => moves.map(b => [a, b]));
-console.log(combinations);
+// Ever seen a function that calls itself during definition?
+// This self-referential lambda prints Fibonacci numbers up to n in Python
+
+fibonacci = (lambda f, n, a=0, b=1: None if n==0 else (print(a), f(f, n-1, b, a+b)))(lambda f, n, a=0, b=1: None if n==0 else (print(a), f(f, n-1, b, a+b)), 10)
+# Output:
+# 0
+# 1
+# 1
+# 2
+# 3
+# 5
+# 8
+# 13
+# 21
+# 34
 ```
 ### Challenge
-In Python, write a function that determines if a given string can be rearranged to form a palindrome. You may use standard library functions, but do not use external libraries like 'collections' or 'itertools'.
+Python Challenge: Given only access to string methods (no built-in eval, exec, or import), write a function that determines if a string represents a valid mathematical integer expression (e.g., '3+2*2' is valid; '3++' is not).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
