@@ -61,23 +61,14 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Ever seen a function that calls itself during definition?
-// This self-referential lambda prints Fibonacci numbers up to n in Python
-
-fibonacci = (lambda f, n, a=0, b=1: None if n==0 else (print(a), f(f, n-1, b, a+b)))(lambda f, n, a=0, b=1: None if n==0 else (print(a), f(f, n-1, b, a+b)), 10)
-# Output:
-# 0
-# 1
-# 1
-# 2
-# 3
-# 5
-# 8
-# 13
-# 21
-# 34
+// 🎲 Quirky Trick: Swapping two variables in Python with zero extra variables!
+# The values of a and b get swapped in a single line, no temporary variable needed.
+a = 3
+b = 7
+a, b = b, a
+print(f"Now a is {a}, b is {b}")  # Output: Now a is 7, b is 3
 ```
 ### Challenge
-Python Challenge: Given only access to string methods (no built-in eval, exec, or import), write a function that determines if a string represents a valid mathematical integer expression (e.g., '3+2*2' is valid; '3++' is not).
+Python Challenge: Given a list of mixed-case strings, write a function that returns the most frequent character (case-insensitive) that is not a vowel. For extra challenge, do not use collections.Counter.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
