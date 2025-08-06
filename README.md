@@ -61,14 +61,20 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎲 Quirky Trick: Swapping two variables in Python with zero extra variables!
-# The values of a and b get swapped in a single line, no temporary variable needed.
-a = 3
-b = 7
-a, b = b, a
-print(f"Now a is {a}, b is {b}")  # Output: Now a is 7, b is 3
+// Reverses a string in JavaScript using bitwise XOR swapping (no temporary variables, no built-ins)
+function quirkyReverse(s) {
+  let arr = s.split('');
+  for (let i = 0, j = arr.length - 1; i < j; i++, j--) {
+    // XOR swap: arr[i] ^= arr[j]; arr[j] ^= arr[i]; arr[i] ^= arr[j]; doesn't work with strings, but you can with char codes
+    arr[i] = String.fromCharCode(arr[i].charCodeAt() ^ arr[j].charCodeAt());
+    arr[j] = String.fromCharCode(arr[i].charCodeAt() ^ arr[j].charCodeAt());
+    arr[i] = String.fromCharCode(arr[i].charCodeAt() ^ arr[j].charCodeAt());
+  }
+  return arr.join('');
+}
+// quirkyReverse('hello') => 'olleh'
 ```
 ### Challenge
-Python Challenge: Given a list of mixed-case strings, write a function that returns the most frequent character (case-insensitive) that is not a vowel. For extra challenge, do not use collections.Counter.
+Python Challenge: Write a function that returns the Wikipedia summary for any given search term. You may only use the requests library (no Wikipedia-specific packages), and you must handle disambiguation pages gracefully.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
