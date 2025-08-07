@@ -61,20 +61,14 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Reverses a string in JavaScript using bitwise XOR swapping (no temporary variables, no built-ins)
-function quirkyReverse(s) {
-  let arr = s.split('');
-  for (let i = 0, j = arr.length - 1; i < j; i++, j--) {
-    // XOR swap: arr[i] ^= arr[j]; arr[j] ^= arr[i]; arr[i] ^= arr[j]; doesn't work with strings, but you can with char codes
-    arr[i] = String.fromCharCode(arr[i].charCodeAt() ^ arr[j].charCodeAt());
-    arr[j] = String.fromCharCode(arr[i].charCodeAt() ^ arr[j].charCodeAt());
-    arr[i] = String.fromCharCode(arr[i].charCodeAt() ^ arr[j].charCodeAt());
-  }
-  return arr.join('');
-}
-// quirkyReverse('hello') => 'olleh'
+// Quirky trick: Swap two variables without a temp variable using XOR (only works for numbers)
+let a = 42, b = 17;
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+console.log(`a: ${a}, b: ${b}`); // a: 17, b: 42
 ```
 ### Challenge
-Python Challenge: Write a function that returns the Wikipedia summary for any given search term. You may only use the requests library (no Wikipedia-specific packages), and you must handle disambiguation pages gracefully.
+Python: Write a function that finds the most frequent word in a text file, ignoring case and punctuation. Do not use the collections.Counter class or external libraries.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
