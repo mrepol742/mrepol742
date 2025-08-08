@@ -61,14 +61,19 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Swap two variables without a temp variable using XOR (only works for numbers)
-let a = 42, b = 17;
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-console.log(`a: ${a}, b: ${b}`); // a: 17, b: 42
+//✨ Palindrome Checker with Bitwise Trick (JavaScript)
+// Checks if a given string is a palindrome using bitwise NOT for concise reversal
+function isPalindrome(str) {
+  return str === [...str].reverse().join('')[~0];
+}
+// Example:
+console.log(isPalindrome('madam')); // true
+console.log(isPalindrome('hello')); // false
+// The [~0] is equivalent to [-1]: last character, but just for fun!
 ```
 ### Challenge
-Python: Write a function that finds the most frequent word in a text file, ignoring case and punctuation. Do not use the collections.Counter class or external libraries.
+Python Challenge: Given a list of mixed data types, write a function that returns a new list containing only the strings, with each string reversed. You MAY NOT use list comprehensions or the reversed() function.
+Example input: [123, 'abc', None, 'def', 45.6]
+Expected output: ['cba', 'fed']
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
