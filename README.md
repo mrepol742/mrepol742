@@ -61,12 +61,17 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🦄 Quirky Trick: Generate a random RGB hex color in one line (JavaScript)
-// This compact snippet creates a hex color code by slicing a random number's hex string.
-const randomColor = '#' + Math.random().toString(16).slice(2, 8).padEnd(6, '0');
-console.log(randomColor); // Example output: #3f1c9b
+// 🎩 Magic: Swapping two variables without a temp variable using XOR in Python
+# This trick only works with integers.
+a = 42
+b = 27
+print(f"Before: a={a}, b={b}")
+a = a ^ b
+b = a ^ b
+a = a ^ b
+print(f"After:  a={a}, b={b}")
 ```
 ### Challenge
-Python Challenge: Given a paragraph of text, write a function to find the top three most frequent words (case-insensitive), ignoring punctuation. Research string manipulation methods and edge cases for accurate results.
+Python Challenge: Write a function that determines if two given strings are anagrams of each other (contain the same letters in any order), ignoring spaces and capitalization, but do NOT use the built-in sorted(), Counter, or collections module. Use your own logic!
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
