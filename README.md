@@ -61,17 +61,10 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎩 Magic: Swapping two variables without a temp variable using XOR in Python
-# This trick only works with integers.
-a = 42
-b = 27
-print(f"Before: a={a}, b={b}")
-a = a ^ b
-b = a ^ b
-a = a ^ b
-print(f"After:  a={a}, b={b}")
+// This Python one-liner prints the first 10 Fibonacci numbers using list comprehension and tuple unpacking.
+print([a:=0, b:=1][0] or [(a, b := b, a+b)[0] for _ in range(10)])
 ```
 ### Challenge
-Python Challenge: Write a function that determines if two given strings are anagrams of each other (contain the same letters in any order), ignoring spaces and capitalization, but do NOT use the built-in sorted(), Counter, or collections module. Use your own logic!
+In Python, write a function that takes a list of words and groups them into sets of anagrams. Your solution should use a dictionary but not the collections module. Can you design the keys for efficient grouping?
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
