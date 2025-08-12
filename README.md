@@ -61,10 +61,12 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This Python one-liner prints the first 10 Fibonacci numbers using list comprehension and tuple unpacking.
-print([a:=0, b:=1][0] or [(a, b := b, a+b)[0] for _ in range(10)])
+// Quirky trick: Generate a list of prime numbers using dictionary keys in Python (Python dicts cannot have duplicate keys)
+# The following uses a fun property of dict comprehensions to filter primes
+primes = {x:None for x in range(2, 50) if all(x % y for y in range(2, int(x ** 0.5) + 1))}
+print(list(primes.keys()))  # Output: [2, 3, 5, 7, 11, ...]
 ```
 ### Challenge
-In Python, write a function that takes a list of words and groups them into sets of anagrams. Your solution should use a dictionary but not the collections module. Can you design the keys for efficient grouping?
+Rust Challenge: Research and implement a function that checks if a given integer is a perfect number (i.e., equals the sum of its proper divisors), using an efficient algorithm that doesn't check all divisors naively.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
