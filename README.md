@@ -62,12 +62,15 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Generate a list of prime numbers using dictionary keys in Python (Python dicts cannot have duplicate keys)
-# The following uses a fun property of dict comprehensions to filter primes
-primes = {x:None for x in range(2, 50) if all(x % y for y in range(2, int(x ** 0.5) + 1))}
-print(list(primes.keys()))  # Output: [2, 3, 5, 7, 11, ...]
+// 🕳️ The Infinite Recursion One-Liner (Python)
+# This quirky snippet prints 'Recursion!' just once, despite recursively calling itself.
+def rec():
+    print('Recursion!')
+    rec = None  # Overwrites the function in its own scope, preventing infinite recursion
+    if rec: rec()
+rec()
 ```
 ### Challenge
-Rust Challenge: Research and implement a function that checks if a given integer is a perfect number (i.e., equals the sum of its proper divisors), using an efficient algorithm that doesn't check all divisors naively.
+Python Challenge: Write a function that, given any Wikipedia article URL, retrieves the title of the article using only Python's built-in modules (no external packages like requests or BeautifulSoup).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
