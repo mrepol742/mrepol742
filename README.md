@@ -62,15 +62,15 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🕳️ The Infinite Recursion One-Liner (Python)
-# This quirky snippet prints 'Recursion!' just once, despite recursively calling itself.
-def rec():
-    print('Recursion!')
-    rec = None  # Overwrites the function in its own scope, preventing infinite recursion
-    if rec: rec()
-rec()
+// Quirky Trick: Swap two variables using bitwise XOR, without a temp variable.
+// This works for numbers!
+let a = 42, b = 99;
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+console.log(a, b); // Output: 99 42
 ```
 ### Challenge
-Python Challenge: Write a function that, given any Wikipedia article URL, retrieves the title of the article using only Python's built-in modules (no external packages like requests or BeautifulSoup).
+Python Challenge: Write a function that finds the frequency of each word in a given text WITHOUT using any libraries (no collections.Counter, no re). Your function should return a dictionary mapping words to their counts.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
