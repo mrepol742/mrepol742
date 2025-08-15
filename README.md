@@ -62,15 +62,11 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Swap two variables using bitwise XOR, without a temp variable.
-// This works for numbers!
-let a = 42, b = 99;
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-console.log(a, b); // Output: 99 42
+// Ever wanted to swap two variables in JavaScript without a temporary variable? Here's a quirky one-liner!
+let a = 5, b = 10;
+[a, b] = [b, a]; // Now a = 10, b = 5 (no temp variable needed!)
 ```
 ### Challenge
-Python Challenge: Write a function that finds the frequency of each word in a given text WITHOUT using any libraries (no collections.Counter, no re). Your function should return a dictionary mapping words to their counts.
+Python Challenge: Research the concept of memoization. Implement a recursive Fibonacci function using memoization—without using decorators or any Python libraries. The function should efficiently compute fib(n) for large n.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
