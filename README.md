@@ -62,11 +62,16 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Ever wanted to swap two variables in JavaScript without a temporary variable? Here's a quirky one-liner!
+// Quirky Trick: Swap two variables without a temporary variable using XOR (works for numbers)
 let a = 5, b = 10;
-[a, b] = [b, a]; // Now a = 10, b = 5 (no temp variable needed!)
+// Before: a = 5, b = 10
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+// After: a = 10, b = 5 (swapped!)
+console.log(a, b); // 10 5
 ```
 ### Challenge
-Python Challenge: Research the concept of memoization. Implement a recursive Fibonacci function using memoization—without using decorators or any Python libraries. The function should efficiently compute fib(n) for large n.
+Python Challenge: Write a function that finds the shortest word in a given paragraph, ignoring punctuation and numbers. How will you efficiently handle multiple edge cases using built-in libraries?
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
