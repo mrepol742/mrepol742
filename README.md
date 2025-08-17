@@ -62,16 +62,14 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Swap two variables without a temporary variable using XOR (works for numbers)
-let a = 5, b = 10;
-// Before: a = 5, b = 10
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-// After: a = 10, b = 5 (swapped!)
-console.log(a, b); // 10 5
+// Quirky Python: Swapping two variables without a temp variable using tuple unpacking
+# This one-liner swaps the values of a and b!
+a, b = 42, 17
+print(f'Before: a={a}, b={b}')
+a, b = b, a
+print(f'After: a={a}, b={b}')
 ```
 ### Challenge
-Python Challenge: Write a function that finds the shortest word in a given paragraph, ignoring punctuation and numbers. How will you efficiently handle multiple edge cases using built-in libraries?
+In Python, write a function that finds the most common word in a given text, ignoring case and punctuation, without using the collections.Counter class.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
