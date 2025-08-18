@@ -62,14 +62,13 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Python: Swapping two variables without a temp variable using tuple unpacking
-# This one-liner swaps the values of a and b!
-a, b = 42, 17
-print(f'Before: a={a}, b={b}')
+// 💡 Quirky Trick: Swap two variables in one line without a temp variable (Python)
+# This uses tuple unpacking for a concise swap.
+a, b = 42, -7
 a, b = b, a
-print(f'After: a={a}, b={b}')
+# a is now -7, b is now 42
 ```
 ### Challenge
-In Python, write a function that finds the most common word in a given text, ignoring case and punctuation, without using the collections.Counter class.
+Python Challenge: Write a function that takes a string and returns True if it contains all five vowels (a, e, i, o, u) at least once, regardless of order and case. Your solution should NOT use regular expressions. Tip: Consider research on string methods and set operations.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
