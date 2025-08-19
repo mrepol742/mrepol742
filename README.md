@@ -62,13 +62,13 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 💡 Quirky Trick: Swap two variables in one line without a temp variable (Python)
-# This uses tuple unpacking for a concise swap.
-a, b = 42, -7
-a, b = b, a
-# a is now -7, b is now 42
+// Quirky trick: Recursively flatten deeply nested arrays in one line using JS reduce and concat
+const flatten = arr => arr.reduce((a, b) => a.concat(Array.isArray(b) ? flatten(b) : b), []);
+
+// Example
+console.log(flatten([1, [2, [3, [4, 5]], 6], 7])); // [1,2,3,4,5,6,7]
 ```
 ### Challenge
-Python Challenge: Write a function that takes a string and returns True if it contains all five vowels (a, e, i, o, u) at least once, regardless of order and case. Your solution should NOT use regular expressions. Tip: Consider research on string methods and set operations.
+Python Challenge: Write a function that finds the most common word in a given text file, ignoring case and punctuation, without using the collections.Counter module. Think about how you would read and process the file, normalize the words, and count occurrences efficiently.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
