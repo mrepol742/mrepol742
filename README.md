@@ -62,13 +62,12 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Recursively flatten deeply nested arrays in one line using JS reduce and concat
-const flatten = arr => arr.reduce((a, b) => a.concat(Array.isArray(b) ? flatten(b) : b), []);
-
-// Example
-console.log(flatten([1, [2, [3, [4, 5]], 6], 7])); // [1,2,3,4,5,6,7]
+// 🍌 Banana operator hack in JavaScript
+// This trick returns true, because 'banana' coerces to NaN, and 'NaN' != 'NaN'.
+// It's quirky, but demonstrates JS type coercion in a fun way.
+console.log('b' + 'a' + + 'a' + 'a'); // Output: "baNaNa"
 ```
 ### Challenge
-Python Challenge: Write a function that finds the most common word in a given text file, ignoring case and punctuation, without using the collections.Counter module. Think about how you would read and process the file, normalize the words, and count occurrences efficiently.
+Python: Research and implement a function that determines whether a given string is a valid palindrome sentence (ignoring punctuation, spaces, and letter case). Your solution should not use any built-in string reverse functions.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
