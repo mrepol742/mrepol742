@@ -62,12 +62,12 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🍌 Banana operator hack in JavaScript
-// This trick returns true, because 'banana' coerces to NaN, and 'NaN' != 'NaN'.
-// It's quirky, but demonstrates JS type coercion in a fun way.
-console.log('b' + 'a' + + 'a' + 'a'); // Output: "baNaNa"
+// 🎩 Quirky Trick: Swap two variables in one line without a temp variable (JavaScript)
+let a = 5, b = 10;
+[a, b] = [b, a]; // Now a = 10, b = 5
+console.log(a, b); // Output: 10 5
 ```
 ### Challenge
-Python: Research and implement a function that determines whether a given string is a valid palindrome sentence (ignoring punctuation, spaces, and letter case). Your solution should not use any built-in string reverse functions.
+Python Challenge: Research the built-in itertools module. Write a function that finds all possible pairs in a list (order matters), but do NOT use any loops (for/while/comprehensions).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
