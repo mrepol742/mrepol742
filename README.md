@@ -62,12 +62,14 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎩 Quirky Trick: Swap two variables in one line without a temp variable (JavaScript)
-let a = 5, b = 10;
-[a, b] = [b, a]; // Now a = 10, b = 5
-console.log(a, b); // Output: 10 5
+// Quirky Trick: Swap values of two variables without temp, arithmetic, or destructuring
+let a = 42, b = 99;
+console.log(`Before swap: a = ${a}, b = ${b}`);
+// Uses bitwise XOR to swap values
+[a, b] = [a ^ b, b ^ (a ^ b)];
+console.log(`After swap: a = ${a}, b = ${b}`);
 ```
 ### Challenge
-Python Challenge: Research the built-in itertools module. Write a function that finds all possible pairs in a list (order matters), but do NOT use any loops (for/while/comprehensions).
+In Python, write a function that finds the longest word in an English text file by reading the file line by line, without loading the entire file into memory at once.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
