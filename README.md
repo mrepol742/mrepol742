@@ -62,14 +62,15 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Swap values of two variables without temp, arithmetic, or destructuring
-let a = 42, b = 99;
-console.log(`Before swap: a = ${a}, b = ${b}`);
-// Uses bitwise XOR to swap values
-[a, b] = [a ^ b, b ^ (a ^ b)];
-console.log(`After swap: a = ${a}, b = ${b}`);
+// Magic numbers for swapping two variables without a temporary variable using XOR
+// Works in many languages: JavaScript, Python, C, etc.
+let a = 42, b = 7;
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+console.log(`a: ${a}, b: ${b}`); // a: 7, b: 42
 ```
 ### Challenge
-In Python, write a function that finds the longest word in an English text file by reading the file line by line, without loading the entire file into memory at once.
+Find the longest word in a text file using Python. You may use only basic file I/O and string functions (no regex, no advanced libraries).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
