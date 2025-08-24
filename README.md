@@ -62,15 +62,12 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Magic numbers for swapping two variables without a temporary variable using XOR
-// Works in many languages: JavaScript, Python, C, etc.
-let a = 42, b = 7;
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-console.log(`a: ${a}, b: ${b}`); // a: 7, b: 42
+// Trick: Swap two variables in one line without a temporary variable (JavaScript)
+let a = 1, b = 2;
+[a, b] = [b, a]; // a is now 2, b is now 1
+console.log(a, b); // Output: 2 1
 ```
 ### Challenge
-Find the longest word in a text file using Python. You may use only basic file I/O and string functions (no regex, no advanced libraries).
+Python Challenge: Retrieve the Wikipedia summary for a given keyword input (e.g., 'Python (programming language)') using only Python's built-in libraries (no external packages).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
