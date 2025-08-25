@@ -62,12 +62,13 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Trick: Swap two variables in one line without a temporary variable (JavaScript)
-let a = 1, b = 2;
-[a, b] = [b, a]; // a is now 2, b is now 1
-console.log(a, b); // Output: 2 1
+// Ever seen code that prints itself? This quirky trick is called a 'quines'.
+// Try running this Python snippet—no input files, just pure self-replication!
+s = 's = {!r}
+print(s.format(s))'
+print(s.format(s))
 ```
 ### Challenge
-Python Challenge: Retrieve the Wikipedia summary for a given keyword input (e.g., 'Python (programming language)') using only Python's built-in libraries (no external packages).
+Python Challenge: Write a function that finds the shortest unique substring in a given string. The function should return the first shortest substring that does not appear elsewhere in the string. Research substring algorithms and consider edge cases for strings with repeats and overlaps.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
