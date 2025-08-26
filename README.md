@@ -62,13 +62,15 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Ever seen code that prints itself? This quirky trick is called a 'quines'.
-// Try running this Python snippet—no input files, just pure self-replication!
-s = 's = {!r}
-print(s.format(s))'
-print(s.format(s))
+// Quirky Trick: Swap two variables in one line using bitwise XOR in Python!
+
+a = 42
+b = 17
+# This clever swap works without a temporary variable.
+a ^= b; b ^= a; a ^= b
+print(a, b)  # Output: 17 42
 ```
 ### Challenge
-Python Challenge: Write a function that finds the shortest unique substring in a given string. The function should return the first shortest substring that does not appear elsewhere in the string. Research substring algorithms and consider edge cases for strings with repeats and overlaps.
+In Python, write a function that receives a list of words and returns the most 'vowel-rich' word (highest vowel count). If multiple words tie, return the first one. Consider only English vowels (a, e, i, o, u), and ignore case. Research any built-in functions that may help, but do not use collections.Counter.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
