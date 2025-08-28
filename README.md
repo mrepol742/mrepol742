@@ -62,15 +62,12 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Swap two variables in one line using bitwise XOR in Python!
-
-a = 42
-b = 17
-# This clever swap works without a temporary variable.
-a ^= b; b ^= a; a ^= b
-print(a, b)  # Output: 17 42
+// Emoji as variable names in Python: Unleash your inner unicode! 🚀
+# Python allows Unicode characters (even emojis!) for variable names.
+🍕 = 'pizza'
+print(f'I love {🍕}!')
 ```
 ### Challenge
-In Python, write a function that receives a list of words and returns the most 'vowel-rich' word (highest vowel count). If multiple words tie, return the first one. Consider only English vowels (a, e, i, o, u), and ignore case. Research any built-in functions that may help, but do not use collections.Counter.
+Python Challenge: Write a function that, given a Wikipedia article title, fetches its summary using the Wikipedia API and returns the first three sentences. (You may use the requests library. Research how to interact with the Wikipedia API!)
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
