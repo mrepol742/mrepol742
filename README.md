@@ -90,12 +90,13 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Emoji as variable names in Python: Unleash your inner unicode! 🚀
-# Python allows Unicode characters (even emojis!) for variable names.
-🍕 = 'pizza'
-print(f'I love {🍕}!')
+// Reverse a string in JavaScript using bitwise NOT (~) operator for fun!
+// The bitwise NOT of -1 is 0, so ''.indexOf('x') becomes -1 and ~-1 is 0. This lets us use a neat, if cryptic, one-liner.
+const reverse = s => [...s].map((_,i,a) => a[~i]).join('');
+// Example:
+console.log(reverse('quirky')); // 'ykruiq'
 ```
 ### Challenge
-Python Challenge: Write a function that, given a Wikipedia article title, fetches its summary using the Wikipedia API and returns the first three sentences. (You may use the requests library. Research how to interact with the Wikipedia API!)
+Python Challenge: Research and implement a function that checks if a given integer is a palindrome without converting it to a string or using extra space for a new variable. Consider how negative numbers should behave.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
