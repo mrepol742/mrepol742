@@ -90,13 +90,13 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Reverse a string in JavaScript using bitwise NOT (~) operator for fun!
-// The bitwise NOT of -1 is 0, so ''.indexOf('x') becomes -1 and ~-1 is 0. This lets us use a neat, if cryptic, one-liner.
-const reverse = s => [...s].map((_,i,a) => a[~i]).join('');
-// Example:
-console.log(reverse('quirky')); // 'ykruiq'
+// Emoji variable names in Python: Python 3 supports Unicode in identifiers, so you can use emojis in your code!
+# Here, we define variables using emojis and add them together:
+🍎 = 5
+🍌 = 3
+print(🍎 + 🍌)  # Output: 8
 ```
 ### Challenge
-Python Challenge: Research and implement a function that checks if a given integer is a palindrome without converting it to a string or using extra space for a new variable. Consider how negative numbers should behave.
+In Python: Research and implement an algorithm to detect if a given text contains a palindrome word, ignoring case and punctuation. Your function should return all such words found in the text.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
