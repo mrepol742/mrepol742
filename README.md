@@ -90,13 +90,15 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Emoji variable names in Python: Python 3 supports Unicode in identifiers, so you can use emojis in your code!
-# Here, we define variables using emojis and add them together:
-🍎 = 5
-🍌 = 3
-print(🍎 + 🍌)  # Output: 8
+// 🎩 Quirky Trick: Double Negation for Boolean Casting in JavaScript
+// This idiom quickly converts any value to true/false.
+// It works because !x gives the inverse boolean, !!x reverses it.
+
+const values = [0, 1, '', 'hello', null, undefined, [], {}];
+const booleans = values.map(v => !!v);
+console.log(booleans); // [false, true, false, true, false, false, true, true]
 ```
 ### Challenge
-In Python: Research and implement an algorithm to detect if a given text contains a palindrome word, ignoring case and punctuation. Your function should return all such words found in the text.
+Python Challenge: Given a list of integers, write a function to return the most frequent value. If there is a tie, return the smallest value. Avoid using built-in Counter or collections modules. (Hint: Use a dictionary for frequency counting!)
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
