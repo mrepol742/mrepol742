@@ -90,15 +90,13 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎩 Quirky Trick: Double Negation for Boolean Casting in JavaScript
-// This idiom quickly converts any value to true/false.
-// It works because !x gives the inverse boolean, !!x reverses it.
-
-const values = [0, 1, '', 'hello', null, undefined, [], {}];
-const booleans = values.map(v => !!v);
-console.log(booleans); // [false, true, false, true, false, false, true, true]
+// Quirky Trick: Swapping two variables in JavaScript without a temporary variable
+let a = 5, b = 10;
+// Using destructuring assignment
+[a, b] = [b, a];
+console.log(`a = ${a}, b = ${b}`); // a = 10, b = 5
 ```
 ### Challenge
-Python Challenge: Given a list of integers, write a function to return the most frequent value. If there is a tie, return the smallest value. Avoid using built-in Counter or collections modules. (Hint: Use a dictionary for frequency counting!)
+Python: Write a function that merges two sorted lists into a single sorted list, but do not use the built-in sorted(), sort(), heapq, or any external modules. Research efficient merging techniques to solve this.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
