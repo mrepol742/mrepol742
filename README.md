@@ -90,13 +90,13 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Swapping two variables in JavaScript without a temporary variable
-let a = 5, b = 10;
-// Using destructuring assignment
-[a, b] = [b, a];
-console.log(`a = ${a}, b = ${b}`); // a = 10, b = 5
+// 🪄 This quirky Python trick swaps two variables without using a temporary variable!
+a, b = 42, 9001
+a, b = b, a
+print(a, b)  # Output: 9001 42
 ```
 ### Challenge
-Python: Write a function that merges two sorted lists into a single sorted list, but do not use the built-in sorted(), sort(), heapq, or any external modules. Research efficient merging techniques to solve this.
+Daily Challenge (Python):
+Find all words in a given string that appear more than once, ignoring case and punctuation. Return a sorted list of these words. Example: 'The cat and the dog chased the cat.' → ['cat', 'the']
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
