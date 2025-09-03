@@ -90,13 +90,14 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🪄 This quirky Python trick swaps two variables without using a temporary variable!
-a, b = 42, 9001
-a, b = b, a
-print(a, b)  # Output: 9001 42
+// Recursively flatten any nested array of any depth using quirky type casting in JavaScript:
+// This uses Array.prototype.concat.apply with recursion and a clever hack!
+function flatten(arr) {
+  return [].concat.apply([], arr.map(x => Array.isArray(x) ? flatten(x) : x));
+}
+// Example: flatten([1, [2, [3, [4]], 5]]) => [1,2,3,4,5]
 ```
 ### Challenge
-Daily Challenge (Python):
-Find all words in a given string that appear more than once, ignoring case and punctuation. Return a sorted list of these words. Example: 'The cat and the dog chased the cat.' → ['cat', 'the']
+Python: Write a function that finds the most common letter (A-Z, ignoring case) used across the text content of all Wikipedia pages that use the word 'quantum' (simulate or use examples if needed). Think critically about data collection, frequency analysis, and edge-cases.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
