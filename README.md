@@ -90,14 +90,15 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Recursively flatten any nested array of any depth using quirky type casting in JavaScript:
-// This uses Array.prototype.concat.apply with recursion and a clever hack!
-function flatten(arr) {
-  return [].concat.apply([], arr.map(x => Array.isArray(x) ? flatten(x) : x));
-}
-// Example: flatten([1, [2, [3, [4]], 5]]) => [1,2,3,4,5]
+// 🎩 Magic: Swapping two variables without a temp variable using bitwise XOR!
+let a = 42, b = 91;
+console.log(`Before: a=${a}, b=${b}`);
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+console.log(`After: a=${a}, b=${b}`); // values swapped!
 ```
 ### Challenge
-Python: Write a function that finds the most common letter (A-Z, ignoring case) used across the text content of all Wikipedia pages that use the word 'quantum' (simulate or use examples if needed). Think critically about data collection, frequency analysis, and edge-cases.
+Python Challenge: Implement a function that finds the longest word in an English text file (say, 'novel.txt'), but exclude all proper nouns and words with numbers. Research how proper nouns are typically capitalized and come up with simple logic to exclude them.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
