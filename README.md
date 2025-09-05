@@ -90,15 +90,14 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎩 Magic: Swapping two variables without a temp variable using bitwise XOR!
-let a = 42, b = 91;
-console.log(`Before: a=${a}, b=${b}`);
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-console.log(`After: a=${a}, b=${b}`); // values swapped!
+// Trick: Swapping two variables without a temporary variable (in Python)
+# This quirky trick uses tuple unpacking to swap values in one line!
+a, b = 42, 17
+print(f'Before: a={a}, b={b}')
+a, b = b, a
+print(f'After:  a={a}, b={b}')
 ```
 ### Challenge
-Python Challenge: Implement a function that finds the longest word in an English text file (say, 'novel.txt'), but exclude all proper nouns and words with numbers. Research how proper nouns are typically capitalized and come up with simple logic to exclude them.
+Python Challenge: Write a function that identifies whether a given word can be rearranged to form a palindrome. Research what properties a string/map must have for this to be possible, then implement your solution without using external libraries.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
