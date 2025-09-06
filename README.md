@@ -90,14 +90,15 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Trick: Swapping two variables without a temporary variable (in Python)
-# This quirky trick uses tuple unpacking to swap values in one line!
-a, b = 42, 17
-print(f'Before: a={a}, b={b}')
-a, b = b, a
-print(f'After:  a={a}, b={b}')
+// 🐍 Python Trick: Swap Two Variables Without a Temporary Variable
+# This quirky trick uses tuple unpacking to swap values in a single line!
+x = 42
+y = 99
+print(f"Before: x={x}, y={y}")
+x, y = y, x
+print(f"After: x={x}, y={y}")
 ```
 ### Challenge
-Python Challenge: Write a function that identifies whether a given word can be rearranged to form a palindrome. Research what properties a string/map must have for this to be possible, then implement your solution without using external libraries.
+Python Challenge: Find all words in a text file that are palindromes (read the same forwards and backwards). You may NOT use any built-in functions like reversed() or [::-1] slicing. Hint: Think about manual character comparison and file I/O.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
