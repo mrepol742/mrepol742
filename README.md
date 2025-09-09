@@ -89,18 +89,17 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Swap two variables without a temporary variable using XOR! (Works in languages like Python)
-
-a = 42
-b = 99
-print(f"Before: a={a}, b={b}")
-a = a ^ b
-b = a ^ b
-a = a ^ b
-print(f"After: a={a}, b={b}")
-# Now a=99, b=42
+// 🔢 Swap two variables without a temporary variable using bitwise XOR!
+let a = 42;
+let b = 99;
+// Before: a = 42, b = 99
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+// After:  a = 99, b = 42
+console.log({a, b}); // { a: 99, b: 42 }
 ```
 ### Challenge
-Python Challenge: Write a function that finds the second most frequent character in a string. For bonus points, try not to use built-in Counter or similar libraries!
+Python challenge: Research and implement a function compress_string(s) that takes a string and compresses consecutive repeated characters by encoding them as <character><count>, but only if the character repeats two or more times consecutively (e.g. 'aaabbc' → 'a3b2c'). Do not use regular expressions.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
