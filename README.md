@@ -89,17 +89,13 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🔢 Swap two variables without a temporary variable using bitwise XOR!
-let a = 42;
-let b = 99;
-// Before: a = 42, b = 99
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-// After:  a = 99, b = 42
-console.log({a, b}); // { a: 99, b: 42 }
+// 🎩 Quirky Trick: Self-Replicating (Quine) One-Liner in Python
+# This program prints its own source code without reading any files.
+q = 'q = %r
+print(q%%q)'
+print(q%q)
 ```
 ### Challenge
-Python challenge: Research and implement a function compress_string(s) that takes a string and compresses consecutive repeated characters by encoding them as <character><count>, but only if the character repeats two or more times consecutively (e.g. 'aaabbc' → 'a3b2c'). Do not use regular expressions.
+Python Challenge: Write a function that, given an English sentence (string), finds the most common word in the sentence, ignoring case and all punctuation. Do not use collections.Counter.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
