@@ -90,13 +90,19 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎩 Quirky Trick: Self-Replicating (Quine) One-Liner in Python
-# This program prints its own source code without reading any files.
-q = 'q = %r
-print(q%%q)'
-print(q%q)
+// Ternary Operator Abuse: Simulate switch/case behavior in a single line in Python
+# This trick uses chained ternaries to select output based on value
+# It's quirky, but usually less readable than a real switch/case!
+def day_type(day):
+    return 'Weekend' if day in ('Saturday', 'Sunday') else 'Weekday' if day in ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday') else 'Unknown'
+
+# Examples
+type1 = day_type('Saturday') # 'Weekend'
+type2 = day_type('Tuesday')  # 'Weekday'
+type3 = day_type('Funday')   # 'Unknown'
+print(type1, type2, type3)
 ```
 ### Challenge
-Python Challenge: Write a function that, given an English sentence (string), finds the most common word in the sentence, ignoring case and all punctuation. Do not use collections.Counter.
+In Python, write a function that finds the first pair of numbers in a list that add up to a target sum. Return the pair as a tuple. Avoid using nested loops. Research and creatively use data structures to solve this efficiently.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
