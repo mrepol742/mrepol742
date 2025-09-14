@@ -90,14 +90,15 @@ Kotlin                   1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Generate a list of prime numbers using the infamous 'Sieve of Eratosthenes' in a single Python list comprehension.
-# The code below finds prime numbers up to n in one line, without any explicit loops!
-n = 50
-primes = [x for x in range(2, n+1) if all(x % y != 0 for y in range(2, int(x ** 0.5) + 1))]
-print(primes)
-# Output: [2, 3, 5, 7, 11, ..., 47]
+// Quirky Trick: Quickly swap two variables without a temporary variable using XOR (works with numbers in many languages)!
+// Example in JavaScript:
+let a = 42, b = 99;
+a ^= b;
+b ^= a;
+a ^= b;
+console.log(a, b); // Output: 99 42
 ```
 ### Challenge
-Python Challenge: Find the most recently created file in a given directory (including all subdirectories) without using any external libraries except os and datetime. Output the file's path and its creation/modification timestamp.
+Python Challenge: Write a function that finds all English words in a given string where each letter is in alphabetical order (e.g., 'almost', 'bill'). You may use any online word list.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
