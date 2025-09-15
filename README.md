@@ -91,15 +91,15 @@ Kotlin                   1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Quickly swap two variables without a temporary variable using XOR (works with numbers in many languages)!
-// Example in JavaScript:
+// Quirky trick: Swapping two variables without a temp variable using XOR
+// Note: Works only with numbers!
 let a = 42, b = 99;
-a ^= b;
-b ^= a;
-a ^= b;
-console.log(a, b); // Output: 99 42
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+console.log(a, b); // 99 42
 ```
 ### Challenge
-Python Challenge: Write a function that finds all English words in a given string where each letter is in alphabetical order (e.g., 'almost', 'bill'). You may use any online word list.
+Python Challenge: Research and implement a function that checks whether a given string is a valid palindrome, ignoring case, spaces, and punctuation. Hint: You may need to use the 're' module.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
