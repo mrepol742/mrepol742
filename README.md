@@ -51,15 +51,21 @@ Kotlin                   2 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Swapping two variables without a temp variable using XOR
-// Note: Works only with numbers!
-let a = 42, b = 99;
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-console.log(a, b); // 99 42
+// 'Recursive Object Freeze': Recursively freeze all nested objects to make them fully immutable in JavaScript.
+function deepFreeze(obj) {
+  Object.getOwnPropertyNames(obj).forEach(function(prop) {
+    if (typeof obj[prop] === 'object' && obj[prop] !== null && !Object.isFrozen(obj[prop])) {
+      deepFreeze(obj[prop]);
+    }
+  });
+  return Object.freeze(obj);
+}
+// Example:
+const profile = { name: 'Alice', meta: { age: 30 } };
+deepFreeze(profile);
+profile.meta.age = 31; // No effect, throws in strict mode!
 ```
 ### Challenge
-Python Challenge: Research and implement a function that checks whether a given string is a valid palindrome, ignoring case, spaces, and punctuation. Hint: You may need to use the 're' module.
+Python Challenge: Without using built-in CSV libraries (like csv or pandas), write a function that reads a comma-separated values file and returns a list of dictionaries mapping column names to values. Consider potential edge cases like quoted field delimiters and embedded commas.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
