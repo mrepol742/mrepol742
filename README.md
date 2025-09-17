@@ -91,21 +91,14 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 'Recursive Object Freeze': Recursively freeze all nested objects to make them fully immutable in JavaScript.
-function deepFreeze(obj) {
-  Object.getOwnPropertyNames(obj).forEach(function(prop) {
-    if (typeof obj[prop] === 'object' && obj[prop] !== null && !Object.isFrozen(obj[prop])) {
-      deepFreeze(obj[prop]);
-    }
-  });
-  return Object.freeze(obj);
-}
-// Example:
-const profile = { name: 'Alice', meta: { age: 30 } };
-deepFreeze(profile);
-profile.meta.age = 31; // No effect, throws in strict mode!
+// 💡 Did you know you can swap two variables in Python without a temporary variable?
+// This quirky trick uses tuple unpacking:
+x = 42
+y = 24
+x, y = y, x  # Now x is 24, y is 42
+print(f"x: {x}, y: {y}")  # Output: x: 24, y: 42
 ```
 ### Challenge
-Python Challenge: Without using built-in CSV libraries (like csv or pandas), write a function that reads a comma-separated values file and returns a list of dictionaries mapping column names to values. Consider potential edge cases like quoted field delimiters and embedded commas.
+Python Challenge: Write a function that returns the sentence with the highest average word length from a list of sentences. Assume sentences are strings, words separated by spaces. Be sure to consider punctuation, which should not be counted as part of word length. Research how to strip punctuation efficiently.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
