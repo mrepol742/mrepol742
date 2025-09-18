@@ -91,14 +91,12 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 💡 Did you know you can swap two variables in Python without a temporary variable?
-// This quirky trick uses tuple unpacking:
-x = 42
-y = 24
-x, y = y, x  # Now x is 24, y is 42
-print(f"x: {x}, y: {y}")  # Output: x: 24, y: 42
+// 🦄 Quirky Trick: Generate a random emoji in one line (JavaScript)
+// This code picks a random emoji from the Unicode emoji range!
+const randomEmoji = String.fromCodePoint(0x1F600 + Math.floor(Math.random() * 80));
+console.log(randomEmoji); // 😁🎉🐶🦄 ...
 ```
 ### Challenge
-Python Challenge: Write a function that returns the sentence with the highest average word length from a list of sentences. Assume sentences are strings, words separated by spaces. Be sure to consider punctuation, which should not be counted as part of word length. Research how to strip punctuation efficiently.
+Python: Write a function that finds the most frequently occurring word in a text file, ignoring case and punctuation, without using any external libraries except built-in modules. Think about efficient ways to handle large files and text normalization.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
