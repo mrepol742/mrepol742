@@ -1,7 +1,7 @@
 {
   "name": "mrepol742",
   "version": "5.0.4",
-  "description": "Software Engineer",
+  "description": "My npm-cli portfolio.",
   "main": "me.js",
   "scripts": {
     "start": "node me.js"
@@ -13,8 +13,6 @@
   "keywords": [
     "mrepol742",
     "melvin jone repol",
-    "software engineer",
-    "web development",
     "portfolio",
     "profile",
     "readme"

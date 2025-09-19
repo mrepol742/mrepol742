@@ -31,25 +31,13 @@ const questions = [
             {
                 name: `View my ${chalk.blueBright.bold("Portfolio")}?`,
                 value: () => {
-                    open("https://mrepol742.github.io");
+                    open("https://www.melvinjonesrepol.com");
                 }
             },
             {
-                name: `View my ${chalk.blueBright.bold("Projects")}?`,
+                name: `Want to Google ${chalk.blueBright.bold("me")}?`,
                 value: () => {
-                    open('https://mrepol742.github.io#projects');
-                }
-            },
-            {
-                name: `What's my ${chalk.blueBright.bold("Skills")}?`,
-                value: () => {
-                    open('https://mrepol742.github.io#skills');
-                }
-            },
-            {
-                name: `See my ${chalk.blueBright.bold("Friends")}?`,
-                value: () => {
-                    open('https://mrepol742.github.io#friends');
+                    open('https://www.google.com/search?q=melvin+jones+repol');
                 }
             },
             {
@@ -65,16 +53,16 @@ const questions = [
 const data = {
     name: chalk.bold.blue("             Melvin Jones 'Mj' Repol"),
     handle: chalk.white("@mrepol742"),
-    work: `${chalk.white("Software Engineer")}`,
-    twitter: chalk.gray("https://twitter.com/") + chalk.cyan("mrepol742"),
+    work: `${chalk.white("Freelance Software Engineer")}`,
+    twitter: chalk.gray("https://x.com/") + chalk.cyan("mrepol742"),
     github: chalk.gray("https://github.com/") + chalk.cyan("mrepol742"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.cyan("mrepol742"),
     facebook: chalk.gray("https://facebook/com/") + chalk.cyan("melvinjonesrepol"),
-    web: chalk.gray("https://") +  chalk.cyan("mrepol742.github.io"),
+    web: chalk.gray("https://") +  chalk.cyan("melvinjonesrepol.com"),
     npx: chalk.blue("npx") + " " + chalk.white("mrepol742"),
 
     labelWork: "        ",
-    labelTwitter: chalk.white.bold("    Twitter:"),
+    labelTwitter: chalk.white.bold("    X:"),
     labelGitHub: chalk.white.bold("     GitHub:"),
     labelLinkedIn: chalk.white.bold("   LinkedIn:"),
     labelFacebook: chalk.white.bold("   Facebook:"),
