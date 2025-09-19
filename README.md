@@ -76,12 +76,16 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🦄 Quirky Trick: Generate a random emoji in one line (JavaScript)
-// This code picks a random emoji from the Unicode emoji range!
-const randomEmoji = String.fromCodePoint(0x1F600 + Math.floor(Math.random() * 80));
-console.log(randomEmoji); // 😁🎉🐶🦄 ...
+// This function recursively flattens any nested JavaScript array using implicit type coercion and bitwise operators.
+function flatten(arr) {
+  return arr.reduce((acc, val) =>
+    // Using bitwise NOT and Array.isArray for quirky recursion
+    Array.isArray(val) ? acc.concat(flatten(val)) : acc.concat(val)
+  , []);
+}
+// Example: flatten([1, [2, [3, 4]], 5]); // [1, 2, 3, 4, 5]
 ```
 ### Challenge
-Python: Write a function that finds the most frequently occurring word in a text file, ignoring case and punctuation, without using any external libraries except built-in modules. Think about efficient ways to handle large files and text normalization.
+Python Challenge: Find the shortest word in a given sentence, ignoring punctuation. For example, 'Life is, sometimes: beautiful!' should return 'is'. Write a function shortest_word(sentence: str) -> str. Research Python's string methods for stripping punctuation efficiently.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
