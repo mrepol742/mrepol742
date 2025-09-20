@@ -76,16 +76,13 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This function recursively flattens any nested JavaScript array using implicit type coercion and bitwise operators.
-function flatten(arr) {
-  return arr.reduce((acc, val) =>
-    // Using bitwise NOT and Array.isArray for quirky recursion
-    Array.isArray(val) ? acc.concat(flatten(val)) : acc.concat(val)
-  , []);
-}
-// Example: flatten([1, [2, [3, 4]], 5]); // [1, 2, 3, 4, 5]
+// Swapping two variables in a single line using destructuring in JavaScript!
+let a = 42, b = 7;
+// Swap values:
+[a, b] = [b, a];
+console.log(a, b); // Output: 7 42
 ```
 ### Challenge
-Python Challenge: Find the shortest word in a given sentence, ignoring punctuation. For example, 'Life is, sometimes: beautiful!' should return 'is'. Write a function shortest_word(sentence: str) -> str. Research Python's string methods for stripping punctuation efficiently.
+Python Challenge: Write a function to find the second most common word in a text string (ignore case and punctuation). You may use standard library modules (but NOT Counter).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
