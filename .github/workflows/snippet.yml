@@ -61,7 +61,7 @@ jobs:
       - name: Commit and push
         run: |
           git add .
-          git commit -m "Update"
+          git commit -m "feat: Updated Snippet"
           git push origin master
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
