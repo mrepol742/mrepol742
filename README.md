@@ -76,13 +76,14 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Swapping two variables in a single line using destructuring in JavaScript!
-let a = 42, b = 7;
-// Swap values:
-[a, b] = [b, a];
-console.log(a, b); // Output: 7 42
+// Ever wanted to swap two variables WITHOUT using a temporary variable? Here's an XOR trick in JavaScript!
+let a = 5, b = 9;
+a ^= b;
+b ^= a;
+a ^= b;
+console.log(a, b); // Outputs: 9 5
 ```
 ### Challenge
-Python Challenge: Write a function to find the second most common word in a text string (ignore case and punctuation). You may use standard library modules (but NOT Counter).
+Python: Write a function that finds the first non-repeating character in a string in O(n) time complexity. Explain your solution and any trade-offs you make.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
