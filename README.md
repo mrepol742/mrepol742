@@ -76,14 +76,15 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Ever wanted to swap two variables WITHOUT using a temporary variable? Here's an XOR trick in JavaScript!
-let a = 5, b = 9;
-a ^= b;
-b ^= a;
-a ^= b;
-console.log(a, b); // Outputs: 9 5
+// 🧙‍♂️ Quirky Trick: Swapping two variables without a temp variable in Python
+# This uses tuple unpacking to swap values in a single line.
+a = 42
+b = 1337
+print(f"Before: a={a}, b={b}")
+a, b = b, a
+print(f"After:  a={a}, b={b}")
 ```
 ### Challenge
-Python: Write a function that finds the first non-repeating character in a string in O(n) time complexity. Explain your solution and any trade-offs you make.
+In Python, write a function that finds the most frequently occurring word in a given text file. Avoid using collections.Counter or pandas. Think about efficient ways to read large files!
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
