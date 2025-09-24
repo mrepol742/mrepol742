@@ -76,15 +76,30 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🧙‍♂️ Quirky Trick: Swapping two variables without a temp variable in Python
-# This uses tuple unpacking to swap values in a single line.
-a = 42
-b = 1337
-print(f"Before: a={a}, b={b}")
-a, b = b, a
-print(f"After:  a={a}, b={b}")
+// 🔄 Reverse a string *in place* using XOR swap in C
+// This quirky trick swaps characters without a temp variable!
+#include <stdio.h>
+#include <string.h>
+
+void reverse(char *s) {
+    int i = 0, j = strlen(s)-1;
+    while(i < j) {
+        s[i] ^= s[j];
+        s[j] ^= s[i];
+        s[i] ^= s[j];
+        i++; j--;
+    }
+}
+
+int main() {
+    char s[] = "quirky";
+    reverse(s);
+    printf("%s
+", s); // Output: ykriuq
+    return 0;
+}
 ```
 ### Challenge
-In Python, write a function that finds the most frequently occurring word in a given text file. Avoid using collections.Counter or pandas. Think about efficient ways to read large files!
+Python challenge: Research and write a function that finds the longest contiguous subsequence of strictly increasing numbers in a list. Return the subsequence (not just its length). What is the complexity of your approach?
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
