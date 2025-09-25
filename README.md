@@ -74,13 +74,15 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky: Swap two variables without using a temporary variable or destructuring
-let a = 5, b = 9;
-// Magic happens here
-b = a + b - (a = b);
-console.log(a, b); // a = 9, b = 5
+// Quirky Trick: Swapping two variables without a temporary variable using XOR (JavaScript)
+let a = 42, b = 21;
+a ^= b;
+b ^= a;
+a ^= b;
+// Now a is 21, b is 42!
+console.log(a, b); // 21 42
 ```
 ### Challenge
-Python: Implement a function that determines whether two strings are anagrams, but you must not use sorting or any built-in collections like Counter or defaultdict.
+In Python, implement a function that checks if two words are anagrams of each other, but do NOT use the sorted() function or the Counter class from collections. Research alternative ways to compare character frequency.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
