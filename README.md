@@ -76,30 +76,13 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🔄 Reverse a string *in place* using XOR swap in C
-// This quirky trick swaps characters without a temp variable!
-#include <stdio.h>
-#include <string.h>
-
-void reverse(char *s) {
-    int i = 0, j = strlen(s)-1;
-    while(i < j) {
-        s[i] ^= s[j];
-        s[j] ^= s[i];
-        s[i] ^= s[j];
-        i++; j--;
-    }
-}
-
-int main() {
-    char s[] = "quirky";
-    reverse(s);
-    printf("%s
-", s); // Output: ykriuq
-    return 0;
-}
+// Quirky: Swap two variables without using a temporary variable or destructuring
+let a = 5, b = 9;
+// Magic happens here
+b = a + b - (a = b);
+console.log(a, b); // a = 9, b = 5
 ```
 ### Challenge
-Python challenge: Research and write a function that finds the longest contiguous subsequence of strictly increasing numbers in a list. Return the subsequence (not just its length). What is the complexity of your approach?
+Python: Implement a function that determines whether two strings are anagrams, but you must not use sorting or any built-in collections like Counter or defaultdict.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
