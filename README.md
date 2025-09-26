@@ -74,15 +74,12 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Swapping two variables without a temporary variable using XOR (JavaScript)
-let a = 42, b = 21;
-a ^= b;
-b ^= a;
-a ^= b;
-// Now a is 21, b is 42!
-console.log(a, b); // 21 42
+// FizzBuzz in one line using Python's print and list comprehensions!
+# This prints numbers 1-15, replacing multiples of 3 with 'Fizz', 5 with 'Buzz', and both with 'FizzBuzz'.
+print(*[('Fizz'*(i%3==0)+'Buzz'*(i%5==0) or i) for i in range(1,16)])
 ```
 ### Challenge
-In Python, implement a function that checks if two words are anagrams of each other, but do NOT use the sorted() function or the Counter class from collections. Research alternative ways to compare character frequency.
+Daily Challenge (Python):
+Research and write a function that checks if two given strings are anagrams (contain the same number of each character, case insensitive) without sorting the strings or using collections.Counter.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
