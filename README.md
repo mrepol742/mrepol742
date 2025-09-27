@@ -74,12 +74,12 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// FizzBuzz in one line using Python's print and list comprehensions!
-# This prints numbers 1-15, replacing multiples of 3 with 'Fizz', 5 with 'Buzz', and both with 'FizzBuzz'.
-print(*[('Fizz'*(i%3==0)+'Buzz'*(i%5==0) or i) for i in range(1,16)])
+// 📦 Destructuring Magic: Swap two variables in one line!
+let a = 42, b = 99;
+[a, b] = [b, a]; // a is now 99, b is now 42
+console.log(a, b); // Outputs: 99 42
 ```
 ### Challenge
-Daily Challenge (Python):
-Research and write a function that checks if two given strings are anagrams (contain the same number of each character, case insensitive) without sorting the strings or using collections.Counter.
+Python Challenge: Write a function that extracts all unique domain names from a list of email addresses, WITHOUT using any external libraries. For example, ['alice@foo.com', 'bob@bar.net', 'carol@foo.com'] ⟶ ['foo.com', 'bar.net'].
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
