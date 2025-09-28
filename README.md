@@ -74,12 +74,13 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 📦 Destructuring Magic: Swap two variables in one line!
-let a = 42, b = 99;
-[a, b] = [b, a]; // a is now 99, b is now 42
-console.log(a, b); // Outputs: 99 42
+// Quirky Python trick: Swap two variables without a temporary variable
+# This works due to tuple unpacking in Python
+x, y = 42, 99
+x, y = y, x  # Now x=99, y=42
 ```
 ### Challenge
-Python Challenge: Write a function that extracts all unique domain names from a list of email addresses, WITHOUT using any external libraries. For example, ['alice@foo.com', 'bob@bar.net', 'carol@foo.com'] ⟶ ['foo.com', 'bar.net'].
+Daily Challenge (Python):
+A list contains several integers, but every number except one appears exactly twice. Find the unique number in the list WITHOUT using collections.Counter or list methods like count().
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
