@@ -74,13 +74,13 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Python trick: Swap two variables without a temporary variable
-# This works due to tuple unpacking in Python
-x, y = 42, 99
-x, y = y, x  # Now x=99, y=42
+// Quirky Trick: Toggle between two values using bitwise XOR in JavaScript
+let a = 42, b = 99;
+// Swap values without a temporary variable
+[a, b] = [a ^ b, a ^ b ^ (a ^ b)]; // a^b, (a^b)^b => swaps a and b
+console.log(a, b); // Output: 99 42
 ```
 ### Challenge
-Daily Challenge (Python):
-A list contains several integers, but every number except one appears exactly twice. Find the unique number in the list WITHOUT using collections.Counter or list methods like count().
+Python Challenge: Research the Collatz Conjecture, then write a function collatz_steps(n) that returns the number of steps to reach 1 using the conjecture's rules. Bonus: What number <= 100 produces the longest sequence?
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
