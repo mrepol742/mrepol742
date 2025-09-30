@@ -74,13 +74,13 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Toggle between two values using bitwise XOR in JavaScript
-let a = 42, b = 99;
-// Swap values without a temporary variable
-[a, b] = [a ^ b, a ^ b ^ (a ^ b)]; // a^b, (a^b)^b => swaps a and b
-console.log(a, b); // Output: 99 42
+// This Python snippet creates a palindromic string from any input using slicing and unpacking.
+input_str = 'wow'
+palindrome = ''.join([*input_str, *input_str[::-1][1:]])
+print(palindrome)  # Output: 'wowow'
+// Clever trick: [*input_str, *input_str[::-1][1:]] unpacks the original string and then the reversed string (except first char) to form a palindrome.
 ```
 ### Challenge
-Python Challenge: Research the Collatz Conjecture, then write a function collatz_steps(n) that returns the number of steps to reach 1 using the conjecture's rules. Bonus: What number <= 100 produces the longest sequence?
+Python Challenge: Write a function that determines if a word is a 'phonetic palindrome'—a word that sounds the same when spelled backwards, even if the spelling changes. (Eg: 'deified' remains 'deified', but does 'racecar'?) Think critically about phonetics! Use the CMU Pronouncing Dictionary or another phonetic reference.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
