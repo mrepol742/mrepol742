@@ -73,13 +73,14 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This Python snippet creates a palindromic string from any input using slicing and unpacking.
-input_str = 'wow'
-palindrome = ''.join([*input_str, *input_str[::-1][1:]])
-print(palindrome)  # Output: 'wowow'
-// Clever trick: [*input_str, *input_str[::-1][1:]] unpacks the original string and then the reversed string (except first char) to form a palindrome.
+// Swap two variables WITHOUT a temporary variable using XOR magic!
+int a = 42, b = 77;
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+// Now 'a' is 77 and 'b' is 42
 ```
 ### Challenge
-Python Challenge: Write a function that determines if a word is a 'phonetic palindrome'—a word that sounds the same when spelled backwards, even if the spelling changes. (Eg: 'deified' remains 'deified', but does 'racecar'?) Think critically about phonetics! Use the CMU Pronouncing Dictionary or another phonetic reference.
+Python Challenge: Find all palindromic primes below 1000. A palindromic prime is a prime number that remains the same when its digits are reversed. Write a function that outputs the list of such primes.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
