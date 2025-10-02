@@ -73,14 +73,14 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Swap two variables WITHOUT a temporary variable using XOR magic!
-int a = 42, b = 77;
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-// Now 'a' is 77 and 'b' is 42
+// 🦜 Quirky Trick: Recursive String Reversal in One Line (Python)
+# This function reverses a string by calling itself recursively.
+reverse = lambda s: reverse(s[1:]) + s[0] if s else ''
+
+# Example usage:
+print(reverse('hello!'))  # Output: !olleh
 ```
 ### Challenge
-Python Challenge: Find all palindromic primes below 1000. A palindromic prime is a prime number that remains the same when its digits are reversed. Write a function that outputs the list of such primes.
+Python Challenge: Research the history of self-replicating code ('quines'). Then, write a Python function that prints its own source code. Can you create a true quine in less than 10 lines?
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
