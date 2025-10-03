@@ -73,14 +73,15 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🦜 Quirky Trick: Recursive String Reversal in One Line (Python)
-# This function reverses a string by calling itself recursively.
-reverse = lambda s: reverse(s[1:]) + s[0] if s else ''
+// Swap two variables in Python without a temporary variable
+// This quirky one-liner uses tuple unpacking
 
-# Example usage:
-print(reverse('hello!'))  # Output: !olleh
+a, b = 42, 99
+print(f"Before swap: a={a}, b={b}")
+a, b = b, a
+print(f"After swap: a={a}, b={b}")
 ```
 ### Challenge
-Python Challenge: Research the history of self-replicating code ('quines'). Then, write a Python function that prints its own source code. Can you create a true quine in less than 10 lines?
+In Python, write a function that takes a string and returns True if it contains any palindrome substring of at least length 3. Your solution should be efficient and avoid checking all possible substrings with brute force.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
