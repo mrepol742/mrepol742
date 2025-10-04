@@ -73,15 +73,13 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Swap two variables in Python without a temporary variable
-// This quirky one-liner uses tuple unpacking
-
-a, b = 42, 99
-print(f"Before swap: a={a}, b={b}")
+// Quirk: You can swap two variables in Python without a temporary variable!
+# No temp variable needed:
+a, b = 123, 456
 a, b = b, a
-print(f"After swap: a={a}, b={b}")
+print(a, b)  # Output: 456 123
 ```
 ### Challenge
-In Python, write a function that takes a string and returns True if it contains any palindrome substring of at least length 3. Your solution should be efficient and avoid checking all possible substrings with brute force.
+Python Challenge: Write a function that finds the most frequent word in a text file, ignoring punctuation and case sensitivity. (You may only use Python's built-in functions and modules, but not collections.Counter.)
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
