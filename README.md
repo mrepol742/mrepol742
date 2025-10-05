@@ -72,13 +72,14 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirk: You can swap two variables in Python without a temporary variable!
-# No temp variable needed:
-a, b = 123, 456
-a, b = b, a
-print(a, b)  # Output: 456 123
+// Did you know? You can swap two variables in Python in a single line, without a temp variable!
+
+a, b = 5, 9
+print(f"Before: a={a}, b={b}")
+a, b = b, a  # Python tuple assignment magic
+print(f"After: a={a}, b={b}")
 ```
 ### Challenge
-Python Challenge: Write a function that finds the most frequent word in a text file, ignoring punctuation and case sensitivity. (You may only use Python's built-in functions and modules, but not collections.Counter.)
+In Python, write a function that takes a string and returns True if the string contains all the vowels (a, e, i, o, u) at least once, and False otherwise. You may NOT use regular expressions for this task.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
