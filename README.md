@@ -72,14 +72,16 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Did you know? You can swap two variables in Python in a single line, without a temp variable!
+// 🌈 Quirky Trick: Convert a boolean to 'Yes' or 'No' using array indexing!
+function boolToWord(bool) {
+  // Uses 'false' (=0) and 'true' (=1) to index into greetings array
+  return ['No', 'Yes'][+bool];
+}
 
-a, b = 5, 9
-print(f"Before: a={a}, b={b}")
-a, b = b, a  # Python tuple assignment magic
-print(f"After: a={a}, b={b}")
+console.log(boolToWord(true));  // 'Yes'
+console.log(boolToWord(false)); // 'No'
 ```
 ### Challenge
-In Python, write a function that takes a string and returns True if the string contains all the vowels (a, e, i, o, u) at least once, and False otherwise. You may NOT use regular expressions for this task.
+Python Challenge: Research and implement a function that determines if a given number is an 'emirp' (a non-palindromic prime whose reverse is also prime). Write is_emirp(n), and return True if n is an emirp, otherwise False.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
