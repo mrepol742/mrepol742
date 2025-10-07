@@ -72,16 +72,15 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🌈 Quirky Trick: Convert a boolean to 'Yes' or 'No' using array indexing!
-function boolToWord(bool) {
-  // Uses 'false' (=0) and 'true' (=1) to index into greetings array
-  return ['No', 'Yes'][+bool];
-}
-
-console.log(boolToWord(true));  // 'Yes'
-console.log(boolToWord(false)); // 'No'
+// 🎩 Quirky Trick: Flip variable values using bitwise XOR swap
+// Swaps the values of a and b without using a temporary variable
+let a = 42, b = 99;
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+console.log(a, b); // Outputs: 99 42
 ```
 ### Challenge
-Python Challenge: Research and implement a function that determines if a given number is an 'emirp' (a non-palindromic prime whose reverse is also prime). Write is_emirp(n), and return True if n is an emirp, otherwise False.
+Python Challenge: Research and write a function to determine if a string is a valid palindrome, ignoring spaces, punctuation, and capitalization. You may not use regular expressions or the reversed() function.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
