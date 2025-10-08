@@ -72,15 +72,16 @@ Kotlin                   3 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎩 Quirky Trick: Flip variable values using bitwise XOR swap
-// Swaps the values of a and b without using a temporary variable
-let a = 42, b = 99;
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-console.log(a, b); // Outputs: 99 42
+// Trick: Swapping two variables without a temporary variable using XOR bitwise operator in Python
+# This quirky one-liner swaps a and b without a temp variable, and without using tuple unpacking!
+a = 42
+b = 99
+a ^= b
+b ^= a
+a ^= b
+print('a:', a, 'b:', b)  # Output: a: 99 b: 42
 ```
 ### Challenge
-Python Challenge: Research and write a function to determine if a string is a valid palindrome, ignoring spaces, punctuation, and capitalization. You may not use regular expressions or the reversed() function.
+Create a function in Python that finds the longest word in an input string, ignoring punctuation marks. Use only built-in string methods—no external libraries or regular expressions.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
