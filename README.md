@@ -73,16 +73,14 @@ Kotlin                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Trick: Swapping two variables without a temporary variable using XOR bitwise operator in Python
-# This quirky one-liner swaps a and b without a temp variable, and without using tuple unpacking!
-a = 42
-b = 99
-a ^= b
-b ^= a
-a ^= b
-print('a:', a, 'b:', b)  # Output: a: 99 b: 42
+// This code reverses a string using destructuring and join in JavaScript. Quirky, but compact!
+const reverseString = str => [...str].reverse().join('');
+
+console.log(reverseString('GitHub')); // Output: 'buHtiG'
 ```
 ### Challenge
-Create a function in Python that finds the longest word in an input string, ignoring punctuation marks. Use only built-in string methods—no external libraries or regular expressions.
+Daily Challenge (Python):
+Find the first non-repeating character in a string (case-sensitive). If all characters repeat, return None.
+Tip: Avoid using collections.Counter.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
