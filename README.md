@@ -73,14 +73,14 @@ Kotlin                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This code reverses a string using destructuring and join in JavaScript. Quirky, but compact!
-const reverseString = str => [...str].reverse().join('');
+// 🌀 Recursively flatten a nested array in JavaScript... in ONE line!
+// Uses Array.flat() with Infinity for deep flattening.
+const deepFlatten = arr => arr.flat(Infinity);
 
-console.log(reverseString('GitHub')); // Output: 'buHtiG'
+// Example:
+console.log(deepFlatten([1, [2, [3, [4]], 5]])); // Output: [1,2,3,4,5]
 ```
 ### Challenge
-Daily Challenge (Python):
-Find the first non-repeating character in a string (case-sensitive). If all characters repeat, return None.
-Tip: Avoid using collections.Counter.
+Python: Write a function that determines if two sentences (strings) are anagrams of each other, ignoring case, punctuation, and whitespace. Research how to clean and compare the strings efficiently.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
