@@ -73,14 +73,17 @@ Kotlin                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🌀 Recursively flatten a nested array in JavaScript... in ONE line!
-// Uses Array.flat() with Infinity for deep flattening.
-const deepFlatten = arr => arr.flat(Infinity);
-
-// Example:
-console.log(deepFlatten([1, [2, [3, [4]], 5]])); // Output: [1,2,3,4,5]
+// 🎩 Quirky Trick: Swap Two Variables Without a Temp using Bitwise XOR (JavaScript)
+// This works ONLY for numbers. Watch out for edge cases like 'NaN'!
+let a = 13, b = 42;
+[a, b] = [a ^ b, a ^ b ^ a ^ b ^ a, a]; // 😱 Just kidding, that's too quirky!
+// Real XOR swap:
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+console.log(a, b); // 42 13
 ```
 ### Challenge
-Python: Write a function that determines if two sentences (strings) are anagrams of each other, ignoring case, punctuation, and whitespace. Research how to clean and compare the strings efficiently.
+Python Challenge: Research and implement a function that determines if two strings are anagrams WITHOUT sorting or using collections.Counter. Can you design an efficient solution using only basic string and dictionary operations?
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
