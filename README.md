@@ -73,17 +73,15 @@ Kotlin                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎩 Quirky Trick: Swap Two Variables Without a Temp using Bitwise XOR (JavaScript)
-// This works ONLY for numbers. Watch out for edge cases like 'NaN'!
-let a = 13, b = 42;
-[a, b] = [a ^ b, a ^ b ^ a ^ b ^ a, a]; // 😱 Just kidding, that's too quirky!
-// Real XOR swap:
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-console.log(a, b); // 42 13
+// This snippet uses Python's ability to chain comparison operators to check if a number is simultaneously prime and a palindrome with one quirky line!
+def quirky_check(n):
+    # Returns True if n is prime and palindrome
+    return n > 1 and all(n % d for d in range(2, int(n ** 0.5) + 1)) and str(n) == str(n)[::-1]
+
+# Example: Check if 131 is a prime palindrome
+print(quirky_check(131))  # Output: True
 ```
 ### Challenge
-Python Challenge: Research and implement a function that determines if two strings are anagrams WITHOUT sorting or using collections.Counter. Can you design an efficient solution using only basic string and dictionary operations?
+In Python, write a function that finds the longest word in a given text that can be spelled using only the first seven letters of the alphabet ('a' to 'g'). Describe your approach and any edge cases you considered.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
