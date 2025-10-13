@@ -75,15 +75,13 @@ Kotlin                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This snippet uses Python's ability to chain comparison operators to check if a number is simultaneously prime and a palindrome with one quirky line!
-def quirky_check(n):
-    # Returns True if n is prime and palindrome
-    return n > 1 and all(n % d for d in range(2, int(n ** 0.5) + 1)) and str(n) == str(n)[::-1]
-
-# Example: Check if 131 is a prime palindrome
-print(quirky_check(131))  # Output: True
+// Quirky Trick: Swapping two variables in one line using XOR (bit manipulation)
+// Works only for numbers. Fun but less readable!
+let a = 42, b = 99;
+a ^= b; b ^= a; a ^= b;
+console.log(a, b); // Outputs: 99 42
 ```
 ### Challenge
-In Python, write a function that finds the longest word in a given text that can be spelled using only the first seven letters of the alphabet ('a' to 'g'). Describe your approach and any edge cases you considered.
+Python Challenge: Write a function that finds all words in a given string that are anagrams of each other (ignoring case and spaces), using no external libraries. Research the concept of anagrams, think about efficient ways to compare words, and solve!
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
