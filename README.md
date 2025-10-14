@@ -75,13 +75,14 @@ Kotlin                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Swapping two variables in one line using XOR (bit manipulation)
-// Works only for numbers. Fun but less readable!
-let a = 42, b = 99;
+// 🎲 Quirky Trick: Swap two variables without a temp variable using bitwise XOR (JavaScript)
+// This works only with numbers!
+let a = 42, b = 17;
+console.log(`Before swap: a = ${a}, b = ${b}`);
 a ^= b; b ^= a; a ^= b;
-console.log(a, b); // Outputs: 99 42
+console.log(`After swap: a = ${a}, b = ${b}`); // a=17, b=42
 ```
 ### Challenge
-Python Challenge: Write a function that finds all words in a given string that are anagrams of each other (ignoring case and spaces), using no external libraries. Research the concept of anagrams, think about efficient ways to compare words, and solve!
+In Python, write a function that finds all unique words in a text file that are palindromes (read the same backward and forward), ignoring case and punctuation. Research efficient text cleaning methods and file handling best practices for this task.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
