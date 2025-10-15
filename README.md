@@ -74,14 +74,13 @@ Kotlin                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎲 Quirky Trick: Swap two variables without a temp variable using bitwise XOR (JavaScript)
-// This works only with numbers!
-let a = 42, b = 17;
-console.log(`Before swap: a = ${a}, b = ${b}`);
-a ^= b; b ^= a; a ^= b;
-console.log(`After swap: a = ${a}, b = ${b}`); // a=17, b=42
+// Quirk: How to swap two variables in Python without a temporary variable
+# This trick uses Python's ability to unpack tuples on assignment.
+a, b = 42, 'hello'
+a, b = b, a
+print(a, b) # Output: hello 42
 ```
 ### Challenge
-In Python, write a function that finds all unique words in a text file that are palindromes (read the same backward and forward), ignoring case and punctuation. Research efficient text cleaning methods and file handling best practices for this task.
+Python Challenge: Write a function that determines if two strings are anagrams of each other without sorting or using Counter from collections. You may use dictionaries, loops, or custom logic.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
