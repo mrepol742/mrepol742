@@ -74,13 +74,12 @@ Kotlin                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirk: How to swap two variables in Python without a temporary variable
-# This trick uses Python's ability to unpack tuples on assignment.
-a, b = 42, 'hello'
-a, b = b, a
-print(a, b) # Output: hello 42
+// 🌀 Quirky Trick: Self-replicating 'quine' in Python
+// This code prints itself, with no file reads!
+code = 'code = %r
+print(code%%code)'; print(code%code)
 ```
 ### Challenge
-Python Challenge: Write a function that determines if two strings are anagrams of each other without sorting or using Counter from collections. You may use dictionaries, loops, or custom logic.
+In Python, research and implement a function that reverses the order of words in a string, but only if the string contains an even number of words. Avoid using built-in split() or join() methods.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
