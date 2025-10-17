@@ -74,12 +74,13 @@ Kotlin                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🌀 Quirky Trick: Self-replicating 'quine' in Python
-// This code prints itself, with no file reads!
-code = 'code = %r
-print(code%%code)'; print(code%code)
+// Trick: Assign multiple variables from split string in one line (Python)
+# Want to quickly unpack values from a delimited string? Use this!
+data = "Alice|42|Engineer"
+name, age, profession = data.split('|')
+print(f"{name} is a {profession} aged {age}.")  # Alice is a Engineer aged 42.
 ```
 ### Challenge
-In Python, research and implement a function that reverses the order of words in a string, but only if the string contains an even number of words. Avoid using built-in split() or join() methods.
+Python Challenge: Research and implement a decorator called @memoize that caches the result of a function so that repeated calls with the same arguments are fast. Your solution should not use any external libraries, only built-in types.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
