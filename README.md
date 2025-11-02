@@ -73,13 +73,11 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Trick: Assign multiple variables from split string in one line (Python)
-# Want to quickly unpack values from a delimited string? Use this!
-data = "Alice|42|Engineer"
-name, age, profession = data.split('|')
-print(f"{name} is a {profession} aged {age}.")  # Alice is a Engineer aged 42.
+// This quirky Python snippet prints the lyrics to "99 Bottles of Beer" in a single line using list comprehension and string join.
+print('
+'.join([f"{n} bottle{'s' if n != 1 else ''} of beer on the wall, {n} bottle{'s' if n != 1 else ''} of beer. Take one down, pass it around, {n-1 if n>1 else 'no more'} bottle{'s' if n-1 != 1 else ''} of beer on the wall." for n in range(99, 0, -1)]))
 ```
 ### Challenge
-Python Challenge: Research and implement a decorator called @memoize that caches the result of a function so that repeated calls with the same arguments are fast. Your solution should not use any external libraries, only built-in types.
+Python Challenge: Find the first positive integer that is missing from an unsorted list of integers. For example, given [3, 4, -1, 1], your function should return 2. Avoid sorting the list to solve this problem.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
