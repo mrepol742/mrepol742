@@ -73,11 +73,16 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This quirky Python snippet prints the lyrics to "99 Bottles of Beer" in a single line using list comprehension and string join.
-print('
-'.join([f"{n} bottle{'s' if n != 1 else ''} of beer on the wall, {n} bottle{'s' if n != 1 else ''} of beer. Take one down, pass it around, {n-1 if n>1 else 'no more'} bottle{'s' if n-1 != 1 else ''} of beer on the wall." for n in range(99, 0, -1)]))
+// Trick: Swapping two variables without a temporary variable using bitwise XOR (works only for numbers)
+let a = 42;
+let b = 7;
+// Swap values
+a ^= b;
+b ^= a;
+a ^= b;
+console.log(a, b); // Output: 7 42
 ```
 ### Challenge
-Python Challenge: Find the first positive integer that is missing from an unsorted list of integers. For example, given [3, 4, -1, 1], your function should return 2. Avoid sorting the list to solve this problem.
+Python Challenge: Write a function that finds all the unique words in a text file that are palindromes (words that read the same backward) and returns them sorted alphabetically. You may not use built-in sets.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
