@@ -73,16 +73,13 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Trick: Swapping two variables without a temporary variable using bitwise XOR (works only for numbers)
-let a = 42;
-let b = 7;
-// Swap values
-a ^= b;
-b ^= a;
-a ^= b;
-console.log(a, b); // Output: 7 42
+// 💡 Quirky Trick: Reverse a string in Python using slicing and extended syntax
+# This one-liner reverses a string and skips every other letter (i.e., returns every second char, backwards).
+input_str = 'ProgrammingIsFun!'
+quirky_reverse = input_str[::-2]
+print(quirky_reverse) # Output: '!nIaagrmr'
 ```
 ### Challenge
-Python Challenge: Write a function that finds all the unique words in a text file that are palindromes (words that read the same backward) and returns them sorted alphabetically. You may not use built-in sets.
+Research the differences between early binding and late binding in C++. Write a function that demonstrates both concepts using virtual and non-virtual member functions. Provide a brief explanation in your code comments.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
