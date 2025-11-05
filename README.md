@@ -74,13 +74,14 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 💡 Quirky Trick: Reverse a string in Python using slicing and extended syntax
-# This one-liner reverses a string and skips every other letter (i.e., returns every second char, backwards).
-input_str = 'ProgrammingIsFun!'
-quirky_reverse = input_str[::-2]
-print(quirky_reverse) # Output: '!nIaagrmr'
+// Quirky Python trick: swap two variables without using a temporary variable
+# No temp variable needed!
+x = 42
+y = 17
+x, y = y, x
+print(f'Now x = {x}, y = {y}')  # Output: Now x = 17, y = 42
 ```
 ### Challenge
-Research the differences between early binding and late binding in C++. Write a function that demonstrates both concepts using virtual and non-virtual member functions. Provide a brief explanation in your code comments.
+Research and implement a function in Python that checks if a string is a valid palindrome, but ignore all non-alphanumeric characters and case sensitivity. (For example: 'A man, a plan, a canal: Panama' should return True)
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
