@@ -73,14 +73,11 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Python trick: swap two variables without using a temporary variable
-# No temp variable needed!
-x = 42
-y = 17
-x, y = y, x
-print(f'Now x = {x}, y = {y}')  # Output: Now x = 17, y = 42
+// 💡 Ever wondered how to swap two variables without a temporary variable? Here's a classic Python trick!
+a, b = 5, 9
+a, b = b, a  # Now a == 9 and b == 5 with just one line!
 ```
 ### Challenge
-Research and implement a function in Python that checks if a string is a valid palindrome, but ignore all non-alphanumeric characters and case sensitivity. (For example: 'A man, a plan, a canal: Panama' should return True)
+Python Challenge: Write a function that determines if two strings are anagrams of each other, but you cannot use the built-in sorted() function, nor the collections.Counter class. You'll need to use your own approach for comparison.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
