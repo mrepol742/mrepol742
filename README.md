@@ -73,11 +73,18 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 💡 Ever wondered how to swap two variables without a temporary variable? Here's a classic Python trick!
-a, b = 5, 9
-a, b = b, a  # Now a == 9 and b == 5 with just one line!
+// 🎩 Quirky Trick: Swapping Variables Without a Temporary Variable using XOR (in JavaScript)
+// This trick swaps the values of a and b without needing an extra temporary variable. Works with numbers!
+let a = 42, b = 17;
+a = a ^ b; // a is now 42^17
+b = a ^ b; // b is now original a (42)
+a = a ^ b; // a is now original b (17)
+console.log(a, b); // Output: 17 42
 ```
 ### Challenge
-Python Challenge: Write a function that determines if two strings are anagrams of each other, but you cannot use the built-in sorted() function, nor the collections.Counter class. You'll need to use your own approach for comparison.
+Python Challenge: Find the Most Frequent Word
+Write a Python function that takes a text string and returns the most frequently occurring word.
+- You may not use libraries like collections.Counter or any third-party modules!
+- Research how to split words and count occurrences, then develop your own solution.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
