@@ -73,18 +73,18 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎩 Quirky Trick: Swapping Variables Without a Temporary Variable using XOR (in JavaScript)
-// This trick swaps the values of a and b without needing an extra temporary variable. Works with numbers!
-let a = 42, b = 17;
-a = a ^ b; // a is now 42^17
-b = a ^ b; // b is now original a (42)
-a = a ^ b; // a is now original b (17)
-console.log(a, b); // Output: 17 42
+// 🦄 Palindrome with Bitwise Tricks
+// This Python trick checks if a string is a palindrome using slice and bitwise NOT operator (~).
+# The bitwise NOT operator ~n in Python is equivalent to -(n+1).
+# So s[::-1] reverses s, and ~0 is -1 — allowing quirky reverse indexing!
+def is_palindrome(s):
+    return s == s[~0::-1]
+
+# Example:
+print(is_palindrome('level'))  # True
+print(is_palindrome('python')) # False
 ```
 ### Challenge
-Python Challenge: Find the Most Frequent Word
-Write a Python function that takes a text string and returns the most frequently occurring word.
-- You may not use libraries like collections.Counter or any third-party modules!
-- Research how to split words and count occurrences, then develop your own solution.
+Challenge (Python): Write a function that, given a list of words and a string pattern, returns the first word that matches the pattern. The pattern may include letters and the "?" character which can match any letter. For example, matching ['apple', 'apply', 'angle'] with 'a??le' should return 'apple'. Research different string matching strategies to solve this efficiently.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
