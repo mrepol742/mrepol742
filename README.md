@@ -73,18 +73,13 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🦄 Palindrome with Bitwise Tricks
-// This Python trick checks if a string is a palindrome using slice and bitwise NOT operator (~).
-# The bitwise NOT operator ~n in Python is equivalent to -(n+1).
-# So s[::-1] reverses s, and ~0 is -1 — allowing quirky reverse indexing!
-def is_palindrome(s):
-    return s == s[~0::-1]
-
-# Example:
-print(is_palindrome('level'))  # True
-print(is_palindrome('python')) # False
+// 🎩 Quirky Trick: Use Python's string multiplication to create a checkerboard pattern
+# Quickly generate an n x n checkerboard string with alternating 'X' and 'O', using one line
+n = 8
+print('
+'.join((('XO'*n)[:n], ('OX'*n)[:n]) * (n//2)))
 ```
 ### Challenge
-Challenge (Python): Write a function that, given a list of words and a string pattern, returns the first word that matches the pattern. The pattern may include letters and the "?" character which can match any letter. For example, matching ['apple', 'apply', 'angle'] with 'a??le' should return 'apple'. Research different string matching strategies to solve this efficiently.
+Daily Challenge (Python): Research a way to measure execution time for a Python function without using the 'time' or 'datetime' modules. Implement your solution and discuss any limitations.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
