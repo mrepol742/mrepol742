@@ -73,13 +73,18 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎩 Quirky Trick: Use Python's string multiplication to create a checkerboard pattern
-# Quickly generate an n x n checkerboard string with alternating 'X' and 'O', using one line
-n = 8
-print('
-'.join((('XO'*n)[:n], ('OX'*n)[:n]) * (n//2)))
+// 🍕 Pizza Slice Sort (JavaScript)
+// This sorts an array by slicing off the first element repeatedly and inserting it in the correct spot, using only array methods (no for loops, no sort())!
+function pizzaSliceSort(arr) {
+  return arr.reduce((sorted, curr) => {
+    sorted.splice(sorted.findIndex(x => x > curr), 0, curr);
+    return sorted;
+  }, []);
+}
+// Example
+console.log(pizzaSliceSort([5, 2, 8, 1, 3])); // [1,2,3,5,8]
 ```
 ### Challenge
-Daily Challenge (Python): Research a way to measure execution time for a Python function without using the 'time' or 'datetime' modules. Implement your solution and discuss any limitations.
+Python Challenge: Research and implement a function that finds all palindromic substrings within a given string. Avoid using built-in functions like reversed(). Use efficient string handling for optimal performance.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
