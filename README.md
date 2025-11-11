@@ -74,18 +74,16 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🍕 Pizza Slice Sort (JavaScript)
-// This sorts an array by slicing off the first element repeatedly and inserting it in the correct spot, using only array methods (no for loops, no sort())!
-function pizzaSliceSort(arr) {
-  return arr.reduce((sorted, curr) => {
-    sorted.splice(sorted.findIndex(x => x > curr), 0, curr);
-    return sorted;
-  }, []);
-}
-// Example
-console.log(pizzaSliceSort([5, 2, 8, 1, 3])); // [1,2,3,5,8]
+// Swap two variables without a temporary variable using bitwise XOR (Works for numbers)
+let a = 42, b = 99;
+// Before: a = 42, b = 99
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+// After: a = 99, b = 42
+console.log('a:', a, 'b:', b); // a: 99 b: 42
 ```
 ### Challenge
-Python Challenge: Research and implement a function that finds all palindromic substrings within a given string. Avoid using built-in functions like reversed(). Use efficient string handling for optimal performance.
+Python Challenge: Find all pairs of integers in a list whose sum is a prime number. Write a function that takes a list of integers and returns a list of unique pairs (as tuples) where the sum is prime. Research how to efficiently check for prime numbers.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
