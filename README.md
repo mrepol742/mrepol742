@@ -74,16 +74,14 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Swap two variables without a temporary variable using bitwise XOR (Works for numbers)
-let a = 42, b = 99;
-// Before: a = 42, b = 99
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-// After: a = 99, b = 42
-console.log('a:', a, 'b:', b); // a: 99 b: 42
+// Ever wish you could swap two variables in a single line - without a temp variable?
+// Here's a quirky Python trick using tuple unpacking!
+a, b = 42, 99
+print(f"Before: a = {a}, b = {b}")
+a, b = b, a
+print(f"After: a = {a}, b = {b}")
 ```
 ### Challenge
-Python Challenge: Find all pairs of integers in a list whose sum is a prime number. Write a function that takes a list of integers and returns a list of unique pairs (as tuples) where the sum is prime. Research how to efficiently check for prime numbers.
+Python Challenge: Write a function that checks if a number is a palindrome without converting it to a string or using list/array operations. Think about mathematical ways to reverse the number.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
