@@ -74,14 +74,12 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Ever wish you could swap two variables in a single line - without a temp variable?
-// Here's a quirky Python trick using tuple unpacking!
-a, b = 42, 99
-print(f"Before: a = {a}, b = {b}")
-a, b = b, a
-print(f"After: a = {a}, b = {b}")
+// 🦄 Quirky Trick: Reverse a string using recursion and short-circuit evaluation in Python
+# This single line flips a string using a clever recursive slice and logical AND.
+def reverse(s): return reverse(s[1:]) + s[0] if s else s
+print(reverse('github'))  # Output: buhtig
 ```
 ### Challenge
-Python Challenge: Write a function that checks if a number is a palindrome without converting it to a string or using list/array operations. Think about mathematical ways to reverse the number.
+Challenge (Python): Given a string containing words separated by spaces, write a function that rearranges the words in order of increasing length without using the built-in sort() function. (Tip: Investigate your own sorting algorithm!)
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
