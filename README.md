@@ -74,12 +74,17 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🦄 Quirky Trick: Reverse a string using recursion and short-circuit evaluation in Python
-# This single line flips a string using a clever recursive slice and logical AND.
-def reverse(s): return reverse(s[1:]) + s[0] if s else s
-print(reverse('github'))  # Output: buhtig
+// Quirky Trick: Recursive List Flattening One-Liner in Python
+# Flattens an arbitrarily nested list into a single flat list using recursion in a one-liner.
+def flatten(lst):
+    return sum(([x] if not isinstance(x, list) else flatten(x) for x in lst), [])
+
+# Example:
+nested = [1, [2, [3, 4], 5], 6]
+print(flatten(nested))  # Output: [1, 2, 3, 4, 5, 6]
 ```
 ### Challenge
-Challenge (Python): Given a string containing words separated by spaces, write a function that rearranges the words in order of increasing length without using the built-in sort() function. (Tip: Investigate your own sorting algorithm!)
+Daily Challenge (Python):
+Write a function that finds the most frequently occurring word in a text file, ignoring punctuation and case. Describe your approach and cite any libraries used.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
