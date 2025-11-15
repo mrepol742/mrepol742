@@ -74,17 +74,14 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Recursive List Flattening One-Liner in Python
-# Flattens an arbitrarily nested list into a single flat list using recursion in a one-liner.
-def flatten(lst):
-    return sum(([x] if not isinstance(x, list) else flatten(x) for x in lst), [])
-
-# Example:
-nested = [1, [2, [3, 4], 5], 6]
-print(flatten(nested))  # Output: [1, 2, 3, 4, 5, 6]
+// Did you know you can swap two variables in one line without a temp variable in Python?
+# This quirky trick uses tuple unpacking!
+a, b = 1, 2
+print(f"Before: a={a}, b={b}")
+a, b = b, a
+print(f"After: a={a}, b={b}")
 ```
 ### Challenge
-Daily Challenge (Python):
-Write a function that finds the most frequently occurring word in a text file, ignoring punctuation and case. Describe your approach and cite any libraries used.
+Python Challenge: Find all palindromic words in a text file. Research what a palindrome is, read the file line by line, split into words, and identify those which read the same forwards and backwards (case insensitive). Return a list of unique palindromic words.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
