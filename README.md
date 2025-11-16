@@ -74,14 +74,22 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Did you know you can swap two variables in one line without a temp variable in Python?
-# This quirky trick uses tuple unpacking!
-a, b = 1, 2
-print(f"Before: a={a}, b={b}")
-a, b = b, a
-print(f"After: a={a}, b={b}")
+// Palindrome Checker Using Bitwise Operators (JS)
+// This quirky trick converts the input to lowercase and checks if it's a palindrome
+// *without* explicitly reversing the string!
+function isPalindrome(str) {
+  str = str.toLowerCase();
+  for (let i = 0, j = str.length - 1; i < j; ++i, --j) {
+    // (str[i] ^ str[j]) === 0 means the characters are the same
+    if (str.charCodeAt(i) ^ str.charCodeAt(j)) return false;
+  }
+  return true;
+}
+
+// Example
+console.log(isPalindrome('RaceCar')); // true
 ```
 ### Challenge
-Python Challenge: Find all palindromic words in a text file. Research what a palindrome is, read the file line by line, split into words, and identify those which read the same forwards and backwards (case insensitive). Return a list of unique palindromic words.
+Python Challenge: Research what 'memoization' is. Write a function fib(n) that returns the nth Fibonacci number using memoization WITHOUT using built-in decorators (i.e., implement your own caching logic!).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
