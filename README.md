@@ -74,22 +74,13 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Palindrome Checker Using Bitwise Operators (JS)
-// This quirky trick converts the input to lowercase and checks if it's a palindrome
-// *without* explicitly reversing the string!
-function isPalindrome(str) {
-  str = str.toLowerCase();
-  for (let i = 0, j = str.length - 1; i < j; ++i, --j) {
-    // (str[i] ^ str[j]) === 0 means the characters are the same
-    if (str.charCodeAt(i) ^ str.charCodeAt(j)) return false;
-  }
-  return true;
-}
-
-// Example
-console.log(isPalindrome('RaceCar')); // true
+// Quirky trick: Swap two variables in JavaScript without a temporary variable using array destructuring
+let a = 5;
+let b = 10;
+[a, b] = [b, a]; // a is now 10, b is now 5
+console.log(`a = ${a}, b = ${b}`); // Output: a = 10, b = 5
 ```
 ### Challenge
-Python Challenge: Research what 'memoization' is. Write a function fib(n) that returns the nth Fibonacci number using memoization WITHOUT using built-in decorators (i.e., implement your own caching logic!).
+Python: Without using sort or sorted, write a function that finds the second largest unique number in a given list. Think about how to handle duplicates and non-integer elements.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
