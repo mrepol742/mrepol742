@@ -74,13 +74,19 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Swap two variables in JavaScript without a temporary variable using array destructuring
-let a = 5;
-let b = 10;
-[a, b] = [b, a]; // a is now 10, b is now 5
-console.log(`a = ${a}, b = ${b}`); // Output: a = 10, b = 5
+// Quirky Trick: Run a self-contained Python program from a single string using exec()
+# The following code prints a pyramid using only one string and exec()
+code = """for i in range(1,6): print(' '*(5-i)+'* '*(i))"""
+exec(code)
+
+# Output:
+#     *
+#    * *
+#   * * *
+#  * * * *
+# * * * * *
 ```
 ### Challenge
-Python: Without using sort or sorted, write a function that finds the second largest unique number in a given list. Think about how to handle duplicates and non-integer elements.
+Python Challenge: Write a function that, given a Wikipedia article URL, fetches and returns the first paragraph of that article. (Hint: You may need to use requests and BeautifulSoup, but think critically about which HTML elements to target. Handle all edge cases!)
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
