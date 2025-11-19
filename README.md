@@ -74,19 +74,11 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Run a self-contained Python program from a single string using exec()
-# The following code prints a pyramid using only one string and exec()
-code = """for i in range(1,6): print(' '*(5-i)+'* '*(i))"""
-exec(code)
-
-# Output:
-#     *
-#    * *
-#   * * *
-#  * * * *
-# * * * * *
+// Palindrome in one line! Checks if a string is a palindrome, ignoring case and spaces.
+const isPalindrome = str => (s = str.toLowerCase().replace(/s/g, '')) === [...s].reverse().join('');
+// Example: isPalindrome('A man a plan a canal Panama') // true
 ```
 ### Challenge
-Python Challenge: Write a function that, given a Wikipedia article URL, fetches and returns the first paragraph of that article. (Hint: You may need to use requests and BeautifulSoup, but think critically about which HTML elements to target. Handle all edge cases!)
+Python: Research and write a function that extracts all unique email addresses from a block of text, without using any external libraries (like 're' for regex).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
