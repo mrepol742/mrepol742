@@ -74,11 +74,12 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Palindrome in one line! Checks if a string is a palindrome, ignoring case and spaces.
-const isPalindrome = str => (s = str.toLowerCase().replace(/s/g, '')) === [...s].reverse().join('');
-// Example: isPalindrome('A man a plan a canal Panama') // true
+// 🦄 Quirky Trick: Create a string palindrome checker in one line using Python's slicing magic!
+# Checks if a string is a palindrome (same forwards as backwards)
+# Example: is_palindrome('racecar') -> True
+is_palindrome = lambda s: s == s[::-1]
 ```
 ### Challenge
-Python: Research and write a function that extracts all unique email addresses from a block of text, without using any external libraries (like 're' for regex).
+Daily Challenge (Python): Write a function that finds the most common word in a given text file, excluding a provided list of stop words. Research efficient file reading and word frequency counting approaches. Return the word, handling ties (equal frequency) by returning all of them.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
