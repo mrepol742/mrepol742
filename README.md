@@ -73,12 +73,14 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🦄 Quirky Trick: Create a string palindrome checker in one line using Python's slicing magic!
-# Checks if a string is a palindrome (same forwards as backwards)
-# Example: is_palindrome('racecar') -> True
-is_palindrome = lambda s: s == s[::-1]
+// 👾 Did you know? You can swap two variables in Python without a temp variable!
+# This quirky trick uses tuple unpacking:
+a, b = 1, 2
+print('Before:', a, b)
+a, b = b, a
+print('After:', a, b)  # Output: Before: 1 2 ; After: 2 1
 ```
 ### Challenge
-Daily Challenge (Python): Write a function that finds the most common word in a given text file, excluding a provided list of stop words. Research efficient file reading and word frequency counting approaches. Return the word, handling ties (equal frequency) by returning all of them.
+Challenge (Python): Write a function that finds the most frequent word in a paragraph of text, ignoring punctuation and case. Avoid using the 'collections' module.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
