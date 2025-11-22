@@ -74,14 +74,19 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 👾 Did you know? You can swap two variables in Python without a temp variable!
-# This quirky trick uses tuple unpacking:
-a, b = 1, 2
-print('Before:', a, b)
-a, b = b, a
-print('After:', a, b)  # Output: Before: 1 2 ; After: 2 1
+// 🎩 Quirky Trick: One-liner palindrome check using Python slicing!
+# This function returns True if 's' is a palindrome, False otherwise.
+is_palindrome = lambda s: s == s[::-1]
+
+# Example usage:
+print(is_palindrome('racecar'))  # True
+print(is_palindrome('hello'))    # False
 ```
 ### Challenge
-Challenge (Python): Write a function that finds the most frequent word in a paragraph of text, ignoring punctuation and case. Avoid using the 'collections' module.
+Python Challenge: Find all unique two-word anagrams in a given list of words. (i.e., two words that together can be rearranged to form a third word from the list)
+
+Example: ['listen', 'silent', 'enlist', 'inlets', 'tinsel', 'nets']
+
+How many pairs can you find? Write Python code to solve!
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
