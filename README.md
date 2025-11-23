@@ -74,19 +74,12 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎩 Quirky Trick: One-liner palindrome check using Python slicing!
-# This function returns True if 's' is a palindrome, False otherwise.
-is_palindrome = lambda s: s == s[::-1]
-
-# Example usage:
-print(is_palindrome('racecar'))  # True
-print(is_palindrome('hello'))    # False
+// 🪄 Did you know? You can swap two variables without a temporary using destructuring in JavaScript!
+let a = 5, b = 10;
+[a, b] = [b, a];
+console.log(a, b); // Output: 10 5
 ```
 ### Challenge
-Python Challenge: Find all unique two-word anagrams in a given list of words. (i.e., two words that together can be rearranged to form a third word from the list)
-
-Example: ['listen', 'silent', 'enlist', 'inlets', 'tinsel', 'nets']
-
-How many pairs can you find? Write Python code to solve!
+Python: Research the Collatz conjecture. Write a function that, given an integer n, returns the number of steps it takes for n to reach 1 using Collatz rules (n → n/2 if even, n → 3n+1 if odd).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
