@@ -74,12 +74,11 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🪄 Did you know? You can swap two variables without a temporary using destructuring in JavaScript!
-let a = 5, b = 10;
-[a, b] = [b, a];
-console.log(a, b); // Output: 10 5
+// 💡 This quirky Python snippet prints the English alphabet without using any letters in the code!
+# (It relies on ASCII values and the chr function)
+print(''.join([chr(c) for c in range(65, 91)]))  # Output: ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ```
 ### Challenge
-Python: Research the Collatz conjecture. Write a function that, given an integer n, returns the number of steps it takes for n to reach 1 using Collatz rules (n → n/2 if even, n → 3n+1 if odd).
+Python Challenge: Write a function that finds the longest palindromic substring in a given string. (Hint: Avoid using extended libraries like re or itertools; rely on core string operations and logic.)
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
