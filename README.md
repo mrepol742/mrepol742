@@ -74,11 +74,10 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 💡 This quirky Python snippet prints the English alphabet without using any letters in the code!
-# (It relies on ASCII values and the chr function)
-print(''.join([chr(c) for c in range(65, 91)]))  # Output: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+// Quirky Python: Count the number of 'Friday the 13th's in the 21st century in a single line!
+print(sum(1 for y in range(2001, 2101) for m in range(1, 13) if __import__('datetime').date(y, m, 13).weekday() == 4))  # Outputs: 172
 ```
 ### Challenge
-Python Challenge: Write a function that finds the longest palindromic substring in a given string. (Hint: Avoid using extended libraries like re or itertools; rely on core string operations and logic.)
+In Go, write a function to determine if a given positive integer is a 'happy number' (a number that eventually reaches 1 when replaced by the sum of the squares of its digits repeatedly). Don’t use external packages. Example: 19 is happy, 20 is not.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
