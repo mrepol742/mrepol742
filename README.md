@@ -73,10 +73,12 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Python: Count the number of 'Friday the 13th's in the 21st century in a single line!
-print(sum(1 for y in range(2001, 2101) for m in range(1, 13) if __import__('datetime').date(y, m, 13).weekday() == 4))  # Outputs: 172
+// Quirky Trick: Create a one-liner FizzBuzz in Python using join and list comprehensions.
+# This prints numbers 1 to 20, but replaces multiples of 3 with 'Fizz', 5 with 'Buzz', and both with 'FizzBuzz'.
+print('
+'.join(['Fizz'*(i%3==0)+'Buzz'*(i%5==0) or str(i) for i in range(1,21)]))
 ```
 ### Challenge
-In Go, write a function to determine if a given positive integer is a 'happy number' (a number that eventually reaches 1 when replaced by the sum of the squares of its digits repeatedly). Don’t use external packages. Example: 19 is happy, 20 is not.
+Python Challenge: Write a function that takes a string of text and returns the most common word, ignoring case and punctuation, without using the collections or re modules. Show your reasoning.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
