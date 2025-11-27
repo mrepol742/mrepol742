@@ -74,12 +74,14 @@ Rust                     1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Create a one-liner FizzBuzz in Python using join and list comprehensions.
-# This prints numbers 1 to 20, but replaces multiples of 3 with 'Fizz', 5 with 'Buzz', and both with 'FizzBuzz'.
-print('
-'.join(['Fizz'*(i%3==0)+'Buzz'*(i%5==0) or str(i) for i in range(1,21)]))
+// 🐍 Python: Create a one-liner palindrome checker using slicing and a lambda!
+# This lambda checks if a string is a palindrome (ignores case)
+is_palindrome = lambda s: (s:=s.lower()) == s[::-1]
+
+print(is_palindrome("Racecar"))  # True
+print(is_palindrome("Python"))   # False
 ```
 ### Challenge
-Python Challenge: Write a function that takes a string of text and returns the most common word, ignoring case and punctuation, without using the collections or re modules. Show your reasoning.
+In Python, write a function that takes a text file path and returns the top 3 most frequent words, ignoring case and punctuation. You may not use the collections.Counter class or the re module.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
