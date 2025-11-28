@@ -74,14 +74,13 @@ Rust                     1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🐍 Python: Create a one-liner palindrome checker using slicing and a lambda!
-# This lambda checks if a string is a palindrome (ignores case)
-is_palindrome = lambda s: (s:=s.lower()) == s[::-1]
-
-print(is_palindrome("Racecar"))  # True
-print(is_palindrome("Python"))   # False
+// 🎲 Generate all permutations of a string in a single line (Python)
+# This list comprehension uses itertools for quirky, elegant permutations!
+import itertools
+perms = [''.join(p) for p in itertools.permutations('cat')]
+print(perms)  # Output: ['cat', 'cta', 'act', 'atc', 'tca', 'tac']
 ```
 ### Challenge
-In Python, write a function that takes a text file path and returns the top 3 most frequent words, ignoring case and punctuation. You may not use the collections.Counter class or the re module.
+Python Challenge: Write a function that determines if a given integer n can be represented as the sum of two square numbers (e.g., 5 = 1^2 + 2^2). Return True or False. Research the relevant mathematical theorem if needed.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
