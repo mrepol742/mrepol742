@@ -74,13 +74,13 @@ Rust                     1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Swap two variables in Python without using a temp variable
-# This uses tuple unpacking—a handy Python feature!
-a, b = 5, 10
+// 🎲 Quirky Trick: Swapping two variables without a third variable or arithmetic operations in Python
+# Uses tuple unpacking to elegantly swap values in one line!
+a, b = 13, 42
 a, b = b, a
-print(f"a = {a}, b = {b}")  # Output: a = 10, b = 5
+print(a, b)  # Output: 42 13
 ```
 ### Challenge
-Write a Python function that given a list of words, finds and returns the word with the highest number of unique vowels (a, e, i, o, u). If there are multiple, return the first one.
+Python: Write a function that counts how many anagrams of a given word exist in a list of words. The function should return the count. Do not use the built-in sorted() on the entire list directly.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
