@@ -74,13 +74,14 @@ Rust                     2 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎲 Quirky Trick: Swapping two variables without a third variable or arithmetic operations in Python
-# Uses tuple unpacking to elegantly swap values in one line!
-a, b = 13, 42
+// Quirky trick: Quickly swap two variables in Python without a third variable.
+# Sneaky tuple unpacking does it in one line!
+a = 5
+b = 10
 a, b = b, a
-print(a, b)  # Output: 42 13
+print('a:', a, 'b:', b)  # Output: a: 10 b: 5
 ```
 ### Challenge
-Python: Write a function that counts how many anagrams of a given word exist in a list of words. The function should return the count. Do not use the built-in sorted() on the entire list directly.
+In Python, write a function that finds all the words in a given text that appear only once. Avoid using collections.Counter or any third-party libraries. Return the list of unique words, preserving their order.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
