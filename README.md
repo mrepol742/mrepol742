@@ -74,14 +74,14 @@ Rust                     2 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Quickly swap two variables in Python without a third variable.
-# Sneaky tuple unpacking does it in one line!
-a = 5
-b = 10
+// 🎲 Quirky Python Trick: Swapping two variables without a temporary variable
+# This single line swaps the values of a and b using Python's tuple unpacking.
+a, b = 42, 99
+print(f"Before swap: a = {a}, b = {b}")
 a, b = b, a
-print('a:', a, 'b:', b)  # Output: a: 10 b: 5
+print(f"After swap: a = {a}, b = {b}")
 ```
 ### Challenge
-In Python, write a function that finds all the words in a given text that appear only once. Avoid using collections.Counter or any third-party libraries. Return the list of unique words, preserving their order.
+Daily Challenge (Python): Write a function that identifies all unique words in a given text file, ignoring case and punctuation, without using built-in libraries like collections.Counter or set. Think carefully about string manipulation and data structures!
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
