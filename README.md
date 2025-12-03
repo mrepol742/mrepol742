@@ -74,14 +74,15 @@ Rust                     2 repos             ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎲 Quirky Python Trick: Swapping two variables without a temporary variable
-# This single line swaps the values of a and b using Python's tuple unpacking.
-a, b = 42, 99
-print(f"Before swap: a = {a}, b = {b}")
-a, b = b, a
-print(f"After swap: a = {a}, b = {b}")
+// Quirky trick: Use recursion to flatten deeply nested arrays in JavaScript (without Array.flat)
+function flatten(arr) {
+  return arr.reduce((acc, val) => 
+    Array.isArray(val) ? acc.concat(flatten(val)) : acc.concat(val), []);
+}
+// Example:
+// flatten([1, [2, [3, [4]], 5], 6]) => [1, 2, 3, 4, 5, 6]
 ```
 ### Challenge
-Daily Challenge (Python): Write a function that identifies all unique words in a given text file, ignoring case and punctuation, without using built-in libraries like collections.Counter or set. Think carefully about string manipulation and data structures!
+Python: Write a function that finds all words in a given paragraph that occur more than once, ignoring case and punctuation. Do not use collections.Counter.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
