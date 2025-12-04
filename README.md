@@ -74,15 +74,13 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Use recursion to flatten deeply nested arrays in JavaScript (without Array.flat)
-function flatten(arr) {
-  return arr.reduce((acc, val) => 
-    Array.isArray(val) ? acc.concat(flatten(val)) : acc.concat(val), []);
-}
-// Example:
-// flatten([1, [2, [3, [4]], 5], 6]) => [1, 2, 3, 4, 5, 6]
+// 🤯 Quirky Trick: Swapping Variables Without a Temp (JS)
+// This one-liner swaps values of a and b using destructuring!
+let a = 42, b = 7;
+[a, b] = [b, a];
+console.log(a, b); // Output: 7 42
 ```
 ### Challenge
-Python: Write a function that finds all words in a given paragraph that occur more than once, ignoring case and punctuation. Do not use collections.Counter.
+Python Challenge: Research and implement a function that determines if a given text contains a pangram (a sentence with every letter of the English alphabet at least once). Avoid using the set() builtin for your solution.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
