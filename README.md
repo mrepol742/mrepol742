@@ -74,13 +74,12 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🤯 Quirky Trick: Swapping Variables Without a Temp (JS)
-// This one-liner swaps values of a and b using destructuring!
-let a = 42, b = 7;
-[a, b] = [b, a];
-console.log(a, b); // Output: 7 42
+// This Python snippet prints the lyrics of '99 Bottles of Beer' using just one line and recursion!
+print((lambda f, n: '' if n == 0 else f(f, n-1) + (f"{n} bottle{'s' if n>1 else ''} of beer on the wall
+"))(lambda f, n: '' if n == 0 else f(f, n-1) + (f"{n} bottle{'s' if n>1 else ''} of beer on the wall
+"), 99))
 ```
 ### Challenge
-Python Challenge: Research and implement a function that determines if a given text contains a pangram (a sentence with every letter of the English alphabet at least once). Avoid using the set() builtin for your solution.
+Python Research Challenge: Write a function that finds the most common Unicode character (not just ASCII) in a piece of text. You may NOT use the built-in collections.Counter or statistics modules. Think about how to handle multilingual, symbol-rich inputs efficiently!
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
