@@ -74,12 +74,16 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This Python snippet prints the lyrics of '99 Bottles of Beer' using just one line and recursion!
-print((lambda f, n: '' if n == 0 else f(f, n-1) + (f"{n} bottle{'s' if n>1 else ''} of beer on the wall
-"))(lambda f, n: '' if n == 0 else f(f, n-1) + (f"{n} bottle{'s' if n>1 else ''} of beer on the wall
-"), 99))
+// 🎩 Magic Trick: Swap Two Variables Without Using a Temporary Variable
+// This clever use of XOR swaps values of a and b in-place.
+let a = 42, b = 99;
+console.log(`Before: a=${a}, b=${b}`);
+a ^= b;
+b ^= a;
+a ^= b;
+console.log(`After: a=${a}, b=${b}`); // Now a=99, b=42
 ```
 ### Challenge
-Python Research Challenge: Write a function that finds the most common Unicode character (not just ASCII) in a piece of text. You may NOT use the built-in collections.Counter or statistics modules. Think about how to handle multilingual, symbol-rich inputs efficiently!
+Python: Given a list of tuples representing (name, score), write a function that returns the name(s) of the highest scorer(s). If multiple people tie, return all their names in a list, sorted alphabetically. (Research: how to handle ties and sorting tuples!)
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
