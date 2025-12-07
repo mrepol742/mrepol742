@@ -74,16 +74,23 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎩 Magic Trick: Swap Two Variables Without Using a Temporary Variable
-// This clever use of XOR swaps values of a and b in-place.
-let a = 42, b = 99;
-console.log(`Before: a=${a}, b=${b}`);
-a ^= b;
-b ^= a;
-a ^= b;
-console.log(`After: a=${a}, b=${b}`); // Now a=99, b=42
+// Quirky trick: Swapping two variables without using a temporary variable, using bitwise XOR in Python
+# Swaps values of a and b without a temp
+
+a = 13
+b = 42
+
+print(f"Before: a={a}, b={b}")
+
+a ^= b
+b ^= a
+a ^= b
+
+print(f"After: a={a}, b={b}")
+
+# (This works only for integers!)
 ```
 ### Challenge
-Python: Given a list of tuples representing (name, score), write a function that returns the name(s) of the highest scorer(s). If multiple people tie, return all their names in a list, sorted alphabetically. (Research: how to handle ties and sorting tuples!)
+Python: Write a function that fetches the top 5 most viewed Wikipedia articles from yesterday using the Wikimedia API, and outputs their titles as a sorted list (most to least views). Parse the API response and handle possible errors gracefully.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
