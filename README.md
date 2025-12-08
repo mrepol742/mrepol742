@@ -73,23 +73,13 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Swapping two variables without using a temporary variable, using bitwise XOR in Python
-# Swaps values of a and b without a temp
+// 🎩 Quirky trick: Reverse a string using bitwise NOT (~) to flip indexes in JavaScript
+// This creative use avoids the typical reverse() function.
+const reverseStr = s => [...s].map((_,i,a)=>a[~i]).join('');
 
-a = 13
-b = 42
-
-print(f"Before: a={a}, b={b}")
-
-a ^= b
-b ^= a
-a ^= b
-
-print(f"After: a={a}, b={b}")
-
-# (This works only for integers!)
+console.log(reverseStr('Hello, world!')); // !dlrow ,olleH
 ```
 ### Challenge
-Python: Write a function that fetches the top 5 most viewed Wikipedia articles from yesterday using the Wikimedia API, and outputs their titles as a sorted list (most to least views). Parse the API response and handle possible errors gracefully.
+Python Challenge: Write a function that finds the longest word in a given paragraph, ignoring punctuation and numbers, without using any built-in split or regular expressions.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
