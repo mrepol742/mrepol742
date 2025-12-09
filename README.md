@@ -73,13 +73,16 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎩 Quirky trick: Reverse a string using bitwise NOT (~) to flip indexes in JavaScript
-// This creative use avoids the typical reverse() function.
-const reverseStr = s => [...s].map((_,i,a)=>a[~i]).join('');
-
-console.log(reverseStr('Hello, world!')); // !dlrow ,olleH
+// Quirky Trick: Swap two variables WITHOUT a temporary or arithmetic operator (using bitwise XOR in Python!)
+a, b = 42, 99
+print(f'Before: a={a}, b={b}')
+a ^= b
+b ^= a
+a ^= b
+print(f'After:  a={a}, b={b}')
+# Voilà! a and b are swapped purely with XOR.
 ```
 ### Challenge
-Python Challenge: Write a function that finds the longest word in a given paragraph, ignoring punctuation and numbers, without using any built-in split or regular expressions.
+Python Challenge: Research and implement a function that determines whether a given integer is a palindrome (reads the same forwards and backwards) without converting the integer to a string. Think about numerical operations and edge cases.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
