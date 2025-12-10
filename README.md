@@ -73,16 +73,17 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Swap two variables WITHOUT a temporary or arithmetic operator (using bitwise XOR in Python!)
-a, b = 42, 99
-print(f'Before: a={a}, b={b}')
-a ^= b
-b ^= a
-a ^= b
-print(f'After:  a={a}, b={b}')
-# Voilà! a and b are swapped purely with XOR.
+// Quirky Trick: Overloading the '+' operator for string concatenation using Python's __add__ method
+class SillyStr(str):
+    def __add__(self, other):
+        return f"{self} plus {other}!"
+
+# Usage
+s1 = SillyStr("Hello")
+s2 = "World"
+print(s1 + s2)  # Output: Hello plus World!
 ```
 ### Challenge
-Python Challenge: Research and implement a function that determines whether a given integer is a palindrome (reads the same forwards and backwards) without converting the integer to a string. Think about numerical operations and edge cases.
+Python challenge: Implement a function that reads a random Wikipedia article's summary using an API call, then returns the longest word in that summary. (Hint: Research how to use requests and handle JSON response!)
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
