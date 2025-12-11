@@ -73,17 +73,12 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Overloading the '+' operator for string concatenation using Python's __add__ method
-class SillyStr(str):
-    def __add__(self, other):
-        return f"{self} plus {other}!"
-
-# Usage
-s1 = SillyStr("Hello")
-s2 = "World"
-print(s1 + s2)  # Output: Hello plus World!
+// Quirky trick: Reversing a string in Python using slice notation (no loops or functions!)
+# This one-liner flips any string backwards instantly
+text = "Quirky!"
+print(text[::-1])  # Output: !ykruiQ
 ```
 ### Challenge
-Python challenge: Implement a function that reads a random Wikipedia article's summary using an API call, then returns the longest word in that summary. (Hint: Research how to use requests and handle JSON response!)
+Python challenge: Write a function that takes a list of words and returns only those that are palindromes (the same forwards and backwards). You must use list comprehensions, but don't use the built-in reversed() function.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
