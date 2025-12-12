@@ -73,12 +73,19 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Reversing a string in Python using slice notation (no loops or functions!)
-# This one-liner flips any string backwards instantly
-text = "Quirky!"
-print(text[::-1])  # Output: !ykruiQ
+// Quirk: Overloading the '==' operator to perform addition in Python!
+# This class lets you use '==' between two objects to sum their values, instead of compare them. Unexpected but fun!
+class AddOnEq:
+    def __init__(self, value):
+        self.value = value
+    def __eq__(self, other):
+        return self.value + other.value
+
+x = AddOnEq(2)
+y = AddOnEq(3)
+print(x == y)  # Output: 5!
 ```
 ### Challenge
-Python challenge: Write a function that takes a list of words and returns only those that are palindromes (the same forwards and backwards). You must use list comprehensions, but don't use the built-in reversed() function.
+In Python, write a function that finds the longest English word that can be written using only the letters from the name of a planet (for any planet). You may use an online dictionary API or dataset for research. Return both the planet and the found word.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
