@@ -73,19 +73,16 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirk: Overloading the '==' operator to perform addition in Python!
-# This class lets you use '==' between two objects to sum their values, instead of compare them. Unexpected but fun!
-class AddOnEq:
-    def __init__(self, value):
-        self.value = value
-    def __eq__(self, other):
-        return self.value + other.value
-
-x = AddOnEq(2)
-y = AddOnEq(3)
-print(x == y)  # Output: 5!
+// Ever wanted to swap two variables without a temp variable? Here's a quirky way using bitwise XOR in JavaScript!
+let a = 42;
+let b = 17;
+// Swapping values
+b = a ^ b;
+a = a ^ b;
+b = a ^ b;
+console.log(a, b); // Outputs: 17 42
 ```
 ### Challenge
-In Python, write a function that finds the longest English word that can be written using only the letters from the name of a planet (for any planet). You may use an online dictionary API or dataset for research. Return both the planet and the found word.
+Python: Research and write a function that determines if a given number is a happy number. (A happy number is an integer where repeatedly replacing the number by the sum of the squares of its digits eventually results in 1.)
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
