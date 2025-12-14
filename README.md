@@ -73,16 +73,15 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Ever wanted to swap two variables without a temp variable? Here's a quirky way using bitwise XOR in JavaScript!
-let a = 42;
-let b = 17;
-// Swapping values
-b = a ^ b;
-a = a ^ b;
-b = a ^ b;
-console.log(a, b); // Outputs: 17 42
+// 🃏 Trick: How to swap two variables without a temporary variable or destructuring
+// Works with numbers! (But use with care: order matters for types)
+let a = 42, b = 99;
+a = a + b;
+b = a - b;
+a = a - b;
+console.log(a, b); // Outputs: 99 42
 ```
 ### Challenge
-Python: Research and write a function that determines if a given number is a happy number. (A happy number is an integer where repeatedly replacing the number by the sum of the squares of its digits eventually results in 1.)
+Python Challenge 🐍: You are given a list of strings and a target string. Write a function to find all indices in the list where the anagram of the target string occurs. Don't use any built-in sorting or Counter functions. (Hint: Research anagram detection algorithms!)
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
