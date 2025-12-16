@@ -73,14 +73,14 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Swapping two variables without a temp using XOR (works for numbers)
-let a = 5, b = 7;
-a ^= b;
-b ^= a;
-a ^= b;
-console.log(a, b); // outputs: 7 5
+// 🎩 Quirky Trick: Swapping two variables without a temp variable (JavaScript)
+// This trick uses destructuring assignment to swap 'a' and 'b'.
+let a = 42;
+let b = 7;
+[a, b] = [b, a];
+console.log(a, b); // Output: 7 42
 ```
 ### Challenge
-Python: Given an English word, write a function to find the shortest palindrome that can be obtained by appending characters at the end. For example, 'race' should become 'racecar'. Document your approach and consider edge cases.
+Python: Write a function that finds the longest consecutive sequence of vowels in a given string. Avoid using regular expressions. What is your approach?
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
