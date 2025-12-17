@@ -73,14 +73,16 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎩 Quirky Trick: Swapping two variables without a temp variable (JavaScript)
-// This trick uses destructuring assignment to swap 'a' and 'b'.
-let a = 42;
-let b = 7;
-[a, b] = [b, a];
-console.log(a, b); // Output: 7 42
+// 🎩 Quirky Trick: Build an incrementing function without using numbers!
+// Each call to 'next()' returns a new number, thanks to array length.
+let arr = [];
+function next() { arr.push(true); return arr.length; }
+// Usage example:
+console.log(next()); // 1
+console.log(next()); // 2
+console.log(next()); // 3
 ```
 ### Challenge
-Python: Write a function that finds the longest consecutive sequence of vowels in a given string. Avoid using regular expressions. What is your approach?
+In Python, write a function that finds the longest English word in a given list where every letter is a vowel (a, e, i, o, or u). Use an online dictionary or word list for research and justify your result.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
