@@ -73,16 +73,14 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎩 Quirky Trick: Build an incrementing function without using numbers!
-// Each call to 'next()' returns a new number, thanks to array length.
-let arr = [];
-function next() { arr.push(true); return arr.length; }
-// Usage example:
-console.log(next()); // 1
-console.log(next()); // 2
-console.log(next()); // 3
+// 🎩 Fun trick: Reverse a string using recursion in Python
+# This function recursively reverses any string using slicing
+def reverse_string(s):
+    return s if len(s) <= 1 else reverse_string(s[1:]) + s[0]
+
+print(reverse_string("Quirky!"))  # Output: !ykriuqQ
 ```
 ### Challenge
-In Python, write a function that finds the longest English word in a given list where every letter is a vowel (a, e, i, o, or u). Use an online dictionary or word list for research and justify your result.
+Python challenge: Write a function that determines if two different words are anagrams of each other, but you cannot use the built-in sorted() function or collections module. Research alternative ways to compare character frequencies!
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
