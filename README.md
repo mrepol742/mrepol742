@@ -73,14 +73,14 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎩 Fun trick: Reverse a string using recursion in Python
-# This function recursively reverses any string using slicing
-def reverse_string(s):
-    return s if len(s) <= 1 else reverse_string(s[1:]) + s[0]
+// Quirky trick: Create a Python function whose name spells out what it does!
+# This function reverses a string, and its name is spelled backwards too!
+def esrever(s):
+    return s[::-1]
 
-print(reverse_string("Quirky!"))  # Output: !ykriuqQ
+print(esrever("hello world"))  # Output: dlrow olleh
 ```
 ### Challenge
-Python challenge: Write a function that determines if two different words are anagrams of each other, but you cannot use the built-in sorted() function or collections module. Research alternative ways to compare character frequencies!
+Python Challenge: Write a function that returns the longest word in a given sentence, but do not use the built-in max, sorted, or any libraries like re. You may only use basic string and list operations.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
