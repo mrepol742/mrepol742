@@ -73,14 +73,15 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Create a Python function whose name spells out what it does!
-# This function reverses a string, and its name is spelled backwards too!
-def esrever(s):
-    return s[::-1]
-
-print(esrever("hello world"))  # Output: dlrow olleh
+// Quirky trick: Swap two variables without a temporary variable using bitwise XOR (JavaScript)
+let a = 5, b = 9;
+a ^= b;
+b ^= a;
+a ^= b;
+// Now, a === 9 and b === 5
+console.log(`a = ${a}, b = ${b}`); // a = 9, b = 5
 ```
 ### Challenge
-Python Challenge: Write a function that returns the longest word in a given sentence, but do not use the built-in max, sorted, or any libraries like re. You may only use basic string and list operations.
+Python Challenge: Write a function that finds the first non-repeating character in a string, but you must accomplish this in a single pass (one loop), not by using Counter or collections. Research optimal strategies for single-pass character occurrence tracking.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
