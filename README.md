@@ -74,15 +74,13 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Swap two variables without a temporary variable using bitwise XOR (JavaScript)
-let a = 5, b = 9;
-a ^= b;
-b ^= a;
-a ^= b;
-// Now, a === 9 and b === 5
-console.log(`a = ${a}, b = ${b}`); // a = 9, b = 5
+// Quirky trick: In Python, you can swap two variables without a temporary variable.
+# This uses tuple unpacking, which is neat and concise.
+a, b = 42, 99
+a, b = b, a  # a is now 99, b is now 42
+print(f"a: {a}, b: {b}")
 ```
 ### Challenge
-Python Challenge: Write a function that finds the first non-repeating character in a string, but you must accomplish this in a single pass (one loop), not by using Counter or collections. Research optimal strategies for single-pass character occurrence tracking.
+In Python, write a function that reverses the words in a sentence while preserving all spaces and punctuation. Research string manipulation techniques to avoid using split() or regular expressions.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
