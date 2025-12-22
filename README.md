@@ -74,13 +74,13 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: In Python, you can swap two variables without a temporary variable.
-# This uses tuple unpacking, which is neat and concise.
-a, b = 42, 99
-a, b = b, a  # a is now 99, b is now 42
-print(f"a: {a}, b: {b}")
+// Quirky Trick: Swapping two variables without a temporary variable (Python)
+# This one-liner uses tuple unpacking to swap values!
+x, y = 42, 17
+x, y = y, x
+print(x, y)  # Outputs: 17 42
 ```
 ### Challenge
-In Python, write a function that reverses the words in a sentence while preserving all spaces and punctuation. Research string manipulation techniques to avoid using split() or regular expressions.
+Research and implement a function in Python that checks if two strings are anagrams of each other, but you cannot use sorting (sorted) or Counter from collections. Think about alternative strategies for comparing character frequencies.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
