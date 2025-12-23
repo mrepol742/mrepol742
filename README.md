@@ -74,13 +74,12 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Swapping two variables without a temporary variable (Python)
-# This one-liner uses tuple unpacking to swap values!
-x, y = 42, 17
-x, y = y, x
-print(x, y)  # Outputs: 17 42
+// ☕ JavaScript - One-liner to create an array of the alphabet
+// This trick uses String.fromCharCode and Array.keys for a concise solution!
+const alphabet = Array.from({length: 26}, (_, i) => String.fromCharCode(65 + i));
+console.log(alphabet); // [ 'A', 'B', 'C', ..., 'Z' ]
 ```
 ### Challenge
-Research and implement a function in Python that checks if two strings are anagrams of each other, but you cannot use sorting (sorted) or Counter from collections. Think about alternative strategies for comparing character frequencies.
+Python Challenge: Find all words from a given list that are anagrams of a target word. Write a function that receives a list of words and a target (e.g., 'listen'), and returns all anagrams from the list for that target. Research an efficient way to compare word arrangements without sorting each time.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
