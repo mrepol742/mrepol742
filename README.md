@@ -74,12 +74,19 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// ☕ JavaScript - One-liner to create an array of the alphabet
-// This trick uses String.fromCharCode and Array.keys for a concise solution!
-const alphabet = Array.from({length: 26}, (_, i) => String.fromCharCode(65 + i));
-console.log(alphabet); // [ 'A', 'B', 'C', ..., 'Z' ]
+// Quirky Trick: Swap two variables without a third variable or arithmetic, using bitwise XOR!
+let a = 42;
+let b = 27;
+
+// Swap them
+// (Works only for numbers)
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+
+console.log(a, b); // 27 42
 ```
 ### Challenge
-Python Challenge: Find all words from a given list that are anagrams of a target word. Write a function that receives a list of words and a target (e.g., 'listen'), and returns all anagrams from the list for that target. Research an efficient way to compare word arrangements without sorting each time.
+Python Challenge: Implement a function that finds the second most frequent word in a given text file. Avoid using collections.Counter or any third-party libraries.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
