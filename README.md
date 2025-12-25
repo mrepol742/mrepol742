@@ -73,19 +73,15 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Swap two variables without a third variable or arithmetic, using bitwise XOR!
-let a = 42;
-let b = 27;
-
-// Swap them
-// (Works only for numbers)
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-
-console.log(a, b); // 27 42
+// # Quirky Trick: Swapping Variables Without a Temporary Variable
+// This one-liner swaps the values of a and b using destructuring assignment in JavaScript. No temp variable needed!
+let a = 42, b = 7;
+[a, b] = [b, a];
+console.log(a, b); // Outputs: 7 42
 ```
 ### Challenge
-Python Challenge: Implement a function that finds the second most frequent word in a given text file. Avoid using collections.Counter or any third-party libraries.
+Python Challenge: Find the Most Frequent Word
+
+Given a string of text, write a Python function that returns the most frequently occurring word. If there is a tie, return any one of the most frequent words. You may NOT use the collections.Counter class.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
