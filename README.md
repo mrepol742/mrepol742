@@ -73,15 +73,12 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// # Quirky Trick: Swapping Variables Without a Temporary Variable
-// This one-liner swaps the values of a and b using destructuring assignment in JavaScript. No temp variable needed!
-let a = 42, b = 7;
-[a, b] = [b, a];
-console.log(a, b); // Outputs: 7 42
+// Quine time: This Python snippet prints its own source code. No file reading, just clever string formatting!
+s = 's = %r
+print(s%%s)'
+print(s%s)
 ```
 ### Challenge
-Python Challenge: Find the Most Frequent Word
-
-Given a string of text, write a Python function that returns the most frequently occurring word. If there is a tie, return any one of the most frequent words. You may NOT use the collections.Counter class.
+Python Challenge: Research and implement a function that determines if a given integer is a Harshad (Niven) number. A Harshad number is divisible by the sum of its digits. Write the function without using any string conversion methods.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
