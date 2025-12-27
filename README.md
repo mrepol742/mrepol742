@@ -73,12 +73,12 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quine time: This Python snippet prints its own source code. No file reading, just clever string formatting!
-s = 's = %r
-print(s%%s)'
-print(s%s)
+// Quirky trick: Swap two variables in one line without a temp variable (works in Python)
+x, y = 42, 99  # Initial values
+x, y = y, x    # Now x is 99, y is 42
+print(x, y)    # Output: 99 42
 ```
 ### Challenge
-Python Challenge: Research and implement a function that determines if a given integer is a Harshad (Niven) number. A Harshad number is divisible by the sum of its digits. Write the function without using any string conversion methods.
+Python Challenge: Given a list of integers, write a function to find the integer(s) that appear most frequently in the list. Your function must not use collections.Counter or any third-party modules.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
