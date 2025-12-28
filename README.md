@@ -73,12 +73,13 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Swap two variables in one line without a temp variable (works in Python)
-x, y = 42, 99  # Initial values
-x, y = y, x    # Now x is 99, y is 42
-print(x, y)    # Output: 99 42
+// Quirky trick: Swap two variables without using a temporary variable or arithmetic!
+// This uses array destructuring in JavaScript.
+let a = 42, b = 99;
+[a, b] = [b, a]; // Now a = 99, b = 42
+console.log(`a: ${a}, b: ${b}`); // Output: a: 99, b: 42
 ```
 ### Challenge
-Python Challenge: Given a list of integers, write a function to find the integer(s) that appear most frequently in the list. Your function must not use collections.Counter or any third-party modules.
+Python Challenge: Research how to check if two strings are anagrams. Write a function that takes two strings and returns True if they are anagrams (using case-insensitive comparison), but do not use the built-in 'sorted' function or collections.Counter.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
