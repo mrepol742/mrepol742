@@ -73,13 +73,16 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Swap two variables without using a temporary variable or arithmetic!
-// This uses array destructuring in JavaScript.
-let a = 42, b = 99;
-[a, b] = [b, a]; // Now a = 99, b = 42
-console.log(`a: ${a}, b: ${b}`); // Output: a: 99, b: 42
+// Trick: Swapping two variables without a temporary variable using XOR magic!
+// Works only with numbers. Watch out for using the same variable twice!
+let a = 42;
+let b = 99;
+a ^= b;
+b ^= a;
+a ^= b;
+// Now 'a' is 99 and 'b' is 42.
 ```
 ### Challenge
-Python Challenge: Research how to check if two strings are anagrams. Write a function that takes two strings and returns True if they are anagrams (using case-insensitive comparison), but do not use the built-in 'sorted' function or collections.Counter.
+Python Challenge: Write a function that identifies all palindromic prime numbers between 1 and 1000. Research what makes a number palindromic and prime, and use your critical thinking to combine both checks.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
