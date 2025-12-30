@@ -73,16 +73,15 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Trick: Swapping two variables without a temporary variable using XOR magic!
-// Works only with numbers. Watch out for using the same variable twice!
-let a = 42;
-let b = 99;
-a ^= b;
-b ^= a;
-a ^= b;
-// Now 'a' is 99 and 'b' is 42.
+// 🎩 Magic: Swapping two variables without a third variable in Python
+# This quirky trick uses tuple unpacking to swap values instantly!
+a = 42
+b = 'hello'
+print(f'Before: a={a}, b={b}')
+a, b = b, a
+print(f'After: a={a}, b={b}')
 ```
 ### Challenge
-Python Challenge: Write a function that identifies all palindromic prime numbers between 1 and 1000. Research what makes a number palindromic and prime, and use your critical thinking to combine both checks.
+Python Challenge: Research and implement a function that checks if a sentence is a palindrome (ignoring punctuation, spaces, and case). You must not use slice notation or the reversed() function. Why are these restrictions interesting? What alternative approaches might work?
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
