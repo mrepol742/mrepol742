@@ -73,15 +73,16 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎩 Magic: Swapping two variables without a third variable in Python
-# This quirky trick uses tuple unpacking to swap values instantly!
-a = 42
-b = 'hello'
-print(f'Before: a={a}, b={b}')
-a, b = b, a
-print(f'After: a={a}, b={b}')
+// Quirky trick: Swapping two variables without a temp variable using XOR (for integers)
+let a = 42, b = 99;
+// Swap
+a ^= b;
+b ^= a;
+a ^= b;
+console.log('a:', a, 'b:', b); // a: 99, b: 42
+// Note: Only works reliably for integer types.
 ```
 ### Challenge
-Python Challenge: Research and implement a function that checks if a sentence is a palindrome (ignoring punctuation, spaces, and case). You must not use slice notation or the reversed() function. Why are these restrictions interesting? What alternative approaches might work?
+Python Challenge: Research and write a function that, given a positive integer n, returns a list of all prime numbers less than n using the Sieve of Eratosthenes algorithm. You may not use libraries explicitly designed for prime number generation.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
