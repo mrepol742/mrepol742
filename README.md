@@ -73,16 +73,16 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Swapping two variables without a temp variable using XOR (for integers)
+// 🎩 Magic: Swapping Two Variables Without a Temporary Variable (Using Bitwise XOR)
+// This trick only works for numbers!
 let a = 42, b = 99;
-// Swap
+console.log(`Before: a=${a}, b=${b}`);
 a ^= b;
 b ^= a;
 a ^= b;
-console.log('a:', a, 'b:', b); // a: 99, b: 42
-// Note: Only works reliably for integer types.
+console.log(`After:  a=${a}, b=${b}`); // a=99, b=42
 ```
 ### Challenge
-Python Challenge: Research and write a function that, given a positive integer n, returns a list of all prime numbers less than n using the Sieve of Eratosthenes algorithm. You may not use libraries explicitly designed for prime number generation.
+Python Challenge: Find the most frequent word in a large text file, ignoring case and punctuation, without using any external libraries (like collections or re).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
