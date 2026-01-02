@@ -73,16 +73,15 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎩 Magic: Swapping Two Variables Without a Temporary Variable (Using Bitwise XOR)
-// This trick only works for numbers!
-let a = 42, b = 99;
-console.log(`Before: a=${a}, b=${b}`);
-a ^= b;
-b ^= a;
-a ^= b;
-console.log(`After:  a=${a}, b=${b}`); // a=99, b=42
+// 🦄 Quirky Trick: Swap Two Variables Without a Temporary Variable (JS)
+// This snippet swaps the values of a and b using bitwise XOR, without needing a third variable.
+let a = 42, b = 23;
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+console.log(a, b); // now a = 23, b = 42
 ```
 ### Challenge
-Python Challenge: Find the most frequent word in a large text file, ignoring case and punctuation, without using any external libraries (like collections or re).
+Python: Research and implement a function that reconstructs a string from a list of shuffled overlapping substrings (k-mers), such that the original string has minimal length and contains all k-mers. Hint: Explore the concept of de Bruijn graphs.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
