@@ -73,15 +73,14 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🦄 Quirky Trick: Swap Two Variables Without a Temporary Variable (JS)
-// This snippet swaps the values of a and b using bitwise XOR, without needing a third variable.
-let a = 42, b = 23;
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-console.log(a, b); // now a = 23, b = 42
+// Quirky Trick: Swapping Two Variables in a Single Line (Python)
+// This uses tuple unpacking to swap the values of a and b without a temporary variable.
+a, b = 42, 99
+print(f"Before: a={a}, b={b}")
+a, b = b, a  # MAGIC: swap!
+print(f"After:  a={a}, b={b}")
 ```
 ### Challenge
-Python: Research and implement a function that reconstructs a string from a list of shuffled overlapping substrings (k-mers), such that the original string has minimal length and contains all k-mers. Hint: Explore the concept of de Bruijn graphs.
+Python Challenge: Research the Collatz Conjecture. Write a function collatz_steps(n) that returns the number of steps required for a positive integer n to reach 1, following these rules: if n is even, divide it by 2; if odd, multiply by 3 and add 1. Try to optimize for speed!
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
