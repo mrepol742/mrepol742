@@ -72,14 +72,12 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Swapping Two Variables in a Single Line (Python)
-// This uses tuple unpacking to swap the values of a and b without a temporary variable.
-a, b = 42, 99
-print(f"Before: a={a}, b={b}")
-a, b = b, a  # MAGIC: swap!
-print(f"After:  a={a}, b={b}")
+// Quirky Trick: Swapping two variables without a temporary variable using XOR (works for integers)
+let a = 42, b = 7;
+a ^= b; b ^= a; a ^= b;
+console.log('a:', a, 'b:', b); // a: 7 b: 42
 ```
 ### Challenge
-Python Challenge: Research the Collatz Conjecture. Write a function collatz_steps(n) that returns the number of steps required for a positive integer n to reach 1, following these rules: if n is even, divide it by 2; if odd, multiply by 3 and add 1. Try to optimize for speed!
+Python Challenge: Research the concept of memoization. Write a function that computes the Nth Fibonacci number using recursion, but ensure it avoids redundant calculations using memoization (hint: use a dictionary or @lru_cache).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
