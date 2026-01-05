@@ -72,12 +72,19 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Swapping two variables without a temporary variable using XOR (works for integers)
-let a = 42, b = 7;
-a ^= b; b ^= a; a ^= b;
-console.log('a:', a, 'b:', b); // a: 7 b: 42
+// Ever wanted to swap two variables in a single line without using a temp variable? Here's a quirky trick using bitwise XOR in Python:
+# Swaps a and b without a third variable
+
+a = 42
+b = 99
+
+print(f'Before: a={a}, b={b}')
+a ^= b
+b ^= a
+a ^= b
+print(f'After: a={a}, b={b}')  # a=99, b=42!
 ```
 ### Challenge
-Python Challenge: Research the concept of memoization. Write a function that computes the Nth Fibonacci number using recursion, but ensure it avoids redundant calculations using memoization (hint: use a dictionary or @lru_cache).
+Python Challenge: Find the *longest* word in a given text file containing at least 1000 words. Your solution must not use the built-in max() function. Consider efficiency and edge cases (punctuation, ties, etc).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
