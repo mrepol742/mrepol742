@@ -72,19 +72,20 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Ever wanted to swap two variables in a single line without using a temp variable? Here's a quirky trick using bitwise XOR in Python:
-# Swaps a and b without a third variable
+// Quirky Trick: Implement a self-incrementing variable using JavaScript property accessors
+// Each time you access `counter.value`, it returns the next value!
+const counter = {
+  _v: 0,
+  get value() {
+    return ++this._v;
+  }
+};
 
-a = 42
-b = 99
-
-print(f'Before: a={a}, b={b}')
-a ^= b
-b ^= a
-a ^= b
-print(f'After: a={a}, b={b}')  # a=99, b=42!
+console.log(counter.value); // 1
+console.log(counter.value); // 2
+console.log(counter.value); // 3
 ```
 ### Challenge
-Python Challenge: Find the *longest* word in a given text file containing at least 1000 words. Your solution must not use the built-in max() function. Consider efficiency and edge cases (punctuation, ties, etc).
+Python: Write a function that takes a domain name and returns its IP address using only built-in libraries. What considerations do you need to make for domains that may not resolve? Provide code and a brief explanation.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
