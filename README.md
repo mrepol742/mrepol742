@@ -72,20 +72,13 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Implement a self-incrementing variable using JavaScript property accessors
-// Each time you access `counter.value`, it returns the next value!
-const counter = {
-  _v: 0,
-  get value() {
-    return ++this._v;
-  }
-};
-
-console.log(counter.value); // 1
-console.log(counter.value); // 2
-console.log(counter.value); // 3
+// Quirky trick: Swap two variables in one line using XOR (works for integers)
+let a = 42, b = 13;
+// After this line, a is 13 and b is 42!
+a ^= b ^= a ^= b;
+console.log(a, b); // 13 42
 ```
 ### Challenge
-Python: Write a function that takes a domain name and returns its IP address using only built-in libraries. What considerations do you need to make for domains that may not resolve? Provide code and a brief explanation.
+Python Challenge: Find all English words in a large CSV wordlist that are palindromes with even length. You must use only basic file-reading and string functions (no external libraries, no slicing).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
