@@ -72,13 +72,18 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Swap two variables in one line using XOR (works for integers)
-let a = 42, b = 13;
-// After this line, a is 13 and b is 42!
-a ^= b ^= a ^= b;
-console.log(a, b); // 13 42
+// Ever wanted to swap two variables without a third variable? Here's a quirky trick using XOR in JavaScript!
+let a = 7, b = 42;
+
+// Swap a and b
+// (Doesn't work with strings or floating point numbers!)
+a ^= b;
+b ^= a;
+a ^= b;
+
+console.log(a, b); // 42 7
 ```
 ### Challenge
-Python Challenge: Find all English words in a large CSV wordlist that are palindromes with even length. You must use only basic file-reading and string functions (no external libraries, no slicing).
+Python: Research ways to count the number of prime numbers less than a given integer n efficiently. Then, implement a function count_primes(n) that returns this count. Bonus: Can you avoid looping through every number individually?
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
