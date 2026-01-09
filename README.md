@@ -72,18 +72,15 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Ever wanted to swap two variables without a third variable? Here's a quirky trick using XOR in JavaScript!
-let a = 7, b = 42;
-
-// Swap a and b
-// (Doesn't work with strings or floating point numbers!)
-a ^= b;
-b ^= a;
-a ^= b;
-
-console.log(a, b); // 42 7
+// Trick: Swap two variables without using a temporary variable, in Python
+# This quirky trick uses tuple unpacking to swap values.
+a = 42
+b = 99
+print(f"Before swap: a={a}, b={b}")
+a, b = b, a
+print(f"After swap:  a={a}, b={b}")
 ```
 ### Challenge
-Python: Research ways to count the number of prime numbers less than a given integer n efficiently. Then, implement a function count_primes(n) that returns this count. Bonus: Can you avoid looping through every number individually?
+Research and implement a function in Python that determines if a given string can be rearranged to form a palindrome (e.g., 'carrace' → True). Submit both your code and a brief explanation of your approach.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
