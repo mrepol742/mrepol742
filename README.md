@@ -72,15 +72,15 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Trick: Swap two variables without using a temporary variable, in Python
-# This quirky trick uses tuple unpacking to swap values.
-a = 42
-b = 99
-print(f"Before swap: a={a}, b={b}")
-a, b = b, a
-print(f"After swap:  a={a}, b={b}")
+// 🎲 Quirky trick: Swap two variables without a temporary variable using bitwise XOR (JavaScript)
+// This works for numbers and demonstrates an old-school technique.
+let a = 5, b = 9;
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+console.log(a, b); // Outputs: 9 5
 ```
 ### Challenge
-Research and implement a function in Python that determines if a given string can be rearranged to form a palindrome (e.g., 'carrace' → True). Submit both your code and a brief explanation of your approach.
+Python: Write a function that finds the longest palindrome substring in a given text, but you may not use any built-in reverse or slicing features (e.g., no s[::-1]). Research alternative ways to check for a palindrome.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
