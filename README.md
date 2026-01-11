@@ -72,15 +72,11 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎲 Quirky trick: Swap two variables without a temporary variable using bitwise XOR (JavaScript)
-// This works for numbers and demonstrates an old-school technique.
-let a = 5, b = 9;
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-console.log(a, b); // Outputs: 9 5
+// 🚀 Quirky Trick: Swapping two variables in a single line (Python)
+// This nifty Python one-liner swaps the values of a and b without needing a temporary variable!
+a, b = b, a
 ```
 ### Challenge
-Python: Write a function that finds the longest palindrome substring in a given text, but you may not use any built-in reverse or slicing features (e.g., no s[::-1]). Research alternative ways to check for a palindrome.
+Challenge (Python): Find the first non-repeating character in a string. Research efficient ways to solve this without using collections.Counter or built-in str methods like count().
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
