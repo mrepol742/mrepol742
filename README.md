@@ -34,11 +34,14 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🚀 Quirky Trick: Swapping two variables in a single line (Python)
-// This nifty Python one-liner swaps the values of a and b without needing a temporary variable!
-a, b = b, a
+// This quirky Python snippet reverses a string *in place* using slice assignment
+# Note: Strings are immutable in Python, but converting to list allows in-place changes
+s = list('quirky')    # ['q', 'u', 'i', 'r', 'k', 'y']
+s[:] = s[::-1]        # Slice assignment reverses the list
+print(''.join(s))     # Output: ykriuq
 ```
 ### Challenge
-Challenge (Python): Find the first non-repeating character in a string. Research efficient ways to solve this without using collections.Counter or built-in str methods like count().
+Daily Bite – Python: Find the Most Frequent Word
+Given a long string of text, write a Python function that returns the most frequently occurring word (case-insensitive). Ignore punctuation marks. Think carefully about how to split words, normalize their cases, and efficiently count occurrences.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
