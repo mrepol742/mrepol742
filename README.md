@@ -72,14 +72,30 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This quirky Python snippet reverses a string *in place* using slice assignment
-# Note: Strings are immutable in Python, but converting to list allows in-place changes
-s = list('quirky')    # ['q', 'u', 'i', 'r', 'k', 'y']
-s[:] = s[::-1]        # Slice assignment reverses the list
-print(''.join(s))     # Output: ykriuq
+// Ever seen a switch statement with true?
+// This quirky trick lets you chain custom conditionals for cleaner multi-case logic!
+
+function describeNumber(n) {
+  switch (true) { // All cases evaluate an expression!
+    case n < 0:
+      return 'Negative';
+    case n === 0:
+      return 'Zero';
+    case n > 0 && n % 2 === 0:
+      return 'Positive Even';
+    case n > 0:
+      return 'Positive Odd';
+    default:
+      return 'Not a number';
+  }
+}
+
+console.log(describeNumber(-7));      // Negative
+console.log(describeNumber(0));       // Zero
+console.log(describeNumber(8));       // Positive Even
+console.log(describeNumber(11));      // Positive Odd
 ```
 ### Challenge
-Daily Bite – Python: Find the Most Frequent Word
-Given a long string of text, write a Python function that returns the most frequently occurring word (case-insensitive). Ignore punctuation marks. Think carefully about how to split words, normalize their cases, and efficiently count occurrences.
+Python: Research and implement a function that determines if two sentences are anagrams of each other (ignoring punctuation, spaces, and capitalization) WITHOUT using the sorted function. Think about alternative data structures or approaches to solve this!
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
