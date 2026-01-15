@@ -72,30 +72,13 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Ever seen a switch statement with true?
-// This quirky trick lets you chain custom conditionals for cleaner multi-case logic!
-
-function describeNumber(n) {
-  switch (true) { // All cases evaluate an expression!
-    case n < 0:
-      return 'Negative';
-    case n === 0:
-      return 'Zero';
-    case n > 0 && n % 2 === 0:
-      return 'Positive Even';
-    case n > 0:
-      return 'Positive Odd';
-    default:
-      return 'Not a number';
-  }
-}
-
-console.log(describeNumber(-7));      // Negative
-console.log(describeNumber(0));       // Zero
-console.log(describeNumber(8));       // Positive Even
-console.log(describeNumber(11));      // Positive Odd
+// 🎩 Magic: Swap two variables without a temporary variable using bitwise XOR
+let a = 42, b = 99;
+[a, b] = [a ^ b, a ^ b ^ (a ^ b)];
+// Now, a => 99, b => 42. No temp needed!
+console.log(a, b);
 ```
 ### Challenge
-Python: Research and implement a function that determines if two sentences are anagrams of each other (ignoring punctuation, spaces, and capitalization) WITHOUT using the sorted function. Think about alternative data structures or approaches to solve this!
+Python: Write a function that groups a list of words by their anagrams, but without using the built-in sorted() function anywhere in your code. Consider how you might manually check if two words are anagrams.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
