@@ -72,13 +72,15 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎩 Magic: Swap two variables without a temporary variable using bitwise XOR
-let a = 42, b = 99;
-[a, b] = [a ^ b, a ^ b ^ (a ^ b)];
-// Now, a => 99, b => 42. No temp needed!
-console.log(a, b);
+// Quirky trick: Swapping two variables WITHOUT a temporary variable using XOR (JavaScript)
+let a = 5, b = 9;
+// Swap a and b
+b = a ^ b;
+a = a ^ b;
+b = a ^ b;
+console.log(a, b); // Outputs: 9 5
 ```
 ### Challenge
-Python: Write a function that groups a list of words by their anagrams, but without using the built-in sorted() function anywhere in your code. Consider how you might manually check if two words are anagrams.
+Python Challenge: Research and implement a function that checks if a string is a valid palindrome, ignoring non-alphanumeric characters and case sensitivity, without using built-in 're' or string methods like lower().
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
