@@ -73,15 +73,12 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Swapping two variables WITHOUT a temporary variable using XOR (JavaScript)
-let a = 5, b = 9;
-// Swap a and b
-b = a ^ b;
-a = a ^ b;
-b = a ^ b;
-console.log(a, b); // Outputs: 9 5
+// 🔄 Reversing a string using destructuring, spread, and array methods in JavaScript
+// This trick shows how to reverse a string in one quirky line.
+const reverseString = str => [...str].reverse().join('');
+// Example: reverseString('hello') => 'olleh'
 ```
 ### Challenge
-Python Challenge: Research and implement a function that checks if a string is a valid palindrome, ignoring non-alphanumeric characters and case sensitivity, without using built-in 're' or string methods like lower().
+Python: Research what an Armstrong number is. Write a function armstrong(n) that determines if the integer n is an Armstrong number (for any number of digits).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
