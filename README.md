@@ -73,12 +73,17 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🔄 Reversing a string using destructuring, spread, and array methods in JavaScript
-// This trick shows how to reverse a string in one quirky line.
-const reverseString = str => [...str].reverse().join('');
-// Example: reverseString('hello') => 'olleh'
+// This Python trick swaps two variables without using a temporary variable, using XOR!
+a = 5
+b = 9
+# Swap a and b
+# (works only with integers)
+a ^= b
+b ^= a
+a ^= b
+print(a, b)  # Output: 9 5
 ```
 ### Challenge
-Python: Research what an Armstrong number is. Write a function armstrong(n) that determines if the integer n is an Armstrong number (for any number of digits).
+In Python, write a function that accepts a list of tuples (name, score), then returns the name(s) of the student(s) with the highest score. You must not use built-in functions max() or sorted().
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
