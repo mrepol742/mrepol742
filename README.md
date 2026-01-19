@@ -73,17 +73,14 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This Python trick swaps two variables without using a temporary variable, using XOR!
-a = 5
-b = 9
-# Swap a and b
-# (works only with integers)
-a ^= b
-b ^= a
-a ^= b
-print(a, b)  # Output: 9 5
+// This snippet in Python uses the walrus operator (:=) to compactly sum all numbers in a list until a zero is encountered.
+nums = [5, 3, 8, 0, 2, 4]
+sum = 0
+while (n := nums.pop(0)) != 0:
+    sum += n
+print('Sum until zero:', sum)
 ```
 ### Challenge
-In Python, write a function that accepts a list of tuples (name, score), then returns the name(s) of the student(s) with the highest score. You must not use built-in functions max() or sorted().
+Python Challenge: Research how to safely open, read, and close a file in Python (without using with/open context managers). Write a function that reads every line from a given file and returns a list of lines containing the word 'critical'.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
