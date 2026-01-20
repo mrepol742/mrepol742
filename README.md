@@ -73,14 +73,15 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This snippet in Python uses the walrus operator (:=) to compactly sum all numbers in a list until a zero is encountered.
-nums = [5, 3, 8, 0, 2, 4]
-sum = 0
-while (n := nums.pop(0)) != 0:
-    sum += n
-print('Sum until zero:', sum)
+// Quirky Trick: Swapping two variables without a temporary variable using XOR (JavaScript)
+let a = 42, b = 17;
+console.log('Before:', a, b);
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+console.log('After:', a, b); // a = 17, b = 42
 ```
 ### Challenge
-Python Challenge: Research how to safely open, read, and close a file in Python (without using with/open context managers). Write a function that reads every line from a given file and returns a list of lines containing the word 'critical'.
+Python Challenge: Write a function that, given a URL, fetches its HTML content and counts the number of unique HTML tags present. Do *not* use any HTML parsing libraries like BeautifulSoup; instead, use regular expressions and your own logic.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
