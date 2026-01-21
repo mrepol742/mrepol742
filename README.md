@@ -73,15 +73,15 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Swapping two variables without a temporary variable using XOR (JavaScript)
-let a = 42, b = 17;
-console.log('Before:', a, b);
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-console.log('After:', a, b); // a = 17, b = 42
+// Quirky Trick: Swap two variables in Python without a third variable or arithmetic!
+# This uses tuple unpacking, which is a Pythonic way to swap values.
+a = 42
+b = 99
+print(f"Before: a={a}, b={b}")
+a, b = b, a  # tada!
+print(f"After:  a={a}, b={b}")
 ```
 ### Challenge
-Python Challenge: Write a function that, given a URL, fetches its HTML content and counts the number of unique HTML tags present. Do *not* use any HTML parsing libraries like BeautifulSoup; instead, use regular expressions and your own logic.
+Python Challenge: Write a function that finds the first non-repeating character in a string. You may NOT use collections.Counter or other built-in frequency counters. How will you research and implement your own character counting efficiently?
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
