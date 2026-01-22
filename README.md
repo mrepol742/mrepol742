@@ -73,15 +73,17 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Swap two variables in Python without a third variable or arithmetic!
-# This uses tuple unpacking, which is a Pythonic way to swap values.
+// 🕵️‍♂️ Did you know? You can swap two variables without a third variable!
+// This quirky Python trick swaps a and b using XOR.
 a = 42
-b = 99
-print(f"Before: a={a}, b={b}")
-a, b = b, a  # tada!
-print(f"After:  a={a}, b={b}")
+b = 17
+# swap values
+a = a ^ b
+b = a ^ b
+a = a ^ b
+print(f"a={a}, b={b}")  # Now a=17, b=42
 ```
 ### Challenge
-Python Challenge: Write a function that finds the first non-repeating character in a string. You may NOT use collections.Counter or other built-in frequency counters. How will you research and implement your own character counting efficiently?
+Python Challenge: Write a function that receives a sentence and finds the most frequent word longer than 4 letters, ignoring case and punctuation. Avoid using any external libraries.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
