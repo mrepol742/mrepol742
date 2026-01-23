@@ -73,17 +73,14 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🕵️‍♂️ Did you know? You can swap two variables without a third variable!
-// This quirky Python trick swaps a and b using XOR.
-a = 42
-b = 17
-# swap values
-a = a ^ b
-b = a ^ b
-a = a ^ b
-print(f"a={a}, b={b}")  # Now a=17, b=42
+// Quirky Trick: Swap two variables without a temporary variable using XOR magic!
+int a = 42, b = 99;
+a ^= b;
+b ^= a;
+a ^= b;
+// Now, a = 99 and b = 42
 ```
 ### Challenge
-Python Challenge: Write a function that receives a sentence and finds the most frequent word longer than 4 letters, ignoring case and punctuation. Avoid using any external libraries.
+Python Challenge: Write a function that detects if a string contains any word from a given list, ignoring case, but WITHOUT using 'in', regex, or set operations. Example: contains_word('HelloWorld', ['world', 'test']) should return True.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
