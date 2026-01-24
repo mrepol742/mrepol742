@@ -73,14 +73,12 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Swap two variables without a temporary variable using XOR magic!
-int a = 42, b = 99;
-a ^= b;
-b ^= a;
-a ^= b;
-// Now, a = 99 and b = 42
+// "Schroedinger's assignment": Swap two variables without a temp variable, using JS destructuring
+let a = 42, b = 1337;
+[a, b] = [b, a];
+console.log(a, b); // Outputs: 1337 42
 ```
 ### Challenge
-Python Challenge: Write a function that detects if a string contains any word from a given list, ignoring case, but WITHOUT using 'in', regex, or set operations. Example: contains_word('HelloWorld', ['world', 'test']) should return True.
+Python: Find the first Wikipedia article link on the official Python homepage. Write a function that fetches 'https://www.python.org' and extracts the href of the first link to a Wikipedia page (begins with 'https://en.wikipedia.org').
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
