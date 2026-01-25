@@ -73,12 +73,14 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// "Schroedinger's assignment": Swap two variables without a temp variable, using JS destructuring
-let a = 42, b = 1337;
-[a, b] = [b, a];
-console.log(a, b); // Outputs: 1337 42
+// This snippet shows how to swap two values in Python without using a temporary variable, using tuple unpacking.
+# Swapping a and b using Python's magic
+a = 42
+b = 7
+a, b = b, a
+print(f"a={a}, b={b}")  # Output: a=7, b=42
 ```
 ### Challenge
-Python: Find the first Wikipedia article link on the official Python homepage. Write a function that fetches 'https://www.python.org' and extracts the href of the first link to a Wikipedia page (begins with 'https://en.wikipedia.org').
+Python Challenge: Find the first non-repeating character in a string. Implement a function (no imports allowed except for built-ins) that returns the character and its index. Example: input 'swiss' => output ('w', 1).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
