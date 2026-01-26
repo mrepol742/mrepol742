@@ -73,14 +73,14 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This snippet shows how to swap two values in Python without using a temporary variable, using tuple unpacking.
-# Swapping a and b using Python's magic
-a = 42
-b = 7
-a, b = b, a
-print(f"a={a}, b={b}")  # Output: a=7, b=42
+// 🍕 One-Liner Pizza Slices (JavaScript)
+// This quirky code splits any word into character 'slices' and displays them as a pizza!
+console.log(
+  '🍕' + Array.from('hello', c => ` ${c} `).join('🍕')
+);
+// Output: 🍕 h 🍕 e 🍕 l 🍕 l 🍕 o
 ```
 ### Challenge
-Python Challenge: Find the first non-repeating character in a string. Implement a function (no imports allowed except for built-ins) that returns the character and its index. Example: input 'swiss' => output ('w', 1).
+Python: Find the most common character in a text file—excluding whitespace and punctuation. Your solution must read the file, process its contents, and print both the character and its count. (No external libraries except 'open')
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
