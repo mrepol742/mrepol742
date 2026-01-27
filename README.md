@@ -73,14 +73,19 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🍕 One-Liner Pizza Slices (JavaScript)
-// This quirky code splits any word into character 'slices' and displays them as a pizza!
-console.log(
-  '🍕' + Array.from('hello', c => ` ${c} `).join('🍕')
-);
-// Output: 🍕 h 🍕 e 🍕 l 🍕 l 🍕 o
+// Palindrome check using slice assignment in Python
+# This quirky trick reverses a list in-place using slice assignment to check for palindrome.
+# It avoids the usual reversed() or [::-1] tricks.
+def is_palindrome(seq):
+    rev = seq[:]
+    rev[:] = seq[::-1]  # reverse with slice assignment
+    return rev == seq
+
+# Example usage
+print(is_palindrome([1,2,3,2,1]))  # True
+print(is_palindrome(["a","b","a"]))  # True
 ```
 ### Challenge
-Python: Find the most common character in a text file—excluding whitespace and punctuation. Your solution must read the file, process its contents, and print both the character and its count. (No external libraries except 'open')
+Python Challenge: Write a function that finds the longest word in a text document, but you must read the file one character at a time (no split(), no reading full lines/blocks at once).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
