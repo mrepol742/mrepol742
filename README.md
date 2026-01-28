@@ -73,19 +73,16 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Palindrome check using slice assignment in Python
-# This quirky trick reverses a list in-place using slice assignment to check for palindrome.
-# It avoids the usual reversed() or [::-1] tricks.
-def is_palindrome(seq):
-    rev = seq[:]
-    rev[:] = seq[::-1]  # reverse with slice assignment
-    return rev == seq
+// 💡 Did you know? You can swap two variables in a single line in Python without a temporary variable!
+# This uses tuple unpacking for a quirky swap trick.
 
-# Example usage
-print(is_palindrome([1,2,3,2,1]))  # True
-print(is_palindrome(["a","b","a"]))  # True
+a = 5
+b = 10
+print(f"Before: a={a}, b={b}")
+a, b = b, a
+print(f"After: a={a}, b={b}")
 ```
 ### Challenge
-Python Challenge: Write a function that finds the longest word in a text document, but you must read the file one character at a time (no split(), no reading full lines/blocks at once).
+Python Challenge: Write a function that receives a string and returns True if it can be rearranged to form a palindrome, otherwise False. Your solution should use research on character frequency and critical thinking—avoid brute force permutations!
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
