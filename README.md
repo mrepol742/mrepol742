@@ -73,16 +73,14 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 💡 Did you know? You can swap two variables in a single line in Python without a temporary variable!
-# This uses tuple unpacking for a quirky swap trick.
+// This Python snippet creates a function whose name is a palindrome (reads the same forwards and backwards).
+// Define a function 'deified' that returns the string 'Palindrome!'.
+def deified():
+    return 'Palindrome!'
 
-a = 5
-b = 10
-print(f"Before: a={a}, b={b}")
-a, b = b, a
-print(f"After: a={a}, b={b}")
+print(deified())  # Output: Palindrome!
 ```
 ### Challenge
-Python Challenge: Write a function that receives a string and returns True if it can be rearranged to form a palindrome, otherwise False. Your solution should use research on character frequency and critical thinking—avoid brute force permutations!
+Python Challenge: In a list of names, write a function that finds the longest name which is also a palindrome. (A palindrome reads the same forward and backward).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
