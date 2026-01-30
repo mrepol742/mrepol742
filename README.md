@@ -73,14 +73,13 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This Python snippet creates a function whose name is a palindrome (reads the same forwards and backwards).
-// Define a function 'deified' that returns the string 'Palindrome!'.
-def deified():
-    return 'Palindrome!'
-
-print(deified())  # Output: Palindrome!
+// Quirky trick: In Python, you can swap two variables without a temp variable using tuple unpacking!
+a, b = 42, 99
+print(f'Before: a={a}, b={b}')
+a, b = b, a  # Swap values
+print(f'After: a={a}, b={b}')
 ```
 ### Challenge
-Python Challenge: In a list of names, write a function that finds the longest name which is also a palindrome. (A palindrome reads the same forward and backward).
+Python Challenge: Find the most frequently occurring word in a given text file, ignoring case and punctuation. Return both the word and its frequency. (You may only use standard library functions and modules.)
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
