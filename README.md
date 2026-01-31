@@ -73,13 +73,12 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: In Python, you can swap two variables without a temp variable using tuple unpacking!
-a, b = 42, 99
-print(f'Before: a={a}, b={b}')
-a, b = b, a  # Swap values
-print(f'After: a={a}, b={b}')
+// Quirky trick: Swap two variables using destructuring in JavaScript (no temp variable needed)
+let a = 5, b = 9;   // Before: a = 5, b = 9
+[a, b] = [b, a];    // Swap! Now: a = 9, b = 5
+console.log(a, b);  // Output: 9 5
 ```
 ### Challenge
-Python Challenge: Find the most frequently occurring word in a given text file, ignoring case and punctuation. Return both the word and its frequency. (You may only use standard library functions and modules.)
+Python Challenge: Given a list of dictionaries representing books (with 'title' and 'author' fields), write a function that returns the author who wrote the most books, using only the built-in collections module for tallying. Example input: [{"title": "A", "author": "Jane"}, {"title": "B", "author": "Jane"}, {"title": "C", "author": "Tom"}].
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
