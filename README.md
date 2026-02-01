@@ -73,12 +73,14 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Swap two variables using destructuring in JavaScript (no temp variable needed)
-let a = 5, b = 9;   // Before: a = 5, b = 9
-[a, b] = [b, a];    // Swap! Now: a = 9, b = 5
-console.log(a, b);  // Output: 9 5
+// Quirky trick: Swap two variables without a temporary variable using XOR (works for integers)
+let a = 42, b = 99;
+a ^= b;
+b ^= a;
+a ^= b;
+console.log(a, b); // Output: 99, 42
 ```
 ### Challenge
-Python Challenge: Given a list of dictionaries representing books (with 'title' and 'author' fields), write a function that returns the author who wrote the most books, using only the built-in collections module for tallying. Example input: [{"title": "A", "author": "Jane"}, {"title": "B", "author": "Jane"}, {"title": "C", "author": "Tom"}].
+Python: Given a list of words, write a function that returns the word which contains the highest number of unique vowels. If there is a tie, return the lexicographically earliest word. Example: ['hello', 'queue', 'rhythm'] → 'queue'
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
