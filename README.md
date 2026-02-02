@@ -73,14 +73,13 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Swap two variables without a temporary variable using XOR (works for integers)
-let a = 42, b = 99;
-a ^= b;
-b ^= a;
-a ^= b;
-console.log(a, b); // Output: 99, 42
+// Ever needed to swap two variables in one line, without a temp variable?
+// Here's a quirky Python trick that uses tuple unpacking!
+a, b = 42, 'hello'
+a, b = b, a
+print(a, b)  # Output: hello 42
 ```
 ### Challenge
-Python: Given a list of words, write a function that returns the word which contains the highest number of unique vowels. If there is a tie, return the lexicographically earliest word. Example: ['hello', 'queue', 'rhythm'] → 'queue'
+Challenge (Python): Write a function that returns the top 3 most frequent words from a given text string. You may not use the collections.Counter class.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
