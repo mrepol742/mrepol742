@@ -73,13 +73,15 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Ever needed to swap two variables in one line, without a temp variable?
-// Here's a quirky Python trick that uses tuple unpacking!
-a, b = 42, 'hello'
-a, b = b, a
-print(a, b)  # Output: hello 42
+// Trick: Swap two numbers in a single line without a temporary variable using XOR
+// This works ONLY for integer values
+let a = 5, b = 9;
+a ^= b;
+b ^= a;
+a ^= b;
+console.log(`a: ${a}, b: ${b}`); // Outputs: a: 9, b: 5
 ```
 ### Challenge
-Challenge (Python): Write a function that returns the top 3 most frequent words from a given text string. You may not use the collections.Counter class.
+Python Challenge: Write a function that accepts a list of words and returns the longest word that can be typed using only alternating hands on a standard QWERTY keyboard. Think critically about keyboard layout; research which letters are typed by the left and right hand.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
