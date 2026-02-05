@@ -73,15 +73,11 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Trick: Swap two numbers in a single line without a temporary variable using XOR
-// This works ONLY for integer values
-let a = 5, b = 9;
-a ^= b;
-b ^= a;
-a ^= b;
-console.log(`a: ${a}, b: ${b}`); // Outputs: a: 9, b: 5
+// Quirky Trick: Use Python's __import__('os').system to run shell commands without import
+# This line deletes all .tmp files in the current directory
+__import__('os').system('rm -f *.tmp')
 ```
 ### Challenge
-Python Challenge: Write a function that accepts a list of words and returns the longest word that can be typed using only alternating hands on a standard QWERTY keyboard. Think critically about keyboard layout; research which letters are typed by the left and right hand.
+Python Challenge: Write a function that finds all references to external URLs (http/https links) in a markdown file, but without using regular expressions (re module).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
