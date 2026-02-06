@@ -60,11 +60,12 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Use Python's __import__('os').system to run shell commands without import
-# This line deletes all .tmp files in the current directory
-__import__('os').system('rm -f *.tmp')
+// Quirky trick: Turn a for loop into a one-liner that prints numbers 1 to 10 using logical operators in Python
+# This leverages the 'and' operator to chain printing and incrementing in a single expression.
+i=1
+while i<=10 and print(i) and (i:=i+1): pass
 ```
 ### Challenge
-Python Challenge: Write a function that finds all references to external URLs (http/https links) in a markdown file, but without using regular expressions (re module).
+Python Challenge: Find the most frequently occurring character in a given string, ignoring case and spaces, without using Counter, collections, or built-in max. Research different ways to count frequencies in pure Python and write a function that solves this.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
