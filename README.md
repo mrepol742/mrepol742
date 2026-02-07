@@ -60,12 +60,17 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Turn a for loop into a one-liner that prints numbers 1 to 10 using logical operators in Python
-# This leverages the 'and' operator to chain printing and incrementing in a single expression.
-i=1
-while i<=10 and print(i) and (i:=i+1): pass
+// Quirky Trick: Swap two variables without a temporary variable using bitwise XOR (works with integers)
+// This works because XOR-ing the same value twice cancels it out
+int a = 5;
+int b = 10;
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+// Now: a = 10, b = 5
+// (Careful! Only use with numbers, not objects or floats)
 ```
 ### Challenge
-Python Challenge: Find the most frequently occurring character in a given string, ignoring case and spaces, without using Counter, collections, or built-in max. Research different ways to count frequencies in pure Python and write a function that solves this.
+Python Challenge: Find all unique words in a text file that contain at least one digit, and sort them alphabetically. (Requires reading a file, regex, and handling uniqueness.)
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
