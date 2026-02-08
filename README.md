@@ -60,17 +60,16 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Swap two variables without a temporary variable using bitwise XOR (works with integers)
-// This works because XOR-ing the same value twice cancels it out
-int a = 5;
-int b = 10;
+// Swap two variables without a temporary variable using bitwise XOR
+let a = 42, b = 99;
+// Before: a=42, b=99
 a = a ^ b;
 b = a ^ b;
 a = a ^ b;
-// Now: a = 10, b = 5
-// (Careful! Only use with numbers, not objects or floats)
+// After: a=99, b=42
+console.log(a, b); // 99 42
 ```
 ### Challenge
-Python Challenge: Find all unique words in a text file that contain at least one digit, and sort them alphabetically. (Requires reading a file, regex, and handling uniqueness.)
+In Python, write a function that turns any integer into its spoken English words (e.g., 123 -> 'one hundred twenty-three'), without using any external libraries.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
