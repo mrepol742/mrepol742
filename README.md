@@ -59,16 +59,11 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Swap two variables without a temporary variable using bitwise XOR
-let a = 42, b = 99;
-// Before: a=42, b=99
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-// After: a=99, b=42
-console.log(a, b); // 99 42
+// Quirky Trick: Swap two variables in a single line using array destructuring (JavaScript)
+let a = 42, b = 99; // initial values
+[a, b] = [b, a]; // now a=99, b=42
 ```
 ### Challenge
-In Python, write a function that turns any integer into its spoken English words (e.g., 123 -> 'one hundred twenty-three'), without using any external libraries.
+Daily Challenge (Python): Write a function that identifies the most frequent word in a given text, ignoring case and punctuation, without using any collections.Counter or similar modules. Use research to handle punctuation and case sensitivity.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
