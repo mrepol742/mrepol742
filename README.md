@@ -59,11 +59,11 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Swap two variables in a single line using array destructuring (JavaScript)
-let a = 42, b = 99; // initial values
-[a, b] = [b, a]; // now a=99, b=42
+// This quirky Python snippet prints numbers 1 to 10, but avoids using a loop or recursion!
+print(*range(1, 11))
 ```
 ### Challenge
-Daily Challenge (Python): Write a function that identifies the most frequent word in a given text, ignoring case and punctuation, without using any collections.Counter or similar modules. Use research to handle punctuation and case sensitivity.
+Daily Challenge (Python):
+Find the first non-repeated character in a string, in a single pass (not using collections.Counter or any built-in frequency function).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
