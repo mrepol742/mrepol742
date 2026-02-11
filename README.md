@@ -59,11 +59,17 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This quirky Python snippet prints numbers 1 to 10, but avoids using a loop or recursion!
-print(*range(1, 11))
+// Quirky trick: Swap two variables WITHOUT using a temporary variable or destructuring!
+// Works in JavaScript (uses bitwise XOR).
+let a = 42, b = 27;
+console.log(`Before: a=${a}, b=${b}`);
+// Magic:
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+console.log(`After: a=${a}, b=${b}`); // Now a=27, b=42
 ```
 ### Challenge
-Daily Challenge (Python):
-Find the first non-repeated character in a string, in a single pass (not using collections.Counter or any built-in frequency function).
+Python Challenge: Find the most frequent word in a text file, ignoring punctuation, case, and common English stopwords. You may use libraries like collections, but not nltk or pandas. Write a function that accepts a file path and returns the word.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
