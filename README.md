@@ -59,17 +59,14 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Swap two variables WITHOUT using a temporary variable or destructuring!
-// Works in JavaScript (uses bitwise XOR).
-let a = 42, b = 27;
-console.log(`Before: a=${a}, b=${b}`);
-// Magic:
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-console.log(`After: a=${a}, b=${b}`); // Now a=27, b=42
+// This snippet shows how to swap two variables WITHOUT using a temporary variable or destructuring (classic JS trick using arithmetic).
+let a = 42, b = 99;
+a = a + b;
+b = a - b;
+a = a - b;
+// Now a = 99, b = 42!
 ```
 ### Challenge
-Python Challenge: Find the most frequent word in a text file, ignoring punctuation, case, and common English stopwords. You may use libraries like collections, but not nltk or pandas. Write a function that accepts a file path and returns the word.
+Python: Find the first unique character in a string (the character that appears only once and comes first). Do NOT use collections.Counter or dictionary. Return its index or -1 if none exists.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
