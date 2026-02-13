@@ -59,14 +59,19 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This snippet shows how to swap two variables WITHOUT using a temporary variable or destructuring (classic JS trick using arithmetic).
-let a = 42, b = 99;
-a = a + b;
-b = a - b;
-a = a - b;
-// Now a = 99, b = 42!
+// 👾 Quirky Trick: Swapping two variables WITHOUT a third variable, using XOR
+let a = 42, b = 7;
+// Before swap: a = 42, b = 7
+
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+// After swap: a = 7, b = 42
+
+console.log(`a = ${a}`); // 7
+console.log(`b = ${b}`); // 42
 ```
 ### Challenge
-Python: Find the first unique character in a string (the character that appears only once and comes first). Do NOT use collections.Counter or dictionary. Return its index or -1 if none exists.
+Python Challenge: Research and implement a function that finds all palindromic substrings in a given string. The function should return a list of unique palindromic substrings. (Hint: Think about efficiency and edge cases—don't use any external libraries!)
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
