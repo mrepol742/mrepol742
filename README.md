@@ -59,19 +59,13 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 👾 Quirky Trick: Swapping two variables WITHOUT a third variable, using XOR
-let a = 42, b = 7;
-// Before swap: a = 42, b = 7
-
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-// After swap: a = 7, b = 42
-
-console.log(`a = ${a}`); // 7
-console.log(`b = ${b}`); // 42
+// Quirky trick: Toggle a boolean value using XOR!
+// This lets you flip a boolean without an if or negation.
+let isActive = true;
+isActive ^= true; // isActive is now false
+isActive ^= true; // isActive is now true again
 ```
 ### Challenge
-Python Challenge: Research and implement a function that finds all palindromic substrings in a given string. The function should return a list of unique palindromic substrings. (Hint: Think about efficiency and edge cases—don't use any external libraries!)
+Python: Write a function that finds all anagrams of a given word from a list of strings, but without using sorted() or collections.Counter. Use research and problem solving to compare words efficiently.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
