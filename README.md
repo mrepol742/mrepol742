@@ -59,13 +59,18 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Toggle a boolean value using XOR!
-// This lets you flip a boolean without an if or negation.
-let isActive = true;
-isActive ^= true; // isActive is now false
-isActive ^= true; // isActive is now true again
+// 🎩 Quirky Trick: Swapping variables WITHOUT a temp variable using bitwise XOR!
+// This works only for numbers. Watch out: Can't use if variables reference the same object/list in memory.
+let a = 42, b = 99;
+console.log(`Before: a=${a}, b=${b}`);
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+console.log(`After: a=${a}, b=${b}`); // Swapped!
 ```
 ### Challenge
-Python: Write a function that finds all anagrams of a given word from a list of strings, but without using sorted() or collections.Counter. Use research and problem solving to compare words efficiently.
+Python Challenge: The "Upvotes to Downvotes Ratio" puzzle!
+Given a dictionary mapping post IDs to their (upvotes, downvotes), write a function that returns the ID of the post with the highest ratio (upvotes/downvotes). If there are ties, return all IDs. Hint: Beware division by zero!
+Example input: {'post1': (10, 2), 'post2': (8, 1), 'post3': (5, 0)}
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
