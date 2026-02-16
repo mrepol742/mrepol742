@@ -59,18 +59,13 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🎩 Quirky Trick: Swapping variables WITHOUT a temp variable using bitwise XOR!
-// This works only for numbers. Watch out: Can't use if variables reference the same object/list in memory.
-let a = 42, b = 99;
-console.log(`Before: a=${a}, b=${b}`);
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-console.log(`After: a=${a}, b=${b}`); // Swapped!
+// Ever wanted to swap two variables without a temporary variable? Try this quirky XOR trick!
+let a = 5, b = 7;
+// Swap values using bitwise XOR
+[a, b] = [a ^ b, b ^ a ^ b, a ^ b];
+console.log(`a: ${a}, b: ${b}`); // a: 7, b: 5
 ```
 ### Challenge
-Python Challenge: The "Upvotes to Downvotes Ratio" puzzle!
-Given a dictionary mapping post IDs to their (upvotes, downvotes), write a function that returns the ID of the post with the highest ratio (upvotes/downvotes). If there are ties, return all IDs. Hint: Beware division by zero!
-Example input: {'post1': (10, 2), 'post2': (8, 1), 'post3': (5, 0)}
+Python Challenge: Find all the words in a given text that are palindromes (words that read the same backward as forward) using only list comprehensions and no external libraries. Bonus: Output the palindromes in sorted order.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
