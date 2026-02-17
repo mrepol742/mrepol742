@@ -59,13 +59,19 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Ever wanted to swap two variables without a temporary variable? Try this quirky XOR trick!
-let a = 5, b = 7;
-// Swap values using bitwise XOR
-[a, b] = [a ^ b, b ^ a ^ b, a ^ b];
-console.log(`a: ${a}, b: ${b}`); // a: 7, b: 5
+// This quirky Python snippet swaps the values of variables without using a temporary variable, and even works with lists!
+# Try it out:
+a, b = 42, 'hello'
+a, b = b, a
+print(a, b)  # Outputs: 'hello', 42
+
+# Now with lists:
+x = [1, 2, 3]
+y = [4, 5]
+x, y = y, x
+print(x, y)  # Outputs: [4, 5], [1, 2, 3]
 ```
 ### Challenge
-Python Challenge: Find all the words in a given text that are palindromes (words that read the same backward as forward) using only list comprehensions and no external libraries. Bonus: Output the palindromes in sorted order.
+Research and implement a function in Python that determines if a given number is a 'happy number'. A happy number is defined as a number which eventually reaches 1 when replaced by the sum of the square of each digit repeatedly. Provide a brief explanation of your approach.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
