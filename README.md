@@ -59,19 +59,12 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This quirky Python snippet swaps the values of variables without using a temporary variable, and even works with lists!
-# Try it out:
-a, b = 42, 'hello'
+// How to swap two variables without using a temporary variable in Python!
+a, b = 5, 10
 a, b = b, a
-print(a, b)  # Outputs: 'hello', 42
-
-# Now with lists:
-x = [1, 2, 3]
-y = [4, 5]
-x, y = y, x
-print(x, y)  # Outputs: [4, 5], [1, 2, 3]
+print(f"Swapped: a={a}, b={b}")  # Output: Swapped: a=10, b=5
 ```
 ### Challenge
-Research and implement a function in Python that determines if a given number is a 'happy number'. A happy number is defined as a number which eventually reaches 1 when replaced by the sum of the square of each digit repeatedly. Provide a brief explanation of your approach.
+Python Challenge: Write a function that, given a string, returns the most frequent character using only built-in data structures (no collections.Counter or similar imports).
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
