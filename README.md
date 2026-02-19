@@ -59,12 +59,10 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// How to swap two variables without using a temporary variable in Python!
-a, b = 5, 10
-a, b = b, a
-print(f"Swapped: a={a}, b={b}")  # Output: Swapped: a=10, b=5
+// This quirky Python snippet prints 'Hello' without using the word 'print' by abusing exec and list comprehension.
+exec(''.join([chr(c) for c in [112,114,105,110,116,40,39,72,101,108,108,111,39,41]]))
 ```
 ### Challenge
-Python Challenge: Write a function that, given a string, returns the most frequent character using only built-in data structures (no collections.Counter or similar imports).
+Python Challenge: Write a function that accepts a string and returns True if it is a valid chemical element symbol (e.g., 'Fe', 'Al', 'He'), but do NOT use any external libraries or built-in list of symbols. Research the rules for element symbols, and use critical thinking to implement the check.
 <!--END_SECTION:footer-->
 > Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
