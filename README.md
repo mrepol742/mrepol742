@@ -57,12 +57,12 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--END_SECTION:header-->
 
 <!--START_SECTION:footer-->
-### Code Snippet
+### Today's Code Snippet
 ```js
 // This quirky Python snippet prints 'Hello' without using the word 'print' by abusing exec and list comprehension.
 exec(''.join([chr(c) for c in [112,114,105,110,116,40,39,72,101,108,108,111,39,41]]))
 ```
-### Challenge
+### Today's Challenge
 Python Challenge: Write a function that accepts a string and returns True if it is a valid chemical element symbol (e.g., 'Fe', 'Al', 'He'), but do NOT use any external libraries or built-in list of symbols. Research the rules for element symbols, and use critical thinking to implement the check.
 <!--END_SECTION:footer-->
-> Submit a PR to [Challenge](https://github.com/mrepol742/challenge/fork).
+- Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
