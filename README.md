@@ -57,12 +57,15 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--END_SECTION:header-->
 
 <!--START_SECTION:footer-->
-### Today's Code Snippet
+### Code Snippet
 ```js
-// This quirky Python snippet prints 'Hello' without using the word 'print' by abusing exec and list comprehension.
-exec(''.join([chr(c) for c in [112,114,105,110,116,40,39,72,101,108,108,111,39,41]]))
+// Quirky Trick: Swap two variables without using a temporary variable (Python)
+a, b = 42, 99
+# The classic Python swap!
+a, b = b, a
+print(f'a: {a}, b: {b}')  # Output: a: 99, b: 42
 ```
-### Today's Challenge
-Python Challenge: Write a function that accepts a string and returns True if it is a valid chemical element symbol (e.g., 'Fe', 'Al', 'He'), but do NOT use any external libraries or built-in list of symbols. Research the rules for element symbols, and use critical thinking to implement the check.
+### Challenge
+Challenge (Python): Write a function that finds the most common word in a text file, ignoring case and punctuation, without using collections.Counter or built-in max. Use research to handle punctuation removal and word counting, and document your approach.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
