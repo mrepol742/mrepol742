@@ -59,13 +59,12 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky Trick: Swap two variables without using a temporary variable (Python)
-a, b = 42, 99
-# The classic Python swap!
-a, b = b, a
-print(f'a: {a}, b: {b}')  # Output: a: 99, b: 42
+// This quirky one-liner in Python swaps two variables without a temporary variable using arithmetic!
+a, b = 3, 7
+a, b = b - a, a + b
+print(a, b)  # Output: 4 10
 ```
 ### Challenge
-Challenge (Python): Write a function that finds the most common word in a text file, ignoring case and punctuation, without using collections.Counter or built-in max. Use research to handle punctuation removal and word counting, and document your approach.
+Python Challenge: Research three different ways to reverse a string in Python. Implement each method in code. Which method is fastest? Use timeit and critical thinking to justify your answer.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
