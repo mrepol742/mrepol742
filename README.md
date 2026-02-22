@@ -59,12 +59,16 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This quirky one-liner in Python swaps two variables without a temporary variable using arithmetic!
-a, b = 3, 7
-a, b = b - a, a + b
-print(a, b)  # Output: 4 10
+// 🦄 Quirky Trick: Swap Two Variables Without Temporary Storage!
+// This trick uses bitwise XOR to swap values in JavaScript.
+let a = 42, b = 99;
+console.log(`Before: a=${a}, b=${b}`);
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+console.log(`After: a=${a}, b=${b}`);
 ```
 ### Challenge
-Python Challenge: Research three different ways to reverse a string in Python. Implement each method in code. Which method is fastest? Use timeit and critical thinking to justify your answer.
+Python Challenge: Research and implement a function that finds the longest word in a given text, ignoring punctuation and case sensitivity, without using built-in max() or regular expressions.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
