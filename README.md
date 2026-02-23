@@ -59,16 +59,14 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 🦄 Quirky Trick: Swap Two Variables Without Temporary Storage!
-// This trick uses bitwise XOR to swap values in JavaScript.
+// 'Brain Teaser': Swapping two variables without a temporary variable using bitwise XOR in JavaScript
 let a = 42, b = 99;
-console.log(`Before: a=${a}, b=${b}`);
-a = a ^ b;
-b = a ^ b;
-a = a ^ b;
-console.log(`After: a=${a}, b=${b}`);
+a ^= b;
+b ^= a;
+a ^= b;
+console.log(a, b); // Outputs: 99 42
 ```
 ### Challenge
-Python Challenge: Research and implement a function that finds the longest word in a given text, ignoring punctuation and case sensitivity, without using built-in max() or regular expressions.
+Python Challenge: Given a string, write a function that identifies the most frequent word. If there are ties, return the lexically smallest word. Use only built-in functions and no libraries like collections or Counter.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
