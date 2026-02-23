@@ -59,14 +59,25 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// 'Brain Teaser': Swapping two variables without a temporary variable using bitwise XOR in JavaScript
-let a = 42, b = 99;
-a ^= b;
-b ^= a;
-a ^= b;
-console.log(a, b); // Outputs: 99 42
+```python
+# Quirky Python trick: use the for-else construct—'else' runs only if the loop never hits 'break'.
+# Here it's used to test primality cleanly without extra flags.
+
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            break  # found a divisor; not prime
+    else:
+        return True  # loop completed without break -> prime
+    return False
+
+# Demo: primes under 30
+print([x for x in range(2, 30) if is_prime(x)])
+```
 ```
 ### Challenge
-Python Challenge: Given a string, write a function that identifies the most frequent word. If there are ties, return the lexically smallest word. Use only built-in functions and no libraries like collections or Counter.
+Python: Write a function roman_to_int(s) that converts a Roman numeral to an integer without using third-party libraries. Support standard subtractive pairs (IV, IX, XL, XC, CD, CM) and an ASCII overline convention using a leading underscore to multiply by 1000 (e.g., _V = 5000, _IV = 4000). Validate input and reject invalid numerals (e.g., IIV, XM).
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
