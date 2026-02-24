@@ -59,25 +59,23 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-```python
-# Quirky Python trick: use the for-else construct—'else' runs only if the loop never hits 'break'.
-# Here it's used to test primality cleanly without extra flags.
+# Python's for-else: the else block runs only if the loop didn't break.
+# Here we find the first prime number >= n by using for-else to detect primality.
 
-def is_prime(n):
-    if n < 2:
-        return False
-    for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-            break  # found a divisor; not prime
-    else:
-        return True  # loop completed without break -> prime
-    return False
+def find_prime(n):
+    while True:
+        for d in range(2, int(n**0.5) + 1):
+            if n % d == 0:
+                # Composite: break the for-loop and try the next n
+                break
+        else:
+            # No break in the for-loop => n is prime
+            return n
+        n += 1
 
-# Demo: primes under 30
-print([x for x in range(2, 30) if is_prime(x)])
-```
+print(find_prime(90))  # 97
 ```
 ### Challenge
-Python: Write a function roman_to_int(s) that converts a Roman numeral to an integer without using third-party libraries. Support standard subtractive pairs (IV, IX, XL, XC, CD, CM) and an ASCII overline convention using a leading underscore to multiply by 1000 (e.g., _V = 5000, _IV = 4000). Validate input and reject invalid numerals (e.g., IIV, XM).
+JS: Implement a tiny cron expression parser (5 fields: minute hour day-of-month month day-of-week) that, given a Date, returns the next run Date. Handle *, ranges (e.g., 1-5), lists (e.g., 1,3,9), and steps (e.g., */15). No external libraries.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
