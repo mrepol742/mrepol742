@@ -60,23 +60,15 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-# Python's for-else: the else block runs only if the loop didn't break.
-# Here we find the first prime number >= n by using for-else to detect primality.
+// Quirky JS: Make (a == 1 && a == 2 && a == 3) evaluate to true by customizing how an object converts to a primitive.
+const a = {
+  n: 1,
+  [Symbol.toPrimitive]() { return this.n++; }
+};
 
-def find_prime(n):
-    while True:
-        for d in range(2, int(n**0.5) + 1):
-            if n % d == 0:
-                # Composite: break the for-loop and try the next n
-                break
-        else:
-            # No break in the for-loop => n is prime
-            return n
-        n += 1
-
-print(find_prime(90))  # 97
+console.log(a == 1 && a == 2 && a == 3); // true
 ```
 ### Challenge
-JS: Implement a tiny cron expression parser (5 fields: minute hour day-of-month month day-of-week) that, given a Date, returns the next run Date. Handle *, ranges (e.g., 1-5), lists (e.g., 1,3,9), and steps (e.g., */15). No external libraries.
+Python: Write a function that detects and decrypts a Caesar-ciphered uppercase English string using frequency analysis (no external libraries). Print the inferred shift and plaintext, and briefly justify your approach.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
