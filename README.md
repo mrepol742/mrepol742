@@ -60,15 +60,13 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky JS: Make (a == 1 && a == 2 && a == 3) evaluate to true by customizing how an object converts to a primitive.
-const a = {
-  n: 1,
-  [Symbol.toPrimitive]() { return this.n++; }
-};
-
-console.log(a == 1 && a == 2 && a == 3); // true
+```js
+// Quirk: Generate the first 10 Fibonacci numbers with no loop body,
+// by using array destructuring and the comma operator in the for-loop's update clause.
+for (let [a, b, i] = [0, 1, 0]; i < 10; console.log(a), [a, b, i] = [b, a + b, i + 1]);
+```
 ```
 ### Challenge
-Python: Write a function that detects and decrypts a Caesar-ciphered uppercase English string using frequency analysis (no external libraries). Print the inferred shift and plaintext, and briefly justify your approach.
+In JavaScript: Write a function that sorts an array of filenames in human-friendly order—case-insensitive, accent-insensitive, and numeric-aware (e.g., 'file2' comes before 'file10')—using Intl.Collator where available, and provide a reasonable fallback if it's not.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
