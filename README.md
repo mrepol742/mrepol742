@@ -60,13 +60,12 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-```js
-// Quirk: Generate the first 10 Fibonacci numbers with no loop body,
-// by using array destructuring and the comma operator in the for-loop's update clause.
-for (let [a, b, i] = [0, 1, 0]; i < 10; console.log(a), [a, b, i] = [b, a + b, i + 1]);
-```
+# A tiny Python quine: prints its own source code without reading any files.
+s = 's = %r
+print(s%%s)'
+print(s%s)
 ```
 ### Challenge
-In JavaScript: Write a function that sorts an array of filenames in human-friendly order—case-insensitive, accent-insensitive, and numeric-aware (e.g., 'file2' comes before 'file10')—using Intl.Collator where available, and provide a reasonable fallback if it's not.
+JavaScript: Write a function isValidIPv4(str) that returns true if str is a valid IPv4 address in dotted-decimal notation without using regular expressions. Research what counts as a valid octet (0–255) and how to treat leading zeros and whitespace; think through tricky cases (e.g., '0.0.0.0', '255.255.255.255', '01.2.3.4').
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
