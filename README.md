@@ -60,12 +60,29 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-# A tiny Python quine: prints its own source code without reading any files.
-s = 's = %r
-print(s%%s)'
-print(s%s)
+// Negative indexing for Arrays in JavaScript using Proxy:
+// Access arr[-1] for the last item, arr[-2] for the second-to-last, etc., without mutating the array.
+function withNegativeIndex(array) {
+  return new Proxy(array, {
+    get(target, prop, receiver) {
+      // If the property looks like an integer index (possibly negative)
+      if (typeof prop === 'string' && /^-?d+$/.test(prop)) {
+        let i = Number(prop);
+        if (i < 0) i = target.length + i;
+        return Reflect.get(target, i, receiver);
+      }
+      return Reflect.get(target, prop, receiver);
+    }
+  });
+}
+
+// Demo:
+const letters = withNegativeIndex(['a', 'b', 'c', 'd']);
+console.log(letters[-1]); // 'd'
+console.log(letters[-2]); // 'c'
+console.log(letters[0], letters[1]); // 'a' 'b'
 ```
 ### Challenge
-JavaScript: Write a function isValidIPv4(str) that returns true if str is a valid IPv4 address in dotted-decimal notation without using regular expressions. Research what counts as a valid octet (0–255) and how to treat leading zeros and whitespace; think through tricky cases (e.g., '0.0.0.0', '255.255.255.255', '01.2.3.4').
+JavaScript (Node): Implement securePassphrase(words, n) that returns an object { passphrase, entropyBits } by selecting n words uniformly at random without modulo bias using only the built-in crypto module (no external libs). Calculate entropy as n * log2(words.length). In comments, briefly explain how you avoid modulo bias (e.g., rejection sampling with crypto.randomBytes/randomInt) and how you would handle very large word lists efficiently.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
