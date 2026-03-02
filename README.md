@@ -60,29 +60,32 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Negative indexing for Arrays in JavaScript using Proxy:
-// Access arr[-1] for the last item, arr[-2] for the second-to-last, etc., without mutating the array.
-function withNegativeIndex(array) {
-  return new Proxy(array, {
-    get(target, prop, receiver) {
-      // If the property looks like an integer index (possibly negative)
-      if (typeof prop === 'string' && /^-?d+$/.test(prop)) {
-        let i = Number(prop);
-        if (i < 0) i = target.length + i;
-        return Reflect.get(target, i, receiver);
-      }
-      return Reflect.get(target, prop, receiver);
-    }
-  });
-}
+// One-line synchronous 'sleep' in Node.js using Atomics.wait.
+// It blocks the event loop—use only for demos or scripts where blocking is acceptable.
 
-// Demo:
-const letters = withNegativeIndex(['a', 'b', 'c', 'd']);
-console.log(letters[-1]); // 'd'
-console.log(letters[-2]); // 'c'
-console.log(letters[0], letters[1]); // 'a' 'b'
+```js
+const sleep = ms => Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms);
+
+console.time('blocked');
+console.log('Before');
+sleep(750); // blocks ~750ms
+console.log('After');
+console.timeEnd('blocked');
+```
+
+// Bonus: a non-blocking version for comparison
+```js
+const sleepAsync = ms => new Promise(r => setTimeout(r, ms));
+(async () => {
+  console.time('async');
+  console.log('Before');
+  await sleepAsync(750);
+  console.log('After');
+  console.timeEnd('async');
+})();
+```
 ```
 ### Challenge
-JavaScript (Node): Implement securePassphrase(words, n) that returns an object { passphrase, entropyBits } by selecting n words uniformly at random without modulo bias using only the built-in crypto module (no external libs). Calculate entropy as n * log2(words.length). In comments, briefly explain how you avoid modulo bias (e.g., rejection sampling with crypto.randomBytes/randomInt) and how you would handle very large word lists efficiently.
+JavaScript: Implement parseDuration(str) that converts human-readable durations like '2d 4h 30m 15s 120ms' or '1.5h' into total milliseconds without using libraries; support d, h, m, s, ms, handle mixed order and decimals, validate input and explain assumptions.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
