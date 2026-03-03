@@ -60,32 +60,24 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// One-line synchronous 'sleep' in Node.js using Atomics.wait.
-// It blocks the event loop—use only for demos or scripts where blocking is acceptable.
+# Demonstrates Python's "for-else": the else clause runs only if the loop didn't break.
+# Here, we search for the first non-trivial factor of n; if none is found, we report that n is prime.
 
-```js
-const sleep = ms => Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms);
+def first_factor(n):
+    if n < 2:
+        return None
+    for k in range(2, int(n**0.5) + 1):
+        if n % k == 0:
+            result = k
+            break
+    else:
+        result = "prime"
+    return result
 
-console.time('blocked');
-console.log('Before');
-sleep(750); // blocks ~750ms
-console.log('After');
-console.timeEnd('blocked');
-```
-
-// Bonus: a non-blocking version for comparison
-```js
-const sleepAsync = ms => new Promise(r => setTimeout(r, ms));
-(async () => {
-  console.time('async');
-  console.log('Before');
-  await sleepAsync(750);
-  console.log('After');
-  console.timeEnd('async');
-})();
-```
+for n in [1, 2, 17, 21, 97, 100]:
+    print(f"{n}: {first_factor(n)}")
 ```
 ### Challenge
-JavaScript: Implement parseDuration(str) that converts human-readable durations like '2d 4h 30m 15s 120ms' or '1.5h' into total milliseconds without using libraries; support d, h, m, s, ms, handle mixed order and decimals, validate input and explain assumptions.
+Python: Write a function day_of_week(date_str) that returns the weekday name (Mon-Sun) for a given Gregorian date string 'YYYY-MM-DD' without using datetime or calendar. Research and implement a known algorithm (e.g., Zeller's congruence or Sakamoto's method), explain your choice in a short comment, and include tests for tricky cases like '1900-03-01', '2000-02-29', and '2100-03-01'.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
