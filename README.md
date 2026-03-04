@@ -68,3 +68,25 @@ s='s=%r;print(s%%s)';print(s%s)
 Write a function in JavaScript that returns the weekday name (Mon–Sun) for any 'YYYY-MM-DD' string using Zeller's congruence; do not use Date, Intl, or third-party libraries.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
+
+### Updates
+
+### DevPulse
+Monitor your coding activity, create custom leaderboards, and compete with your team or the community.  
+DevPulse brings WakaTime stats into a sleek, collaborative leaderboard experience.  
+
+**Website:** https://devpulse-waka.vercel.app/
+
+---
+
+### Floating Console Extension
+A browser extension that provides a floating console for developers to easily access logs while browsing the web.  
+
+**Website:** http://melvinjonesrepol.com/floating-console-extension
+
+---
+
+### Deploy Your Own Shortlink App
+Get your link. Shorteeeeeen!  
+
+**Website:** https://go.melvinjonesrepol.com/
