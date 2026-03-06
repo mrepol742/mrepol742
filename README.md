@@ -59,12 +59,22 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-# Quirky Python trick: a 2-line quine that prints its own source code without reading the file.
-# It exploits %r for the exact string representation and %% to escape the percent sign.
-s='s=%r;print(s%%s)';print(s%s)
+```js
+// A tiny "once" helper in JS: runs a function only once and caches its result.
+// It uses closures and the comma operator to store the result after the first call.
+const once = fn => ((res, called=false) => (...args) => called ? res : (called=true, res=fn(...args)))();
+
+const init = once(() => {
+  console.log('Expensive init runs');
+  return { connected: true };
+});
+
+console.log(init()); // runs and caches
+console.log(init()); // returns cached without logging
+```
 ```
 ### Challenge
-Write a function in JavaScript that returns the weekday name (Mon–Sun) for any 'YYYY-MM-DD' string using Zeller's congruence; do not use Date, Intl, or third-party libraries.
+In JavaScript, write a function parseSI(str) that converts numbers with SI prefixes to numeric values (e.g., '3.2k' => 3200, '5M' => 5000000, '7.5μ'/'7.5u' => 0.0000075, '12m' => 0.012). Requirements: handle upper/lowercase, accept both 'μ' and 'u' for micro, ignore commas and whitespace, validate input and throw on invalid cases, and do not use any libraries.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
