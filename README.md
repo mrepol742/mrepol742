@@ -59,22 +59,18 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-```js
-// A tiny "once" helper in JS: runs a function only once and caches its result.
-// It uses closures and the comma operator to store the result after the first call.
-const once = fn => ((res, called=false) => (...args) => called ? res : (called=true, res=fn(...args)))();
-
-const init = once(() => {
-  console.log('Expensive init runs');
-  return { connected: true };
-});
-
-console.log(init()); // runs and caches
-console.log(init()); // returns cached without logging
-```
+# Python's for-else: the 'else' runs only if the loop didn't break.
+# Here we check if n is prime; the else runs when no divisor was found.
+n = 97
+for i in range(2, int(n**0.5) + 1):
+    if n % i == 0:
+        print(f'{n} is composite (divisible by {i})')
+        break
+else:
+    print(f'{n} is prime')
 ```
 ### Challenge
-In JavaScript, write a function parseSI(str) that converts numbers with SI prefixes to numeric values (e.g., '3.2k' => 3200, '5M' => 5000000, '7.5μ'/'7.5u' => 0.0000075, '12m' => 0.012). Requirements: handle upper/lowercase, accept both 'μ' and 'u' for micro, ignore commas and whitespace, validate input and throw on invalid cases, and do not use any libraries.
+JS (Node): Write an async function fetchDisallows(domain) that downloads https://<domain>/robots.txt, extracts all Disallow rules into a deduplicated, sorted array of paths, and prints them; handle redirects, 404s, and network errors without using external packages.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
