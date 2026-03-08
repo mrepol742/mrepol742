@@ -59,18 +59,25 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-# Python's for-else: the 'else' runs only if the loop didn't break.
-# Here we check if n is prime; the else runs when no divisor was found.
-n = 97
-for i in range(2, int(n**0.5) + 1):
-    if n % i == 0:
-        print(f'{n} is composite (divisible by {i})')
-        break
-else:
-    print(f'{n} is prime')
+// This JavaScript Proxy lets you "build" a property path by simply accessing properties.
+// When coerced to a string (via String(), template literals, or + ''), it returns the dot-separated path.
+// Handy for logging, dynamic selectors, or tiny DSL-like APIs.
+
+const Path = (parts = []) => new Proxy(Object.create(null), {
+  get(_target, prop) {
+    if (prop === 'toString' || prop === 'valueOf' || prop === Symbol.toPrimitive) {
+      return () => parts.join('.');
+    }
+    return Path(parts.concat(String(prop)));
+  }
+});
+
+const path = Path();
+console.log(`${path.api.v1.users[0].name.first}`); // "api.v1.users.0.name"
+console.log(String(path.config.database['connection-string'])); // "config.database.connection-string"
 ```
 ### Challenge
-JS (Node): Write an async function fetchDisallows(domain) that downloads https://<domain>/robots.txt, extracts all Disallow rules into a deduplicated, sorted array of paths, and prints them; handle redirects, 404s, and network errors without using external packages.
+Write a function in JavaScript that implements a natural sort comparator for strings (e.g., 'file2' before 'file10') without using Intl.Collator or localeCompare({ numeric: true }). Consider negative numbers, multiple numeric segments, and case-insensitive sorting.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
