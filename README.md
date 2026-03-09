@@ -59,25 +59,23 @@ Kotlin                   3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This JavaScript Proxy lets you "build" a property path by simply accessing properties.
-// When coerced to a string (via String(), template literals, or + ''), it returns the dot-separated path.
-// Handy for logging, dynamic selectors, or tiny DSL-like APIs.
+```js
+// 'Self-overwriting function': after the first call, it replaces itself with a faster version.
+// Handy for one-time initialization without extra flags or global state.
+let init = function () {
+  console.log('Doing expensive one-off setup...');
+  // Redefine itself for subsequent calls
+  init = function () {
+    console.log('Already initialized. Fast path.');
+  };
+};
 
-const Path = (parts = []) => new Proxy(Object.create(null), {
-  get(_target, prop) {
-    if (prop === 'toString' || prop === 'valueOf' || prop === Symbol.toPrimitive) {
-      return () => parts.join('.');
-    }
-    return Path(parts.concat(String(prop)));
-  }
-});
-
-const path = Path();
-console.log(`${path.api.v1.users[0].name.first}`); // "api.v1.users.0.name"
-console.log(String(path.config.database['connection-string'])); // "config.database.connection-string"
+init(); // Doing expensive one-off setup...
+init(); // Already initialized. Fast path.
+```
 ```
 ### Challenge
-Write a function in JavaScript that implements a natural sort comparator for strings (e.g., 'file2' before 'file10') without using Intl.Collator or localeCompare({ numeric: true }). Consider negative numbers, multiple numeric segments, and case-insensitive sorting.
+Python: Write a function normalize_emails(emails) that returns the number of unique Gmail addresses after normalization. Rules: ignore dots in the local part, ignore any substring after a '+' in the local part, treat the domain case-insensitively, and only apply normalization to addresses with domain 'gmail.com'; non-Gmail addresses should be compared exactly as given after trimming whitespace. Do not use external libraries. Research Gmail normalization behavior and consider edge cases (uppercase letters, empty local parts, multiple '+' signs). Example: ["Alice.Smith+promo@gmail.com", "aliceSmith@gmail.com", "ALICE.SMITH+notes@GMAIL.com", "alice@outlook.com"] => 2.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
