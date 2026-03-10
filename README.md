@@ -60,23 +60,29 @@ Rust                     3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-```js
-// 'Self-overwriting function': after the first call, it replaces itself with a faster version.
-// Handy for one-time initialization without extra flags or global state.
-let init = function () {
-  console.log('Doing expensive one-off setup...');
-  // Redefine itself for subsequent calls
-  init = function () {
-    console.log('Already initialized. Fast path.');
-  };
-};
+# Demonstrates Python's late binding in closures and the default-argument trick to capture the current loop value at definition time.
+```python
+# Without the trick: every lambda sees the final i (late binding)
+funcs = []
+for i in range(5):
+    funcs.append(lambda: i)
+print("Late-binding:", [f() for f in funcs])  # -> [4, 4, 4, 4, 4]
 
-init(); // Doing expensive one-off setup...
-init(); // Already initialized. Fast path.
+# With the trick: use a default argument to freeze i's value when the lambda is created
+funcs_fixed = []
+for i in range(5):
+    funcs_fixed.append(lambda i=i: i)
+print("Frozen at definition:", [f() for f in funcs_fixed])  # -> [0, 1, 2, 3, 4]
+
+# You can still accept real parameters; the captured i is independent
+adders = []
+for i in range(5):
+    adders.append(lambda x, i=i: x + i)
+print("Adders:", [f(10) for f in adders])  # -> [10, 11, 12, 13, 14]
 ```
 ```
 ### Challenge
-Python: Write a function normalize_emails(emails) that returns the number of unique Gmail addresses after normalization. Rules: ignore dots in the local part, ignore any substring after a '+' in the local part, treat the domain case-insensitively, and only apply normalization to addresses with domain 'gmail.com'; non-Gmail addresses should be compared exactly as given after trimming whitespace. Do not use external libraries. Research Gmail normalization behavior and consider edge cases (uppercase letters, empty local parts, multiple '+' signs). Example: ["Alice.Smith+promo@gmail.com", "aliceSmith@gmail.com", "ALICE.SMITH+notes@GMAIL.com", "alice@outlook.com"] => 2.
+JavaScript: Implement mimeFromBuffer(bytes) that returns the correct MIME type by inspecting file signatures (magic numbers) for PNG, JPEG, GIF, PDF, ZIP (distinguish DOCX vs generic ZIP by presence of '[Content_Types].xml'), and GZIP, without using external libraries. Include brief inline comments citing the magic numbers you used.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
