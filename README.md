@@ -60,29 +60,18 @@ Rust                     3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-# Demonstrates Python's late binding in closures and the default-argument trick to capture the current loop value at definition time.
-```python
-# Without the trick: every lambda sees the final i (late binding)
-funcs = []
-for i in range(5):
-    funcs.append(lambda: i)
-print("Late-binding:", [f() for f in funcs])  # -> [4, 4, 4, 4, 4]
+# Rotate a 2D point by θ radians using complex numbers (matrix-free rotation).
+import cmath, math
 
-# With the trick: use a default argument to freeze i's value when the lambda is created
-funcs_fixed = []
-for i in range(5):
-    funcs_fixed.append(lambda i=i: i)
-print("Frozen at definition:", [f() for f in funcs_fixed])  # -> [0, 1, 2, 3, 4]
+def rotate(point, theta):
+    z = complex(*point) * cmath.rect(1, theta)  # multiply by e^(iθ)
+    return (z.real, z.imag)
 
-# You can still accept real parameters; the captured i is independent
-adders = []
-for i in range(5):
-    adders.append(lambda x, i=i: x + i)
-print("Adders:", [f(10) for f in adders])  # -> [10, 11, 12, 13, 14]
-```
+# Example: rotate (1, 0) by 90°
+print(rotate((1, 0), math.pi/2))  # -> (0.0, 1.0)
 ```
 ### Challenge
-JavaScript: Implement mimeFromBuffer(bytes) that returns the correct MIME type by inspecting file signatures (magic numbers) for PNG, JPEG, GIF, PDF, ZIP (distinguish DOCX vs generic ZIP by presence of '[Content_Types].xml'), and GZIP, without using external libraries. Include brief inline comments citing the magic numbers you used.
+In Rust: Write a function that determines a file's type ("png", "jpeg", "gif", or "pdf") by inspecting a byte slice's magic numbers—no external crates; research the correct signatures (including JFIF/EXIF variants) and handle ambiguous cases.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
