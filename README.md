@@ -101,7 +101,7 @@ DevPulse brings WakaTime stats into a sleek, collaborative leaderboard experienc
 ### Floating Console Extension
 A browser extension that provides a floating console for developers to easily access logs while browsing the web.  
 
-**Website:** http://melvinjonesrepol.com/floating-console-extension
+**Website:** https://melvinjonesrepol.com/floating-console-extension
 
 ---
 
@@ -109,3 +109,9 @@ A browser extension that provides a floating console for developers to easily ac
 Get your link. Shorteeeeeen!  
 
 **Website:** https://go.melvinjonesrepol.com/
+
+### Need help?
+If you have an idea, let's make that idea come true!
+From development, production to deployment. We can do that.
+
+[Pricing](https://melvinjonesrepol.com/pricing) - [Contact me](https://melvinjonesrepol.com/contact-me)
