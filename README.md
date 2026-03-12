@@ -60,18 +60,31 @@ Rust                     3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-# Rotate a 2D point by θ radians using complex numbers (matrix-free rotation).
-import cmath, math
+# Auto-vivifying nested dicts: assign deep keys without pre-creating intermediate levels.
+from collections import defaultdict
 
-def rotate(point, theta):
-    z = complex(*point) * cmath.rect(1, theta)  # multiply by e^(iθ)
-    return (z.real, z.imag)
 
-# Example: rotate (1, 0) by 90°
-print(rotate((1, 0), math.pi/2))  # -> (0.0, 1.0)
+def tree():
+    return defaultdict(tree)
+
+
+data = tree()
+
+data['users']['alice']['prefs']['theme'] = 'dark'
+data['users']['bob']['scores']['math'] = 98
+
+# Convert back to plain dicts for JSON/printing
+import json
+
+def to_dict(d):
+    if isinstance(d, defaultdict):
+        return {k: to_dict(v) for k, v in d.items()}
+    return d
+
+print(json.dumps(to_dict(data), indent=2))
 ```
 ### Challenge
-In Rust: Write a function that determines a file's type ("png", "jpeg", "gif", or "pdf") by inspecting a byte slice's magic numbers—no external crates; research the correct signatures (including JFIF/EXIF variants) and handle ambiguous cases.
+In JavaScript: Write a function isFlagEmoji(str) that returns true if str is a valid flag emoji (exactly one pair of Unicode Regional Indicator Symbols) and false otherwise, without using regex libraries—work directly with code points.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
