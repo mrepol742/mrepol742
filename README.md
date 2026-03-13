@@ -60,31 +60,25 @@ Rust                     3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-# Auto-vivifying nested dicts: assign deep keys without pre-creating intermediate levels.
-from collections import defaultdict
+// Throw-on-missing options using default parameter initializers and object destructuring.
+// This fails fast with a clear error for required fields, while keeping optional defaults tidy.
+const required = name => { throw new Error(`Missing required option: ${name}`); };
 
+function connect({
+  host = required('host'),
+  port = 5432,
+  secure = false,
+  timeoutMs = 3000
+} = {}) {
+  return `${secure ? 'wss' : 'ws'}://${host}:${port}?t=${timeoutMs}`;
+}
 
-def tree():
-    return defaultdict(tree)
-
-
-data = tree()
-
-data['users']['alice']['prefs']['theme'] = 'dark'
-data['users']['bob']['scores']['math'] = 98
-
-# Convert back to plain dicts for JSON/printing
-import json
-
-def to_dict(d):
-    if isinstance(d, defaultdict):
-        return {k: to_dict(v) for k, v in d.items()}
-    return d
-
-print(json.dumps(to_dict(data), indent=2))
+// Usage:
+console.log(connect({ host: 'example.com', secure: true })); // wss://example.com:5432?t=3000
+// connect(); // throws Error: Missing required option: host
 ```
 ### Challenge
-In JavaScript: Write a function isFlagEmoji(str) that returns true if str is a valid flag emoji (exactly one pair of Unicode Regional Indicator Symbols) and false otherwise, without using regex libraries—work directly with code points.
+Write a function nth_weekday(year, month, weekday, n) that returns the ISO date (YYYY-MM-DD) for the nth occurrence of the weekday in that month (e.g., the 2nd Tuesday of March 2025), or None if it doesn't exist, without using external libraries (only datetime) in Python.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
