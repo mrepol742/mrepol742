@@ -60,25 +60,25 @@ Rust                     3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Throw-on-missing options using default parameter initializers and object destructuring.
-// This fails fast with a clear error for required fields, while keeping optional defaults tidy.
-const required = name => { throw new Error(`Missing required option: ${name}`); };
+// Auto-curry any function using a tiny Proxy wrapper: supply arguments over multiple calls until the function's arity is met.
+const curry = (fn) => new Proxy(function curried(...args) {
+  return args.length >= fn.length ? fn(...args) : (...rest) => curried(...args, ...rest);
+}, {
+  get(target, prop) {
+    if (prop === 'length') return fn.length; // preserve .length for nicer introspection
+    return Reflect.get(target, prop);
+  }
+});
 
-function connect({
-  host = required('host'),
-  port = 5432,
-  secure = false,
-  timeoutMs = 3000
-} = {}) {
-  return `${secure ? 'wss' : 'ws'}://${host}:${port}?t=${timeoutMs}`;
-}
-
-// Usage:
-console.log(connect({ host: 'example.com', secure: true })); // wss://example.com:5432?t=3000
-// connect(); // throws Error: Missing required option: host
+// Demo
+const sum3 = (a, b, c) => a + b + c;
+const csum3 = curry(sum3);
+console.log(csum3(1)(2)(3));     // 6
+console.log(csum3(1, 2)(3));     // 6
+console.log(csum3(1)(2, 3));     // 6
 ```
 ### Challenge
-Write a function nth_weekday(year, month, weekday, n) that returns the ISO date (YYYY-MM-DD) for the nth occurrence of the weekday in that month (e.g., the 2nd Tuesday of March 2025), or None if it doesn't exist, without using external libraries (only datetime) in Python.
+Python: Write a function that validates and normalizes an IBAN (ISO 13616) without external libraries: strip spaces, uppercase, verify country-specific length, convert letters to numbers (A=10..Z=35), move the first four characters to the end, and check that the numeric string mod 97 equals 1 (return True/False).
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
