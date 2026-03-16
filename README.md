@@ -60,25 +60,11 @@ Rust                     3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Auto-curry any function using a tiny Proxy wrapper: supply arguments over multiple calls until the function's arity is met.
-const curry = (fn) => new Proxy(function curried(...args) {
-  return args.length >= fn.length ? fn(...args) : (...rest) => curried(...args, ...rest);
-}, {
-  get(target, prop) {
-    if (prop === 'length') return fn.length; // preserve .length for nicer introspection
-    return Reflect.get(target, prop);
-  }
-});
-
-// Demo
-const sum3 = (a, b, c) => a + b + c;
-const csum3 = curry(sum3);
-console.log(csum3(1)(2)(3));     // 6
-console.log(csum3(1, 2)(3));     // 6
-console.log(csum3(1)(2, 3));     // 6
+# A tiny Python quine: prints its own source code without reading any files.
+s='s=%r;print(s%%s)';print(s%s)
 ```
 ### Challenge
-Python: Write a function that validates and normalizes an IBAN (ISO 13616) without external libraries: strip spaces, uppercase, verify country-specific length, convert letters to numbers (A=10..Z=35), move the first four characters to the end, and check that the numeric string mod 97 equals 1 (return True/False).
+Python: Write a function sort_versions(versions: list[str]) -> list[str] that orders semantic version strings (e.g., '1.2.0', '2.0.0-rc.1', '1.10.0+build.5') according to SemVer 2.0.0 rules without using third-party libraries. Research pre-release precedence (numeric vs alphanumeric identifiers, rc < final) and remember that build metadata must not affect ordering.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
