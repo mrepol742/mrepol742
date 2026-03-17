@@ -59,11 +59,34 @@ Rust                     3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-# A tiny Python quine: prints its own source code without reading any files.
-s='s=%r;print(s%%s)';print(s%s)
+```js
+// JavaScript: An infinitely chainable sum using currying and Symbol.toPrimitive.
+// You can write add(1)(2)(3) and it behaves like the number 6 when coerced.
+
+function add(x) {
+  let total = Number(x) || 0;
+
+  function curried(y) {
+    total += Number(y) || 0;
+    return curried;
+  }
+
+  // Make the function "act like" a number when converted.
+  curried[Symbol.toPrimitive] = () => total;
+  curried.valueOf = () => total;     // fallback for loose equality
+  curried.toString = () => String(total);
+
+  return curried;
+}
+
+// Examples:
+console.log(+add(1)(2)(3));         // 6
+console.log(String(add(5)(-2)));    // "3"
+console.log(add(10)(0)(-4) == 6);   // true (coercion via valueOf)
+```
 ```
 ### Challenge
-Python: Write a function sort_versions(versions: list[str]) -> list[str] that orders semantic version strings (e.g., '1.2.0', '2.0.0-rc.1', '1.10.0+build.5') according to SemVer 2.0.0 rules without using third-party libraries. Research pre-release precedence (numeric vs alphanumeric identifiers, rc < final) and remember that build metadata must not affect ordering.
+Daily challenge (Go): Implement DetectMimeType(r io.ReadSeeker) string that returns one of "image/png", "image/jpeg", "image/gif", or "application/pdf" by checking magic numbers. Constraints: do not use http.DetectContentType or third-party packages; read at most the first 12 bytes; restore the reader's position before returning; include a brief comment citing the signatures you used (research required).
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
