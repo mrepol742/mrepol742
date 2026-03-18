@@ -59,34 +59,33 @@ Rust                     3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-```js
-// JavaScript: An infinitely chainable sum using currying and Symbol.toPrimitive.
-// You can write add(1)(2)(3) and it behaves like the number 6 when coerced.
-
-function add(x) {
-  let total = Number(x) || 0;
-
-  function curried(y) {
-    total += Number(y) || 0;
-    return curried;
-  }
-
-  // Make the function "act like" a number when converted.
-  curried[Symbol.toPrimitive] = () => total;
-  curried.valueOf = () => total;     // fallback for loose equality
-  curried.toString = () => String(total);
-
-  return curried;
+/*
+Turns any async function into a 'once' function: concurrent calls share one in-flight Promise; failures reset the memoization. Great for deduplicating config fetches or database warm-ups.
+*/
+function onceAsync(fn) {
+  let p = null;
+  return (...args) => {
+    if (!p) {
+      p = Promise.resolve().then(() => fn(...args)).catch(err => {
+        p = null; // reset on error so next call can retry
+        throw err;
+      });
+    }
+    return p;
+  };
 }
 
-// Examples:
-console.log(+add(1)(2)(3));         // 6
-console.log(String(add(5)(-2)));    // "3"
-console.log(add(10)(0)(-4) == 6);   // true (coercion via valueOf)
-```
+// Example: only one network request despite multiple callers
+const getConfig = onceAsync(async () => {
+  const res = await fetch('/config.json');
+  return res.json();
+});
+
+Promise.all([getConfig(), getConfig(), getConfig()])
+  .then(([a, b, c]) => console.log(a === b && b === c)); // true
 ```
 ### Challenge
-Daily challenge (Go): Implement DetectMimeType(r io.ReadSeeker) string that returns one of "image/png", "image/jpeg", "image/gif", or "application/pdf" by checking magic numbers. Constraints: do not use http.DetectContentType or third-party packages; read at most the first 12 bytes; restore the reader's position before returning; include a brief comment citing the signatures you used (research required).
+Python: Write a function that determines whether an input IP string is in a private/internal range for both IPv4 and IPv6 without using external libraries. Research RFC1918 and RFC4193, handle IPv6 shorthand (::), and support CIDR notation ranges like 10.0.0.0/8 and fc00::/7.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
