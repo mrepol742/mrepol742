@@ -59,33 +59,35 @@ Rust                     3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-/*
-Turns any async function into a 'once' function: concurrent calls share one in-flight Promise; failures reset the memoization. Great for deduplicating config fetches or database warm-ups.
-*/
-function onceAsync(fn) {
-  let p = null;
-  return (...args) => {
-    if (!p) {
-      p = Promise.resolve().then(() => fn(...args)).catch(err => {
-        p = null; // reset on error so next call can retry
-        throw err;
-      });
-    }
-    return p;
-  };
+// Self-overwriting function: first call does expensive setup; later calls return the cached result instantly.
+```js
+let getConfig = function() {
+  console.log('Heavy setup running once...');
+  const cfg = computeExpensiveConfig();
+  // Overwrite with a fast path that closes over the cached config
+  getConfig = () => cfg;
+  return cfg;
+};
+
+function computeExpensiveConfig() {
+  // Simulate heavy work
+  const start = Date.now();
+  while (Date.now() - start < 300) {}
+  return Object.freeze({ api: '/v1', retries: 3 });
 }
 
-// Example: only one network request despite multiple callers
-const getConfig = onceAsync(async () => {
-  const res = await fetch('/config.json');
-  return res.json();
-});
+// Demo: first call is slow, second call is fast
+console.time('first');
+console.log(getConfig());
+console.timeEnd('first');
 
-Promise.all([getConfig(), getConfig(), getConfig()])
-  .then(([a, b, c]) => console.log(a === b && b === c)); // true
+console.time('second');
+console.log(getConfig());
+console.timeEnd('second');
+```
 ```
 ### Challenge
-Python: Write a function that determines whether an input IP string is in a private/internal range for both IPv4 and IPv6 without using external libraries. Research RFC1918 and RFC4193, handle IPv6 shorthand (::), and support CIDR notation ranges like 10.0.0.0/8 and fc00::/7.
+JavaScript challenge: Build a tiny arithmetic expression evaluator without using eval or new Function. Support +, -, *, /, parentheses, and whitespace (e.g., '(2 + 3) * 4 / 5'). Write parse(expression: string): number using either a shunting-yard algorithm or a recursive-descent parser. Include tests for malformed input and operator precedence.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
