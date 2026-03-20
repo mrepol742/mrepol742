@@ -59,35 +59,13 @@ Rust                     3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Self-overwriting function: first call does expensive setup; later calls return the cached result instantly.
-```js
-let getConfig = function() {
-  console.log('Heavy setup running once...');
-  const cfg = computeExpensiveConfig();
-  // Overwrite with a fast path that closes over the cached config
-  getConfig = () => cfg;
-  return cfg;
-};
-
-function computeExpensiveConfig() {
-  // Simulate heavy work
-  const start = Date.now();
-  while (Date.now() - start < 300) {}
-  return Object.freeze({ api: '/v1', retries: 3 });
-}
-
-// Demo: first call is slow, second call is fast
-console.time('first');
-console.log(getConfig());
-console.timeEnd('first');
-
-console.time('second');
-console.log(getConfig());
-console.timeEnd('second');
-```
+# Python: Avoid the 'late-binding' closure gotcha by capturing the loop variable via a default argument.
+# This builds lambdas that remember each i at definition time; without i=i they'd all return the last square (16 here).
+funcs = [(lambda i=i: i*i) for i in range(5)]
+print([f() for f in funcs])  # [0, 1, 4, 9, 16]
 ```
 ### Challenge
-JavaScript challenge: Build a tiny arithmetic expression evaluator without using eval or new Function. Support +, -, *, /, parentheses, and whitespace (e.g., '(2 + 3) * 4 / 5'). Write parse(expression: string): number using either a shunting-yard algorithm or a recursive-descent parser. Include tests for malformed input and operator precedence.
+JS: Implement canonicalizePath(path) to normalize Unix-style paths by resolving '.' and '..' segments and collapsing repeated slashes, without using path/URL libraries. Preserve leading '/' for absolute paths, prevent traversal above root, and retain trailing slash semantics (e.g., '/a/b/' vs '/a/b'). Tip: Research RFC 3986 Section 5.2.4 (dot-segment removal). Test cases: '/a/b/.././c//', '../../x', '/', 'a/../../b', '///', '/././', '/a//b/c/..', 'a/b/./../c/'.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
