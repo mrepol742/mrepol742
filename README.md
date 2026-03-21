@@ -59,13 +59,32 @@ Rust                     3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-# Python: Avoid the 'late-binding' closure gotcha by capturing the loop variable via a default argument.
-# This builds lambdas that remember each i at definition time; without i=i they'd all return the last square (16 here).
-funcs = [(lambda i=i: i*i) for i in range(5)]
-print([f() for f in funcs])  # [0, 1, 4, 9, 16]
+// TypeScript brand trick: attach phantom types to numbers to enforce units at compile time.
+// Prevents mixing meters and seconds, with zero runtime cost.
+
+type Brand<T, B extends string> = T & { readonly __brand: B };
+
+type Meters = Brand<number, 'Meters'>;
+type Seconds = Brand<number, 'Seconds'>;
+type MetersPerSecond = Brand<number, 'MetersPerSecond'>;
+
+const meters = (n: number) => n as Meters;
+const seconds = (n: number) => n as Seconds;
+
+const speed = (distance: Meters, time: Seconds): MetersPerSecond =>
+  (distance / time) as MetersPerSecond;
+
+// Usage
+const d = meters(100);
+const t = seconds(9.58);
+const v = speed(d, t); // ok, v is MetersPerSecond
+
+// Uncomment to see compile-time errors:
+// const bad = speed(seconds(100), meters(9.58)); // Type error: argument types do not match
+// const alsoBad: Seconds = meters(5); // Type error: cannot assign Meters to Seconds
 ```
 ### Challenge
-JS: Implement canonicalizePath(path) to normalize Unix-style paths by resolving '.' and '..' segments and collapsing repeated slashes, without using path/URL libraries. Preserve leading '/' for absolute paths, prevent traversal above root, and retain trailing slash semantics (e.g., '/a/b/' vs '/a/b'). Tip: Research RFC 3986 Section 5.2.4 (dot-segment removal). Test cases: '/a/b/.././c//', '../../x', '/', 'a/../../b', '///', '/././', '/a//b/c/..', 'a/b/./../c/'.
+In Python: Write a function get_capital(country: str) -> str that queries a public REST API to return the capital of the given country. Constraints: use only the standard library for HTTP, handle timeouts and 4xx/5xx responses, disambiguate tricky names (e.g., Congo), and include a brief docstring describing the API you chose.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
