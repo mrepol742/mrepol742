@@ -81,25 +81,39 @@ Python: Implement 'guess_mime(path)' that infers a file's MIME type by reading i
 
 ### Updates
 
+### Webvium Browser
+The Fastest, The Lightest and The Tightest android web browser.
+
+**Website:** [melvinjonesrepol.com/webvium-browser](https://melvinjonesrepol.com/webvium-browser)
+
+---
+
+### PROJECT DEEP
+AI Driven blog spot about technology, businesses and related topics.
+
+**website:* [projectdeep.vercel.app](https://projectdeep.vercel.app)
+
+---
+
 ### DevPulse
 Monitor your coding activity, create custom leaderboards, and compete with your team or the community.  
 DevPulse brings WakaTime stats into a sleek, collaborative leaderboard experience.  
 
-**Website:** https://devpulse-waka.vercel.app/
+**Website:** [devpulse-waka.vercel.app](https://devpulse-waka.vercel.app)
 
 ---
 
 ### Floating Console Extension
 A browser extension that provides a floating console for developers to easily access logs while browsing the web.  
 
-**Website:** https://melvinjonesrepol.com/floating-console-extension
+**Website:** [melvinjonesrepol.com/floating-console-extension](https://melvinjonesrepol.com/floating-console-extension)
 
 ---
 
 ### Deploy Your Own Shortlink App
 Get your link. Shorteeeeeen!  
 
-**Website:** https://go.melvinjonesrepol.com/
+**Website:** [go.melvinjonesrepol.com](https://go.melvinjonesrepol.com)
 
 ### Need help?
 If you have an idea, let's make that idea come true!
