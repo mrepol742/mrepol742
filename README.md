@@ -59,32 +59,23 @@ Rust                     3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// TypeScript brand trick: attach phantom types to numbers to enforce units at compile time.
-// Prevents mixing meters and seconds, with zero runtime cost.
+// JavaScript: An object that auto-increments each time it's coerced to a primitive (number or string) using Symbol.toPrimitive.
+// Fun for demos/tests; avoid in production code where implicit coercion can confuse readers.
+const counter = {
+  i: 0,
+  [Symbol.toPrimitive](hint) {
+    return ++this.i; // increments on every coercion (number, string, or default)
+  }
+};
 
-type Brand<T, B extends string> = T & { readonly __brand: B };
-
-type Meters = Brand<number, 'Meters'>;
-type Seconds = Brand<number, 'Seconds'>;
-type MetersPerSecond = Brand<number, 'MetersPerSecond'>;
-
-const meters = (n: number) => n as Meters;
-const seconds = (n: number) => n as Seconds;
-
-const speed = (distance: Meters, time: Seconds): MetersPerSecond =>
-  (distance / time) as MetersPerSecond;
-
-// Usage
-const d = meters(100);
-const t = seconds(9.58);
-const v = speed(d, t); // ok, v is MetersPerSecond
-
-// Uncomment to see compile-time errors:
-// const bad = speed(seconds(100), meters(9.58)); // Type error: argument types do not match
-// const alsoBad: Seconds = meters(5); // Type error: cannot assign Meters to Seconds
+console.log(+counter);     // 1 (numeric coercion)
+console.log(counter + 0);  // 2 (addition triggers coercion)
+console.log(counter * 2);  // 6 (3 * 2)
+console.log(`${counter}`); // '4' (string coercion)
+console.log(counter == 5); // true (loose equality coerces the object)
 ```
 ### Challenge
-In Python: Write a function get_capital(country: str) -> str that queries a public REST API to return the capital of the given country. Constraints: use only the standard library for HTTP, handle timeouts and 4xx/5xx responses, disambiguate tricky names (e.g., Congo), and include a brief docstring describing the API you chose.
+Python: Implement 'guess_mime(path)' that infers a file's MIME type by reading its magic bytes (no external libraries). Support at least PNG, JPEG, GIF, PDF, and ZIP; for ZIP-based formats, distinguish DOCX/XLSX/PPTX from generic ZIP by inspecting '[Content_Types].xml', and detect ODT by its 'mimetype' file. Return 'application/octet-stream' when unknown, and include brief comments citing the magic-number sources you used.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
