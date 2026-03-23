@@ -59,23 +59,25 @@ Rust                     3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// JavaScript: An object that auto-increments each time it's coerced to a primitive (number or string) using Symbol.toPrimitive.
-// Fun for demos/tests; avoid in production code where implicit coercion can confuse readers.
-const counter = {
-  i: 0,
-  [Symbol.toPrimitive](hint) {
-    return ++this.i; // increments on every coercion (number, string, or default)
-  }
-};
+Auto-nesting Proxy in JS: creates an infinitely deep 'default object' so you can write to deep paths without pre-initializing intermediate objects.
+```js
+// Auto-nesting object via Proxy
+const Auto = (o = {}) => new Proxy(o, {
+  get: (t, p) => (p in t) ? t[p] : (t[p] = Auto()),
+  set: (t, p, v) => (t[p] = v, true),
+});
 
-console.log(+counter);     // 1 (numeric coercion)
-console.log(counter + 0);  // 2 (addition triggers coercion)
-console.log(counter * 2);  // 6 (3 * 2)
-console.log(`${counter}`); // '4' (string coercion)
-console.log(counter == 5); // true (loose equality coerces the object)
+const state = Auto();
+state.user.profile.name = 'Ada';
+state.config.theme.colors.primary = '#0bf';
+
+console.log(state.user.profile.name);          // Ada
+console.log(Boolean(state.config.theme));      // true
+console.log(Object.keys(state.config.theme));  // [ 'colors' ]
+```
 ```
 ### Challenge
-Python: Implement 'guess_mime(path)' that infers a file's MIME type by reading its magic bytes (no external libraries). Support at least PNG, JPEG, GIF, PDF, and ZIP; for ZIP-based formats, distinguish DOCX/XLSX/PPTX from generic ZIP by inspecting '[Content_Types].xml', and detect ODT by its 'mimetype' file. Return 'application/octet-stream' when unknown, and include brief comments citing the magic-number sources you used.
+JavaScript: Write a function reverseGraphemes(str) that reverses a string by user‑perceived characters (grapheme clusters) without breaking emojis or accents. Do not use external libraries. Research Intl.Segmenter and/or Unicode-aware regex to handle sequences like family emojis and combining marks. Test with '👨‍👩‍👧‍👦🇺🇳é' (man-woman-girl-boy + flag + 'e' + acute accent) and ensure the reversed string still has valid, intact grapheme clusters.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
