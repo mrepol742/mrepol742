@@ -59,25 +59,11 @@ Rust                     3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-Auto-nesting Proxy in JS: creates an infinitely deep 'default object' so you can write to deep paths without pre-initializing intermediate objects.
-```js
-// Auto-nesting object via Proxy
-const Auto = (o = {}) => new Proxy(o, {
-  get: (t, p) => (p in t) ? t[p] : (t[p] = Auto()),
-  set: (t, p, v) => (t[p] = v, true),
-});
-
-const state = Auto();
-state.user.profile.name = 'Ada';
-state.config.theme.colors.primary = '#0bf';
-
-console.log(state.user.profile.name);          // Ada
-console.log(Boolean(state.config.theme));      // true
-console.log(Object.keys(state.config.theme));  // [ 'colors' ]
-```
+# A tiny Python quine: it prints its own source code without reading any files.
+s='s=%r;print(s%%s)';print(s%s)
 ```
 ### Challenge
-JavaScript: Write a function reverseGraphemes(str) that reverses a string by user‑perceived characters (grapheme clusters) without breaking emojis or accents. Do not use external libraries. Research Intl.Segmenter and/or Unicode-aware regex to handle sequences like family emojis and combining marks. Test with '👨‍👩‍👧‍👦🇺🇳é' (man-woman-girl-boy + flag + 'e' + acute accent) and ensure the reversed string still has valid, intact grapheme clusters.
+In Python: Write a function is_valid_isbn(s) that returns True if s is a valid ISBN-10 or ISBN-13 (ignoring hyphens and spaces) and False otherwise. Do not use external libraries. Include tests for edge cases like '0-306-40615-2', '978-3-16-148410-0', and lowercase 'x' as the ISBN-10 checksum.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
