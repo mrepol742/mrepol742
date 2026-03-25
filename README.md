@@ -60,11 +60,24 @@ Rust                     3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-# A tiny Python quine: it prints its own source code without reading any files.
-s='s=%r;print(s%%s)';print(s%s)
+```python
+# Python's seldom-known 'for-else': the 'else' runs only if the loop wasn't broken.
+# Here we use it for a concise primality test—'else' means no divisors were found.
+def is_prime(n: int) -> bool:
+    if n < 2:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            break
+    else:  # executes only if the for-loop didn't break
+        return True
+    return False
+
+print([n for n in range(2, 50) if is_prime(n)])
+```
 ```
 ### Challenge
-In Python: Write a function is_valid_isbn(s) that returns True if s is a valid ISBN-10 or ISBN-13 (ignoring hyphens and spaces) and False otherwise. Do not use external libraries. Include tests for edge cases like '0-306-40615-2', '978-3-16-148410-0', and lowercase 'x' as the ISBN-10 checksum.
+In JavaScript: Using Zeller's congruence (research required), write a function dayOfWeek(year, month, day) that returns the weekday name for Gregorian dates without using Date or Intl. Handle the January/February adjustment, use integer division carefully, and verify with examples like dayOfWeek(2024, 2, 29) -> 'Thursday' and dayOfWeek(2000, 1, 1) -> 'Saturday'. Briefly justify your formula and edge-case handling.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
