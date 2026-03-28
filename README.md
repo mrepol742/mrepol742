@@ -61,24 +61,17 @@ Rust                     3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-```python
-# Python's seldom-known 'for-else': the 'else' runs only if the loop wasn't broken.
-# Here we use it for a concise primality test—'else' means no divisors were found.
-def is_prime(n: int) -> bool:
-    if n < 2:
-        return False
-    for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-            break
-    else:  # executes only if the for-loop didn't break
-        return True
-    return False
+// Quirk: Make (a == 1 && a == 2 && a == 3) evaluate to true by customizing coercion.
+// In JavaScript, objects can define valueOf/toString; here we increment on each coercion.
+// Fun demo; not for production code.
+const a = { n: 0, valueOf() { return ++this.n; } };
 
-print([n for n in range(2, 50) if is_prime(n)])
-```
+if (a == 1 && a == 2 && a == 3) {
+  console.log('Mind = blown');
+}
 ```
 ### Challenge
-In JavaScript: Using Zeller's congruence (research required), write a function dayOfWeek(year, month, day) that returns the weekday name for Gregorian dates without using Date or Intl. Handle the January/February adjustment, use integer division carefully, and verify with examples like dayOfWeek(2024, 2, 29) -> 'Thursday' and dayOfWeek(2000, 1, 1) -> 'Saturday'. Briefly justify your formula and edge-case handling.
+JavaScript: Write an async function that takes an array of ISBN strings and returns a deduplicated list of book titles by querying the Open Library Books API (https://openlibrary.org/api/books). Requirements: use fetch only (no external libraries), handle network errors and HTTP 429 with exponential backoff, ignore ISBNs not found, and ensure at most 5 concurrent requests.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
