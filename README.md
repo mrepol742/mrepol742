@@ -61,17 +61,22 @@ Rust                     3 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirk: Make (a == 1 && a == 2 && a == 3) evaluate to true by customizing coercion.
-// In JavaScript, objects can define valueOf/toString; here we increment on each coercion.
-// Fun demo; not for production code.
-const a = { n: 0, valueOf() { return ++this.n; } };
+```python
+# Memoization without globals: uses a mutable default argument as a persistent cache across calls.
+def fib(n, _cache={0: 0, 1: 1}):
+    if n < 0:
+        raise ValueError("n must be non-negative")
+    if n not in _cache:
+        _cache[n] = fib(n - 1) + fib(n - 2)
+    return _cache[n]
 
-if (a == 1 && a == 2 && a == 3) {
-  console.log('Mind = blown');
-}
+# Demo: repeated calls re-use the same hidden cache
+print([fib(i) for i in range(10)])       # -> [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+print(len(fib.__defaults__[0]), "items in cache")  # peek at the shared cache
+```
 ```
 ### Challenge
-JavaScript: Write an async function that takes an array of ISBN strings and returns a deduplicated list of book titles by querying the Open Library Books API (https://openlibrary.org/api/books). Requirements: use fetch only (no external libraries), handle network errors and HTTP 429 with exponential backoff, ignore ISBNs not found, and ensure at most 5 concurrent requests.
+Python: Using only the standard library, write a script that, given a GitHub repository in the form 'owner/repo', queries the GitHub REST API to print the top 3 contributors by commit count for the default branch. You must (1) follow pagination via Link headers, (2) handle HTTP 403 rate limits by backing off and retrying based on the X-RateLimit-Reset header, and (3) output lines as 'login: count'.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
