@@ -59,22 +59,18 @@ Python                   5 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-```python
-# Memoization without globals: uses a mutable default argument as a persistent cache across calls.
-def fib(n, _cache={0: 0, 1: 1}):
-    if n < 0:
-        raise ValueError("n must be non-negative")
-    if n not in _cache:
-        _cache[n] = fib(n - 1) + fib(n - 2)
-    return _cache[n]
+// This snippet uses Python's "else" clause on a for-loop — a quirky feature that runs code only if the loop wasn't broken.
+for i in range(5):
+    print(i)
+    if i == 3:
+        break
+else:
+    print("Loop completed without break")  # This won't run because of the break
 
-# Demo: repeated calls re-use the same hidden cache
-print([fib(i) for i in range(10)])       # -> [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
-print(len(fib.__defaults__[0]), "items in cache")  # peek at the shared cache
-```
+# Try removing the break to see the else clause execute!
 ```
 ### Challenge
-Python: Using only the standard library, write a script that, given a GitHub repository in the form 'owner/repo', queries the GitHub REST API to print the top 3 contributors by commit count for the default branch. You must (1) follow pagination via Link headers, (2) handle HTTP 403 rate limits by backing off and retrying based on the X-RateLimit-Reset header, and (3) output lines as 'login: count'.
+Write a function in Python that finds the first recurring character in a string. If there is no recurring character, return None. This requires you to think about efficient ways to track characters without scanning the string multiple times.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
