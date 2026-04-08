@@ -59,18 +59,19 @@ Python                   5 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This snippet uses Python's "else" clause on a for-loop — a quirky feature that runs code only if the loop wasn't broken.
-for i in range(5):
-    print(i)
-    if i == 3:
-        break
-else:
-    print("Loop completed without break")  # This won't run because of the break
-
-# Try removing the break to see the else clause execute!
+/* Generates a rainbow-colored console log by cycling through ANSI escape codes */
+const colors = [31, 33, 32, 36, 34, 35];
+const text = "🌈 Rainbow Console! 🌈";
+let result = '';
+for (let i = 0; i < text.length; i++) {
+  const color = colors[i % colors.length];
+  result += `[${color}m${text[i]}`;
+}
+result += '[0m'; // reset color
+console.log(result);
 ```
 ### Challenge
-Write a function in Python that finds the first recurring character in a string. If there is no recurring character, return None. This requires you to think about efficient ways to track characters without scanning the string multiple times.
+Write a Python function that takes a list of integers and returns the length of the longest consecutive sequence of numbers (numbers that follow each other in increasing order, e.g., [3,4,5]). The sequence does not have to be contiguous in the list. For example, given [100, 4, 200, 1, 3, 2], the longest consecutive sequence is [1, 2, 3, 4], so the function should return 4.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
