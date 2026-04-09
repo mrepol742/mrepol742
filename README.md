@@ -59,19 +59,14 @@ Python                   5 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-/* Generates a rainbow-colored console log by cycling through ANSI escape codes */
-const colors = [31, 33, 32, 36, 34, 35];
-const text = "🌈 Rainbow Console! 🌈";
-let result = '';
-for (let i = 0; i < text.length; i++) {
-  const color = colors[i % colors.length];
-  result += `[${color}m${text[i]}`;
-}
-result += '[0m'; // reset color
-console.log(result);
+// This quirky Python snippet swaps two numbers without a temporary variable or arithmetic operators!
+a, b = 5, 10
+
+a, b = (b, a) if a > b else (a, b)
+print(f"a = {a}, b = {b}")
 ```
 ### Challenge
-Write a Python function that takes a list of integers and returns the length of the longest consecutive sequence of numbers (numbers that follow each other in increasing order, e.g., [3,4,5]). The sequence does not have to be contiguous in the list. For example, given [100, 4, 200, 1, 3, 2], the longest consecutive sequence is [1, 2, 3, 4], so the function should return 4.
+Write a Python function that takes a string input and returns the first non-repeated character. If all characters repeat, return null. Think about optimizing for time complexity.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
