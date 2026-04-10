@@ -59,14 +59,19 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This quirky Python snippet swaps two numbers without a temporary variable or arithmetic operators!
-a, b = 5, 10
+/* This JavaScript snippet demonstrates how to create a self-incrementing function using closures, allowing it to remember state across calls without global variables. */
 
-a, b = (b, a) if a > b else (a, b)
-print(f"a = {a}, b = {b}")
+const counter = (() => {
+  let count = 0;
+  return () => ++count;
+})();
+
+console.log(counter()); // 1
+console.log(counter()); // 2
+console.log(counter()); // 3
 ```
 ### Challenge
-Write a Python function that takes a string input and returns the first non-repeated character. If all characters repeat, return null. Think about optimizing for time complexity.
+Write a Python function that takes a string containing digits and letters and returns the sum of all numbers found in the string, where numbers may be more than one digit (e.g., 'a12b3' sums to 15). Use regular expressions for extraction.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
