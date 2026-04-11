@@ -59,19 +59,18 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-/* This JavaScript snippet demonstrates how to create a self-incrementing function using closures, allowing it to remember state across calls without global variables. */
+// This quirky Python snippet swaps two variables without a temporary variable or tuple unpacking
+// It uses arithmetic operations to swap values in place
 
-const counter = (() => {
-  let count = 0;
-  return () => ++count;
-})();
-
-console.log(counter()); // 1
-console.log(counter()); // 2
-console.log(counter()); // 3
+a, b = 7, 3
+print("Before swap:", a, b)
+a = a + b  # a now becomes 10
+b = a - b  # b becomes 7 (original a)
+a = a - b  # a becomes 3 (original b)
+print("After swap:", a, b)
 ```
 ### Challenge
-Write a Python function that takes a string containing digits and letters and returns the sum of all numbers found in the string, where numbers may be more than one digit (e.g., 'a12b3' sums to 15). Use regular expressions for extraction.
+Write a Python function that, given a list of integers, returns the longest sequence of consecutive numbers found within the list. You must do this without sorting the list.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
