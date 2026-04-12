@@ -59,18 +59,15 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This quirky Python snippet swaps two variables without a temporary variable or tuple unpacking
-// It uses arithmetic operations to swap values in place
+// This Python snippet uses the walrus operator to create a concise while loop that reads input until an empty line is entered.
 
-a, b = 7, 3
-print("Before swap:", a, b)
-a = a + b  # a now becomes 10
-b = a - b  # b becomes 7 (original a)
-a = a - b  # a becomes 3 (original b)
-print("After swap:", a, b)
+user_inputs = []
+while (line := input("Enter text (empty to stop): ")):
+    user_inputs.append(line)
+print("You entered:", user_inputs)
 ```
 ### Challenge
-Write a Python function that, given a list of integers, returns the longest sequence of consecutive numbers found within the list. You must do this without sorting the list.
+Write a function in Python that takes a list of integers and returns the longest subsequence of consecutive numbers (numbers that follow each other incrementally, e.g., 3,4,5,6). You cannot sort the list or use any built-in function for finding consecutive sequences.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
