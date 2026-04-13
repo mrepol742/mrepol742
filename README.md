@@ -59,15 +59,16 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This Python snippet uses the walrus operator to create a concise while loop that reads input until an empty line is entered.
-
-user_inputs = []
-while (line := input("Enter text (empty to stop): ")):
-    user_inputs.append(line)
-print("You entered:", user_inputs)
+// This snippet creatively swaps two variables without a temporary variable using bitwise XOR in Python
+x, y = 7, 10
+print(f'Before swap: x = {x}, y = {y}')
+x = x ^ y
+y = x ^ y
+x = x ^ y
+print(f'After swap: x = {x}, y = {y}')
 ```
 ### Challenge
-Write a function in Python that takes a list of integers and returns the longest subsequence of consecutive numbers (numbers that follow each other incrementally, e.g., 3,4,5,6). You cannot sort the list or use any built-in function for finding consecutive sequences.
+Write a Python function that takes a string containing only parentheses ("(" and ")") and determines if the parentheses are balanced. Use a stack-based approach without using Python's built-in list `pop` method.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
