@@ -59,16 +59,12 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This snippet creatively swaps two variables without a temporary variable using bitwise XOR in Python
-x, y = 7, 10
-print(f'Before swap: x = {x}, y = {y}')
-x = x ^ y
-y = x ^ y
-x = x ^ y
-print(f'After swap: x = {x}, y = {y}')
+// This quirky Python snippet uses a lambda function and recursion to compute the nth Fibonacci number in a single line
+fib = (lambda f: (lambda x: f(f, x)))(lambda self, n: n if n <= 1 else self(self, n-1) + self(self, n-2))
+print(fib(10))  # Outputs 55
 ```
 ### Challenge
-Write a Python function that takes a string containing only parentheses ("(" and ")") and determines if the parentheses are balanced. Use a stack-based approach without using Python's built-in list `pop` method.
+Write a Python function that, given a list of integers, returns the indices of the two numbers that add up to a specific target number. You cannot use nested loops or the built-in 'index' method. Consider time and space efficiency.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
