@@ -59,12 +59,23 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This quirky Python snippet uses a lambda function and recursion to compute the nth Fibonacci number in a single line
-fib = (lambda f: (lambda x: f(f, x)))(lambda self, n: n if n <= 1 else self(self, n-1) + self(self, n-2))
-print(fib(10))  # Outputs 55
+
+// Demonstrates a quirky way to create an infinite Fibonacci generator using JavaScript Proxy
+const fib = new Proxy({}, {
+  get: (target, prop) => {
+    let [a, b] = [0, 1];
+    let index = Number(prop);
+    if (isNaN(index)) return undefined;
+    while (index--) [a, b] = [b, a + b];
+    return a;
+  }
+});
+
+console.log(fib[10]);  // 55
+console.log(fib[15]);  // 610
 ```
 ### Challenge
-Write a Python function that, given a list of integers, returns the indices of the two numbers that add up to a specific target number. You cannot use nested loops or the built-in 'index' method. Consider time and space efficiency.
+Write a Python function that takes a string and returns the first non-repeating character. If all characters repeat, return `None`. Optimize for readability and efficiency.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
