@@ -59,23 +59,20 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
+/* This JavaScript snippet uses a Proxy to create a 'magic' object that logs every property access dynamically. */
 
-// Demonstrates a quirky way to create an infinite Fibonacci generator using JavaScript Proxy
-const fib = new Proxy({}, {
-  get: (target, prop) => {
-    let [a, b] = [0, 1];
-    let index = Number(prop);
-    if (isNaN(index)) return undefined;
-    while (index--) [a, b] = [b, a + b];
-    return a;
+const magic = new Proxy({}, {
+  get(target, prop) {
+    console.log(`Accessed property: ${String(prop)}`);
+    return `You accessed '${String(prop)}'`;
   }
 });
 
-console.log(fib[10]);  // 55
-console.log(fib[15]);  // 610
+console.log(magic.foo);  // Logs: Accessed property: foo
+console.log(magic.bar);  // Logs: Accessed property: bar
 ```
 ### Challenge
-Write a Python function that takes a string and returns the first non-repeating character. If all characters repeat, return `None`. Optimize for readability and efficiency.
+Write a Python function that takes a list of integers and returns the longest substring of consecutive numbers (order matters) within it. For example, given [1, 2, 3, 2, 3, 4, 5], the longest consecutive substring is [2, 3, 4, 5].
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
