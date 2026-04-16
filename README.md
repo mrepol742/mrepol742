@@ -96,7 +96,7 @@ AI Driven blog spot about technology, businesses and related topics.
 Monitor your coding activity, create custom leaderboards, and compete with your team or the community.  
 DevPulse brings WakaTime stats into a sleek, collaborative leaderboard experience.  
 
-**Website:** [devpulse-waka.vercel.app](https://devpulse-waka.vercel.app)
+**Website:** [devpulse-olive.vercel.app](https://devpulse-olive.vercel.app)
 
 ---
 
@@ -108,7 +108,7 @@ A browser extension that provides a floating console for developers to easily ac
 ---
 
 ### Deploy Your Own Shortlink App
-Get your link. Shorteeeeeen!  
+The only shortlink you will ever need. Simple, lightweight and utilize Redis for transactions.
 
 **Website:** [go.melvinjonesrepol.com](https://go.melvinjonesrepol.com)
 
