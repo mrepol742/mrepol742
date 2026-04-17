@@ -59,20 +59,21 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-/* This JavaScript snippet uses a Proxy to create a 'magic' object that logs every property access dynamically. */
+// This Python snippet swaps two variables without a temporary variable or tuple unpacking.
+// It uses arithmetic operations to achieve the swap.
 
-const magic = new Proxy({}, {
-  get(target, prop) {
-    console.log(`Accessed property: ${String(prop)}`);
-    return `You accessed '${String(prop)}'`;
-  }
-});
+// Note: Only works for numeric types.
 
-console.log(magic.foo);  // Logs: Accessed property: foo
-console.log(magic.bar);  // Logs: Accessed property: bar
+a = 5
+b = 10
+print("Before swap:", a, b)
+a = a + b
+b = a - b
+a = a - b
+print("After swap:", a, b)
 ```
 ### Challenge
-Write a Python function that takes a list of integers and returns the longest substring of consecutive numbers (order matters) within it. For example, given [1, 2, 3, 2, 3, 4, 5], the longest consecutive substring is [2, 3, 4, 5].
+Write a function in Python that takes an integer n and returns the nth Fibonacci number. However, you cannot use any loops or built-in memoization techniques. Try to think recursively and optimize your solution.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
