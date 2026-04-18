@@ -21,21 +21,15 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This Python snippet swaps two variables without a temporary variable or tuple unpacking.
-// It uses arithmetic operations to achieve the swap.
+// Trick: Using Python's walrus operator to perform assignment inside a list comprehension for readability and efficiency.
+# This example reads lines from a file and keeps only those with length > 10 without multiple reads.
 
-// Note: Only works for numeric types.
-
-a = 5
-b = 10
-print("Before swap:", a, b)
-a = a + b
-b = a - b
-a = a - b
-print("After swap:", a, b)
+lines = ['short', 'this is a longer line', 'tiny', 'another long line']
+long_lines = [line for line in lines if (n := len(line)) > 10]
+print(long_lines)  # Output: ['this is a longer line', 'another long line']
 ```
 ### Challenge
-Write a function in Python that takes an integer n and returns the nth Fibonacci number. However, you cannot use any loops or built-in memoization techniques. Try to think recursively and optimize your solution.
+Write a Python function that, given a list of integers, returns the longest consecutive subsequence of numbers sorted in ascending order (e.g., input: [2, 1, 3, 5, 4, 6], output: [1, 2, 3] or [4, 5, 6]). The challenge requires research on subsequence algorithms and careful handling of order.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
