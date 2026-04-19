@@ -59,15 +59,20 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Trick: Using Python's walrus operator to perform assignment inside a list comprehension for readability and efficiency.
-# This example reads lines from a file and keeps only those with length > 10 without multiple reads.
+// This Python trick swaps two variables without using a temporary variable or a tuple.
+# It uses arithmetic operations to interchange values.
 
-lines = ['short', 'this is a longer line', 'tiny', 'another long line']
-long_lines = [line for line in lines if (n := len(line)) > 10]
-print(long_lines)  # Output: ['this is a longer line', 'another long line']
+x = 10
+y = 25
+
+print(f"Before swap: x = {x}, y = {y}")
+x = x + y  # x now becomes 35
+ y = x - y  # y becomes 10 (original x)
+x = x - y  # x becomes 25 (original y)
+print(f"After swap: x = {x}, y = {y}")
 ```
 ### Challenge
-Write a Python function that, given a list of integers, returns the longest consecutive subsequence of numbers sorted in ascending order (e.g., input: [2, 1, 3, 5, 4, 6], output: [1, 2, 3] or [4, 5, 6]). The challenge requires research on subsequence algorithms and careful handling of order.
+Write a function in Python that takes a list of integers and returns the index of the first peak element (an element that is greater than its neighbors). If no peak exists, return -1. Consider edge cases where the peak could be at the boundaries.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
