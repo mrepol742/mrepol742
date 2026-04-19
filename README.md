@@ -3,6 +3,44 @@
 I’m constantly inspired by the fast-paced world of technology and love diving into new tools and frameworks that push the boundaries of what’s possible. Whether I’m learning something new or building creative solutions, I’m passionate about bringing fresh ideas to life and sharing what I discover with others. Let’s build something amazing together! 🚀
 
 <!--START_SECTION:header-->
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                3650 commits        ██████░░░░░░░░░░░░░░░░░░░   23.32 % 
+🌆 Daytime                4521 commits        ███████░░░░░░░░░░░░░░░░░░   28.89 % 
+🌃 Evening                4844 commits        ████████░░░░░░░░░░░░░░░░░   30.95 % 
+🌙 Night                  2635 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.84 % 
+```
+📅 **I'm Most Productive on Wednesday** 
+
+```text
+Monday                   2011 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.85 % 
+Tuesday                  2049 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.09 % 
+Wednesday                2639 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.86 % 
+Thursday                 2195 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.03 % 
+Friday                   2541 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.24 % 
+Saturday                 2321 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.83 % 
+Sunday                   1894 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.10 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+💬 Programming Languages: 
+TypeScript               16 hrs 20 mins      ████████░░░░░░░░░░░░░░░░░   32.99 % 
+PHP                      14 hrs 19 mins      ███████░░░░░░░░░░░░░░░░░░   28.92 % 
+JavaScript               9 hrs 4 mins        █████░░░░░░░░░░░░░░░░░░░░   18.32 % 
+Blade Template           6 hrs 46 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.66 % 
+JSON                     50 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.70 % 
+
+🔥 Editors: 
+Zed                      49 hrs 32 mins      █████████████████████████   100.00 % 
+
+💻 Operating System: 
+Linux                    49 hrs 32 mins      █████████████████████████   100.00 % 
+```
+
 **I Mostly Code in JavaScript** 
 
 ```text
