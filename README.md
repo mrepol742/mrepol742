@@ -59,20 +59,14 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This Python trick swaps two variables without using a temporary variable or a tuple.
-# It uses arithmetic operations to interchange values.
-
-x = 10
-y = 25
-
-print(f"Before swap: x = {x}, y = {y}")
-x = x + y  # x now becomes 35
- y = x - y  # y becomes 10 (original x)
-x = x - y  # x becomes 25 (original y)
-print(f"After swap: x = {x}, y = {y}")
+// This snippet shows how to use Python's "walrus operator" inside a list comprehension for compactness
+# It reads a list of integers and filters those whose squared value is > 10, computing square only once
+nums = [1, 2, 3, 4, 5]
+result = [sq for x in nums if (sq := x*x) > 10]
+print(result)  # Output: [16, 25]
 ```
 ### Challenge
-Write a function in Python that takes a list of integers and returns the index of the first peak element (an element that is greater than its neighbors). If no peak exists, return -1. Consider edge cases where the peak could be at the boundaries.
+Write a function in Python that takes a list of integers and returns the length of the longest subsequence where the difference between adjacent elements is exactly 1. Consider negative numbers and duplicates. Example: input [1, 2, 2, 3, 4] -> output 4 (subsequence: [1,2,3,4])
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
