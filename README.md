@@ -59,14 +59,16 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This snippet shows how to use Python's "walrus operator" inside a list comprehension for compactness
-# It reads a list of integers and filters those whose squared value is > 10, computing square only once
-nums = [1, 2, 3, 4, 5]
-result = [sq for x in nums if (sq := x*x) > 10]
-print(result)  # Output: [16, 25]
+// This snippet demonstrates the "Y combinator" in JavaScript, a functional programming trick
+// that allows for recursion without explicitly naming the recursive function.
+const Y = f => (x => f(y => x(x)(y)))(x => f(y => x(x)(y)));
+
+const factorial = Y(f => n => (n <= 1 ? 1 : n * f(n - 1)));
+
+console.log(factorial(5)); // Outputs: 120
 ```
 ### Challenge
-Write a function in Python that takes a list of integers and returns the length of the longest subsequence where the difference between adjacent elements is exactly 1. Consider negative numbers and duplicates. Example: input [1, 2, 2, 3, 4] -> output 4 (subsequence: [1,2,3,4])
+Write a Python function that, given a list of integers, finds the length of the longest consecutive elements sequence. The sequence elements must appear consecutively in the list (not necessarily sorted). For example, in [2, 3, 4, 7, 8, 9, 1], the longest consecutive sequence is 3 (for 7,8,9). You cannot use built-in sorting functions.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
