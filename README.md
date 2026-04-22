@@ -59,16 +59,20 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This snippet demonstrates the "Y combinator" in JavaScript, a functional programming trick
-// that allows for recursion without explicitly naming the recursive function.
-const Y = f => (x => f(y => x(x)(y)))(x => f(y => x(x)(y)));
+// Quirky trick: Swap two variables without a temporary variable using XOR (works only for integers)
+function swapXOR(a, b) {
+  console.log(`Before swap: a = ${a}, b = ${b}`);
+  a = a ^ b;
+  b = a ^ b;
+  a = a ^ b;
+  console.log(`After swap: a = ${a}, b = ${b}`);
+  return [a, b];
+}
 
-const factorial = Y(f => n => (n <= 1 ? 1 : n * f(n - 1)));
-
-console.log(factorial(5)); // Outputs: 120
+swapXOR(5, 9);
 ```
 ### Challenge
-Write a Python function that, given a list of integers, finds the length of the longest consecutive elements sequence. The sequence elements must appear consecutively in the list (not necessarily sorted). For example, in [2, 3, 4, 7, 8, 9, 1], the longest consecutive sequence is 3 (for 7,8,9). You cannot use built-in sorting functions.
+Write a Python function that, given a string, finds and returns the first non-repeating character. Consider efficient solutions with O(n) time complexity. Think critically about edge cases and character frequency tracking.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
