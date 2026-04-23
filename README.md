@@ -59,20 +59,18 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// Quirky trick: Swap two variables without a temporary variable using XOR (works only for integers)
-function swapXOR(a, b) {
-  console.log(`Before swap: a = ${a}, b = ${b}`);
-  a = a ^ b;
-  b = a ^ b;
-  a = a ^ b;
-  console.log(`After swap: a = ${a}, b = ${b}`);
-  return [a, b];
-}
+// This snippet uses Python's walrus operator to both assign and check a value inside a while loop in a quirky way.
+# It prints Fibonacci numbers up to 100 using assignment expressions.
+def fib_upto_100():
+    a, b = 0, 1
+    while (a := a + b) < 100:
+        print(a)
+        a, b = b, a
 
-swapXOR(5, 9);
+fib_upto_100()
 ```
 ### Challenge
-Write a Python function that, given a string, finds and returns the first non-repeating character. Consider efficient solutions with O(n) time complexity. Think critically about edge cases and character frequency tracking.
+Write a function in Python that determines if a given integer is a power of two without using loops or recursion. Use bitwise operators and explain your approach in comments.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
