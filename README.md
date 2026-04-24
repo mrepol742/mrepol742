@@ -59,18 +59,21 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This snippet uses Python's walrus operator to both assign and check a value inside a while loop in a quirky way.
-# It prints Fibonacci numbers up to 100 using assignment expressions.
-def fib_upto_100():
-    a, b = 0, 1
-    while (a := a + b) < 100:
-        print(a)
-        a, b = b, a
+// This Python snippet reverses a string using XOR swap without any extra variables or Python built-ins.
+// It demonstrates a quirky use of bitwise XOR for swapping characters in a list.
 
-fib_upto_100()
+s = list("Hello, World!")
+left, right = 0, len(s) - 1
+while left < right:
+    s[left] = chr(ord(s[left]) ^ ord(s[right]))
+    s[right] = chr(ord(s[left]) ^ ord(s[right]))
+    s[left] = chr(ord(s[left]) ^ ord(s[right]))
+    left += 1
+    right -= 1
+print(''.join(s))  # Output: !dlroW ,olleH
 ```
 ### Challenge
-Write a function in Python that determines if a given integer is a power of two without using loops or recursion. Use bitwise operators and explain your approach in comments.
+Write a Python function that detects if two given strings are anagrams of each other without using sorted() or collections.Counter. The function should ignore spaces and capitalization.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
