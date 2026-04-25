@@ -59,21 +59,24 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This Python snippet reverses a string using XOR swap without any extra variables or Python built-ins.
-// It demonstrates a quirky use of bitwise XOR for swapping characters in a list.
+// This snippet uses Python's 
+// 'else' block on a loop to detect if a 'break' was NOT hit — a quirky way to check for conditions.
 
-s = list("Hello, World!")
-left, right = 0, len(s) - 1
-while left < right:
-    s[left] = chr(ord(s[left]) ^ ord(s[right]))
-    s[right] = chr(ord(s[left]) ^ ord(s[right]))
-    s[left] = chr(ord(s[left]) ^ ord(s[right]))
-    left += 1
-    right -= 1
-print(''.join(s))  # Output: !dlroW ,olleH
+for i in range(5):
+    print(i)
+    if i == 3:
+        break
+else:
+    print("Loop completed without break")  # Won't print because break occurred
+
+
+for i in range(3):
+    print(i)
+else:
+    print("Loop completed without break")  // This will print because no break occurred
 ```
 ### Challenge
-Write a Python function that detects if two given strings are anagrams of each other without using sorted() or collections.Counter. The function should ignore spaces and capitalization.
+Write a Python function that takes a list of integers and returns the first missing positive integer. For example, given [3, 4, -1, 1], it should return 2. Your solution should run in O(n) time and use constant extra space.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
