@@ -59,24 +59,18 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This snippet uses Python's 
-// 'else' block on a loop to detect if a 'break' was NOT hit — a quirky way to check for conditions.
+// This code uses Python's "else" clause on a for-loop to find a prime number. The else-block executes only if the loop wasn't broken (i.e., the number is prime).
 
-for i in range(5):
-    print(i)
-    if i == 3:
+number = 29
+for i in range(2, int(number ** 0.5) + 1):
+    if number % i == 0:
+        print(f"{number} is not a prime number.")
         break
 else:
-    print("Loop completed without break")  # Won't print because break occurred
-
-
-for i in range(3):
-    print(i)
-else:
-    print("Loop completed without break")  // This will print because no break occurred
+    print(f"{number} is a prime number!")
 ```
 ### Challenge
-Write a Python function that takes a list of integers and returns the first missing positive integer. For example, given [3, 4, -1, 1], it should return 2. Your solution should run in O(n) time and use constant extra space.
+Write a Python function that takes a list of integers and returns the longest subsequence where the difference between adjacent elements is exactly 1 (either +1 or -1). Use research and critical thinking to handle edge cases.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
