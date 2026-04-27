@@ -59,18 +59,13 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This code uses Python's "else" clause on a for-loop to find a prime number. The else-block executes only if the loop wasn't broken (i.e., the number is prime).
-
-number = 29
-for i in range(2, int(number ** 0.5) + 1):
-    if number % i == 0:
-        print(f"{number} is not a prime number.")
-        break
-else:
-    print(f"{number} is a prime number!")
+// This Python one-liner prints the lyrics of '99 Bottles of Beer' using recursion and lambda
+print((lambda f: f(f,99))(lambda self,n: print(f"{n} bottle{'s'*(n!=1)} of beer on the wall, {n} bottle{'s'*(n!=1)} of beer.") or (print(f"Take one down and pass it around, {n-1 if n>1 else 'no more'} bottle{'s'*(n-1!=1 and n-1>0)} of beer on the wall.
+") if n>0 else print("No more bottles of beer on the wall, no more bottles of beer.
+Go to the store and buy some more, 99 bottles of beer on the wall.")) or (self(self,n-1) if n>0 else None)))
 ```
 ### Challenge
-Write a Python function that takes a list of integers and returns the longest subsequence where the difference between adjacent elements is exactly 1 (either +1 or -1). Use research and critical thinking to handle edge cases.
+Write a function in Python that finds the longest substring without repeating characters in a given string. Avoid using additional libraries and focus on efficient string manipulation and window sliding techniques.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
