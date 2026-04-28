@@ -59,13 +59,13 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This Python one-liner prints the lyrics of '99 Bottles of Beer' using recursion and lambda
-print((lambda f: f(f,99))(lambda self,n: print(f"{n} bottle{'s'*(n!=1)} of beer on the wall, {n} bottle{'s'*(n!=1)} of beer.") or (print(f"Take one down and pass it around, {n-1 if n>1 else 'no more'} bottle{'s'*(n-1!=1 and n-1>0)} of beer on the wall.
-") if n>0 else print("No more bottles of beer on the wall, no more bottles of beer.
-Go to the store and buy some more, 99 bottles of beer on the wall.")) or (self(self,n-1) if n>0 else None)))
+// This Python snippet uses the walrus operator (:=) inside a list comprehension to build a list of squared even numbers from 0 to 9 in a single line.
+# It's quirky because it combines assignment and filtering elegantly within the list comprehension.
+squares_of_evens = [num_sq := x**2 for x in range(10) if (num_sq := x**2) % 2 == 0]
+print(squares_of_evens)  # Output: [0, 4, 16, 36, 64]
 ```
 ### Challenge
-Write a function in Python that finds the longest substring without repeating characters in a given string. Avoid using additional libraries and focus on efficient string manipulation and window sliding techniques.
+Write a Python function that takes a list of integers and returns the maximum difference between any two elements such that the larger element appears after the smaller one. Do this in O(n) time without using built-in functions like max() or min().
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
