@@ -59,13 +59,14 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This Python snippet uses the walrus operator (:=) inside a list comprehension to build a list of squared even numbers from 0 to 9 in a single line.
-# It's quirky because it combines assignment and filtering elegantly within the list comprehension.
-squares_of_evens = [num_sq := x**2 for x in range(10) if (num_sq := x**2) % 2 == 0]
-print(squares_of_evens)  # Output: [0, 4, 16, 36, 64]
+/* This snippet uses Python's logical operators to swap two variables without a temporary variable or tuple unpacking. */
+a = 5
+b = 10
+a = a + b - (b := a)
+print(f"a = {a}, b = {b}")  # Outputs: a = 10, b = 5
 ```
 ### Challenge
-Write a Python function that takes a list of integers and returns the maximum difference between any two elements such that the larger element appears after the smaller one. Do this in O(n) time without using built-in functions like max() or min().
+Write a function in Python that finds the longest substring without repeating characters in a given string. The function should be efficient enough to handle large inputs.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
