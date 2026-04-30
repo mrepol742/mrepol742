@@ -59,14 +59,14 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-/* This snippet uses Python's logical operators to swap two variables without a temporary variable or tuple unpacking. */
-a = 5
-b = 10
-a = a + b - (b := a)
-print(f"a = {a}, b = {b}")  # Outputs: a = 10, b = 5
+// This Python snippet uses the Walrus operator (:=) inside a list comprehension
+// to generate Fibonacci numbers up to 100 in a quirky, concise way.
+fib = [a:=0, b:=1]
+fib += [(a:=b, b:=a+b)[0] for _ in range(2, 15) if a < 100]
+print(fib)
 ```
 ### Challenge
-Write a function in Python that finds the longest substring without repeating characters in a given string. The function should be efficient enough to handle large inputs.
+Write a Python function that takes an integer n and returns the n-th number in the Fibonacci sequence using recursion without memoization. Consider the effect of large inputs on performance and explain your approach.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
