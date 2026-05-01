@@ -67,19 +67,47 @@ Write a function in Python that finds the longest substring of a given string wi
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
-### Updates
+## Features Projects
 
 ### Webvium Browser
 The Fastest, The Lightest and The Tightest android web browser.
 
-**Website:** [melvinjonesrepol.com/webvium-browser](https://melvinjonesrepol.com/webvium-browser)
+**URL:** [melvinjonesrepol.com/webvium-browser](https://melvinjonesrepol.com/webvium-browser)
 
 ---
 
-### PROJECT DEEP
-AI Driven blog spot about technology, businesses and related topics.
+### Point of Sale System
+A lightweight, web-based and offline-capable POS system built for flawless performance, supporting multi-department roles and full functionality.
 
-**website:* [projectdeep.vercel.app](https://projectdeep.vercel.app)
+**URL:** [melvinjonesrepol.com/point-of-sale](https://www.melvinjonesrepol.com/point-of-sale)
+
+---
+
+### Axleshift Freight Management
+A comprehensive freight management solution designed to streamline logistics operations for businesses of all sizes.
+
+**URL:** [melvinjonesrepol.com/axleshift-freight-management](https://www.melvinjonesrepol.com/axleshift-freight-management)
+
+---
+
+### Ulisha Store Laravel
+A modern and efficient e-commerce solutions tailored for small to medium-sized businesses specifically built with Laravel, enabling seamless setup and cost effective web hosting.
+
+**URL:** [melvinjonesrepol.com/ulisha-store-laravel](https://www.melvinjonesrepol.com/ulisha-store-laravel)
+
+---
+
+### Discussion Platform
+A content-first discussion platform where users can post structured protocols, create discussion threads, and engage through comments, reviews, and voting.
+
+**URL:** [melvinjonesrepol.com/protocol-discussion-platform](https://www.melvinjonesrepol.com/protocol-discussion-platform)
+
+---
+
+### Canis Chatbot
+A scalable, modular WhatsApp chatbot built in TypeScript. It leverages modern best practices, lean architecture, Prisma ORM, Dockerization, and environment-based configuration to deliver a robust, flexible successor to Orion.
+
+**URL:** [melvinjonesrepol.com/canis-chatbot](https://www.melvinjonesrepol.com/canis-chatbot)
 
 ---
 
@@ -87,24 +115,25 @@ AI Driven blog spot about technology, businesses and related topics.
 Monitor your coding activity, create custom leaderboards, and compete with your team or the community.  
 DevPulse brings WakaTime stats into a sleek, collaborative leaderboard experience.  
 
-**Website:** [devpulse-olive.vercel.app](https://devpulse-olive.vercel.app)
+**URL:** [devpulse-olive.vercel.app](https://devpulse-olive.vercel.app)
 
 ---
 
 ### Floating Console Extension
 A browser extension that provides a floating console for developers to easily access logs while browsing the web.  
 
-**Website:** [melvinjonesrepol.com/floating-console-extension](https://melvinjonesrepol.com/floating-console-extension)
+**URL:** [melvinjonesrepol.com/floating-console-extension](https://melvinjonesrepol.com/floating-console-extension)
 
 ---
 
-### Deploy Your Own Shortlink App
+### Shortlink
 The only shortlink you will ever need. Simple, lightweight and utilize Redis for transactions.
 
-**Website:** [go.melvinjonesrepol.com](https://go.melvinjonesrepol.com)
+**URL:** [go.melvinjonesrepol.com](https://go.melvinjonesrepol.com)
+
 
 ### Need help?
-If you have an idea, let's make that idea come true!
-From development, production to deployment. We can do that.
+If you have an idea, let's make that idea earn money!
+From planning, building to production. We can do that.
 
 [Pricing](https://melvinjonesrepol.com/pricing) - [Contact me](https://melvinjonesrepol.com/contact-me)
