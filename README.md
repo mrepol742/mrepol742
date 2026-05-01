@@ -59,14 +59,11 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This Python snippet uses the Walrus operator (:=) inside a list comprehension
-// to generate Fibonacci numbers up to 100 in a quirky, concise way.
-fib = [a:=0, b:=1]
-fib += [(a:=b, b:=a+b)[0] for _ in range(2, 15) if a < 100]
-print(fib)
+// This Python snippet prints the string "Hello, World!" without using any string literals.
+print(chr(72)+chr(101)+chr(108)+chr(108)+chr(111)+chr(44)+chr(32)+chr(87)+chr(111)+chr(114)+chr(108)+chr(100)+chr(33))
 ```
 ### Challenge
-Write a Python function that takes an integer n and returns the n-th number in the Fibonacci sequence using recursion without memoization. Consider the effect of large inputs on performance and explain your approach.
+Write a function in Python that finds the longest substring of a given string without repeating characters. Your solution should focus on efficient use of data structures and algorithms.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
