@@ -60,11 +60,14 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This Python snippet prints the string "Hello, World!" without using any string literals.
-print(chr(72)+chr(101)+chr(108)+chr(108)+chr(111)+chr(44)+chr(32)+chr(87)+chr(111)+chr(114)+chr(108)+chr(100)+chr(33))
+/* This JavaScript snippet swaps two variables using destructuring assignment without a temporary variable. */
+let a = 5, b = 10;
+console.log(`Before swap: a = ${a}, b = ${b}`);
+[a, b] = [b, a];
+console.log(`After swap: a = ${a}, b = ${b}`);
 ```
 ### Challenge
-Write a function in Python that finds the longest substring of a given string without repeating characters. Your solution should focus on efficient use of data structures and algorithms.
+Write a Python function that takes a string and returns the first non-repeating character. If all characters repeat, return '_'. You must solve this without using Python's built-in Counter or collections module.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
