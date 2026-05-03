@@ -60,14 +60,21 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-/* This JavaScript snippet swaps two variables using destructuring assignment without a temporary variable. */
-let a = 5, b = 10;
-console.log(`Before swap: a = ${a}, b = ${b}`);
-[a, b] = [b, a];
-console.log(`After swap: a = ${a}, b = ${b}`);
+// This Python snippet prints the lyrics of "99 Bottles of Beer" using recursion and a clever one-liner string formatting.
+
+def bottles_of_beer(n=99):
+    if n == 0:
+        print("No more bottles of beer on the wall.")
+        return
+    print(f"{n} bottle{'s' if n > 1 else ''} of beer on the wall, {n} bottle{'s' if n > 1 else ''} of beer.")
+    print(f"Take one down and pass it around, {n-1 if n-1 > 0 else 'no more'} bottle{'s' if n-1 != 1 else ''} of beer on the wall.
+")
+    bottles_of_beer(n-1)
+
+bottles_of_beer()
 ```
 ### Challenge
-Write a Python function that takes a string and returns the first non-repeating character. If all characters repeat, return '_'. You must solve this without using Python's built-in Counter or collections module.
+Write a function in Python that takes an encoded string where each letter is shifted by a certain number (Caesar cipher) and returns the decoded string. The shift value should be determined by analyzing the frequency of letters in the input and assuming the most frequent letter corresponds to 'e'. This challenge requires understanding of the Caesar cipher, frequency analysis, and implementing a decoding algorithm.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
