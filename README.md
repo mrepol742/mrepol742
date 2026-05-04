@@ -60,21 +60,14 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This Python snippet prints the lyrics of "99 Bottles of Beer" using recursion and a clever one-liner string formatting.
 
-def bottles_of_beer(n=99):
-    if n == 0:
-        print("No more bottles of beer on the wall.")
-        return
-    print(f"{n} bottle{'s' if n > 1 else ''} of beer on the wall, {n} bottle{'s' if n > 1 else ''} of beer.")
-    print(f"Take one down and pass it around, {n-1 if n-1 > 0 else 'no more'} bottle{'s' if n-1 != 1 else ''} of beer on the wall.
-")
-    bottles_of_beer(n-1)
-
-bottles_of_beer()
+// This snippet demonstrates how to create a "quine" in Python — a program that prints its own source code!
+quine = 'quine = {0!r}
+print(quine.format(quine))'
+print(quine.format(quine))
 ```
 ### Challenge
-Write a function in Python that takes an encoded string where each letter is shifted by a certain number (Caesar cipher) and returns the decoded string. The shift value should be determined by analyzing the frequency of letters in the input and assuming the most frequent letter corresponds to 'e'. This challenge requires understanding of the Caesar cipher, frequency analysis, and implementing a decoding algorithm.
+Write a Python function that takes a string and returns the most frequent character along with its count. If multiple characters have the same highest frequency, return the one that appears first.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
