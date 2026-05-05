@@ -60,14 +60,17 @@ Python                   4 repos             █░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-
-// This snippet demonstrates how to create a "quine" in Python — a program that prints its own source code!
-quine = 'quine = {0!r}
-print(quine.format(quine))'
-print(quine.format(quine))
+// This Python snippet swaps the values of two variables without a temporary variable using XOR trick.
+// It works only with integers.
+a = 42
+b = 99
+a = a ^ b
+b = a ^ b
+a = a ^ b
+print(f"a = {a}, b = {b}")  # Outputs: a = 99, b = 42
 ```
 ### Challenge
-Write a Python function that takes a string and returns the most frequent character along with its count. If multiple characters have the same highest frequency, return the one that appears first.
+Write a Python function that takes an integer array and returns the maximum product of two distinct elements without using built-in sort or max functions. Explain your logic and optimize for O(n) time.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
