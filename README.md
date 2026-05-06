@@ -60,17 +60,13 @@ C                        1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This Python snippet swaps the values of two variables without a temporary variable using XOR trick.
-// It works only with integers.
-a = 42
-b = 99
-a = a ^ b
-b = a ^ b
-a = a ^ b
-print(f"a = {a}, b = {b}")  # Outputs: a = 99, b = 42
+// This snippet creates a "quine" in Python: a program that prints its own source code!
+source = 'source = {0}{1}{0}
+print(source.format(chr(39), source))'
+print(source.format(chr(39), source))
 ```
 ### Challenge
-Write a Python function that takes an integer array and returns the maximum product of two distinct elements without using built-in sort or max functions. Explain your logic and optimize for O(n) time.
+Write a Python function that takes a string representing a mathematical expression (e.g., "3 + 5 * 2") and safely evaluates it without using eval() or any external libraries.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
