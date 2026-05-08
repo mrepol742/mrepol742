@@ -60,22 +60,15 @@ C                        1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This code uses the fact that JavaScript functions are first-class objects and can store state.
-// It demonstrates a simple counter function using closure and function properties.
-const counter = (() => {
-  function count() {
-    count.value = (count.value || 0) + 1;
-    return count.value;
-  }
-  return count;
-})();
+/* This clever Python trick swaps two variables without a temporary variable */
 
-console.log(counter()); // 1
-console.log(counter()); // 2
-console.log(counter()); // 3
+x, y = 5, 10
+print(f"Before swap: x={x}, y={y}")
+x, y = y, x
+print(f"After swap: x={x}, y={y}")
 ```
 ### Challenge
-Write a Python function that, given a list of integers, returns the longest contiguous sublist where the absolute difference between any two elements is at most 1. For example, for [1, 3, 2, 2, 5, 2, 3, 7], the longest sublist is [3, 2, 2, 2, 3]. Focus on both correctness and efficiency.
+Write a Python function that takes a string and returns the first non-repeating character. Consider the case sensitivity of characters and optimize for time complexity.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
