@@ -59,15 +59,13 @@ C                        1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-/* This clever Python trick swaps two variables without a temporary variable */
-
-x, y = 5, 10
-print(f"Before swap: x={x}, y={y}")
-x, y = y, x
-print(f"After swap: x={x}, y={y}")
+// This snippet demonstrates a quine in Python — a program that prints its own source code.
+quine = 'quine = {0}{1}{0}
+print(quine.format(chr(39), quine))'
+print(quine.format(chr(39), quine))
 ```
 ### Challenge
-Write a Python function that takes a string and returns the first non-repeating character. Consider the case sensitivity of characters and optimize for time complexity.
+Write a Python function that, given a positive integer n, returns the count of trailing zeros in n! (n factorial) without calculating the factorial itself.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
