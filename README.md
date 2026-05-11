@@ -59,13 +59,11 @@ C                        1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-/* This snippet creates a "quine" - a program that prints its own source code. */
-const quine = s => `const quine = s => `${s}`
-console.log(quine(s));`;
-console.log(quine(quine));
+// This snippet creates a "quine" in Python — a program that prints its own source code!
+print((lambda s: s % repr(s))("print((lambda s: s %% repr(s))(%%r))"))
 ```
 ### Challenge
-Write a Python function that takes an integer and returns whether it's a "happy number". A happy number is defined by repeatedly replacing the number with the sum of the squares of its digits until it either equals 1 (happy) or loops endlessly in a cycle that does not include 1 (not happy). Use this definition to determine happiness.
+Write a function in Python that takes an integer n and returns the nth Fibonacci number but implemented without using recursion or loops (hint: use memoization with a helper data structure).
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
