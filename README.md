@@ -59,11 +59,15 @@ C                        1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This snippet creates a "quine" in Python — a program that prints its own source code!
-print((lambda s: s % repr(s))("print((lambda s: s %% repr(s))(%%r))"))
+// This snippet cleverly swaps two variables without a temporary variable using XOR bitwise operator in Python
+x, y = 15, 27
+x = x ^ y
+y = x ^ y
+x = x ^ y
+print(f"x = {x}, y = {y}")
 ```
 ### Challenge
-Write a function in Python that takes an integer n and returns the nth Fibonacci number but implemented without using recursion or loops (hint: use memoization with a helper data structure).
+Write a function in Python that takes a string and returns the count of unique characters without using any additional data structures like lists or dictionaries.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
