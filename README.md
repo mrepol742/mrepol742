@@ -59,15 +59,13 @@ C                        1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This snippet cleverly swaps two variables without a temporary variable using XOR bitwise operator in Python
-x, y = 15, 27
-x = x ^ y
-y = x ^ y
-x = x ^ y
-print(f"x = {x}, y = {y}")
+# This Python snippet uses the walrus operator to find and print the first even number in a list, demonstrating concise inline assignment.
+numbers = [1, 3, 7, 8, 10]
+if (even := next((x for x in numbers if x % 2 == 0), None)) is not None:
+    print(f"First even number found: {even}")
 ```
 ### Challenge
-Write a function in Python that takes a string and returns the count of unique characters without using any additional data structures like lists or dictionaries.
+Write a Python function that takes a 2D matrix (list of lists) and returns True if the matrix is a Toeplitz matrix (each diagonal from top-left to bottom-right has the same element). You cannot use any additional data structures other than variables and lists.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
