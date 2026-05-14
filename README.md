@@ -59,13 +59,13 @@ C                        1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-# This Python snippet uses the walrus operator to find and print the first even number in a list, demonstrating concise inline assignment.
-numbers = [1, 3, 7, 8, 10]
-if (even := next((x for x in numbers if x % 2 == 0), None)) is not None:
-    print(f"First even number found: {even}")
+/* This snippet uses Python's walrus operator to filter and print even numbers in a single line, combining assignment and condition checks for brevity. */
+nums = [1, 2, 3, 4, 5, 6]
+print([n for n in nums if (is_even := n % 2 == 0)])
+# Output: [2, 4, 6]
 ```
 ### Challenge
-Write a Python function that takes a 2D matrix (list of lists) and returns True if the matrix is a Toeplitz matrix (each diagonal from top-left to bottom-right has the same element). You cannot use any additional data structures other than variables and lists.
+Write a function in Python that takes a string containing different types of brackets—(), {}, []—and returns True if the brackets are correctly balanced and nested, and False otherwise. Avoid using any built-in stack libraries or collections.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
