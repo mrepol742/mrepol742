@@ -59,13 +59,12 @@ C                        1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-/* This snippet uses Python's walrus operator to filter and print even numbers in a single line, combining assignment and condition checks for brevity. */
-nums = [1, 2, 3, 4, 5, 6]
-print([n for n in nums if (is_even := n % 2 == 0)])
-# Output: [2, 4, 6]
+// This snippet demonstrates how to use Python's "Walrus Operator" (:=) inside a list comprehension to read lines until an empty line is encountered.
+lines = [line for _ in range(10) if (line := input('Enter text (empty line to stop): ')) != '']
+print('You entered:', lines)
 ```
 ### Challenge
-Write a function in Python that takes a string containing different types of brackets—(), {}, []—and returns True if the brackets are correctly balanced and nested, and False otherwise. Avoid using any built-in stack libraries or collections.
+Write a function in Python that reads integers from a list until it encounters a number divisible by 7, then returns the sum of all numbers read (including the divisible number). The function should stop processing as soon as such a number is found.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
