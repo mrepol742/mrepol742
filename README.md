@@ -59,12 +59,12 @@ C                        1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This snippet demonstrates how to use Python's "Walrus Operator" (:=) inside a list comprehension to read lines until an empty line is encountered.
-lines = [line for _ in range(10) if (line := input('Enter text (empty line to stop): ')) != '']
-print('You entered:', lines)
+/* This quirky JavaScript snippet shows how to "self-replicate" code using just strings and eval (a simple quine) */
+const quine = `const quine = ${JSON.stringify('quine')}; console.log(quine);`;
+console.log(quine);
 ```
 ### Challenge
-Write a function in Python that reads integers from a list until it encounters a number divisible by 7, then returns the sum of all numbers read (including the divisible number). The function should stop processing as soon as such a number is found.
+Write a Python function that finds the nth prime number without using any external libraries. Your solution should efficiently handle inputs up to at least n=10,000.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
