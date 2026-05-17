@@ -59,12 +59,14 @@ C                        1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-/* This quirky JavaScript snippet shows how to "self-replicate" code using just strings and eval (a simple quine) */
-const quine = `const quine = ${JSON.stringify('quine')}; console.log(quine);`;
-console.log(quine);
+/* This snippet demonstrates how to create a "quine" in Python — a program that prints its own source code! */
+source = '/* This snippet demonstrates how to create a "quine" in Python — a program that prints its own source code! */
+source = {0}{1}{0}
+print(source.format(chr(39), source))'
+print(source.format(chr(39), source))
 ```
 ### Challenge
-Write a Python function that finds the nth prime number without using any external libraries. Your solution should efficiently handle inputs up to at least n=10,000.
+Write a function in Python that takes a list of integers and returns the length of the longest subsequence where each number is exactly one greater than the previous (e.g., [3,4,5] is valid, but [3,5,6] is not). You must solve it without using additional data structures like sets or dictionaries.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
