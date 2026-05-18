@@ -60,14 +60,14 @@ C                        1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-/* This snippet demonstrates how to create a "quine" in Python — a program that prints its own source code! */
-source = '/* This snippet demonstrates how to create a "quine" in Python — a program that prints its own source code! */
-source = {0}{1}{0}
-print(source.format(chr(39), source))'
-print(source.format(chr(39), source))
+/* This snippet uses Python's walrus operator to read a file line-by-line in a while loop, a quirky trick to both assign and check in one expression. */
+
+with open('example.txt') as file:
+    while (line := file.readline().strip()):
+        print(f'Line read: {line}')
 ```
 ### Challenge
-Write a function in Python that takes a list of integers and returns the length of the longest subsequence where each number is exactly one greater than the previous (e.g., [3,4,5] is valid, but [3,5,6] is not). You must solve it without using additional data structures like sets or dictionaries.
+Write a Python function that takes a string sentence and returns the word that appears most frequently. If multiple words share the highest frequency, return all of them in a list. Consider punctuation and case sensitivity.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
