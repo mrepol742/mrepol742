@@ -60,14 +60,17 @@ C                        1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-/* This snippet uses Python's walrus operator to read a file line-by-line in a while loop, a quirky trick to both assign and check in one expression. */
+/* This snippet demonstrates how to use Python's "Walrus operator" (:=) inside a list comprehension to both filter and transform a list in one go. It assigns and checks values on the fly. */
 
-with open('example.txt') as file:
-    while (line := file.readline().strip()):
-        print(f'Line read: {line}')
+numbers = [1, 2, 3, 4, 5, 6]
+
+# Create a list of squares of even numbers using walrus operator
+squares_of_evens = [sq for n in numbers if (sq := n * n) % 2 == 0]
+
+print(squares_of_evens)  # Output: [4, 16, 36]
 ```
 ### Challenge
-Write a Python function that takes a string sentence and returns the word that appears most frequently. If multiple words share the highest frequency, return all of them in a list. Consider punctuation and case sensitivity.
+Write a function in Python that takes a list of integers and returns the length of the longest consecutive subsequence (numbers appearing sequentially, but not necessarily contiguous). For example, given [100, 4, 200, 1, 3, 2], the longest consecutive subsequence is [1, 2, 3, 4] with length 4.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
