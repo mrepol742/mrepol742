@@ -61,17 +61,17 @@ C                        1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-/* This snippet demonstrates how to use Python's "Walrus operator" (:=) inside a list comprehension to both filter and transform a list in one go. It assigns and checks values on the fly. */
+// This code uses the clever fact that adding two Boolean values coerces them to integers 0 or 1, enabling a concise XOR operation without using ^ operator in JS.
+const boolXOR = (a, b) => !!(a + b - 2 * a * b);
 
-numbers = [1, 2, 3, 4, 5, 6]
-
-# Create a list of squares of even numbers using walrus operator
-squares_of_evens = [sq for n in numbers if (sq := n * n) % 2 == 0]
-
-print(squares_of_evens)  # Output: [4, 16, 36]
+// Example usage:
+console.log(boolXOR(true, false));  // true
+console.log(boolXOR(true, true));   // false
+console.log(boolXOR(false, false)); // false
+console.log(boolXOR(false, true));  // true
 ```
 ### Challenge
-Write a function in Python that takes a list of integers and returns the length of the longest consecutive subsequence (numbers appearing sequentially, but not necessarily contiguous). For example, given [100, 4, 200, 1, 3, 2], the longest consecutive subsequence is [1, 2, 3, 4] with length 4.
+Write a Python function `uniquePaths(m, n)` that calculates the number of unique paths from the top-left corner to the bottom-right corner of an m x n grid, moving only down or right. Try to solve it with dynamic programming and without using recursion.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
