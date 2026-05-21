@@ -61,17 +61,20 @@ Java                     1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This code uses the clever fact that adding two Boolean values coerces them to integers 0 or 1, enabling a concise XOR operation without using ^ operator in JS.
-const boolXOR = (a, b) => !!(a + b - 2 * a * b);
+// This snippet uses Python's 'else' clause with loops, which is rarely known.
+// The 'else' block runs only if the loop wasn't terminated by a break.
 
-// Example usage:
-console.log(boolXOR(true, false));  // true
-console.log(boolXOR(true, true));   // false
-console.log(boolXOR(false, false)); // false
-console.log(boolXOR(false, true));  // true
+for i in range(5):
+    print(i)
+    if i == 3:
+        break
+else:
+    print('Completed without break!')  # Won't print because loop breaks at i==3
+
+# Try removing the break to see the else block execute.
 ```
 ### Challenge
-Write a Python function `uniquePaths(m, n)` that calculates the number of unique paths from the top-left corner to the bottom-right corner of an m x n grid, moving only down or right. Try to solve it with dynamic programming and without using recursion.
+Write a Python function that takes a list of integers and returns the first duplicate number it encounters. If there are no duplicates, return None. You are not allowed to use additional data structures like sets or dictionaries.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
