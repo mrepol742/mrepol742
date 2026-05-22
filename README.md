@@ -61,20 +61,17 @@ Java                     1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This snippet uses Python's 'else' clause with loops, which is rarely known.
-// The 'else' block runs only if the loop wasn't terminated by a break.
+// This quirky JavaScript snippet uses template literal tag functions to create a simple DSL for styling console logs
+const styleLog = (strings, ...values) => {
+  const styles = values.filter((v, i) => i % 2 === 0).map(s => `color: ${s};`).join(' ');
+  const message = strings.reduce((acc, str, i) => acc + str + (values[i] || ''), '');
+  console.log(`%c${message}`, styles);
+};
 
-for i in range(5):
-    print(i)
-    if i == 3:
-        break
-else:
-    print('Completed without break!')  # Won't print because loop breaks at i==3
-
-# Try removing the break to see the else block execute.
+styleLog`This is a %cred%c and this is %cblue%c message.`('red', '', 'blue', '');
 ```
 ### Challenge
-Write a Python function that takes a list of integers and returns the first duplicate number it encounters. If there are no duplicates, return None. You are not allowed to use additional data structures like sets or dictionaries.
+Write a Python function that takes a list of words and returns the longest possible chain of words where each word starts with the last letter of the previous word. The function should return the chain as a list. For example, for ['apple', 'egg', 'snack', 'karat', 'tuna'], one longest chain is ['apple', 'egg', 'g...'] (you'll find the actual chain). Think critically about the algorithm to efficiently find the longest chain.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
