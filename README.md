@@ -61,17 +61,16 @@ Java                     1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This quirky JavaScript snippet uses template literal tag functions to create a simple DSL for styling console logs
-const styleLog = (strings, ...values) => {
-  const styles = values.filter((v, i) => i % 2 === 0).map(s => `color: ${s};`).join(' ');
-  const message = strings.reduce((acc, str, i) => acc + str + (values[i] || ''), '');
-  console.log(`%c${message}`, styles);
-};
+// This quirky Python snippet swaps two variables without a temporary variable using tuple unpacking.
+# It's a neat trick to cleanly swap values in a single line.
 
-styleLog`This is a %cred%c and this is %cblue%c message.`('red', '', 'blue', '');
+x, y = 5, 10
+print("Before swap:", "x =", x, ", y =", y)
+x, y = y, x
+print("After swap:", "x =", x, ", y =", y)
 ```
 ### Challenge
-Write a Python function that takes a list of words and returns the longest possible chain of words where each word starts with the last letter of the previous word. The function should return the chain as a list. For example, for ['apple', 'egg', 'snack', 'karat', 'tuna'], one longest chain is ['apple', 'egg', 'g...'] (you'll find the actual chain). Think critically about the algorithm to efficiently find the longest chain.
+Write a Python function that determines whether a given string is a palindrome, but instead of directly comparing characters, use a stack and a queue to simulate the process.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
