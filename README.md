@@ -61,16 +61,26 @@ Java                     1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This quirky Python snippet swaps two variables without a temporary variable using tuple unpacking.
-# It's a neat trick to cleanly swap values in a single line.
+// This snippet uses Python's 'else' block on a loop to detect if a number is prime. 
+// The 'else' runs only if the loop is not broken (no divisors found).
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            break
+    else:
+        return True
+    return False
 
-x, y = 5, 10
-print("Before swap:", "x =", x, ", y =", y)
-x, y = y, x
-print("After swap:", "x =", x, ", y =", y)
+print([x for x in range(20) if is_prime(x)])  # Prints primes less than 20
 ```
 ### Challenge
-Write a Python function that determines whether a given string is a palindrome, but instead of directly comparing characters, use a stack and a queue to simulate the process.
+Write a Python function that takes two strings and returns True if one is a permutation of the other, else False. 
+
+Constraints:
+- Do not use built-in sorting functions or collections.Counter.
+- Think about character frequency and efficiency.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
