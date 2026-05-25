@@ -60,26 +60,13 @@ Java                     1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This snippet uses Python's 'else' block on a loop to detect if a number is prime. 
-// The 'else' runs only if the loop is not broken (no divisors found).
-def is_prime(n):
-    if n <= 1:
-        return False
-    for i in range(2, int(n ** 0.5) + 1):
-        if n % i == 0:
-            break
-    else:
-        return True
-    return False
+// This Python snippet prints 'Hello, World!' without using any quotes or the print function directly.
+# It uses the built-in 'chr' function and unpacking to demonstrate a quirky trick.
 
-print([x for x in range(20) if is_prime(x)])  # Prints primes less than 20
+print(*map(chr, [72, 101, 108, 108, 111, 44, 32, 87, 111, 114, 108, 100, 33]))
 ```
 ### Challenge
-Write a Python function that takes two strings and returns True if one is a permutation of the other, else False. 
-
-Constraints:
-- Do not use built-in sorting functions or collections.Counter.
-- Think about character frequency and efficiency.
+Write a function in Python that determines if a given integer is a 'happy number'. A happy number is defined as a number which eventually reaches 1 when replaced by the sum of the square of each digit repeatedly. The function should return True if the number is happy, or False if it enters a cycle. Avoid using any built-in set or list methods that simplify cycle detection.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
