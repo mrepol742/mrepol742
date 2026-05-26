@@ -60,13 +60,14 @@ Java                     1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This Python snippet prints 'Hello, World!' without using any quotes or the print function directly.
-# It uses the built-in 'chr' function and unpacking to demonstrate a quirky trick.
-
-print(*map(chr, [72, 101, 108, 108, 111, 44, 32, 87, 111, 114, 108, 100, 33]))
+/* This snippet uses JavaScript's array sort and localeCompare to sort strings ignoring accents and case */
+const fruits = ['Éclair', 'apple', 'Banana', 'éclair', 'banana'];
+const sortedFruits = fruits.sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
+console.log(sortedFruits);
+// Output: [ 'apple', 'Banana', 'banana', 'Éclair', 'éclair' ]
 ```
 ### Challenge
-Write a function in Python that determines if a given integer is a 'happy number'. A happy number is defined as a number which eventually reaches 1 when replaced by the sum of the square of each digit repeatedly. The function should return True if the number is happy, or False if it enters a cycle. Avoid using any built-in set or list methods that simplify cycle detection.
+Write a Python function that, given a string, returns the most frequent character. In case of a tie, return the character that appears first in the string. Challenge requires effective use of dictionaries and iteration.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
