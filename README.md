@@ -60,14 +60,19 @@ Java                     1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-/* This snippet uses JavaScript's array sort and localeCompare to sort strings ignoring accents and case */
-const fruits = ['Éclair', 'apple', 'Banana', 'éclair', 'banana'];
-const sortedFruits = fruits.sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
-console.log(sortedFruits);
-// Output: [ 'apple', 'Banana', 'banana', 'Éclair', 'éclair' ]
+// This quirky Python snippet swaps two variables without a temporary variable or tuple unpacking.
+// It uses arithmetic operations to achieve the swap.
+
+x = 5
+y = 10
+print(f'Before swap: x={x}, y={y}')
+x = x + y
+y = x - y
+x = x - y
+print(f'After swap: x={x}, y={y}')
 ```
 ### Challenge
-Write a Python function that, given a string, returns the most frequent character. In case of a tie, return the character that appears first in the string. Challenge requires effective use of dictionaries and iteration.
+Write a function in Python that accepts a string containing only the characters '(' and ')'. Determine if the parentheses are balanced and properly nested without using any built-in stack or queue data structures.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
