@@ -60,19 +60,15 @@ Java                     1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This quirky Python snippet swaps two variables without a temporary variable or tuple unpacking.
-// It uses arithmetic operations to achieve the swap.
+/* Quirky JavaScript trick: Using function default parameters and template literals to create a self-documenting function. */
 
-x = 5
-y = 10
-print(f'Before swap: x={x}, y={y}')
-x = x + y
-y = x - y
-x = x - y
-print(f'After swap: x={x}, y={y}')
+const greet = (name = "stranger", message = `Hello, ${name}! 🌟`) => message;
+
+console.log(greet());       // Hello, stranger! 🌟
+console.log(greet("Alice")); // Hello, Alice! 🌟
 ```
 ### Challenge
-Write a function in Python that accepts a string containing only the characters '(' and ')'. Determine if the parentheses are balanced and properly nested without using any built-in stack or queue data structures.
+Write a Python function that validates whether a given string is a palindrome, ignoring case, spaces, and punctuation. Consider efficiency and edge cases.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
