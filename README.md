@@ -60,15 +60,24 @@ Java                     1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-/* Quirky JavaScript trick: Using function default parameters and template literals to create a self-documenting function. */
+/* This snippet creates an infinite Fibonacci sequence generator using a generator function in JavaScript, showing a neat way to produce lazy sequences. */
+function* fibonacci() {
+  let [a, b] = [0, 1];
+  while (true) {
+    yield a;
+    [a, b] = [b, a + b];
+  }
+}
 
-const greet = (name = "stranger", message = `Hello, ${name}! 🌟`) => message;
-
-console.log(greet());       // Hello, stranger! 🌟
-console.log(greet("Alice")); // Hello, Alice! 🌟
+const fibGen = fibonacci();
+console.log(fibGen.next().value); // 0
+console.log(fibGen.next().value); // 1
+console.log(fibGen.next().value); // 1
+console.log(fibGen.next().value); // 2
+console.log(fibGen.next().value); // 3
 ```
 ### Challenge
-Write a Python function that validates whether a given string is a palindrome, ignoring case, spaces, and punctuation. Consider efficiency and edge cases.
+Write a Python function that takes an array of integers and returns the largest sum of any contiguous subarray (Kadane's Algorithm). Don't use built-in functions like max() on sublists.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
