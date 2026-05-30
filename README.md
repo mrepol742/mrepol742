@@ -61,24 +61,12 @@ Java                     1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-/* This snippet creates an infinite Fibonacci sequence generator using a generator function in JavaScript, showing a neat way to produce lazy sequences. */
-function* fibonacci() {
-  let [a, b] = [0, 1];
-  while (true) {
-    yield a;
-    [a, b] = [b, a + b];
-  }
-}
-
-const fibGen = fibonacci();
-console.log(fibGen.next().value); // 0
-console.log(fibGen.next().value); // 1
-console.log(fibGen.next().value); // 1
-console.log(fibGen.next().value); // 2
-console.log(fibGen.next().value); // 3
+/* This snippet demonstrates a one-liner 'FizzBuzz' in Python using a dictionary and the modulo operator */
+print('
+'.join(['FizzBuzz'*(i%3==0 and i%5==0) or 'Fizz'*(i%3==0) or 'Buzz'*(i%5==0) or str(i) for i in range(1, 21)]))
 ```
 ### Challenge
-Write a Python function that takes an array of integers and returns the largest sum of any contiguous subarray (Kadane's Algorithm). Don't use built-in functions like max() on sublists.
+Write a Python function that, given a list of integers, returns the length of the longest consecutive elements sequence. For example, given [100, 4, 200, 1, 3, 2], the longest consecutive sequence is [1, 2, 3, 4], so the function should return 4. Use efficient time complexity to handle large inputs.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
