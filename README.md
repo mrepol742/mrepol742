@@ -61,12 +61,23 @@ Java                     1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-/* This snippet demonstrates a one-liner 'FizzBuzz' in Python using a dictionary and the modulo operator */
-print('
-'.join(['FizzBuzz'*(i%3==0 and i%5==0) or 'Fizz'*(i%3==0) or 'Buzz'*(i%5==0) or str(i) for i in range(1, 21)]))
+// This JavaScript snippet uses a function that redefines itself after the first call to optimize future executions.
+function fibonacci(n) {
+  if (n <= 1) return n;
+  // Redefine fibonacci to a memoized version after first call
+  const memo = [0, 1];
+  fibonacci = function(n) {
+    if (memo[n] !== undefined) return memo[n];
+    memo[n] = fibonacci(n - 1) + fibonacci(n - 2);
+    return memo[n];
+  };
+  return fibonacci(n);
+}
+
+console.log(fibonacci(10)); // Outputs 55
 ```
 ### Challenge
-Write a Python function that, given a list of integers, returns the length of the longest consecutive elements sequence. For example, given [100, 4, 200, 1, 3, 2], the longest consecutive sequence is [1, 2, 3, 4], so the function should return 4. Use efficient time complexity to handle large inputs.
+Write a Python function that finds the smallest positive integer missing from an unsorted list of integers. You cannot use sorting; try to achieve better than O(n log n) runtime.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
