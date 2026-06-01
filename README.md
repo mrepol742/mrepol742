@@ -62,23 +62,14 @@ Java                     1 repo              ░░░░░░░░░░░�
 <!--START_SECTION:footer-->
 ### Code Snippet
 ```js
-// This JavaScript snippet uses a function that redefines itself after the first call to optimize future executions.
-function fibonacci(n) {
-  if (n <= 1) return n;
-  // Redefine fibonacci to a memoized version after first call
-  const memo = [0, 1];
-  fibonacci = function(n) {
-    if (memo[n] !== undefined) return memo[n];
-    memo[n] = fibonacci(n - 1) + fibonacci(n - 2);
-    return memo[n];
-  };
-  return fibonacci(n);
-}
-
-console.log(fibonacci(10)); // Outputs 55
+// This snippet uses Python's "else" clause with a for loop, which runs only if the loop wasn't broken.
+for i in range(3):
+    print(i)
+else:
+    print("Loop completed without break!")
 ```
 ### Challenge
-Write a Python function that finds the smallest positive integer missing from an unsorted list of integers. You cannot use sorting; try to achieve better than O(n log n) runtime.
+Write a function in Python that checks whether a number is a "happy number". A happy number is defined by the process: starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. The function should return true if the number is happy, and false otherwise.
 <!--END_SECTION:footer-->
 - Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
 
