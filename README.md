@@ -59,87 +59,47 @@ Java                     1 repo              ░░░░░░░░░░░�
 
 <!--END_SECTION:header-->
 
-<!--START_SECTION:footer-->
-### Code Snippet
-```js
-// This snippet uses Python's "else" clause with a for loop, which runs only if the loop wasn't broken.
-for i in range(3):
-    print(i)
-else:
-    print("Loop completed without break!")
-```
-### Challenge
-Write a function in Python that checks whether a number is a "happy number". A happy number is defined by the process: starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. The function should return true if the number is happy, and false otherwise.
-<!--END_SECTION:footer-->
-- Submit a PR to [answer](https://github.com/mrepol742/challenge/fork).
-
-## Features Projects
+## Featured Projects
 
 ### Webvium Browser
 The Fastest, The Lightest and The Tightest android web browser.
 
-**URL:** [melvinjonesrepol.com/webvium-browser](https://melvinjonesrepol.com/webvium-browser)
-
----
+[melvinjonesrepol.com/webvium-browser](https://melvinjonesrepol.com/webvium-browser)
 
 ### Point of Sale System
 A lightweight, web-based and offline-capable POS system built for flawless performance, supporting multi-department roles and full functionality.
 
-**URL:** [melvinjonesrepol.com/point-of-sale](https://www.melvinjonesrepol.com/point-of-sale)
-
----
+[melvinjonesrepol.com/point-of-sale](https://www.melvinjonesrepol.com/point-of-sale)
 
 ### Axleshift Freight Management
 A comprehensive freight management solution designed to streamline logistics operations for businesses of all sizes.
 
-**URL:** [melvinjonesrepol.com/axleshift-freight-management](https://www.melvinjonesrepol.com/axleshift-freight-management)
-
----
+[melvinjonesrepol.com/axleshift-freight-management](https://www.melvinjonesrepol.com/axleshift-freight-management)
 
 ### Ulisha Store Laravel
 A modern and efficient e-commerce solutions tailored for small to medium-sized businesses specifically built with Laravel, enabling seamless setup and cost effective web hosting.
 
-**URL:** [melvinjonesrepol.com/ulisha-store-laravel](https://www.melvinjonesrepol.com/ulisha-store-laravel)
-
----
-
-### Discussion Platform
-A content-first discussion platform where users can post structured protocols, create discussion threads, and engage through comments, reviews, and voting.
-
-**URL:** [melvinjonesrepol.com/protocol-discussion-platform](https://www.melvinjonesrepol.com/protocol-discussion-platform)
-
----
+[melvinjonesrepol.com/ulisha-store-laravel](https://www.melvinjonesrepol.com/ulisha-store-laravel)
 
 ### Canis Chatbot
 A scalable, modular WhatsApp chatbot built in TypeScript. It leverages modern best practices, lean architecture, Prisma ORM, Dockerization, and environment-based configuration to deliver a robust, flexible successor to Orion.
 
-**URL:** [melvinjonesrepol.com/canis-chatbot](https://www.melvinjonesrepol.com/canis-chatbot)
-
----
+[melvinjonesrepol.com/canis-chatbot](https://www.melvinjonesrepol.com/canis-chatbot)
 
 ### DevPulse
 Monitor your coding activity, create custom leaderboards, and compete with your team or the community.  
 DevPulse brings WakaTime stats into a sleek, collaborative leaderboard experience.  
 
-**URL:** [devpulse-olive.vercel.app](https://devpulse-olive.vercel.app)
-
----
-
-### Floating Console Extension
-A browser extension that provides a floating console for developers to easily access logs while browsing the web.  
-
-**URL:** [melvinjonesrepol.com/floating-console-extension](https://melvinjonesrepol.com/floating-console-extension)
-
----
+[devpulse.hallofcodes.org](https://devpulse.hallofcodes.org)
 
 ### Shortlink
-The only shortlink you will ever need. Simple, lightweight and utilize Redis for transactions.
+Transform long, unwieldy URLs into clean, shareable shortlinks in seconds. Perfect for social media, emails, and campaigns.
 
-**URL:** [go.melvinjonesrepol.com](https://go.melvinjonesrepol.com)
+[go.melvinjonesrepol.com](https://go.melvinjonesrepol.com)
 
 
 ### Need help?
 If you have an idea, let's make that idea earn money!
 From planning, building to production. We can do that.
 
-[Pricing](https://melvinjonesrepol.com/pricing) - [Contact me](https://melvinjonesrepol.com/contact-me)
+[Contact me](https://melvinjonesrepol.com/contact-me)
