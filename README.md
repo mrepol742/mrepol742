@@ -1,3 +1,12 @@
+<div align="left">
+  <a href="https://www.facebook.com/melvinjonesrepol">
+    <img src="https://img.shields.io/badge/-melvinjonesrepol-blue?style=flat&logo=facebook&logoColor=white&link=https://facebook.com/melvinjonesrepol" alt="Follow me on Facebook">
+  </a> 
+  
+  <img src="https://wakatime.com/badge/user/8ad4afa2-1a56-40d1-a949-4663473915b6.svg" alt="Total time coded since Sep 3 2021" />
+  <img align="right" src="https://komarev.com/ghpvc/?username=mrepol742&label=Profile%20Views&color=4285f4&style=flat" alt="Views" />
+</div>
+
 <img src="https://cdn.pfps.gg/banners/6558-anime-gif.png" />
 
 I’m constantly inspired by the fast-paced world of technology and love diving into new tools and frameworks that push the boundaries of what’s possible. Whether I’m learning something new or building creative solutions, I’m passionate about bringing fresh ideas to life and sharing what I discover with others. Let’s build something amazing together! 🚀
