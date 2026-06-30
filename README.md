@@ -9,7 +9,263 @@
 
 <img src="https://cdn.pfps.gg/banners/6558-anime-gif.png" />
 
-I’m constantly inspired by the fast-paced world of technology and love diving into new tools and frameworks that push the boundaries of what’s possible. Whether I’m learning something new or building creative solutions, I’m passionate about bringing fresh ideas to life and sharing what I discover with others. Let’s build something amazing together! 🚀
+```bash
+melvin@dev:~$ whoami --verbose
+> melvinjonesrepol
+> status: coding since 2019, tracked since Sep 2021
+> obsession: tools change, the obsession doesn't
+> currently: maintaining custom software solutions
+
+melvin@dev:~$ cat philosophy.txt
+> learn fast, build faster, ship even faster
+> if it's not in production it's not finished
+
+melvin@dev:~$ fastfetch
+                  -`                      DISTRO 󰑃  Arch Linux x86_64
+                 .o+`                    │ ├ 󰑃  Linux 7.0.13-arch1-1
+                `ooo/                    │ ├󰏖 󰑃  915 (pacman)
+               `+oooo:                   │ └ 󰑃  zsh 5.9.1
+              `+oooooo:                   DE/WM 󰑃  Hyprland 0.55.4 (Wayland)
+              -+oooooo+:                 │ ├󰀻 󰑃  Tokyonight-Dark [Qt], Flat-Remix-Blue-Dark ]
+            `/:-:++oooo+:                │ ├ 󰑃  Bibata-Modern-Ice (24px)
+           `/++++/+++++++:               │ ├ 󰑃  FantasqueSansMNFM-Bold (14pt)
+          `/++++++++++++++:              │ └ 󰑃  kitty 0.47.1
+         `/+++ooooooooooooo/`            󰌢 CODING 󰑃 
+        ./ooosssso++osssssso+`           │ ├󰻠 󰑃  Zed Editor, Android Studio
+       .oossssso-````/ossssss+`          │ ├󰻑 󰑃  Codex, Claude Code
+      -osssssso.      :ssssssso.         │ ├󰍹 󰑃  Youtube Music, Spotify
+     :osssssss/        osssso+++.        │ ├󰾆 󰑃  
+    /ossssssss/        +ssssooo/-        │ ├󰓡 󰑃  
+  `/ossssso+/:-        -:/+osssso+-      │ ├󰅐 󰑃  
+ `+sso+:-`                 `.-/+oso:     │ └󰍹 󰑃  
+`++:.                           `-/+/    │ └󰍹 󰑃  
+.`                                 `/     AUDIO 󰑃  true
+                                                                            
+                                         
+```
+
+<br>
+
+## `$ git log --oneline --all`
+
+```bash
+melvin@dev:~$ git log --graph --decorate --oneline
+
+* a7f3c1d (HEAD -> main) feat(webvium): fastest, lightest android browser
+* 9b21e44 feat(pos): offline-capable POS, multi-department roles
+* 5d8c0a2 feat(axleshift): freight management, streamlined logistics
+* 1e4f9b7 feat(ulisha): laravel e-commerce, seamless setup
+* c3a8d10 feat(canis): modular whatsapp chatbot, prisma + docker
+* 7f2e6b5 feat(devpulse): wakatime stats → collaborative leaderboard
+* 2a9d4c8 feat(shortlink): long urls → clean shortlinks
+* 6c4b8e1 feat(web-designs): storefront-ready website design collection
+```
+
+<br>
+
+## `$ ls -la projects/`
+
+<details>
+<summary><code>drwxr-xr-x  webvium-browser/</code></summary>
+
+<br>
+
+```
+NAME
+    Webvium Browser
+
+SYNOPSIS
+    The fastest, lightest, tightest Android web browser.
+
+DESCRIPTION
+    Built for people who think every other browser is too slow,
+    too heavy, or too bloated. Webvium strips it back to what
+    actually matters: speed.
+
+SEE ALSO
+    melvinjonesrepol.com/webvium-browser
+```
+
+[→ view live](https://melvinjonesrepol.com/webvium-browser)
+
+</details>
+
+<details>
+<summary><code>drwxr-xr-x  point-of-sale/</code></summary>
+
+<br>
+
+```
+NAME
+    Point of Sale System
+
+SYNOPSIS
+    Lightweight, web-based, offline-capable POS.
+
+DESCRIPTION
+    Built for flawless performance under real business pressure.
+    Supports multi-department roles and full functionality even
+    when the internet doesn't cooperate.
+
+SEE ALSO
+    melvinjonesrepol.com/point-of-sale
+```
+
+[→ view live](https://www.melvinjonesrepol.com/point-of-sale)
+
+</details>
+
+<details>
+<summary><code>drwxr-xr-x  axleshift-freight-management/</code></summary>
+
+<br>
+
+```
+NAME
+    Axleshift Freight Management
+
+SYNOPSIS
+    Logistics, streamlined.
+
+DESCRIPTION
+    A comprehensive freight management solution designed for
+    businesses of all sizes — from one truck to a whole fleet.
+
+SEE ALSO
+    melvinjonesrepol.com/axleshift-freight-management
+```
+
+[→ view live](https://www.melvinjonesrepol.com/axleshift-freight-management)
+
+</details>
+
+<details>
+<summary><code>drwxr-xr-x  ulisha-store-laravel/</code></summary>
+
+<br>
+
+```
+NAME
+    Ulisha Store Laravel
+
+SYNOPSIS
+    E-commerce, without the overhead.
+
+DESCRIPTION
+    A modern, efficient e-commerce solution for small to medium
+    businesses. Built with Laravel for seamless setup and
+    cost-effective hosting.
+
+SEE ALSO
+    melvinjonesrepol.com/ulisha-store-laravel
+```
+
+[→ view live](https://www.melvinjonesrepol.com/ulisha-store-laravel)
+
+</details>
+
+<details>
+<summary><code>drwxr-xr-x  canis-chatbot/</code></summary>
+
+<br>
+
+```
+NAME
+    Canis Chatbot
+
+SYNOPSIS
+    A scalable, modular WhatsApp chatbot.
+
+DESCRIPTION
+    Built in TypeScript with modern best practices — Prisma ORM,
+    Dockerized, env-based config. The robust, flexible successor
+    to Orion.
+
+SEE ALSO
+    melvinjonesrepol.com/canis-chatbot
+```
+
+[→ view live](https://melvinjonesrepol.com/canis-chatbot)
+
+</details>
+
+<details>
+<summary><code>drwxr-xr-x  devpulse/</code></summary>
+
+<br>
+
+```
+NAME
+    DevPulse
+
+SYNOPSIS
+    Coding activity, gamified.
+
+DESCRIPTION
+    Monitor your coding activity, build custom leaderboards, and
+    compete with your team or the community. Brings WakaTime
+    stats into a sleek, collaborative leaderboard experience.
+
+SEE ALSO
+    devpulse.hallofcodes.org
+```
+
+[→ view live](https://devpulse.hallofcodes.org)
+
+</details>
+
+<details>
+<summary><code>drwxr-xr-x  shortlink/</code></summary>
+
+<br>
+
+```
+NAME
+    Shortlink
+
+SYNOPSIS
+    Long URLs, made short.
+
+DESCRIPTION
+    Transform long, unwieldy URLs into clean, shareable shortlinks
+    in seconds. Perfect for social media, emails, and campaigns.
+
+SEE ALSO
+    go.melvinjonesrepol.com
+```
+
+[→ view live](https://go.melvinjonesrepol.com)
+
+</details>
+
+<details>
+<summary><code>drwxr-xr-x  web-designs/</code></summary>
+
+<br>
+
+```
+NAME
+    Web Designs
+
+SYNOPSIS
+    A collection of website designs.
+
+DESCRIPTION
+    For the storefronts, portfolios, and landing pages that don't
+    need custom software — just a clean, fast site that does its
+    job well.
+
+SEE ALSO
+    web-designs.melvinjonesrepol.com
+```
+
+[→ view live](https://web-designs.melvinjonesrepol.com/)
+
+</details>
+
+<br>
+
+## `$ wakatime --stats --this-week`
 
 <!--START_SECTION:header-->
 **I'm an Early 🐤** 
@@ -68,47 +324,19 @@ Java                     1 repo              ░░░░░░░░░░░�
 
 <!--END_SECTION:header-->
 
-## Featured Projects
+<br>
 
-### Webvium Browser
-The Fastest, The Lightest and The Tightest android web browser.
+## `$ ./contact-me.sh`
 
-[melvinjonesrepol.com/webvium-browser](https://melvinjonesrepol.com/webvium-browser)
+```bash
+melvin@dev:~$ ./contact-me.sh --availability
 
-### Point of Sale System
-A lightweight, web-based and offline-capable POS system built for flawless performance, supporting multi-department roles and full functionality.
+> availability: Saturdays & Sundays, by appointment only
+> note: slow replies on weekdays, that's expected
 
-[melvinjonesrepol.com/point-of-sale](https://www.melvinjonesrepol.com/point-of-sale)
+melvin@dev:~$ open https://melvinjonesrepol.com/contact-me
+```
 
-### Axleshift Freight Management
-A comprehensive freight management solution designed to streamline logistics operations for businesses of all sizes.
-
-[melvinjonesrepol.com/axleshift-freight-management](https://www.melvinjonesrepol.com/axleshift-freight-management)
-
-### Ulisha Store Laravel
-A modern and efficient e-commerce solutions tailored for small to medium-sized businesses specifically built with Laravel, enabling seamless setup and cost effective web hosting.
-
-[melvinjonesrepol.com/ulisha-store-laravel](https://www.melvinjonesrepol.com/ulisha-store-laravel)
-
-### Canis Chatbot
-A scalable, modular WhatsApp chatbot built in TypeScript. It leverages modern best practices, lean architecture, Prisma ORM, Dockerization, and environment-based configuration to deliver a robust, flexible successor to Orion.
-
-[melvinjonesrepol.com/canis-chatbot](https://www.melvinjonesrepol.com/canis-chatbot)
-
-### DevPulse
-Monitor your coding activity, create custom leaderboards, and compete with your team or the community.  
-DevPulse brings WakaTime stats into a sleek, collaborative leaderboard experience.  
-
-[devpulse.hallofcodes.org](https://devpulse.hallofcodes.org)
-
-### Shortlink
-Transform long, unwieldy URLs into clean, shareable shortlinks in seconds. Perfect for social media, emails, and campaigns.
-
-[go.melvinjonesrepol.com](https://go.melvinjonesrepol.com)
-
-
-### Need help?
-If you have an idea, let's make that idea earn money!
-From planning, building to production. We can do that.
-
-[Contact me](https://melvinjonesrepol.com/contact-me)
+<p align="center">
+  <a href="https://melvinjonesrepol.com/contact-me"><b>→ Get in touch (weekends only)</b></a>
+</p>
