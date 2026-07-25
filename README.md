@@ -271,20 +271,20 @@ SEE ALSO
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                3205 commits        ██████░░░░░░░░░░░░░░░░░░░   23.45 % 
-🌆 Daytime                3827 commits        ███████░░░░░░░░░░░░░░░░░░   28.00 % 
-🌃 Evening                4271 commits        ████████░░░░░░░░░░░░░░░░░   31.24 % 
-🌙 Night                  2367 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.32 % 
+🌞 Morning                3209 commits        ██████░░░░░░░░░░░░░░░░░░░   23.46 % 
+🌆 Daytime                3830 commits        ███████░░░░░░░░░░░░░░░░░░   28.00 % 
+🌃 Evening                4271 commits        ████████░░░░░░░░░░░░░░░░░   31.23 % 
+🌙 Night                  2367 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.31 % 
 ```
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
 Monday                   1761 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.88 % 
-Tuesday                  1752 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.82 % 
-Wednesday                2249 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.45 % 
-Thursday                 1874 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.71 % 
-Friday                   2188 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.01 % 
-Saturday                 2104 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.39 % 
+Tuesday                  1752 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.81 % 
+Wednesday                2249 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.44 % 
+Thursday                 1874 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.70 % 
+Friday                   2193 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.03 % 
+Saturday                 2106 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.40 % 
 Sunday                   1742 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.74 % 
 ```
 
@@ -293,19 +293,20 @@ Sunday                   1742 commits        ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-TypeScript               20 hrs 53 mins      █████████████░░░░░░░░░░░░   53.66 % 
-PHP                      8 hrs 42 mins       ██████░░░░░░░░░░░░░░░░░░░   22.37 % 
-Blade Template           1 hr 48 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.63 % 
-JavaScript               1 hr 27 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   03.76 % 
-Vue                      54 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.32 % 
+TypeScript               21 hrs 24 mins      ██████████████░░░░░░░░░░░   54.31 % 
+PHP                      8 hrs 8 mins        █████░░░░░░░░░░░░░░░░░░░░   20.68 % 
+Blade Template           1 hr 38 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.15 % 
+JavaScript               1 hr 14 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   03.15 % 
+JSON                     1 hr 1 min          █░░░░░░░░░░░░░░░░░░░░░░░░   02.60 % 
 
 🔥 Editors: 
-Claude Code              19 hrs 38 mins      █████████████░░░░░░░░░░░░   50.43 % 
-Zed                      19 hrs 13 mins      ████████████░░░░░░░░░░░░░   49.37 % 
+Zed                      21 hrs 43 mins      ██████████████░░░░░░░░░░░   55.11 % 
+Claude Code              17 hrs 36 mins      ███████████░░░░░░░░░░░░░░   44.69 % 
 Android Studio           4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.20 % 
+Codex CLI                0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 
 💻 Operating System: 
-Linux                    38 hrs 56 mins      █████████████████████████   100.00 % 
+Linux                    39 hrs 24 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in TypeScript** 
