@@ -12,13 +12,25 @@
 ```bash
 melvin@dev:~$ whoami --verbose
 > melvinjonesrepol
-> status: coding since 2019, tracked since Sep 2021
+> status: coding since 2018, tracked since Sep 2021
+> role: software engineer
+> currently: shipping production-ready applications
+> focus: software must solve problems and earn money
+> belief: if it's not in production, it's not finished
+> workflow: build → test → deploy → improve
+> preference: simple solutions over clever code
+> standards: clean code, measurable performance, predictable systems
+> interests: backend systems, DevOps, automation, SaaS
 > obsession: tools change, the obsession doesn't
-> currently: maintaining custom software solutions
+> goal: build products that scale with users, not complexity
 
 melvin@dev:~$ cat philosophy.txt
 > learn fast, build faster, ship even faster
-> if it's not in production it's not finished
+> if it's not in production, it's not finished
+> solve business problems, not programming puzzles
+> optimize for long-term maintenance
+> every deployment should leave the product better
+> code is temporary, impact is permanent
 
 melvin@dev:~$ fastfetch
                   -`                      DISTRO 󰑃  Arch Linux x86_64
@@ -32,7 +44,7 @@ melvin@dev:~$ fastfetch
           `/++++++++++++++:              │ └ 󰑃  kitty 0.47.1
          `/+++ooooooooooooo/`            󰌢 CODING 󰑃 
         ./ooosssso++osssssso+`           │ ├󰻠 󰑃  Zed Editor, Android Studio
-       .oossssso-````/ossssss+`          │ ├󰻑 󰑃  Codex, Claude Code
+       .oossssso-````/ossssss+`          │ ├󰻑 󰑃  Claude Code, Codex
       -osssssso.      :ssssssso.         │ ├󰍹 󰑃  Youtube Music, Spotify
      :osssssss/        osssso+++.        │ ├󰾆 󰑃  
     /ossssssss/        +ssssooo/-        │ ├󰓡 󰑃  
