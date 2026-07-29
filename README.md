@@ -161,10 +161,10 @@ NAME
     Ulisha Store Laravel
 
 SYNOPSIS
-    E-commerce, without the overhead.
+    AI-Drivin E-commerce, without the overhead.
 
 DESCRIPTION
-    A modern, efficient e-commerce solution for small to medium
+    A modern, efficient AI-Drivin e-commerce solution for small to medium
     businesses. Built with Laravel for seamless setup and
     cost-effective hosting.
 
