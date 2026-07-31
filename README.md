@@ -307,44 +307,44 @@ Sunday                   1705 commits        ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-TypeScript               18 hrs 5 mins       █████████████░░░░░░░░░░░░   50.70 % 
-PHP                      5 hrs 27 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.29 % 
-JavaScript               3 hrs 41 mins       ███░░░░░░░░░░░░░░░░░░░░░░   10.33 % 
-Markdown                 2 hrs 28 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   06.92 % 
-Blade Template           2 hrs 6 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.88 % 
+TypeScript               20 hrs 54 mins      ██████████████░░░░░░░░░░░   54.88 % 
+PHP                      4 hrs 35 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.06 % 
+JavaScript               3 hrs 54 mins       ███░░░░░░░░░░░░░░░░░░░░░░   10.27 % 
+Markdown                 2 hrs 41 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.06 % 
+Blade Template           1 hr 48 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.76 % 
 
 🔥 Editors: 
-Zed                      18 hrs 22 mins      █████████████░░░░░░░░░░░░   51.46 % 
-Claude Code              16 hrs 3 mins       ███████████░░░░░░░░░░░░░░   45.01 % 
-Codex CLI                1 hr 15 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   03.53 % 
+Zed                      19 hrs 19 mins      █████████████░░░░░░░░░░░░   50.71 % 
+Claude Code              17 hrs 26 mins      ███████████░░░░░░░░░░░░░░   45.80 % 
+Codex CLI                1 hr 19 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   03.49 % 
 
 💻 Operating System: 
-Linux                    35 hrs 41 mins      █████████████████████████   100.00 % 
+Linux                    38 hrs 5 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 22 hrs 53 mins (64.11%)
+⏱ AI Coding Time: 24 hrs 14 mins (63.62%)
 
-✍️ 20,571 lines written by AI, 1,671 lines written by hand (92.49% AI-written)
+✍️ 20,030 lines written by AI, 3,321 lines written by hand (85.78% AI-written)
 
-🔤 245,589,725 Input Tokens, 1,395,232 Output Tokens
+🔤 260,778,219 Input Tokens, 1,444,294 Output Tokens
 
-💵 $745.00 Estimated AI Cost This Week
+💵 $789.76 Estimated AI Cost This Week
 
-🧠 32 AI Sessions, 255 AI Prompts
+🧠 36 AI Sessions, 286 AI Prompts
 
-Sonnet                   20,351 lines        ██████████████████████░░░   87.44 % 
-GPT                      2,924 lines         ███░░░░░░░░░░░░░░░░░░░░░░   12.56 % 
+Sonnet                   19,919 lines        ██████████████████████░░░   87.20 % 
+GPT                      2,924 lines         ███░░░░░░░░░░░░░░░░░░░░░░   12.80 % 
 Haiku                    0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 Codex-Cli                0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 92.49% of written lines came from AI
-📚 Verbose Prompter — average 4,513 characters per prompt
+🤖 AI-Driven — 85.78% of written lines came from AI
+📄 Detailed Prompter — average 1,470 characters per prompt
 🔁 Iterative Prompter — average 8 prompts per session
-🚀 High AI Trust — 11.6% of changed lines were hand-edited
+🚀 High AI Trust — 17.06% of changed lines were hand-edited
 ```
 
 **I Mostly Code in TypeScript** 
