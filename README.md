@@ -183,15 +183,15 @@ SEE ALSO
 
 ```
 NAME
-    Canis Chatbot
+    Canis Chatbot: Agent
 
 SYNOPSIS
     A scalable, modular WhatsApp chatbot.
 
 DESCRIPTION
-    Built in TypeScript with modern best practices — Prisma ORM,
-    Dockerized, env-based config. The robust, flexible successor
-    to Orion.
+    A multi-account WhatsApp bot built in TypeScript that handles everything
+    from group commands and instant media downloads to an agentic AI that can
+    search the web, write and run code, and deliver files. 
 
 SEE ALSO
     melvinjonesrepol.com/canis-chatbot
