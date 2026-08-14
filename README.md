@@ -280,7 +280,7 @@ SEE ALSO
 ## `$ wakatime --stats --this-week`
 
 <!--START_SECTION:header-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-175%20hrs%201%20min-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-175%20hrs%209%20mins-blue?style=flat)
 
 **I'm an Early 🐤** 
 
@@ -307,43 +307,43 @@ Sunday                   1706 commits        ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-TypeScript               16 hrs 51 mins      ██████████████████░░░░░░░   71.78 % 
-Markdown                 1 hr 21 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.75 % 
-Other                    46 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.31 % 
-Bash                     43 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.08 % 
-JSON                     36 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.61 % 
+TypeScript               14 hrs 2 mins       ██████████████████░░░░░░░   70.87 % 
+Markdown                 1 hr 16 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.41 % 
+Other                    41 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.48 % 
+Bash                     41 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.46 % 
+JSON                     35 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.98 % 
 
 🔥 Editors: 
-Zed                      13 hrs 34 mins      ██████████████░░░░░░░░░░░   57.75 % 
-Claude Code              9 hrs 14 mins       ██████████░░░░░░░░░░░░░░░   39.30 % 
-Codex CLI                41 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.95 % 
+Zed                      12 hrs 25 mins      ████████████████░░░░░░░░░   62.73 % 
+Claude Code              6 hrs 44 mins       █████████░░░░░░░░░░░░░░░░   34.03 % 
+Codex CLI                38 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.24 % 
 
 💻 Operating System: 
-Linux                    23 hrs 29 mins      █████████████████████████   100.00 % 
+Linux                    19 hrs 49 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 14 hrs 16 mins (60.72%)
+⏱ AI Coding Time: 11 hrs 32 mins (58.24%)
 
-✍️ 9,538 lines written by AI, 1,439 lines written by hand (86.89% AI-written)
+✍️ 7,407 lines written by AI, 857 lines written by hand (89.63% AI-written)
 
-🔤 45,171,349 Input Tokens, 724,355 Output Tokens
+🔤 2,042,183 Input Tokens, 511,600 Output Tokens
 
-💵 $168.24 Estimated AI Cost This Week
+💵 $36.81 Estimated AI Cost This Week
 
-🧠 25 AI Sessions, 213 AI Prompts
+🧠 21 AI Sessions, 170 AI Prompts
 
-Sonnet                   14,378 lines        ███████████████████████░░   93.84 % 
-GPT                      944 lines           ██░░░░░░░░░░░░░░░░░░░░░░░   06.16 % 
+Sonnet                   12,205 lines        ███████████████████████░░   92.82 % 
+GPT                      944 lines           ██░░░░░░░░░░░░░░░░░░░░░░░   07.18 % 
 Codex-Cli                0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 86.89% of written lines came from AI
-📚 Verbose Prompter — average 1,645 characters per prompt
-🔁 Iterative Prompter — average 9 prompts per session
-🚀 High AI Trust — 12.69% of changed lines were hand-edited
+🤖 AI-Driven — 89.63% of written lines came from AI
+📚 Verbose Prompter — average 1,610 characters per prompt
+🔁 Iterative Prompter — average 8 prompts per session
+🚀 High AI Trust — 11.1% of changed lines were hand-edited
 ```
 
 **I Mostly Code in TypeScript** 
