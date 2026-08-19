@@ -24,6 +24,28 @@ melvin@dev:~$ whoami --verbose
 > obsession: tools change, the obsession doesn't
 > goal: build products that scale with users, not complexity
 
+melvin@dev:~$ gpg --verify-policy
+
+╔══════════════════════════════════════════════════════════════════╗
+║                     GPG SIGNATURE NOTICE                         ║
+╠══════════════════════════════════════════════════════════════════╣
+║ EFFECTIVE: SEPTEMBER 1, 2026                                     ║
+║                                                                  ║
+║ Personal GPG signatures and work-related GPG signatures are      ║
+║ separate and must not be treated as interchangeable.             ║
+║                                                                  ║
+║ A personal GPG signature used on a work contract, client,        ║
+║ employer, or other work-related project does NOT constitute      ║
+║ my work-related authorization, approval, acknowledgment, or      ║
+║ acceptance of that commit or associated action.                  ║
+║                                                                  ║
+║ Only commits signed with my designated work-related GPG key      ║
+║ should be considered attributable to me in a professional or     ║
+║ contractual capacity.                                            ║
+║                                                                  ║
+║ Personal key ≠ Work authorization                                ║
+╚══════════════════════════════════════════════════════════════════╝
+
 melvin@dev:~$ cat philosophy.txt
 > learn fast, build faster, ship even faster
 > if it's not in production, it's not finished
