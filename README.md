@@ -307,21 +307,21 @@ SEE ALSO
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                3134 commits        ██████░░░░░░░░░░░░░░░░░░░   23.28 % 
-🌆 Daytime                3759 commits        ███████░░░░░░░░░░░░░░░░░░   27.92 % 
-🌃 Evening                4204 commits        ████████░░░░░░░░░░░░░░░░░   31.23 % 
-🌙 Night                  2365 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.57 % 
+🌞 Morning                3134 commits        ██████░░░░░░░░░░░░░░░░░░░   23.27 % 
+🌆 Daytime                3759 commits        ███████░░░░░░░░░░░░░░░░░░   27.91 % 
+🌃 Evening                4204 commits        ████████░░░░░░░░░░░░░░░░░   31.22 % 
+🌙 Night                  2369 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.59 % 
 ```
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
 Monday                   1729 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.84 % 
 Tuesday                  1682 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.49 % 
-Wednesday                2218 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.48 % 
-Thursday                 1852 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.76 % 
+Wednesday                2218 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.47 % 
+Thursday                 1852 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.75 % 
 Friday                   2185 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.23 % 
 Saturday                 2102 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.61 % 
-Sunday                   1694 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.58 % 
+Sunday                   1698 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.61 % 
 ```
 
 
@@ -329,28 +329,27 @@ Sunday                   1694 commits        ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-TypeScript               18 hrs 55 mins      ████████████████████░░░░░   79.07 % 
-JavaScript               1 hr 4 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.52 % 
-JSON                     58 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.09 % 
-Markdown                 36 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.53 % 
-Bash                     33 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.35 % 
+TypeScript               19 hrs 45 mins      ████████████████████░░░░░   79.03 % 
+JavaScript               1 hr 11 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.75 % 
+JSON                     58 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.91 % 
+Bash                     53 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.57 % 
+Markdown                 36 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.43 % 
 
 🔥 Editors: 
-Claude Code              12 hrs 32 mins      █████████████░░░░░░░░░░░░   52.41 % 
-Zed                      10 hrs 22 mins      ███████████░░░░░░░░░░░░░░   43.36 % 
-Codex CLI                37 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.58 % 
-Android Studio           23 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.64 % 
+Claude Code              12 hrs 32 mins      █████████████░░░░░░░░░░░░   50.18 % 
+Zed                      11 hrs 50 mins      ████████████░░░░░░░░░░░░░   47.35 % 
+Codex CLI                37 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.47 % 
 
 💻 Operating System: 
-Linux                    23 hrs 56 mins      █████████████████████████   100.00 % 
+Linux                    25 hrs              █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 14 hrs 56 mins (62.42%)
+⏱ AI Coding Time: 14 hrs 56 mins (59.77%)
 
-✍️ 7,182 lines written by AI, 1,196 lines written by hand (85.72% AI-written)
+✍️ 7,182 lines written by AI, 1,532 lines written by hand (82.42% AI-written)
 
 🔤 3,645,222 Input Tokens, 1,128,152 Output Tokens
 
@@ -363,10 +362,10 @@ GPT                      318 lines           █░░░░░░░░░░�
 Haiku                    0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 85.72% of written lines came from AI
+🤖 AI-Driven — 82.42% of written lines came from AI
 📄 Detailed Prompter — average 1,049 characters per prompt
 🔁 Iterative Prompter — average 30 prompts per session
-🚀 High AI Trust — 18.12% of changed lines were hand-edited
+🚀 High AI Trust — 20.88% of changed lines were hand-edited
 ```
 
 **I Mostly Code in TypeScript** 
