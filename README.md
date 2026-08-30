@@ -302,7 +302,7 @@ SEE ALSO
 ## `$ wakatime --stats --this-week`
 
 <!--START_SECTION:header-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-208%20hrs%206%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-210%20hrs-blue?style=flat)
 
 **I'm an Early 🐤** 
 
@@ -329,26 +329,26 @@ Sunday                   1698 commits        ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-TypeScript               27 hrs 43 mins      █████████████████████░░░░   82.89 % 
-Markdown                 1 hr 4 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.20 % 
-Bash                     51 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.55 % 
-shell script             42 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.13 % 
-PHP                      35 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.77 % 
+TypeScript               26 hrs 43 mins      █████████████████████░░░░   84.00 % 
+Markdown                 1 hr 4 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.37 % 
+shell script             42 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.24 % 
+PHP                      35 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.86 % 
+Bash                     31 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.65 % 
 
 🔥 Editors: 
-Claude Code              17 hrs 30 mins      █████████████░░░░░░░░░░░░   52.36 % 
-Zed                      15 hrs 56 mins      ████████████░░░░░░░░░░░░░   47.64 % 
+Claude Code              17 hrs 30 mins      ██████████████░░░░░░░░░░░   55.06 % 
+Zed                      14 hrs 17 mins      ███████████░░░░░░░░░░░░░░   44.94 % 
 
 💻 Operating System: 
-Linux                    33 hrs 27 mins      █████████████████████████   100.00 % 
+Linux                    31 hrs 48 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 19 hrs 27 mins (58.18%)
+⏱ AI Coding Time: 19 hrs 27 mins (61.18%)
 
-✍️ 13,614 lines written by AI, 1,711 lines written by hand (88.84% AI-written)
+✍️ 13,614 lines written by AI, 1,375 lines written by hand (90.83% AI-written)
 
 🔤 3,713,970 Input Tokens, 1,257,348 Output Tokens
 
@@ -360,20 +360,20 @@ Sonnet                   15,287 lines        ███████████�
 Haiku                    0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 88.84% of written lines came from AI
+🤖 AI-Driven — 90.83% of written lines came from AI
 📚 Verbose Prompter — average 1,697 characters per prompt
 🔁 Iterative Prompter — average 45 prompts per session
-🚀 High AI Trust — 13.98% of changed lines were hand-edited
+🚀 High AI Trust — 12.27% of changed lines were hand-edited
 ```
 
 **I Mostly Code in TypeScript** 
 
 ```text
-PHP                      11 repos            █████░░░░░░░░░░░░░░░░░░░░   18.33 % 
-JavaScript               10 repos            ████░░░░░░░░░░░░░░░░░░░░░   16.67 % 
-C                        1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.67 % 
-Assembly                 1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.67 % 
-Java                     1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.67 % 
+PHP                      11 repos            █████░░░░░░░░░░░░░░░░░░░░   18.64 % 
+JavaScript               10 repos            ████░░░░░░░░░░░░░░░░░░░░░   16.95 % 
+Blade                    2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.39 % 
+Assembly                 1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.69 % 
+Java                     1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.69 % 
 ```
 
 
