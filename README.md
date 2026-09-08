@@ -302,20 +302,20 @@ SEE ALSO
 ## `$ wakatime --stats --this-week`
 
 <!--START_SECTION:header-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-225%20hrs%2010%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-227%20hrs%2051%20mins-blue?style=flat)
 
 **I'm an Early 🐤** 
 
 ```text
 🌞 Morning                3528 commits        ██████░░░░░░░░░░░░░░░░░░░   24.14 % 
 🌆 Daytime                4114 commits        ███████░░░░░░░░░░░░░░░░░░   28.15 % 
-🌃 Evening                4359 commits        ███████░░░░░░░░░░░░░░░░░░   29.83 % 
+🌃 Evening                4360 commits        ███████░░░░░░░░░░░░░░░░░░   29.84 % 
 🌙 Night                  2611 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.87 % 
 ```
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday                   1876 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.84 % 
+Monday                   1877 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.84 % 
 Tuesday                  2094 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.33 % 
 Wednesday                2377 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.27 % 
 Thursday                 2000 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.69 % 
@@ -329,42 +329,42 @@ Sunday                   1787 commits        ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-TypeScript               14 hrs 36 mins      █████████████████░░░░░░░░   66.64 % 
-PHP                      1 hr 46 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.07 % 
-Blade Template           1 hr 38 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.48 % 
-JavaScript               1 hr 1 min          █░░░░░░░░░░░░░░░░░░░░░░░░   04.65 % 
-Markdown                 48 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.67 % 
+TypeScript               19 hrs 3 mins       ██████████████████░░░░░░░   73.70 % 
+Blade Template           1 hr 14 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.82 % 
+JavaScript               1 hr 11 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.58 % 
+PHP                      1 hr 9 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.49 % 
+Markdown                 49 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.21 % 
 
 🔥 Editors: 
-Claude Code              13 hrs 7 mins       ███████████████░░░░░░░░░░   59.85 % 
-Zed                      7 hrs 24 mins       ████████░░░░░░░░░░░░░░░░░   33.81 % 
-Codex CLI                1 hr 23 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.34 % 
+Claude Code              15 hrs 8 mins       ███████████████░░░░░░░░░░   58.54 % 
+Zed                      9 hrs 16 mins       █████████░░░░░░░░░░░░░░░░   35.86 % 
+Codex CLI                1 hr 26 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.60 % 
 
 💻 Operating System: 
-Linux                    21 hrs 55 mins      █████████████████████████   100.00 % 
+Linux                    25 hrs 51 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 15 hrs 11 mins (69.3%)
+⏱ AI Coding Time: 17 hrs 52 mins (69.13%)
 
-✍️ 9,335 lines written by AI, 1,858 lines written by hand (83.4% AI-written)
+✍️ 11,215 lines written by AI, 858 lines written by hand (92.89% AI-written)
 
-🔤 3,301,166 Input Tokens, 853,168 Output Tokens
+🔤 3,896,324 Input Tokens, 1,061,587 Output Tokens
 
-💵 $74.67 Estimated AI Cost This Week
+💵 $90.09 Estimated AI Cost This Week
 
-🧠 11 AI Sessions, 220 AI Prompts
+🧠 13 AI Sessions, 262 AI Prompts
 
-Sonnet                   8,255 lines         ████████████████████░░░░░   79.50 % 
-GPT                      2,128 lines         █████░░░░░░░░░░░░░░░░░░░░   20.50 % 
+Sonnet                   10,268 lines        █████████████████████░░░░   82.83 % 
+GPT                      2,128 lines         ████░░░░░░░░░░░░░░░░░░░░░   17.17 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 83.4% of written lines came from AI
-📄 Detailed Prompter — average 1,283 characters per prompt
+🤖 AI-Driven — 92.89% of written lines came from AI
+📄 Detailed Prompter — average 1,406 characters per prompt
 🔁 Iterative Prompter — average 20 prompts per session
-🚀 High AI Trust — 21.96% of changed lines were hand-edited
+🚀 High AI Trust — 9.38% of changed lines were hand-edited
 ```
 
 **I Mostly Code in TypeScript** 
