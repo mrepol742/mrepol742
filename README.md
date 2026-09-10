@@ -11,22 +11,16 @@
 
 ```bash
 melvin@dev:~$ whoami --verbose
-> melvinjonesrepol
 > status: coding since 2018, tracked since Sep 2021
 > role: software engineer
-> currently: shipping production-ready applications
-> focus: software must solve problems and earn money
-> belief: if it's not in production, it's not finished
 > workflow: build → test → deploy → improve
 > preference: simple solutions over clever code
 > standards: clean code, measurable performance, predictable systems
 > interests: backend systems, DevOps, automation, SaaS
-> obsession: tools change, the obsession doesn't
 > goal: build products that scale with users, not complexity
 
 melvin@dev:~$ cat philosophy.txt
 > learn fast, build faster, ship even faster
-> if it's not in production, it's not finished
 > solve business problems, not programming puzzles
 > optimize for long-term maintenance
 > every deployment should leave the product better
@@ -69,7 +63,6 @@ melvin@dev:~$ git log --graph --decorate --oneline
 * a7f3c1d (HEAD -> main) feat(webvium): fastest, lightest android browser
 * 9b21e44 feat(pos): offline-capable POS, multi-department roles
 * 5d8c0a2 feat(axleshift): freight management, streamlined logistics
-* 1e4f9b7 feat(ulisha): laravel e-commerce, seamless setup
 * c3a8d10 feat(canis): modular whatsapp chatbot, prisma + docker
 * 7f2e6b5 feat(devpulse): wakatime stats → collaborative leaderboard
 * 2a9d4c8 feat(shortlink): long urls → clean shortlinks
@@ -101,7 +94,7 @@ SEE ALSO
     melvinjonesrepol.com/webvium-browser
 ```
 
-[→ view live](https://melvinjonesrepol.com/webvium-browser)
+[→ view live](https://www.webvium.com)
 
 </details>
 
@@ -151,31 +144,6 @@ SEE ALSO
 ```
 
 [→ view live](https://www.melvinjonesrepol.com/axleshift-freight-management)
-
-</details>
-
-<details>
-<summary><code>drwxr-xr-x  ulisha-store-laravel/</code></summary>
-
-<br>
-
-```
-NAME
-    Ulisha Store Laravel
-
-SYNOPSIS
-    AI-Drivin E-commerce, without the overhead.
-
-DESCRIPTION
-    A modern, efficient AI-Drivin e-commerce solution for small to medium
-    businesses. Built with Laravel for seamless setup and
-    cost-effective hosting.
-
-SEE ALSO
-    melvinjonesrepol.com/ulisha-store-laravel
-```
-
-[→ view live](https://www.melvinjonesrepol.com/ulisha-store-laravel)
 
 </details>
 
@@ -364,17 +332,6 @@ Java                     1 repo              ░░░░░░░░░░░�
 
 <br>
 
-## `$ ./contact-me.sh`
-
-```bash
-melvin@dev:~$ ./contact-me.sh --availability
-
-> availability: Saturdays & Sundays, by appointment only
-> note: slow replies on weekdays, that's expected
-
-melvin@dev:~$ open https://melvinjonesrepol.com/contact-me
-```
-
 <p align="center">
-  <a href="https://melvinjonesrepol.com/contact-me"><b>→ Get in touch (weekends only)</b></a>
+  <a href="https://melvinjonesrepol.com/contact-me"><b>→ Get in touch</b></a>
 </p>
