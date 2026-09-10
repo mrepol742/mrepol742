@@ -24,28 +24,6 @@ melvin@dev:~$ whoami --verbose
 > obsession: tools change, the obsession doesn't
 > goal: build products that scale with users, not complexity
 
-melvin@dev:~$ gpg --verify-policy
-
-╔══════════════════════════════════════════════════════════════════╗
-║                     GPG SIGNATURE NOTICE                         ║
-╠══════════════════════════════════════════════════════════════════╣
-║ EFFECTIVE: SEPTEMBER 1, 2026                                     ║
-║                                                                  ║
-║ Personal GPG signatures and work-related GPG signatures are      ║
-║ separate and must not be treated as interchangeable.             ║
-║                                                                  ║
-║ A personal GPG signature used on a work contract, client,        ║
-║ employer, or other work-related project does NOT constitute      ║
-║ my work-related authorization, approval, acknowledgment, or      ║
-║ acceptance of that commit or associated action.                  ║
-║                                                                  ║
-║ Only commits signed with my designated work-related GPG key      ║
-║ should be considered attributable to me in a professional or     ║
-║ contractual capacity.                                            ║
-║                                                                  ║
-║ Personal key ≠ Work authorization                                ║
-╚══════════════════════════════════════════════════════════════════╝
-
 melvin@dev:~$ cat philosophy.txt
 > learn fast, build faster, ship even faster
 > if it's not in production, it's not finished
@@ -56,24 +34,27 @@ melvin@dev:~$ cat philosophy.txt
 
 melvin@dev:~$ fastfetch
                   -`                      DISTRO 󰑃  Arch Linux x86_64
-                 .o+`                    │ ├ 󰑃  Linux 7.0.13-arch1-1
+                 .o+`                    │ ├ 󰑃  Linux 7.2.3-arch1-3
                 `ooo/                    │ ├󰏖 󰑃  915 (pacman)
-               `+oooo:                   │ └ 󰑃  zsh 5.9.1
-              `+oooooo:                   DE/WM 󰑃  Hyprland 0.55.4 (Wayland)
+               `+oooo:                   │ └ 󰑃  zsh 5.9.2
+              `+oooooo:                   DE/WM 󰑃  Hyprland 0.56.2 (Wayland)
               -+oooooo+:                 │ ├󰀻 󰑃  Tokyonight-Dark [Qt], Flat-Remix-Blue-Dark ]
             `/:-:++oooo+:                │ ├ 󰑃  Bibata-Modern-Ice (24px)
            `/++++/+++++++:               │ ├ 󰑃  FantasqueSansMNFM-Bold (14pt)
-          `/++++++++++++++:              │ └ 󰑃  kitty 0.47.1
-         `/+++ooooooooooooo/`            󰌢 CODING 󰑃 
-        ./ooosssso++osssssso+`           │ ├󰻠 󰑃  Zed Editor, Android Studio
-       .oossssso-````/ossssss+`          │ ├󰻑 󰑃  Claude Code, Codex
-      -osssssso.      :ssssssso.         │ ├󰍹 󰑃  Youtube Music, Spotify
-     :osssssss/        osssso+++.        │ ├󰾆 󰑃  
-    /ossssssss/        +ssssooo/-        │ ├󰓡 󰑃  
-  `/ossssso+/:-        -:/+osssso+-      │ ├󰅐 󰑃  
- `+sso+:-`                 `.-/+oso:     │ └󰍹 󰑃  
-`++:.                           `-/+/    │ └󰍹 󰑃  
-.`                                 `/     AUDIO 󰑃  true
+          `/++++++++++++++:              │ └ 󰑃  kitty 0.48.2
+         `/+++ooooooooooooo/`            󰌢 SYSTEM 󰑃 MSI PRO-E (3.0)
+        ./ooosssso++osssssso+`           │ ├󰻠 󰑃  AMD Ryzen 3.90HZ
+       .oossssso-````/ossssss+`          │ ├󰻑 󰑃  AMD Radeon RX 4GB
+      -osssssso.      :ssssssso.         │ ├󰍹 󰑃  1920x1080 @ 120Hz
+     :osssssss/        osssso+++.        │ ├󰾆 󰑃  2.67 GiB / 31.29 GiB (9%)
+    /ossssssss/        +ssssooo/-        │ ├󰓡 󰑃  0 B / 4.00 GiB (0%)
+  `/ossssso+/:-        -:/+osssso+-      │ ├󰅐 󰑃  1 mins
+ `+sso+:-`                 `.-/+oso:     │ └󰍹 󰑃  LG 1920x1080 in 27", 120 Hz [External]
+`++:.                           `-/+/     AUDIO 󰑃  true
+.`                                 `/    │ └󰍹 󰑃 60W Home 4-Speaker 2-Passive diaphragms
+                                         │ └󰍹 󰑃 H30 RGB Noise Canceling Headphone
+                                          CAMERA 󰑃  true
+                                         │ └󰍹 󰑃 4K UHD F/1.8 4.71mm AI Sony1/2
                                                                             
                                          
 ```
