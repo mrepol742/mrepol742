@@ -278,27 +278,27 @@ Sunday                   2026 commits        ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-TypeScript               12 hrs 59 mins      ████████████████░░░░░░░░░   65.89 % 
-JavaScript               2 hrs 26 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.40 % 
-Vue                      1 hr 15 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.35 % 
-Markdown                 49 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.21 % 
-shell script             46 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.92 % 
+TypeScript               13 hrs 13 mins      █████████████████░░░░░░░░   66.22 % 
+JavaScript               2 hrs 26 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.24 % 
+Vue                      1 hr 15 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.27 % 
+Markdown                 49 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.16 % 
+shell script             46 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.87 % 
 
 🔥 Editors: 
-Claude Code              12 hrs 40 mins      ████████████████░░░░░░░░░   64.29 % 
-Zed                      6 hrs 23 mins       ████████░░░░░░░░░░░░░░░░░   32.48 % 
-Codex CLI                38 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.24 % 
+Claude Code              12 hrs 40 mins      ████████████████░░░░░░░░░   63.43 % 
+Zed                      6 hrs 39 mins       ████████░░░░░░░░░░░░░░░░░   33.37 % 
+Codex CLI                38 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.20 % 
 
 💻 Operating System: 
-Linux                    19 hrs 42 mins      █████████████████████████   100.00 % 
+Linux                    19 hrs 58 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 14 hrs 54 mins (75.62%)
+⏱ AI Coding Time: 14 hrs 54 mins (74.62%)
 
-✍️ 9,779 lines written by AI, 633 lines written by hand (93.92% AI-written)
+✍️ 9,779 lines written by AI, 642 lines written by hand (93.84% AI-written)
 
 🔤 3,264,705 Input Tokens, 977,735 Output Tokens
 
@@ -310,10 +310,10 @@ Sonnet                   10,533 lines        ███████████�
 GPT                      578 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   05.20 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 93.92% of written lines came from AI
+🤖 AI-Driven — 93.84% of written lines came from AI
 📚 Verbose Prompter — average 2,033 characters per prompt
 🔁 Iterative Prompter — average 31 prompts per session
-🚀 High AI Trust — 6.73% of changed lines were hand-edited
+🚀 High AI Trust — 6.84% of changed lines were hand-edited
 ```
 
 **I Mostly Code in JavaScript** 
