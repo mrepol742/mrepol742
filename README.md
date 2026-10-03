@@ -6,47 +6,34 @@
 <img src="https://cdn.pfps.gg/banners/6558-anime-gif.png" />
 
 ```bash
-melvin@dev:~$ whoami --verbose
-> status: coding since 2018, tracked since Sep 2021
-> role: software engineer
-> workflow: build → test → deploy → improve
-> preference: simple solutions over clever code
-> standards: clean code, measurable performance, predictable systems
-> interests: backend systems, DevOps, automation, SaaS
-> goal: build products that scale with users, not complexity
-
-melvin@dev:~$ cat philosophy.txt
-> learn fast, build faster, ship even faster
-> solve business problems, not programming puzzles
-> optimize for long-term maintenance
-> every deployment should leave the product better
-> code is temporary, impact is permanent
-
-melvin@dev:~$ fastfetch
-                  -`                      DISTRO 󰑃  Arch Linux x86_64
-                 .o+`                    │ ├ 󰑃  Linux 7.2.3-arch1-3
-                `ooo/                    │ ├󰏖 󰑃  915 (pacman)
-               `+oooo:                   │ └ 󰑃  zsh 5.9.2
-              `+oooooo:                   DE/WM 󰑃  Hyprland 0.56.2 (Wayland)
-              -+oooooo+:                 │ ├󰀻 󰑃  Tokyonight-Dark [Qt], Flat-Remix-Blue-Dark ]
-            `/:-:++oooo+:                │ ├ 󰑃  Bibata-Modern-Ice (24px)
-           `/++++/+++++++:               │ ├ 󰑃  FantasqueSansMNFM-Bold (14pt)
-          `/++++++++++++++:              │ └ 󰑃  kitty 0.48.2
-         `/+++ooooooooooooo/`            󰌢 SYSTEM 󰑃 MSI PRO-E (3.0)
-        ./ooosssso++osssssso+`           │ ├󰻠 󰑃  AMD Ryzen 3.90HZ
-       .oossssso-````/ossssss+`          │ ├󰻑 󰑃  AMD Radeon RX 4GB
-      -osssssso.      :ssssssso.         │ ├󰍹 󰑃  1920x1080 @ 120Hz
-     :osssssss/        osssso+++.        │ ├󰾆 󰑃  2.67 GiB / 31.29 GiB (9%)
-    /ossssssss/        +ssssooo/-        │ ├󰓡 󰑃  0 B / 4.00 GiB (0%)
-  `/ossssso+/:-        -:/+osssso+-      │ ├󰅐 󰑃  1 mins
- `+sso+:-`                 `.-/+oso:     │ └󰍹 󰑃  LG 1920x1080 in 27", 120 Hz [External]
-`++:.                           `-/+/     AUDIO 󰑃  true
-.`                                 `/    │ └󰍹 󰑃 60W Home 4-Speaker 2-Passive diaphragms
-                                         │ └󰍹 󰑃 H30 RGB Noise Canceling Headphone
-                                          CAMERA 󰑃  true
-                                         │ └󰍹 󰑃 4K UHD F/1.8 4.71mm AI Sony1/2
-                                                                            
-                                         
+melvin@dev:~$ npx mrepol742
+╭───────────────────── @mrepol742 ─────────────────────╮
+│                                                      │
+│                  Melvin Jones Repol                  │
+│                  Software Engineer                   │
+│                                                      │
+│             Web:  melvinjonesrepol.com               │
+│            Blog:  blog.melvinjonesrepol.com          │
+│           Tools:  tools.melvinjonesrepol.com         │
+│      Shortlinks:  shrtly.melvinjonesrepol.com        │
+│         Designs:  web-designs.melvinjonesrepol.com   │
+│        WakaTime:  wakatime.melvinjonesrepol.com      │
+│                                                      │
+│         Webvium:  webvium.com                        │
+│   Hall of Codes:  hallofcodes.org                    │
+│                                                      │
+│          GitHub:  github.com/mrepol742               │
+│        LinkedIn:  linkedin.com/in/mrepol742          │
+│         YouTube:  youtube.com/@mrepol742             │
+│        Facebook:  facebook.com/mrepol742             │
+│                                                      │
+│         Reviews:  trustpilot.com/melvinjonesrepol    │
+│                                                      │
+│            Card:  npx mrepol742                      │
+│                                                      │
+│       Building dependable software since 2018        │
+│                                                      │
+╰──────────────────────────────────────────────────────╯
 ```
 
 <!--START_SECTION:header-->

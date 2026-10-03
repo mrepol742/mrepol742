@@ -1,21 +1,20 @@
 {
   "name": "mrepol742",
-  "version": "5.0.5",
-  "description": "My npm-cli portfolio.",
-  "main": "me.js",
-  "scripts": {
-    "start": "node me.js"
+  "version": "6.0.0",
+  "description": "npx business card of Melvin Jones Repol",
+  "type": "module",
+  "bin": {
+    "mrepol742": "index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrepol742/mrepol742.git"
+    "url": "https://github.com/mrepol742/mrepol742.git"
   },
   "keywords": [
-    "mrepol742",
-    "melvin jone repol",
+    "npx",
+    "card",
     "portfolio",
-    "profile",
-    "readme"
+    "cli"
   ],
   "author": {
     "name": "Melvin Jones Repol",
@@ -23,19 +22,10 @@
     "url": "https://mrepol742.github.io"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mrepol742/mrepol742/issues",
-    "email": "mrepol742@gmail.com"
-  },
-  "homepage": "https://github.com/mrepol742/mrepol742",
   "dependencies": {
-    "boxen": "^4.2.0",
-    "chalk": "^4.1.2",
-    "clear": "^0.1.0",
-    "cli-spinners": "^2.6.1",
-    "inquirer": "^7.3.3",
-    "open": "^7.4.2",
-    "ora": "^5.4.1",
-    "request": "^2.88.2"
+    "@inquirer/prompts": "^7.0.0",
+    "boxen": "^8.0.1",
+    "chalk": "^5.3.0",
+    "open": "^10.1.0"
   }
 }
