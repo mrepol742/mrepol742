@@ -37,26 +37,26 @@ melvin@dev:~$ npx mrepol742
 ```
 
 <!--START_SECTION:header-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-288%20hrs%2014%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-289%20hrs%207%20mins-blue?style=flat)
 
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                3782 commits        ██████░░░░░░░░░░░░░░░░░░░   23.64 % 
-🌆 Daytime                4544 commits        ███████░░░░░░░░░░░░░░░░░░   28.41 % 
-🌃 Evening                4920 commits        ████████░░░░░░░░░░░░░░░░░   30.76 % 
-🌙 Night                  2749 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.19 % 
+🌞 Morning                3918 commits        ██████░░░░░░░░░░░░░░░░░░░   23.78 % 
+🌆 Daytime                4686 commits        ███████░░░░░░░░░░░░░░░░░░   28.44 % 
+🌃 Evening                5071 commits        ████████░░░░░░░░░░░░░░░░░   30.77 % 
+🌙 Night                  2804 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.02 % 
 ```
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday                   2067 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.92 % 
-Tuesday                  2070 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.94 % 
-Wednesday                2668 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.68 % 
-Thursday                 2249 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.06 % 
-Friday                   2579 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.12 % 
-Saturday                 2399 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.00 % 
-Sunday                   1963 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.27 % 
+Monday                   2136 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.96 % 
+Tuesday                  2144 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.01 % 
+Wednesday                2742 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.64 % 
+Thursday                 2324 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.10 % 
+Friday                   2633 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.98 % 
+Saturday                 2461 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.93 % 
+Sunday                   2039 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.37 % 
 ```
 
 
@@ -64,53 +64,53 @@ Sunday                   1963 commits        ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-TypeScript               8 hrs 10 mins       ███████████░░░░░░░░░░░░░░   44.43 % 
-JavaScript               2 hrs 29 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.50 % 
-Markdown                 1 hr 57 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.62 % 
-Other                    1 hr 25 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.78 % 
-XML                      45 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.15 % 
+TypeScript               9 hrs 19 mins       ███████████░░░░░░░░░░░░░░   45.50 % 
+JavaScript               2 hrs 47 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.61 % 
+Markdown                 2 hrs 10 mins       ███░░░░░░░░░░░░░░░░░░░░░░   10.60 % 
+Other                    1 hr 25 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.98 % 
+XML                      45 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.72 % 
 
 🔥 Editors: 
-Claude Code              10 hrs 30 mins      ██████████████░░░░░░░░░░░   57.12 % 
-Zed                      5 hrs               ███████░░░░░░░░░░░░░░░░░░   27.21 % 
-Android Studio           1 hr 36 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.75 % 
-Codex CLI                1 hr 1 min          █░░░░░░░░░░░░░░░░░░░░░░░░   05.54 % 
-Codex Vscode             15 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.38 % 
+Claude Code              10 hrs 30 mins      █████████████░░░░░░░░░░░░   51.25 % 
+Zed                      6 hrs 18 mins       ████████░░░░░░░░░░░░░░░░░   30.76 % 
+Android Studio           1 hr 36 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.85 % 
+Codex Vscode             1 hr 3 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   05.17 % 
+Codex CLI                1 hr 1 min          █░░░░░░░░░░░░░░░░░░░░░░░░   04.97 % 
 
 💻 Operating System: 
-Linux                    18 hrs 24 mins      █████████████████████████   100.00 % 
+Linux                    20 hrs 30 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 12 hrs 34 mins (68.36%)
+⏱ AI Coding Time: 13 hrs 26 mins (65.58%)
 
-✍️ 23,180 lines written by AI, 596 lines written by hand (97.49% AI-written)
+✍️ 24,293 lines written by AI, 1,142 lines written by hand (95.51% AI-written)
 
-🔤 6,325,067 Input Tokens, 1,438,090 Output Tokens
+🔤 6,523,127 Input Tokens, 1,470,648 Output Tokens
 
-💵 $136.27 Estimated AI Cost This Week
+💵 $137.26 Estimated AI Cost This Week
 
-🧠 14 AI Sessions, 157 AI Prompts
+🧠 16 AI Sessions, 166 AI Prompts
 
-Opus                     20,802 lines        ██████████████████████░░░   86.98 % 
-GPT                      3,113 lines         ███░░░░░░░░░░░░░░░░░░░░░░   13.02 % 
+Opus                     20,802 lines        █████████████████████░░░░   83.11 % 
+GPT                      4,226 lines         ████░░░░░░░░░░░░░░░░░░░░░   16.89 % 
 Codex-Vscode             0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 97.49% of written lines came from AI
-📚 Verbose Prompter — average 2,777 characters per prompt
-🔁 Iterative Prompter — average 11 prompts per session
-🚀 High AI Trust — 3.39% of changed lines were hand-edited
+🤖 AI-Driven — 95.51% of written lines came from AI
+📚 Verbose Prompter — average 2,637 characters per prompt
+🔁 Iterative Prompter — average 10 prompts per session
+🚀 High AI Trust — 5.29% of changed lines were hand-edited
 ```
 
 **I Mostly Code in JavaScript** 
 
 ```text
 JavaScript               32 repos            █████░░░░░░░░░░░░░░░░░░░░   20.13 % 
-TypeScript               28 repos            ████░░░░░░░░░░░░░░░░░░░░░   17.61 % 
-PHP                      23 repos            ████░░░░░░░░░░░░░░░░░░░░░   14.47 % 
+TypeScript               29 repos            █████░░░░░░░░░░░░░░░░░░░░   18.24 % 
+PHP                      22 repos            ███░░░░░░░░░░░░░░░░░░░░░░   13.84 % 
 Python                   7 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.40 % 
 Astro                    1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.63 % 
 ```
