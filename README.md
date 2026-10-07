@@ -3,6 +3,7 @@
   <img align="right" src="https://komarev.com/ghpvc/?username=mrepol742&label=Profile%20Views&color=4285f4&style=flat" alt="Views" />
 </div>
 
+![https://npm-provenance-badge.netlify.app/badge/mrepol742](https://npm-provenance-badge.netlify.app/badge/mrepol742)
 <img src="https://cdn.pfps.gg/banners/6558-anime-gif.png" />
 
 ```bash
