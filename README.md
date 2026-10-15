@@ -43,21 +43,21 @@ melvin@dev:~$ npx mrepol742
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                3881 commits        ██████░░░░░░░░░░░░░░░░░░░   23.73 % 
-🌆 Daytime                4633 commits        ███████░░░░░░░░░░░░░░░░░░   28.33 % 
-🌃 Evening                5040 commits        ████████░░░░░░░░░░░░░░░░░   30.82 % 
-🌙 Night                  2801 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.13 % 
+🌞 Morning                3926 commits        ██████░░░░░░░░░░░░░░░░░░░   23.76 % 
+🌆 Daytime                4697 commits        ███████░░░░░░░░░░░░░░░░░░   28.43 % 
+🌃 Evening                5082 commits        ████████░░░░░░░░░░░░░░░░░   30.76 % 
+🌙 Night                  2818 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.06 % 
 ```
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday                   2147 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.13 % 
-Tuesday                  2139 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.08 % 
-Wednesday                2725 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.66 % 
-Thursday                 2295 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.03 % 
-Friday                   2602 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.91 % 
-Saturday                 2440 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.92 % 
-Sunday                   2007 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.27 % 
+Monday                   2155 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.04 % 
+Tuesday                  2154 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.04 % 
+Wednesday                2752 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.66 % 
+Thursday                 2325 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.07 % 
+Friday                   2633 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.94 % 
+Saturday                 2462 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.90 % 
+Sunday                   2042 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.36 % 
 ```
 
 
@@ -65,42 +65,40 @@ Sunday                   2007 commits        ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-TypeScript               11 hrs 36 mins      ████████████░░░░░░░░░░░░░   47.90 % 
-Markdown                 4 hrs 15 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.60 % 
-Other                    2 hrs 14 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.23 % 
-JavaScript               1 hr 38 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.77 % 
-shell script             58 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.05 % 
+TypeScript               9 hrs 38 mins       ████████████░░░░░░░░░░░░░   48.28 % 
+Markdown                 3 hrs 31 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.61 % 
+Other                    1 hr 51 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.29 % 
+JavaScript               1 hr 36 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.07 % 
+shell script             45 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.82 % 
 
 🔥 Editors: 
-Claude Code              18 hrs 3 mins       ███████████████████░░░░░░   74.56 % 
-Zed                      5 hrs 38 mins       ██████░░░░░░░░░░░░░░░░░░░   23.28 % 
-Codex Vscode             31 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.16 % 
+Claude Code              16 hrs 10 mins      ████████████████████░░░░░   80.92 % 
+Zed                      3 hrs 48 mins       █████░░░░░░░░░░░░░░░░░░░░   19.08 % 
 
 💻 Operating System: 
-Linux                    24 hrs 13 mins      █████████████████████████   100.00 % 
+Linux                    19 hrs 58 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 19 hrs 18 mins (79.7%)
+⏱ AI Coding Time: 16 hrs 49 mins (84.24%)
 
-✍️ 20,439 lines written by AI, 240 lines written by hand (98.84% AI-written)
+✍️ 18,222 lines written by AI, 181 lines written by hand (99.02% AI-written)
 
-🔤 9,566,470 Input Tokens, 2,158,722 Output Tokens
+🔤 8,513,810 Input Tokens, 1,944,980 Output Tokens
 
-💵 $222.09 Estimated AI Cost This Week
+💵 $202.12 Estimated AI Cost This Week
 
-🧠 21 AI Sessions, 236 AI Prompts
+🧠 18 AI Sessions, 211 AI Prompts
 
-Opus                     20,675 lines        █████████████████████████   100.00 % 
-GPT                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+Opus                     18,458 lines        █████████████████████████   100.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 98.84% of written lines came from AI
-📄 Detailed Prompter — average 973 characters per prompt
-🔁 Iterative Prompter — average 11 prompts per session
-🚀 High AI Trust — 2.43% of changed lines were hand-edited
+🤖 AI-Driven — 99.02% of written lines came from AI
+📄 Detailed Prompter — average 1,014 characters per prompt
+🔁 Iterative Prompter — average 12 prompts per session
+🚀 High AI Trust — 2.28% of changed lines were hand-edited
 ```
 
 **I Mostly Code in JavaScript** 
