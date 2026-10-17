@@ -38,12 +38,12 @@ melvin@dev:~$ npx mrepol742
 ```
 
 <!--START_SECTION:header-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-320%20hrs%2027%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-324%20hrs%2053%20mins-blue?style=flat)
 
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                4557 commits        ██████░░░░░░░░░░░░░░░░░░░   24.20 % 
+🌞 Morning                4558 commits        ██████░░░░░░░░░░░░░░░░░░░   24.21 % 
 🌆 Daytime                5327 commits        ███████░░░░░░░░░░░░░░░░░░   28.29 % 
 🌃 Evening                5853 commits        ████████░░░░░░░░░░░░░░░░░   31.09 % 
 🌙 Night                  3090 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.41 % 
@@ -54,9 +54,9 @@ melvin@dev:~$ npx mrepol742
 Monday                   2527 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.42 % 
 Tuesday                  2542 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.50 % 
 Wednesday                3021 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.05 % 
-Thursday                 2697 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.33 % 
+Thursday                 2697 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.32 % 
 Friday                   2951 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.67 % 
-Saturday                 2765 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.69 % 
+Saturday                 2766 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.69 % 
 Sunday                   2324 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.34 % 
 ```
 
@@ -65,40 +65,40 @@ Sunday                   2324 commits        ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-TypeScript               10 hrs 3 mins       █████████████░░░░░░░░░░░░   51.71 % 
-Markdown                 3 hrs 35 mins       █████░░░░░░░░░░░░░░░░░░░░   18.46 % 
-JavaScript               1 hr 58 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.15 % 
-Other                    1 hr 4 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   05.52 % 
-shell script             35 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.03 % 
+TypeScript               11 hrs 33 mins      █████████████░░░░░░░░░░░░   53.50 % 
+Markdown                 3 hrs 10 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.68 % 
+JavaScript               1 hr 57 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.10 % 
+Blade Template           1 hr 12 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.61 % 
+Other                    1 hr 8 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   05.30 % 
 
 🔥 Editors: 
-Claude Code              15 hrs 33 mins      ████████████████████░░░░░   80.01 % 
-Zed                      3 hrs 53 mins       █████░░░░░░░░░░░░░░░░░░░░   19.99 % 
+Claude Code              16 hrs 50 mins      ███████████████████░░░░░░   77.93 % 
+Zed                      4 hrs 45 mins       ██████░░░░░░░░░░░░░░░░░░░   22.07 % 
 
 💻 Operating System: 
-Linux                    19 hrs 26 mins      █████████████████████████   100.00 % 
+Linux                    21 hrs 36 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 16 hrs 27 mins (84.66%)
+⏱ AI Coding Time: 17 hrs 49 mins (82.54%)
 
-✍️ 18,693 lines written by AI, 193 lines written by hand (98.98% AI-written)
+✍️ 20,115 lines written by AI, 498 lines written by hand (97.58% AI-written)
 
-🔤 8,251,446 Input Tokens, 2,036,839 Output Tokens
+🔤 9,782,244 Input Tokens, 2,354,931 Output Tokens
 
-💵 $208.14 Estimated AI Cost This Week
+💵 $256.16 Estimated AI Cost This Week
 
-🧠 19 AI Sessions, 223 AI Prompts
+🧠 19 AI Sessions, 253 AI Prompts
 
-Opus                     19,096 lines        █████████████████████████   100.00 % 
+Opus                     20,526 lines        █████████████████████████   100.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 98.98% of written lines came from AI
-📄 Detailed Prompter — average 1,465 characters per prompt
-🔁 Iterative Prompter — average 12 prompts per session
-🚀 High AI Trust — 2.26% of changed lines were hand-edited
+🤖 AI-Driven — 97.58% of written lines came from AI
+📄 Detailed Prompter — average 1,311 characters per prompt
+🔁 Iterative Prompter — average 13 prompts per session
+🚀 High AI Trust — 4.23% of changed lines were hand-edited
 ```
 
 **I Mostly Code in JavaScript** 
