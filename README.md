@@ -45,19 +45,19 @@ melvin@dev:~$ npx mrepol742
 ```text
 🌞 Morning                4558 commits        ██████░░░░░░░░░░░░░░░░░░░   24.21 % 
 🌆 Daytime                5327 commits        ███████░░░░░░░░░░░░░░░░░░   28.29 % 
-🌃 Evening                5853 commits        ████████░░░░░░░░░░░░░░░░░   31.09 % 
-🌙 Night                  3090 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.41 % 
+🌃 Evening                5854 commits        ████████░░░░░░░░░░░░░░░░░   31.09 % 
+🌙 Night                  3091 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.42 % 
 ```
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
 Monday                   2527 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.42 % 
 Tuesday                  2542 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.50 % 
-Wednesday                3021 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.05 % 
+Wednesday                3021 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.04 % 
 Thursday                 2697 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.32 % 
 Friday                   2951 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.67 % 
-Saturday                 2766 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.69 % 
-Sunday                   2324 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.34 % 
+Saturday                 2767 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.69 % 
+Sunday                   2325 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.35 % 
 ```
 
 
@@ -65,40 +65,40 @@ Sunday                   2324 commits        ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-TypeScript               11 hrs 33 mins      █████████████░░░░░░░░░░░░   53.50 % 
-Markdown                 3 hrs 10 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.68 % 
-JavaScript               1 hr 57 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.10 % 
-Blade Template           1 hr 12 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.61 % 
-Other                    1 hr 8 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   05.30 % 
+TypeScript               11 hrs 59 mins      █████████████░░░░░░░░░░░░   53.21 % 
+Markdown                 3 hrs 16 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.53 % 
+JavaScript               2 hrs 13 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.88 % 
+Blade Template           1 hr 12 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.38 % 
+Other                    1 hr 8 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   05.08 % 
 
 🔥 Editors: 
-Claude Code              16 hrs 50 mins      ███████████████████░░░░░░   77.93 % 
-Zed                      4 hrs 45 mins       ██████░░░░░░░░░░░░░░░░░░░   22.07 % 
+Claude Code              15 hrs 45 mins      █████████████████░░░░░░░░   69.93 % 
+Zed                      6 hrs 46 mins       ████████░░░░░░░░░░░░░░░░░   30.07 % 
 
 💻 Operating System: 
-Linux                    21 hrs 36 mins      █████████████████████████   100.00 % 
+Linux                    22 hrs 31 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 17 hrs 49 mins (82.54%)
+⏱ AI Coding Time: 16 hrs 44 mins (74.35%)
 
-✍️ 20,115 lines written by AI, 498 lines written by hand (97.58% AI-written)
+✍️ 17,598 lines written by AI, 821 lines written by hand (95.54% AI-written)
 
-🔤 9,782,244 Input Tokens, 2,354,931 Output Tokens
+🔤 9,159,074 Input Tokens, 2,130,161 Output Tokens
 
-💵 $256.16 Estimated AI Cost This Week
+💵 $243.71 Estimated AI Cost This Week
 
-🧠 19 AI Sessions, 253 AI Prompts
+🧠 18 AI Sessions, 248 AI Prompts
 
-Opus                     20,526 lines        █████████████████████████   100.00 % 
+Opus                     18,009 lines        █████████████████████████   100.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 97.58% of written lines came from AI
-📄 Detailed Prompter — average 1,311 characters per prompt
-🔁 Iterative Prompter — average 13 prompts per session
-🚀 High AI Trust — 4.23% of changed lines were hand-edited
+🤖 AI-Driven — 95.54% of written lines came from AI
+📄 Detailed Prompter — average 1,287 characters per prompt
+🔁 Iterative Prompter — average 14 prompts per session
+🚀 High AI Trust — 6.5% of changed lines were hand-edited
 ```
 
 **I Mostly Code in JavaScript** 
