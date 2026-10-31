@@ -38,7 +38,7 @@ melvin@dev:~$ npx mrepol742
 ```
 
 <!--START_SECTION:header-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-350%20hrs%2036%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-350%20hrs%2059%20mins-blue?style=flat)
 
 **I'm an Early 🐤** 
 
@@ -65,40 +65,40 @@ Sunday                   2330 commits        ███░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-TypeScript               9 hrs 42 mins       █████████████░░░░░░░░░░░░   53.88 % 
-Markdown                 3 hrs 11 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.71 % 
-PHP                      1 hr 5 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   06.02 % 
-JSON                     45 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.19 % 
-JavaScript               43 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.07 % 
+TypeScript               9 hrs 26 mins       █████████████░░░░░░░░░░░░   53.70 % 
+Markdown                 3 hrs 8 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.91 % 
+PHP                      1 hr 5 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   06.16 % 
+JavaScript               45 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.28 % 
+JSON                     44 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.26 % 
 
 🔥 Editors: 
-Claude Code              13 hrs 10 mins      ██████████████████░░░░░░░   73.07 % 
-Zed                      4 hrs 51 mins       ███████░░░░░░░░░░░░░░░░░░   26.93 % 
+Claude Code              12 hrs 49 mins      ██████████████████░░░░░░░   72.92 % 
+Zed                      4 hrs 45 mins       ███████░░░░░░░░░░░░░░░░░░   27.08 % 
 
 💻 Operating System: 
-Linux                    18 hrs 1 min        █████████████████████████   100.00 % 
+Linux                    17 hrs 34 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 13 hrs 21 mins (74.18%)
+⏱ AI Coding Time: 12 hrs 59 mins (73.92%)
 
-✍️ 43,496 lines written by AI, 506 lines written by hand (98.85% AI-written)
+✍️ 43,865 lines written by AI, 506 lines written by hand (98.86% AI-written)
 
-🔤 6,983,100 Input Tokens, 1,973,986 Output Tokens
+🔤 6,926,830 Input Tokens, 1,968,549 Output Tokens
 
-💵 $179.54 Estimated AI Cost This Week
+💵 $177.43 Estimated AI Cost This Week
 
-🧠 12 AI Sessions, 153 AI Prompts
+🧠 12 AI Sessions, 147 AI Prompts
 
-Opus                     45,117 lines        █████████████████████████   100.00 % 
+Opus                     45,479 lines        █████████████████████████   100.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 98.85% of written lines came from AI
-📄 Detailed Prompter — average 1,118 characters per prompt
-🔁 Iterative Prompter — average 13 prompts per session
-🚀 High AI Trust — 1.64% of changed lines were hand-edited
+🤖 AI-Driven — 98.86% of written lines came from AI
+📄 Detailed Prompter — average 1,157 characters per prompt
+🔁 Iterative Prompter — average 12 prompts per session
+🚀 High AI Trust — 1.62% of changed lines were hand-edited
 ```
 
 **I Mostly Code in TypeScript** 
