@@ -6,6 +6,15 @@
 ![https://npm-provenance-badge.netlify.app/badge/mrepol742](https://npm-provenance-badge.netlify.app/badge/mrepol742)
 <img src="https://cdn.pfps.gg/banners/6558-anime-gif.png" />
 
+
+<a href="https://aiskillhub.dev/u/mrepol742">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://app.aiskillhub.dev/cards/mrepol742.svg?theme=dark">
+    <img alt="Melvin Jones Repol on AISkillHub" src="https://app.aiskillhub.dev/cards/mrepol742.svg?theme=light">
+  </picture>
+</a>
+
+
 ```bash
 melvin@dev:~$ npx mrepol742
 ╭───────────────────── @mrepol742 ─────────────────────╮
